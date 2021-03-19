@@ -16,9 +16,46 @@ html,
 /* Center the content in the browser window */
 .container {
   margin: auto;
-  text-align: center;
 }
 
 .title {
   font-size: 3rem;
 }
+
+/* Eigen toevoegingen*/
+.volledig {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.logobalk {
+    height: 2em;
+    background-color: #0F3;
+}
+
+.pagina {
+    top: 2em;
+    background-color: yellow;
+    margin: 0px;
+}
+
+.navigatiebalk {
+    height: 3em;
+    background-color: #0FF;
+}
+
+.content {
+    top: 3em;
+    bottom: 2em;
+    background-color: #33F;
+}
+
+.voetbalk {
+    height: 2em;
+    top: auto;
+    background-color: #960;
+}
+	
+
