@@ -16,6 +16,7 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
 </head>
 <body class="fullscreen">
+    <div id="filter" class="volledig filter" onclick="menu_Onderwerpen(this)" style="z-index:1000; display:none; background-color: rgba(150, 150, 150, 0.8)"></div>
     <div id="main" class="volledig container">
         <div id="MZB_Home" class="volledig module">
             <div class="volledig logobalk">
@@ -30,23 +31,46 @@
                 <div class="volledig voetbalk">VOETBALK</div>
             </div>
             <div id="menuschuif" class="volledig menuschuif" style="z-index:1001; background-color:goldenrod;width:200px; left: -200px">
-
+                <p onclick="menu_Onderwerpen(this)">X</p>
             </div>
         </div>
     </div>
     <script>
         function menu_Onderwerpen(el) {
-            // eerst uitzoeken welke menulijst
-            // zet filterlaag
-            // schuif menu-lijst naar binnen
-            links = -200;  //TODO nog uitlezen uit menuschuif-breedte
-            let timer = setInterval(function () {
-                if (links > -1) clearInterval(timer);
-                else {
-                    links += 20;
-                    document.getElementById("menuschuif").style.left = links + "px";
-                }
-            },20)
+            // wil gaan toggelen dus eerst kijken of links < 0 is
+            if (document.getElementById("menuschuif").style.left.split("px")[0] < 0) {
+                links = -200;  //TODO nog uitlezen uit menuschuif-breedte
+                let timer = setInterval(function () {
+                    if (links > -1) clearInterval(timer);
+                    else {
+                        links += 20;
+                        document.getElementById("menuschuif").style.left = links + "px";
+                    }
+                }, 20)
+                document.getElementById("filter").style.display = "block";
+            }
+            else {
+                links = 0;
+                let timer = setInterval(function () {
+                    if (links < (-200 - 1)) clearInterval(timer);
+                    else {
+                        links -= 50;
+                        document.getElementById("menuschuif").style.left = links + "px";
+                    }
+                }, 20)
+                document.getElementById("filter").style.display = "none";
+            }
+            //// eerst uitzoeken welke menulijst
+            //// zet filterlaag
+            //// schuif menu-lijst naar binnen
+            //links = -200;  //TODO nog uitlezen uit menuschuif-breedte
+            //let timer = setInterval(function () {
+            //    if (links > -1) clearInterval(timer);
+            //    else {
+            //        links += 20;
+            //        document.getElementById("menuschuif").style.left = links + "px";
+            //    }
+            //},20)
             
         }
     </script>
