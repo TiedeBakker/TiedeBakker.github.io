@@ -22,7 +22,7 @@
             <div class="volledig logobalk">
                 LOGOBALK
             </div>
-            <div class="volledig pagina">
+            <div id="startpagina" class="volledig pagina">
                 <div class="volledig navigatiebalk">
                     <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
                     NAVIGATIEBALK
@@ -30,9 +30,17 @@
                 <div class="volledig content">CONTENT</div>
                 <div class="volledig voetbalk">VOETBALK</div>
             </div>
+            <div id="actuelepagina" class="volledig pagina" style="left: 10000px">
+                <div class="volledig navigatiebalk">
+                    <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
+                    NAVIGATIEBALK
+                </div>
+                <div class="volledig content" style="background-color:white">CONTENT</div>
+                <div class="volledig voetbalk">VOETBALK</div>
+            </div>
             <div id="menuschuif" class="volledig menuschuif" style="z-index:1001; background-color:goldenrod;width:500px; left: -500px">
                 <p onclick="menu_Onderwerpen(this)">X</p>
-                <div id="menuschuifContent" class="volledig" style="top:2em; background-color:yellow"></div>
+                <div id="menuschuifContent" class="volledig" style="top:2em"></div>
             </div>
         </div>
     </div>
@@ -75,16 +83,56 @@
             //        document.getElementById("menuschuif").style.left = links + "px";
             //    }
             //},20)
-            
+        }
+
+        function testklik(el, test) {
+            alert("PPPP");
+            alert(el.getAttribute("data-test"));
+            alert(test);
+        }
+
+        function toonPagina(id) {
+            menu_Onderwerpen(); // filter en menu wegschuiven
+            document.getElementById("actuelepagina").innerHTML = document.getElementById(id).outerHTML;
+            var breedte = document.getElementById("main").offsetWidth;
+            document.getElementById("actuelepagina").style.width = breedte + "px";
+            document.getElementById("actuelepagina").style.left = breedte + "px";
+            document.getElementById("actuelepagina").style.right = (-breedte) + "px";
+            document.getElementById("actuelepagina").style.display = "block";
+            links = breedte;
+            let timer = setInterval(function () {
+                if (links < 1) {
+                    clearInterval(timer);
+                    document.getElementById("actuelepagina").style.left = "0px";
+                    document.getElementById("actuelepagina").style.rechts = "0px";
+                }
+                else {
+                    links -= breedte / 10;
+                    document.getElementById("actuelepagina").style.left = links + "px";
+                    document.getElementById("actuelepagina").style.rechts = (-links) + "px";
+                }
+            }, 20)
         }
     </script>
     <script src="js/main.js"></script>
     <div id="bibliotheek" style="display: none">
         <div id="menu_1" class="volledig menu">
-            <p class="menuKop" style="font-size:200%">Testmenu</p>
-            <p class="menuItem">Recepten</p>
+            <p class="menuKop" style="font-size:200%" data-test="ProbeerIets" onclick="testklik(this, 'proberen')">Testmenu</p>
+            <p class="menuItem" onclick="toonPagina('receptenPagina')">Recepten</p>
             <p class="menuItem">Markerwadden</p>
         </div>
+
+        <div id="receptenPagina" class="volledig">
+            <div class="volledig navigatiebalk">
+                <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
+                RECEPTEN
+            </div>
+            <div class="volledig content">RECEPTEN CONTENT</div>
+            <div class="volledig voetbalk">RECEPTEN VOETBALK</div>
+        </div>
+
+
+
     </div>
 </body>
 
