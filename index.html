@@ -30,20 +30,24 @@
                 <div class="volledig content">CONTENT</div>
                 <div class="volledig voetbalk">VOETBALK</div>
             </div>
-            <div id="menuschuif" class="volledig menuschuif" style="z-index:1001; background-color:goldenrod;width:200px; left: -200px">
+            <div id="menuschuif" class="volledig menuschuif" style="z-index:1001; background-color:goldenrod;width:500px; left: -500px">
                 <p onclick="menu_Onderwerpen(this)">X</p>
+                <div id="menuschuifContent" class="volledig" style="top:2em; background-color:yellow"></div>
             </div>
         </div>
     </div>
     <script>
         function menu_Onderwerpen(el) {
+            menuBreedte = document.getElementById("menuschuif").style.width.split("px")[0]
             // wil gaan toggelen dus eerst kijken of links < 0 is
             if (document.getElementById("menuschuif").style.left.split("px")[0] < 0) {
-                links = -200;  //TODO nog uitlezen uit menuschuif-breedte
+                // Dan moet eerst de juiste vulling worden ingevoegd; TODO voorlopig default
+                document.getElementById("menuschuifContent").innerHTML = document.getElementById("menu_1").outerHTML;
+                links = -menuBreedte;  //TODO nog uitlezen uit menuschuif-breedte
                 let timer = setInterval(function () {
                     if (links > -1) clearInterval(timer);
                     else {
-                        links += 20;
+                        links += menuBreedte/8;
                         document.getElementById("menuschuif").style.left = links + "px";
                     }
                 }, 20)
@@ -52,9 +56,9 @@
             else {
                 links = 0;
                 let timer = setInterval(function () {
-                    if (links < (-200 - 1)) clearInterval(timer);
+                    if (links < (-menuBreedte - 1)) clearInterval(timer);
                     else {
-                        links -= 50;
+                        links -= menuBreedte/8;
                         document.getElementById("menuschuif").style.left = links + "px";
                     }
                 }, 20)
@@ -75,5 +79,13 @@
         }
     </script>
     <script src="js/main.js"></script>
+    <div id="bibliotheek" style="display: none">
+        <div id="menu_1" class="volledig menu">
+            <p class="menuKop" style="font-size:200%">Testmenu</p>
+            <p class="menuItem">Recepten</p>
+            <p class="menuItem">Markerwadden</p>
+        </div>
+    </div>
 </body>
+
 </html>
