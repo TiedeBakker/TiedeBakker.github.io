@@ -45,6 +45,7 @@
                 position: relative;
 
                 background-color:white;
+                overflow: auto;
             }
 
         /* END required styles */
@@ -56,7 +57,7 @@
 </head>
 <body class="fullscreen">
     <div id="main" class="volledig" style="background-color:green">
-        <div id="logobalk" class="volledig logobalk"><h2 style="padding:0; margin:0;text-align:center">LOGOBALK aangepast</h2></div>
+        <div id="logobalk" class="volledig logobalk"><h2 style="padding:0; margin:0;text-align:center" onclick="window.mySwipe.slide(0,100)">LOGOBALK</h2></div>
         <div id="content" class="volledig pagina" style="background-color:cornsilk">
             <div id='testSwipe' style='max-width:5000px;margin:0 auto' class='swipe123'>
                 <div class='swipe-wrap123'>
@@ -70,8 +71,30 @@
                         <p>Module 1</p>
 
                         <p>Module 2</p>
-                        <div onclick="test(this)">Eerste</div>
-                        <div onclick="test(this)">Tweede met iets extra</div>
+                        <div onclick="window.mySwipe.slide(7,200)">Eerste</div>
+                        <div onclick="window.mySwipe.slide(5,200)">Tweede met iets extra</div>
+                        <h1>Home-page</h1>
+
+                        <p>Op de home-page wil ik in eerste instantie in een lijst de verschillende modules binnen de app laten zien. Bij het aanklikken van &eacute;&eacute;n van die modules schuift gewoon de betreffende voor. De lijst bestaat uit een afbeelding/schema waaraan je snel de module herkend en een korte duiding.</p>
+
+                        <p>De modules waar ik op dit moment aan zit te denken zijn:</p>
+
+                        <p>Module 1</p>
+
+                        <p>Module 2</p>
+                        <div onclick="window.mySwipe.slide(7,200)">Eerste</div>
+                        <div onclick="window.mySwipe.slide(5,200)">Tweede met iets extra</div>
+                        <h1>Home-page</h1>
+
+                        <p>Op de home-page wil ik in eerste instantie in een lijst de verschillende modules binnen de app laten zien. Bij het aanklikken van &eacute;&eacute;n van die modules schuift gewoon de betreffende voor. De lijst bestaat uit een afbeelding/schema waaraan je snel de module herkend en een korte duiding.</p>
+
+                        <p>De modules waar ik op dit moment aan zit te denken zijn:</p>
+
+                        <p>Module 1</p>
+
+                        <p>Module 2</p>
+                        <div onclick="window.mySwipe.slide(7,200)">Eerste</div>
+                        <div onclick="window.mySwipe.slide(5,200)">Tweede met iets extra</div>
 
                         <button onclick="testje()">Testje</button>
                     </div>
