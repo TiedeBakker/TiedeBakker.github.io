@@ -11,7 +11,7 @@
     <meta name="theme-color" content="white" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Hello World">
+    <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
     <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
 
@@ -22,25 +22,26 @@
 
         /* Swipe 2 required styles */
 
-        .swipe {
+        .swipe123 {
             overflow: hidden;
             visibility: hidden;
             position: relative;
             height:80%;
+            width:50%;
             background-color:darkmagenta;
         }
 
-        .swipe-wrap {
+        .swipe-wrap123 {
             overflow: hidden;
             position: relative;
             height:90%;
             background-color: black;
         }
 
-            .swipe-wrap > div {
+            .swipe-wrap123 > div {
                 float: left;
                 width: 100%;
-                height: 50%;
+                height: 90%;
                 position: relative;
 
                 background-color:white;
@@ -54,7 +55,95 @@
 
 </head>
 <body class="fullscreen">
-    <div id="filter" class="volledig filter" onclick="menu_Onderwerpen(this)" style="z-index:1000; display:none; background-color: rgba(150, 150, 150, 0.8)"></div>
+    <div id="main" class="volledig" style="background-color:green">
+        <div id="logobalk" class="volledig logobalk"><h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2></div>
+        <div id="content" class="volledig pagina" style="background-color:cornsilk">
+            <div id='testSwipe' style='max-width:5000px;margin:0 auto' class='swipe123'>
+                <div class='swipe-wrap123'>
+                    <div>
+                        <h1>Home-page</h1>
+
+                        <p>Op de home-page wil ik in eerste instantie in een lijst de verschillende modules binnen de app laten zien. Bij het aanklikken van &eacute;&eacute;n van die modules schuift gewoon de betreffende voor. De lijst bestaat uit een afbeelding/schema waaraan je snel de module herkend en een korte duiding.</p>
+
+                        <p>De modules waar ik op dit moment aan zit te denken zijn:</p>
+
+                        <p>Module 1</p>
+
+                        <p>Module 2</p>
+                        <div onclick="test(this)">Eerste</div>
+                        <div onclick="test(this)">Tweede met iets extra</div>
+
+                        <button onclick="testje()">Testje</button>
+                    </div>
+                    <div><b>1</b></div>
+                    <div><b>2</b></div>
+                    <div><b>3</b></div>
+                    <div><b>4</b></div>
+                    <div><b>5</b></div>
+                    <div><b>6</b></div>
+                    <div><b>7</b></div>
+                    <div><b>8</b></div>
+                    <div><b>9</b></div>
+                    <div><b>10</b></div>
+                    <div><b>11</b></div>
+                    <div><b>12</b></div>
+                    <div><b>13</b></div>
+                    <div><b>14</b></div>
+                    <div><b>15</b></div>
+                    <div><b>16</b></div>
+                    <div><b>17</b></div>
+                    <div><b>18</b></div>
+                    <div><b>19</b></div>
+                    <div><b>20</b></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src='swipe.js'></script>
+    <script>
+        function test(deze) {
+            alert(deze.index);
+            
+        }
+
+        function testje() {
+            window.location.reload(true);
+        }
+        // pure JS
+        //var elem = document.getElementById('mySwipe');
+        //window.mynSwipe = Swipe(elem, {
+        //    // startSlide: 4,
+        //    // auto: 3000,
+        //    // continuous: true,
+        //    // disableScroll: true,
+        //    // stopPropagation: true,
+        //    // callback: function(index, element) {},
+        //    // transitionEnd: function(index, element) {}
+        //});
+
+
+        window.mySwipe = new Swipe(document.getElementById('testSwipe'), {
+            startSlide: 0,
+            speed: 400,
+            auto: 0,
+            draggable: false,
+            continuous: true,
+            disableScroll: false,
+            draggable: true,
+            stopPropagation: false,
+            ignore: ".scroller",
+            callback: function (index, elem, dir) { },
+            transitionEnd: function (index, elem) { }
+        });
+        
+    </script>
+
+
+
+
+    <!--<div id="filter" class="volledig filter" onclick="menu_Onderwerpen(this)" style="z-index:1000; display:none; background-color: rgba(150, 150, 150, 0.8)"></div>
     <div id="main" class="volledig container">
         <div id="MZB_Home" class="volledig module">
             <div class="volledig logobalk">
@@ -72,37 +161,6 @@
                     <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
                     <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
                     <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 10px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
                 </div>
                 <div class="volledig voetbalk">VOETBALK</div>
             </div>
@@ -120,7 +178,7 @@
                 <div id="menuschuifContent" class="volledig" style="top:2em"></div>
             </div>
         </div>
-    </div>
+    </div>-->
     <script>
         function menu_Onderwerpen(el) {
             menuBreedte = document.getElementById("menuschuif").style.width.split("px")[0]
@@ -191,6 +249,7 @@
             }, 20)
             var elem = document.getElementById('mySwipe');
             window.mynSwipe = Swipe(elem, {
+                draggable: true
                 // startSlide: 4,
                 // auto: 3000,
                 // continuous: true,
@@ -258,22 +317,36 @@
 
 
     </div>
-    <script src='swipe.js'></script>
+    <!--<script src='swipe.js'></script>
     <script>
 
         // pure JS
-        var elem = document.getElementById('mySwipe');
-        window.mynSwipe = Swipe(elem, {
-            // startSlide: 4,
-            // auto: 3000,
-            // continuous: true,
-            // disableScroll: true,
-            // stopPropagation: true,
-            // callback: function(index, element) {},
-            // transitionEnd: function(index, element) {}
-        });
-    </script>
+        //var elem = document.getElementById('mySwipe');
+        //window.mynSwipe = Swipe(elem, {
+        //    // startSlide: 4,
+        //    // auto: 3000,
+        //    // continuous: true,
+        //    // disableScroll: true,
+        //    // stopPropagation: true,
+        //    // callback: function(index, element) {},
+        //    // transitionEnd: function(index, element) {}
+        //});
 
-</body >
+
+        window.mySwipe = new Swipe(document.getElementById('mySwipe'), {
+            startSlide: 0,
+            speed: 400,
+            auto: 3000,
+            draggable: false,
+            continuous: true,
+            disableScroll: false,
+            stopPropagation: false,
+            ignore: ".scroller",
+            callback: function (index, elem, dir) { },
+            transitionEnd: function (index, elem) { }
+        });
+    </script>-->
+
+</body>
 
 </html >
