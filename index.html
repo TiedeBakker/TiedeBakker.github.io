@@ -36,12 +36,12 @@
             position: relative;
             height:98%;
             background-color: white;
-            padding:10px;
+            padding:0px;
         }
         .swipe-wrap123 > div {
             float: left;
             width: 100%;
-            height: 98%;
+            height: 90%;
             position: relative;
             background-color: white;
             overflow: auto;
@@ -51,7 +51,7 @@
         .moduleitem {
             width: 90%;
             height: 100px;
-            margin: 1px 5px 1px 5px;
+            margin: 0;
             background-color: rgb(0,255,0);
         }
 
@@ -65,9 +65,9 @@
 </head>
 <body class="fullscreen">
     <div id="main" class="volledig" style="background-color:green">
-        <div id="logobalk" class="volledig logobalk"><h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2><span style="position:absolute; left:0; top:0" onclick="window.mySwipe.slide(0,100)">Home</span></div>
+        <div id="logobalk" class="volledig logobalk"><h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2><span style="position:absolute; left:0; top:0" onclick="window.moduleSwipe.slide(0,100)">Home</span></div>
         <div id="content" class="volledig pagina" style="background-color:cornsilk">
-            <div id="moduleHouder" style="max-width:5000px; margin:0 auto" class="swipe23">
+            <div id="moduleHouder" style="max-width:5000px; margin:0 auto" class="swipe123">
                 <div class="swipe-wrap123">
                     hhh
                     <!-- Hier komen de modules
@@ -176,7 +176,15 @@
 
     </script>
 
-
+    <style>
+        .moduleSamenvatting {
+            display: none;
+            background-color: green;
+        }
+        .vulling {
+            padding: 0px 10px 0px 10px;
+        }
+    </style>
 
 
     <!--<div id="filter" class="volledig filter" onclick="menu_Onderwerpen(this)" style="z-index:1000; display:none; background-color: rgba(150, 150, 150, 0.8)"></div>
@@ -354,22 +362,31 @@
     </div>
     <div id="nieuweBibliotheek" style="display:none">
         <div id="homeModule" class="module">
-            <div id="homeMenu" class="menu">
-                <p>Home</p> 
+            <div id="homeMenu" class="menu vulling">
+                <p>Home</p>
             </div>
         </div>
         <div id="receptenModule" class="module">
-            <div id="receptenMenu" class="menu">
+            <div id="receptenMenu" class="menu vulling">
+                <div class="moduleSamenvatting">
+                    <p>De samenvatting van de recepten module</p>
+                </div>
                 <p>Recepten</p>
             </div>
         </div>
         <div id="markerwaddenModule" class="module">
-            <div id="markerwaddenMenu" class="menu">
+            <div id="markerwaddenMenu" class="menu vulling">
+                <div class="moduleSamenvatting">
+                    <p>De samenvatting van de Markerwadden-module</p>
+                </div>
                 <p>Markerwadden</p>
             </div>
         </div>
         <div id="organismenModule" class="module">
-            <div id="organismenMenu" class="menu">
+            <div id="organismenMenu" class="menu vulling">
+                <div class="moduleSamenvatting">
+                    <p>De samenvatting van de organismen module</p>
+                </div>
                 <p>Organismen</p>
             </div>
         </div>
@@ -378,7 +395,39 @@
     <script src="swipe.js"></script>
     <script>
         // eerst modules laden en ervoor zorgen dat home-module start
-        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = "TESTJE";
+        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = "";
+        var els = document.getElementById("nieuweBibliotheek").getElementsByClassName("module");
+        // risico bij InternetExplorer; misschien beter jQuery TODO
+        for (i = 0; i < els.length; i++) {
+            document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += els[i].outerHTML;
+            if (i > 0) {
+                var samenvatting = els[i].getElementsByClassName("moduleSamenvatting")[0];
+                var nieuwElt = document.createElement("div");
+                nieuwElt.innerHTML = samenvatting.innerHTML;
+                nieuwElt.setAttribute("onclick", "window.moduleSwipe.slide(" + i + ",20)");
+                nieuwElt.classList.remove("moduleSamenvatting");
+                nieuwElt.classList.add("menuLijstItem");
+                document.getElementById("moduleHouder").getElementsByClassName("menu")[0].innerHTML += nieuwElt.outerHTML;
+            }
+            
+
+        }
+//        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = document.getElementById("homeMenu").outerHTML;
+ //       document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += document.getElementById("receptenModule").outerHTML;
+        window.moduleSwipe = new Swipe(document.getElementById('moduleHouder'), {
+            startSlide: 0,
+            speed: 400,
+            auto: 0,
+            draggable: false,
+            continuous: true,
+            disableScroll: false,
+            draggable: true,
+            stopPropagation: false,
+            ignore: ".scroller",
+            callback: function (index, elem, dir) { },
+            transitionEnd: function (index, elem) { }
+        });
+
     </script>
     <!--<script src='swipe.js'></script>
     <script>
