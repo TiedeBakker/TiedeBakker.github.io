@@ -184,6 +184,9 @@
         .vulling {
             padding: 0px 10px 0px 10px;
         }
+        .menuLijstItem {
+            width: 100%;
+        }
     </style>
 
 
@@ -369,7 +372,12 @@
         <div id="receptenModule" class="module">
             <div id="receptenMenu" class="menu vulling">
                 <div class="moduleSamenvatting">
-                    <p>De samenvatting van de recepten module</p>
+                    <table style="width: 100%; background-color:aquamarine">
+                        <tr>
+                            <td><button style="height:100px; float:left"><img src="images/appelvink.jpg" width="160" height="90" /></button></td>
+                            <td style="vertical-align:top"><p style="padding:0; margin:0">De samenvatting van de recepten module, met daarin de nodige tekst mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden</p></td>
+                        </tr>
+                    </table>
                 </div>
                 <p>Recepten</p>
             </div>
@@ -403,12 +411,14 @@
             if (i > 0) {
                 var samenvatting = els[i].getElementsByClassName("moduleSamenvatting")[0];
                 var nieuwElt = document.createElement("div");
+                // Ik gebruik een nieuw element, zodat attribuut-wijzigingen niet in de bibliotheek doorwerken
                 nieuwElt.innerHTML = samenvatting.innerHTML;
                 nieuwElt.setAttribute("onclick", "window.moduleSwipe.slide(" + i + ",20)");
                 nieuwElt.classList.remove("moduleSamenvatting");
                 nieuwElt.classList.add("menuLijstItem");
                 document.getElementById("moduleHouder").getElementsByClassName("menu")[0].innerHTML += nieuwElt.outerHTML;
             }
+            console.log(document.getElementById("moduleHouder").outerHTML);
             
 
         }
@@ -429,6 +439,37 @@
         });
 
     </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--<script src='swipe.js'></script>
     <script>
 
