@@ -420,134 +420,15 @@
 
                     <p>De inhoud stem ik qua omvang af op gebruik via iPhone/tablet, maar ik wil ook extra informatie kunnen bieden die op laptop/desktop goed te presenteren. De applicatie moet (in ieder geval op termijn) responsive worden.</p>
 
-                    <p>hhhhhhhhhhhhh</p>
+                    <p>In deze (voorlopige) toelichting probeer i een aantal keuzes die ik bij het ontwerpen van MZB maak toe te lichten, zodat ik t.z.t. nog weet waarom ik bepaalde keuzes heb gemaakt en waarmee ik kan terugvinden hoe e.e.a. werkt.</p>
 
-                    <p>sprong naar <a href="#Piet">interne link</a>.</p>
+                    <h2>Basiswerking</h2>
 
-                    <p>&nbsp;</p>
+                    <h2>Losse flodders</h2>
 
-                    <p>hhhhhhhhhhhhh</p>
+                    <h3>Basisletter vergroten/verkleinen</h3>
 
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p>hhhhhhhhhhhhh</p>
-
-                    <p>&nbsp;</p>
-
-                    <p><a id="Piet" name="Piet">Interne link</a></p>
-
+                    <p>Voor het gebruik is het handig dat (nu nog gedurende een sessie; hopenlijk t.z.t. laatste waarde meenemen naar volgende sessie&nbsp;<strong>TODO</strong>) de lettergrootte kan worden aangepast. Ik kijk hiervoor naar de weergave van onderwerpen bij Trouw. In de bovenbalk een grote en een kleine letter bij klik wordt basisletter vergroot/verkleind. Dit hebeurd door de font-size van de &lt;html&gt; in de gewenste richting aan te passen. Deze font-size is bij start 16px.</p>
                 </div>
             </div>
         </div>
@@ -611,10 +492,10 @@
 
         function maakFontSize(richting) {
              if (richting == 'groter') {
-                window.MZB_FONTSIZE *= 1.2;
+                window.MZB_FONTSIZE *= 1.1;
             }
             if (richting == 'kleiner') {
-                window.MZB_FONTSIZE *= (1 / 1.2);
+                window.MZB_FONTSIZE *= (1 / 1.1);
             }
             document.getElementsByTagName('html')[0].setAttribute("style", "font-size: " + window.MZB_FONTSIZE + "px");
         }
