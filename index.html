@@ -1,133 +1,667 @@
-<h1>Mijn Zakboek</h1>
-
-<p><strong>M</strong>ijn&nbsp;<strong>Z</strong>ak<strong>b</strong>oek (<strong>MZB</strong>) zet ik op als een Progressive Web Application met als idee dat ik op iPhone en tablet allerlei informatie onder handbereik heb. Omdat ik het op dit moment via een publieke https-server (Github.com) publiceer zet ik er geen vertrouwelijke en priv&eacute; informatie op; alleen informatie die eigenlijk ook via andere routes te vinden is.</p>
-
-<p>De inhoud stem ik qua omvang af op gebruik via iPhone/tablet, maar ik wil ook extra informatie kunnen bieden die op laptop/desktop goed te presenteren. De applicatie moet (in ieder geval op termijn) responsive worden.</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>sprong naar <a href="#Piet">interne link</a>.</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p>hhhhhhhhhhhhh</p>
-
-<p>&nbsp;</p>
-
-<p><a id="Piet" name="Piet">Interne link</a></p>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+
+
+
+    <style>
+
+        /* Swipe 2 required styles */
+
+        .swipe123 {
+            overflow: hidden;
+            visibility: hidden;
+            position: relative;
+            height:90%;
+            width:100%;
+            background-color:darkmagenta;
+        }
+
+        .swipe-wrap123 {
+            overflow: hidden;
+            position: relative;
+            height:98%;
+            background-color: white;
+            padding:0px;
+        }
+        .swipe-wrap123 > div {
+            float: left;
+            width: 100%;
+            height: 90%;
+            position: relative;
+            background-color: white;
+            overflow: auto;
+
+        }
+
+        .moduleitem {
+            width: 90%;
+            height: 100px;
+            margin: 0;
+            background-color: rgb(0,255,0);
+        }
+
+  
+        /* END required styles */
+
+    </style>
+
+    <script src="js/main.js"></script>
+
+</head>
+<body class="fullscreen">
+    <div id="main" class="volledig" style="background-color:green">
+        <div id="logobalk" class="volledig logobalk"><h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2><span style="position:absolute; left:0; top:0" onclick="window.moduleSwipe.slide(0,100)">Home</span></div>
+        <div id="content" class="volledig pagina" style="background-color:cornsilk">
+            <div id="moduleHouder" style="max-width:5000px; margin:0 auto" class="swipe123">
+                <div class="swipe-wrap123">
+                    hhh
+                    <!-- Hier komen de modules
+                        -->
+
+                </div>
+            </div>
+            <!--<div id='testSwipe' style='max-width:5000px;margin:0 auto' class='swipe123'>
+                <div class='swipe-wrap123'>
+                    <div>
+                        <h1>Home-page</h1>
+
+                        <p>Op de home-page wil ik in eerste instantie in een lijst de verschillende modules binnen de app laten zien. Bij het aanklikken van &eacute;&eacute;n van die modules schuift gewoon de betreffende voor. De lijst bestaat uit een afbeelding/schema waaraan je snel de module herkend en een korte duiding.</p>
+
+                        <p>De modules waar ik op dit moment aan zit te denken zijn:</p>
+
+                        <div onclick="window.mySwipe.slide(1,200)" class="moduleitem">Recepten</div>
+                        <div onclick="window.mySwipe.slide(2,200)" class="moduleitem">Markerwadden</div>
+                        <div onclick="window.mySwipe.slide(3,200)" class="moduleitem">Organismen</div>
+                        <div onclick="window.mySwipe.slide(4,200)" class="moduleitem">Fotoboeken</div>
+
+                        <button onclick="testje()">Testje</button>
+                    </div>
+                    <div>
+                        <b>Recepten</b>
+                    </div>
+                    <div>
+                        <h1>Markerwadden</h1>
+
+                        <p>De module &quot;Markerwadden&quot; wil ik zo inrichten dat ik er tijdens rondleidingen alle nodige informatie en bijvoorbeeld ook foto&#39;s onder handbereik heb.</p>
+
+                        <p>Ik denk aan de volgende onderdelen:&nbsp;</p>
+
+                        <ol>
+                            <li><strong>Algemene informatie</strong> met bijvoorbeeld telefoonnummers van eilandwachters, boswachters, enz. Dit staat op eerste bladzijde(n). Op volgende bladzijden (swipe voor bereiken) staan bijvoorbeeld alle gidsen, medewerkers paviljoen, ...</li>
+                            <li>Kaartje van Markerwadden - Haveneiland - Zorg voor inzoombaar</li>
+                            <li>Historie en ontwikkeling Markerwadden</li>
+                            <li>Verschillende organismen die op Markerwadden te vinden zijn. Bladerlijst en zoekfunctie. Levert &eacute;&eacute;n soort met aantal beschrijvende bladzijden. Bouw ook de mogelijkheid in om seizoenaanbod in beeld te krijgen</li>
+                            <li>&nbsp;</li>
+                        </ol>
+                    </div>
+                    <div>
+                        Organismen
+                    </div>
+                    <div>
+                        Fotoboeken
+                    </div>
+                    <div><b>5</b></div>
+                    <div><b>20</b></div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+
+    <script src='swipe.js'></script>
+    <script>
+        function test(deze) {
+            alert(deze.index);
+
+        }
+
+        function testje() {
+            window.location.reload(true);
+        }
+        // pure JS
+        //var elem = document.getElementById('mySwipe');
+        //window.mynSwipe = Swipe(elem, {
+        //    // startSlide: 4,
+        //    // auto: 3000,
+        //    // continuous: true,
+        //    // disableScroll: true,
+        //    // stopPropagation: true,
+        //    // callback: function(index, element) {},
+        //    // transitionEnd: function(index, element) {}
+        //});
+
+
+        window.mySwipe = new Swipe(document.getElementById('testSwipe'), {
+            startSlide: 0,
+            speed: 400,
+            auto: 0,
+            draggable: false,
+            continuous: true,
+            disableScroll: false,
+            draggable: true,
+            stopPropagation: false,
+            ignore: ".scroller",
+            callback: function (index, elem, dir) { },
+            transitionEnd: function (index, elem) { }
+        });
+
+    </script>
+
+    <style>
+        .moduleSamenvatting {
+            display: none;
+            background-color: green;
+        }
+        .vulling {
+            padding: 0px 10px 0px 10px;
+        }
+        .menuLijstItem {
+            width: 100%;
+            margin: 2px;
+        }
+    </style>
+
+
+    <!--<div id="filter" class="volledig filter" onclick="menu_Onderwerpen(this)" style="z-index:1000; display:none; background-color: rgba(150, 150, 150, 0.8)"></div>
+    <div id="main" class="volledig container">
+        <div id="MZB_Home" class="volledig module">
+            <div class="volledig logobalk">
+                <p style="text-align: center; vertical-align:central; margin: 0">Logobalk</p>
+            </div>
+            <div id="startpagina" class="volledig pagina">
+                <div class="volledig navigatiebalk">
+                    <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
+                    NAVIGATIEBALK
+                </div>
+                <div class="volledig content" style="background-color: white; overflow:auto">
+                    <h1 style="text-align:center">Modules</h1>
+                    <div style="margin: 1px; background-color: rgb(253,253,253); left:10px; right:10px; height: 100px;overflow:auto; border: 0px solid grey"><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p></div>
+                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
+                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
+                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
+                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
+                </div>
+                <div class="volledig voetbalk">VOETBALK</div>
+            </div>
+            <div id="actuelepagina" class="volledig pagina" style="left: 10000px">
+                <div class="volledig navigatiebalk">
+                    <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
+                    NAVIGATIEBALK
+                </div>
+                <div class="volledig content" style="background-color:white">
+                </div>
+                <div class="volledig voetbalk">VOETBALK</div>
+            </div>
+            <div id="menuschuif" class="volledig menuschuif" style="z-index:1001; background-color:goldenrod;width:500px; left: -500px">
+                <p onclick="menu_Onderwerpen(this)">X</p>
+                <div id="menuschuifContent" class="volledig" style="top:2em"></div>
+            </div>
+        </div>
+    </div>-->
+    <script>
+        function menu_Onderwerpen(el) {
+            menuBreedte = document.getElementById("menuschuif").style.width.split("px")[0]
+            // wil gaan toggelen dus eerst kijken of links < 0 is
+            if (document.getElementById("menuschuif").style.left.split("px")[0] < 0) {
+                // Dan moet eerst de juiste vulling worden ingevoegd; TODO voorlopig default
+                document.getElementById("menuschuifContent").innerHTML = document.getElementById("menu_1").outerHTML;
+                links = -menuBreedte;  //TODO nog uitlezen uit menuschuif-breedte
+                let timer = setInterval(function () {
+                    if (links > -1) clearInterval(timer);
+                    else {
+                        links += menuBreedte / 8;
+                        document.getElementById("menuschuif").style.left = links + "px";
+                    }
+                }, 20)
+                document.getElementById("filter").style.display = "block";
+            }
+            else {
+                links = 0;
+                let timer = setInterval(function () {
+                    if (links < (-menuBreedte - 1)) clearInterval(timer);
+                    else {
+                        links -= menuBreedte / 8;
+                        document.getElementById("menuschuif").style.left = links + "px";
+                    }
+                }, 20)
+                document.getElementById("filter").style.display = "none";
+            }
+            //// eerst uitzoeken welke menulijst
+            //// zet filterlaag
+            //// schuif menu-lijst naar binnen
+            //links = -200;  //TODO nog uitlezen uit menuschuif-breedte
+            //let timer = setInterval(function () {
+            //    if (links > -1) clearInterval(timer);
+            //    else {
+            //        links += 20;
+            //        document.getElementById("menuschuif").style.left = links + "px";
+            //    }
+            //},20)
+        }
+
+        function testklik(el, test) {
+            alert("PPPP");
+            alert(el.getAttribute("data-test"));
+            alert(test);
+        }
+
+        function toonPagina(id) {
+            menu_Onderwerpen(); // filter en menu wegschuiven
+            document.getElementById("actuelepagina").innerHTML = document.getElementById(id).outerHTML;
+            var breedte = document.getElementById("main").offsetWidth;
+            document.getElementById("actuelepagina").style.width = breedte + "px";
+            document.getElementById("actuelepagina").style.left = breedte + "px";
+            document.getElementById("actuelepagina").style.right = (-breedte) + "px";
+            document.getElementById("actuelepagina").style.display = "block";
+            links = breedte;
+            let timer = setInterval(function () {
+                if (links < 1) {
+                    clearInterval(timer);
+                    document.getElementById("actuelepagina").style.left = "0px";
+                    document.getElementById("actuelepagina").style.rechts = "0px";
+                }
+                else {
+                    links -= breedte / 10;
+                    document.getElementById("actuelepagina").style.left = links + "px";
+                    document.getElementById("actuelepagina").style.rechts = (-links) + "px";
+                }
+            }, 20)
+            var elem = document.getElementById('mySwipe');
+            window.mynSwipe = Swipe(elem, {
+                draggable: true
+                // startSlide: 4,
+                // auto: 3000,
+                // continuous: true,
+                // disableScroll: true,
+                // stopPropagation: true,
+                // callback: function(index, element) {},
+                // transitionEnd: function(index, element) {}
+            });
+
+        }
+    </script>
+    <div id="bibliotheek" style="display: none">
+        <div id="menu_1" class="volledig menu">
+            <p class="menuKop" style="font-size:200%" data-test="ProbeerIets" onclick="testklik(this, 'proberen')">Testmenu</p>
+            <p class="menuItem" onclick="toonPagina('receptenPagina')">Recepten</p>
+            <p class="menuItem">Markerwadden</p>
+        </div>
+
+        <div id="receptenPagina" class="volledig">
+            <div class="volledig navigatiebalk">
+                <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
+                RECEPTEN
+            </div>
+            <div class="volledig content">
+                <div id='mySwipe' style='max-width:5000px;margin:0 auto' class='swipe'>
+                    <div class='swipe-wrap'>
+                        <div><b>0</b></div>
+                        <div><b>1</b></div>
+                        <div><b>2</b></div>
+                        <div><b>3</b></div>
+                        <div><b>4</b></div>
+                        <div><b>5</b></div>
+                        <div><b>6</b></div>
+                        <div><b>7</b></div>
+                        <div><b>8</b></div>
+                        <div><b>9</b></div>
+                        <div><b>10</b></div>
+                        <div><b>11</b></div>
+                        <div><b>12</b></div>
+                        <div><b>13</b></div>
+                        <div><b>14</b></div>
+                        <div><b>15</b></div>
+                        <div><b>16</b></div>
+                        <div><b>17</b></div>
+                        <div><b>18</b></div>
+                        <div><b>19</b></div>
+                        <div><b>20</b></div>
+                    </div>
+                </div>
+
+
+
+                <div style='text-align:center;padding-top:20px;'>
+
+                    <button onclick='mynSwipe.prev()'>prev</button>
+                    <button onclick='mynSwipe.next()'>next</button>
+
+                </div>
+
+            </div>
+            <div class="volledig voetbalk">RECEPTEN VOETBALK</div>
+        </div>
+
+
+
+    </div>
+    <div id="nieuweBibliotheek" style="display:none">
+        <div id="homeModule" class="module">
+            <div id="homeMenu" class="menu vulling">
+                <p>Home</p>
+            </div>
+        </div>
+        <div id="receptenModule" class="module">
+            <div id="receptenMenu" class="menu vulling">
+                <div class="moduleSamenvatting">
+                    <table style="width: 100%; background-color:aquamarine">
+                        <tr>
+                            <td><img src="images/appelvink.jpg" width="160" height="90" /></td>
+                            <td style="vertical-align:top"><p style="padding:0; margin:0">De samenvatting van de recepten module, met daarin de nodige tekst mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden</p></td>
+                        </tr>
+                    </table>
+                </div>
+                <p>Recepten</p>
+            </div>
+        </div>
+        <div id="markerwaddenModule" class="module">
+            <div id="markerwaddenMenu" class="menu vulling">
+                <div class="moduleSamenvatting">
+                    <table style="width: 100%; min-height:90px; background-color:aquamarine; vertical-align:top">
+                        <tr>
+                            <td style="vertical-align:top"><img src="" width="160" height="90" alt="Markerwadden plaatje en meer" /></td>
+                            <td style="vertical-align:top"><p style="padding:0; margin:0">De samenvatting van de Markerwadden module</p></td>
+                        </tr>
+                    </table>
+                </div>
+                <p>Markerwadden</p>
+            </div>
+        </div>
+        <div id="organismenModule" class="module">
+            <div id="organismenMenu" class="menu vulling">
+                <div class="moduleSamenvatting">
+                    <img src="images/appelvink.jpg" alt="..." />
+                    <p>De samenvatting van de organismen module</p>
+                </div>
+                <div class="moduleIntro">
+                    <p style="display:none">Intro bij organismen</p>
+                </div>
+                <div class="moduleMenu">
+                    Menu voor organismen
+                </div>
+            </div>
+        </div>
+        <div id="systeemModule" class="module">
+            <div id="systeemMenu" class="menu vulling">
+                <div class="moduleSamenvatting">
+                    <img src="images/appelvink.jpg" alt="..." />
+                    <p>De samenvatting van de systeem module</p>
+                </div>
+                <div class="moduleIntro">
+                    <p style="display:none">Intro bij organismen</p>
+                </div>
+                <div class="moduleMenu">
+                    <h1>Mijn Zakboek</h1>
+
+                    <p><strong>M</strong>ijn&nbsp;<strong>Z</strong>ak<strong>b</strong>oek (<strong>MZB</strong>) zet ik op als een Progressive Web Application met als idee dat ik op iPhone en tablet allerlei informatie onder handbereik heb. Omdat ik het op dit moment via een publieke https-server (Github.com) publiceer zet ik er geen vertrouwelijke en priv&eacute; informatie op; alleen informatie die eigenlijk ook via andere routes te vinden is.</p>
+
+                    <p>De inhoud stem ik qua omvang af op gebruik via iPhone/tablet, maar ik wil ook extra informatie kunnen bieden die op laptop/desktop goed te presenteren. De applicatie moet (in ieder geval op termijn) responsive worden.</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>sprong naar <a href="#Piet">interne link</a>.</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>hhhhhhhhhhhhh</p>
+
+                    <p>&nbsp;</p>
+
+                    <p><a id="Piet" name="Piet">Interne link</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="swipe.js"></script>
+    <script>
+        // eerst modules laden en ervoor zorgen dat home-module start
+        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = "";
+        var els = document.getElementById("nieuweBibliotheek").getElementsByClassName("module");
+        // risico bij InternetExplorer; misschien beter jQuery TODO
+        for (i = 0; i < els.length; i++) {
+            var nieuwMenu = document.createElement("div");
+            nieuwMenu.innerHTML = els[i].innerHTML; // geen attributen meenemen; met name id
+            document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += nieuwMenu.outerHTML;
+            if (i > 0) {
+                var samenvatting = els[i].getElementsByClassName("moduleSamenvatting")[0];
+                var foto = samenvatting.children[0];
+                var tekst = samenvatting.children[1];
+                var nieuwElt = document.createElement("div");
+                // Ik gebruik een nieuw element, zodat attribuut-wijzigingen niet in de bibliotheek doorwerken
+                if (samenvatting.children.length == 2) {
+                    var sv = '<table style="width: 100%; min-height: 90px; background-color: aquamarine; vertical-align: top">';
+                    sv += '<tr>';
+                    sv += ' <td style="vertical-align:top">';
+                    sv += '<img src="' + foto.getAttribute("src") + '" width = "160"  height = "90" alt = "' + foto.getAttribute("alt") + '" /></td>';
+                    sv += '<td style="vertical-align:top">';
+                    sv += tekst.innerHTML;
+                    sv += '</td></tr ></table >';
+                    nieuwElt.innerHTML += sv;
+                } else {
+                    nieuwElt.innerHTML = samenvatting.innerHTML;
+                }
+                nieuwElt.setAttribute("onclick", "window.moduleSwipe.slide(" + i + ",20)");
+                nieuwElt.classList.remove("moduleSamenvatting");
+                nieuwElt.classList.add("menuLijstItem");
+
+                document.getElementById("moduleHouder").getElementsByClassName("menu")[0].innerHTML += nieuwElt.outerHTML;
+            }
+            console.log(document.getElementById("moduleHouder").outerHTML);
+            
+
+        }
+//        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = document.getElementById("homeMenu").outerHTML;
+ //       document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += document.getElementById("receptenModule").outerHTML;
+        window.moduleSwipe = new Swipe(document.getElementById('moduleHouder'), {
+            startSlide: 0,
+            speed: 400,
+            auto: 0,
+            draggable: false,
+            continuous: true,
+            disableScroll: false,
+            draggable: true,
+            stopPropagation: false,
+            ignore: ".scroller",
+            callback: function (index, elem, dir) { },
+            transitionEnd: function (index, elem) { }
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<script src='swipe.js'></script>
+    <script>
+
+        // pure JS
+        //var elem = document.getElementById('mySwipe');
+        //window.mynSwipe = Swipe(elem, {
+        //    // startSlide: 4,
+        //    // auto: 3000,
+        //    // continuous: true,
+        //    // disableScroll: true,
+        //    // stopPropagation: true,
+        //    // callback: function(index, element) {},
+        //    // transitionEnd: function(index, element) {}
+        //});
+
+
+        window.mySwipe = new Swipe(document.getElementById('mySwipe'), {
+            startSlide: 0,
+            speed: 400,
+            auto: 3000,
+            draggable: false,
+            continuous: true,
+            disableScroll: false,
+            stopPropagation: false,
+            ignore: ".scroller",
+            callback: function (index, elem, dir) { },
+            transitionEnd: function (index, elem) { }
+        });
+    </script>-->
+
+
+</body>
+
+</html >
