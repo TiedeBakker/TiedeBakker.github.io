@@ -21,7 +21,6 @@
     <style>
 
         /* Swipe 2 required styles */
-
         .swipe123 {
             overflow: hidden;
             visibility: hidden;
@@ -65,7 +64,16 @@
 </head>
 <body class="fullscreen">
     <div id="main" class="volledig" style="background-color:green">
-        <div id="logobalk" class="volledig logobalk"><h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2><span style="position:absolute; left:0; top:0" onclick="window.moduleSwipe.slide(0,100)">Home</span></div>
+        <div id="logobalk" class="volledig logobalk">
+            <h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2>
+            <span style="position:absolute; left:0; top:0">
+                <span onclick="window.moduleSwipe.slide(0,100)">Home</span>
+                <span style="position:relative; left:10px">
+                    <span style="font-size:120%" onclick="maakFontSize('groter')">A</span>
+                    <span style="position:relative; left: 20px" onclick="maakFontSize('kleiner')">A</span>
+                </span>
+            </span>
+        </div>
         <div id="content" class="volledig pagina" style="background-color:cornsilk">
             <div id="moduleHouder" style="max-width:5000px; margin:0 auto" class="swipe123">
                 <div class="swipe-wrap123">
@@ -547,6 +555,8 @@
     </div>
     <script src="swipe.js"></script>
     <script>
+        // globale variabelen definiëren
+        window.MZB_FONTSIZE = 16;
         // eerst modules laden en ervoor zorgen dat home-module start
         document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = "";
         var els = document.getElementById("nieuweBibliotheek").getElementsByClassName("module");
@@ -598,6 +608,17 @@
             callback: function (index, elem, dir) { },
             transitionEnd: function (index, elem) { }
         });
+
+        function maakFontSize(richting) {
+             if (richting == 'groter') {
+                window.MZB_FONTSIZE *= 1.2;
+            }
+            if (richting == 'kleiner') {
+                window.MZB_FONTSIZE *= (1 / 1.2);
+            }
+            document.getElementsByTagName('html')[0].setAttribute("style", "font-size: " + window.MZB_FONTSIZE + "px");
+        }
+
 
     </script>
 
