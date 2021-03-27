@@ -14,11 +14,6 @@
     <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
     <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    
-
-
-
-
     <style>
 
         /* Swipe 2 required styles */
@@ -26,27 +21,27 @@
             overflow: hidden;
             visibility: hidden;
             position: relative;
-            height:90%;
-            width:100%;
-            background-color:darkmagenta;
+            height: 90%;
+            width: 100%;
+            background-color: darkmagenta;
         }
 
         .swipe-wrap123 {
             overflow: hidden;
             position: relative;
-            height:98%;
+            height: 98%;
             background-color: white;
-            padding:0px;
+            padding: 0px;
         }
-        .swipe-wrap123 > div {
-            float: left;
-            width: 100%;
-            height: 90%;
-            position: relative;
-            background-color: white;
-            overflow: auto;
 
-        }
+            .swipe-wrap123 > div {
+                float: left;
+                width: 100%;
+                height: 90%;
+                position: relative;
+                background-color: white;
+                overflow: auto;
+            }
 
         .moduleitem {
             width: 90%;
@@ -55,19 +50,20 @@
             background-color: rgb(0,255,0);
         }
 
-  
+
         /* END required styles */
 
     </style>
 
     <script src="js/main.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
+    <script src='swipe.js'></script>
 
 </head>
 <body class="fullscreen">
     <div id="main" class="volledig" style="background-color:green">
         <div id="logobalk" class="volledig logobalk">
-            <h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2>
+            <h2 style="padding:0; margin:0;text-align:center" onclick="testje()">LOGOBALK 1</h2>
             <span style="position:absolute; left:0; top:0">
                 <span onclick="window.moduleSwipe.slide(0,100)">Home</span>
                 <span style="position:relative; left:10px">
@@ -79,69 +75,29 @@
         <div id="content" class="volledig pagina" style="background-color:cornsilk">
             <div id="moduleHouder" style="max-width:5000px; margin:0 auto" class="swipe123">
                 <div class="swipe-wrap123">
-                    hhh
-                    <!-- Hier komen de modules
-                        -->
-
+                    <!--Dit is de plek voor de modules-->
                 </div>
             </div>
-            <!--<div id='testSwipe' style='max-width:5000px;margin:0 auto' class='swipe123'>
-                <div class='swipe-wrap123'>
-                    <div>
-                        <h1>Home-page</h1>
-
-                        <p>Op de home-page wil ik in eerste instantie in een lijst de verschillende modules binnen de app laten zien. Bij het aanklikken van &eacute;&eacute;n van die modules schuift gewoon de betreffende voor. De lijst bestaat uit een afbeelding/schema waaraan je snel de module herkend en een korte duiding.</p>
-
-                        <p>De modules waar ik op dit moment aan zit te denken zijn:</p>
-
-                        <div onclick="window.mySwipe.slide(1,200)" class="moduleitem">Recepten</div>
-                        <div onclick="window.mySwipe.slide(2,200)" class="moduleitem">Markerwadden</div>
-                        <div onclick="window.mySwipe.slide(3,200)" class="moduleitem">Organismen</div>
-                        <div onclick="window.mySwipe.slide(4,200)" class="moduleitem">Fotoboeken</div>
-
-                        <button onclick="testje()">Testje</button>
-                    </div>
-                    <div>
-                        <b>Recepten</b>
-                    </div>
-                    <div>
-                        <h1>Markerwadden</h1>
-
-                        <p>De module &quot;Markerwadden&quot; wil ik zo inrichten dat ik er tijdens rondleidingen alle nodige informatie en bijvoorbeeld ook foto&#39;s onder handbereik heb.</p>
-
-                        <p>Ik denk aan de volgende onderdelen:&nbsp;</p>
-
-                        <ol>
-                            <li><strong>Algemene informatie</strong> met bijvoorbeeld telefoonnummers van eilandwachters, boswachters, enz. Dit staat op eerste bladzijde(n). Op volgende bladzijden (swipe voor bereiken) staan bijvoorbeeld alle gidsen, medewerkers paviljoen, ...</li>
-                            <li>Kaartje van Markerwadden - Haveneiland - Zorg voor inzoombaar</li>
-                            <li>Historie en ontwikkeling Markerwadden</li>
-                            <li>Verschillende organismen die op Markerwadden te vinden zijn. Bladerlijst en zoekfunctie. Levert &eacute;&eacute;n soort met aantal beschrijvende bladzijden. Bouw ook de mogelijkheid in om seizoenaanbod in beeld te krijgen</li>
-                            <li>&nbsp;</li>
-                        </ol>
-                    </div>
-                    <div>
-                        Organismen
-                    </div>
-                    <div>
-                        Fotoboeken
-                    </div>
-                    <div><b>5</b></div>
-                    <div><b>20</b></div>
-                </div>
-            </div>-->
         </div>
     </div>
-
-
-    <script src='swipe.js'></script>
     <script>
-        function test(deze) {
-            alert(deze.index);
-
+        $(document).ready(function () {
+            documentReadyFunctie();
+        });
+        function documentReadyFunctie() {
+            // voor alle modules in de lijst
+            // zet module in moduleHouder
+            // vul het module menu; dit is wsch module specifiek
+            //
         }
+    </script> <!--//tttt-->
 
+
+    <script>
         function testje() {
+            alert("start");
             window.location.reload(true);
+            alert("eind");
         }
         // pure JS
         //var elem = document.getElementById('mySwipe');
@@ -177,9 +133,11 @@
             display: none;
             background-color: green;
         }
+
         .vulling {
             padding: 0px 10px 0px 10px;
         }
+
         .menuLijstItem {
             width: 100%;
             margin: 2px;
@@ -402,6 +360,8 @@
                     <p style="display:none">Intro bij organismen</p>
                 </div>
                 <div class="moduleMenu">
+                    <div>Zoek en filterregel voor organismen</div>
+                    <div>Lijst met aan zoek/filtervoorwaarde voldoende organismen</div>
                     Menu voor organismen
                 </div>
             </div>
@@ -424,9 +384,27 @@
 
                     <p>In deze (voorlopige) toelichting probeer i een aantal keuzes die ik bij het ontwerpen van MZB maak toe te lichten, zodat ik t.z.t. nog weet waarom ik bepaalde keuzes heb gemaakt en waarmee ik kan terugvinden hoe e.e.a. werkt.</p>
 
-                    <h2>Basiswerking</h2>
+                    <p>Onderdelen die hier aandacht krijgen zijn:</p>
 
-                    <h2>Module organismen</h2>
+                    <ul>
+                        <li>Basiswerking van de applicatie</li>
+                        <li>
+                            de verschillende modules:
+                            <ul>
+                                <li><a href="#ModuleOrganismen">Organismen</a></li>
+                                <li><a href="#ModuleMarkerwadden">Markerwadden</a></li>
+                                <li>Recepten</li>
+                                <li>Fotoboeken</li>
+                            </ul>
+                        </li>
+                        <li>Losse flodders (die nog niet een eigen plek hebben)</li>
+                    </ul>
+
+                    <h2><a id="Basiswerking" name="Basiswerking">Basiswerking</a></h2>
+
+                    <p>hh</p>
+
+                    <h2><a id="ModuleOrganismen" name="ModuleOrganismen">Module organismen</a></h2>
 
                     <p>Bij de module organismen wil ik in het menu een lijst zien met de beschikbare organismen en vervolgens een organisme kiezen, waarna is het gekozen organisme tevoorschijn wil laten komen. Bij een organisme denk ik aan een aantal pagina&#39;s waar ik doorheen kan swipen. Door alle organismen bladeren lijkt me niet zo handig, omdat je dan bij grotere aantallen waarschijnlijk wel even opbouwtijd nodig zult hebben, maar misschien is er een alternatief te bedenken.</p>
 
@@ -434,11 +412,24 @@
 
                     <p>De organismen komen individueel als &lt;div class=&quot;object organisme&quot;&gt; in de bibliotheek; structuur komt later, maar er moet optie foto in om bij menu-lijst te kunnen tonen.</p>
 
+                    <p>Het vullen van de module organismen gebeurt gelijk bij het starten van de applicatie (<span class="marker">TODO: nog even kijken wat er gebeurt bij grote aantallen</span>) in de functie vulOrganismenModule() {}</p>
+
+                    <h2><a id="ModuleMarkerwadden" name="ModuleMarkerwadden">Module Markerwadden</a></h2>
+
+                    <p>Voor de module Markerwadden, die ik tijdens rondleidingen bij de hand wil hebben voor snelle informatie,&nbsp;denk ik aan pagina&#39;s met:</p>
+
+                    <ul>
+                        <li>Algemene informatie, bijvoorbeeld telefoonnummers van eilandwachter, boswachters en collega-gidsen</li>
+                        <li>Kaartjes van Markerwadden algemeen en haveneiland in meer detail; zorg voor inzoombaar</li>
+                        <li>Historie en ontwikkeling van de Markerwadden</li>
+                        <li>Organismen die voorkomen (gebruik bestaande organismen uit betreffende module)</li>
+                    </ul>
+
                     <h2>Losse flodders</h2>
 
                     <h3>Basisletter vergroten/verkleinen</h3>
 
-                    <p>Voor het gebruik is het handig dat (nu nog gedurende een sessie; hopenlijk t.z.t. laatste waarde meenemen naar volgende sessie&nbsp;<strong>TODO</strong>) de lettergrootte kan worden aangepast. Ik kijk hiervoor naar de weergave van onderwerpen bij Trouw. In de bovenbalk een grote en een kleine letter bij klik wordt basisletter vergroot/verkleind. Dit hebeurd door de font-size van de &lt;html&gt; in de gewenste richting aan te passen. Deze font-size is bij start 16px.</p>
+                    <p>Voor het gebruik is het handig dat (nu nog gedurende een sessie; hopenlijk t.z.t. laatste waarde meenemen naar volgende sessie&nbsp;<strong>TODO</strong>) de lettergrootte kan worden aangepast. Ik kijk hiervoor naar de weergave van onderwerpen bij Trouw. In de bovenbalk een grote en een kleine letter bij klik wordt basisletter vergroot/verkleind. Dit gebeurd door de font-size van de &lt;html&gt; in de gewenste richting aan te passen. Deze font-size is bij start 16px.</p>
                 </div>
             </div>
         </div>
@@ -481,11 +472,11 @@
                 document.getElementById("moduleHouder").getElementsByClassName("menu")[0].innerHTML += nieuwElt.outerHTML;
             }
             console.log(document.getElementById("moduleHouder").outerHTML);
-            
+
 
         }
-//        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = document.getElementById("homeMenu").outerHTML;
- //       document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += document.getElementById("receptenModule").outerHTML;
+        //        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = document.getElementById("homeMenu").outerHTML;
+        //       document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += document.getElementById("receptenModule").outerHTML;
         window.moduleSwipe = new Swipe(document.getElementById('moduleHouder'), {
             startSlide: 0,
             speed: 400,
@@ -501,7 +492,7 @@
         });
 
         function maakFontSize(richting) {
-             if (richting == 'groter') {
+            if (richting == 'groter') {
                 window.MZB_FONTSIZE *= 1.1;
             }
             if (richting == 'kleiner') {
@@ -542,7 +533,20 @@
             transitionEnd: function (index, elem) { }
         });
     </script>-->
-
+    <div id="items" class="bibliotheek" style="display:none">
+        <div id="testvogel" class="object organisme">
+            <div class="afbeelding"></div>
+            <div class="beschrijving">
+                <h1>Testvogel</h1>
+            </div>
+        </div>
+        <div id="testvogel2" class="object organisme">
+            <div class="afbeelding"></div>
+            <div class="beschrijving">
+                <h1>Tweede testvogel</h1>
+            </div>
+        </div>
+    </div>
 
 </body>
 
