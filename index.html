@@ -14,49 +14,6 @@
     <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
     <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    <style>
-
-        /* Swipe 2 required styles */
-        .swipe123 {
-            overflow: hidden;
-            /*visibility: hidden;*/
-            position: relative;
-            height: 90%;
-            width: 100%;
-            background-color: darkmagenta;
-
-            margin: 0 auto;
-            max-width: 5000px;
-        }
-
-        .swipe-wrap123 {
-            overflow: hidden;
-            position: relative;
-            height: 98%;
-            background-color: white;
-            padding: 0px;
-        }
-
-            .swipe-wrap123 > div {
-                float: left;
-                width: 100%;
-                height: 90%;
-                position: relative;
-                background-color: white;
-                overflow: auto;
-            }
-
-        .moduleitem {
-            width: 90%;
-            height: 100px;
-            margin: 0;
-            background-color: rgb(0,255,0);
-        }
-
-
-        /* END required styles */
-
-    </style>
 
     <script src="js/main.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
@@ -66,7 +23,7 @@
 <body class="fullscreen">
     <div id="main" class="volledig" style="background-color:green">
         <div id="logobalk" class="volledig logobalk">
-            <h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2>
+            <h2 style="padding:0; margin:0;text-align:center">LOGOBALK  123</h2>
             <span style="position:absolute; left:0; top:0">
                 <span onclick="window.moduleSwipe.slide(0,100)">Home</span>
                 <span style="position:relative; left:10px">
@@ -83,536 +40,195 @@
             </div>
         </div>
     </div>
-    <!--<script>
-        $(document).ready(function () {
-            documentReadyFunctie();
-        });
-        function documentReadyFunctie() {
-            // voor alle modules in de lijst
-            // zet module in moduleHouder
-            // vul het module menu; dit is wsch module specifiek
-
-            // organismen-menu
-
-
-            //<div id="moduleHouder" style="max-width:5000px; margin:0 auto" class="swipe123">
-            //    <div class="swipe-wrap123">
-            //        <!--Dit is de plek voor de modules-->
-            //    </div>
-
-            //alert(document.getElementById("organismenMenu").getElementsByClassName("moduleMenu")[0].innerHTML)
-            document.getElementById("organismenMenu").getElementsByClassName("moduleMenu")[0].classList.add("swipe123");
-            document.getElementById("organismenMenu").getElementsByClassName("moduleMenu")[0].innerHTML += '<div class="swipe-wrap123"></div>'
-            var menu = document.createElement("div");
-            menu.classList.add("testMenu");
-            document.getElementById("organismenMenu").getElementsByClassName("moduleMenu")[0].getElementsByClassName("swipe-wrap123")[0].innerHTML += menu.outerHTML;
-            var els = document.getElementById("nieuweBibliotheek").getElementsByClassName("organisme");
-            for (i = 0; i < els.length; i++) {
-
-                var nieuwMenu = document.createElement("div");
-                nieuwMenu.innerHTML = els[i].innerHTML; // geen attributen meenemen; met name id
-                document.getElementById("organismenMenu").getElementsByClassName("moduleMenu")[0].getElementsByClassName("swipe-wrap123")[0].innerHTML += nieuwMenu.outerHTML;
-
-
-
-
-
-
-                var nieuwElt = document.createElement("div");
-                // 1 regelige tabel maken met foto en naam
-                var foto = els[i].getElementsByTagName("img")[0];
-                var item = '<table style="width: 100%; min-height: 90px; background-color: aquamarine; vertical-align: top">';
-                item += '<tr>';
-                item += ' <td style="vertical-align:top">';
-                item += '<img src="' + foto.getAttribute("src") + '" width = "160"  height = "90" /></td>';
-                item += '<td style="vertical-align:top">'
-                item += els[i].getElementsByTagName("h1")[0].outerHTML;
-                item += '</td></tr ></table >';
-                nieuwElt.innerHTML += item;
-                document.getElementById("organismenMenu").getElementsByClassName("moduleMenu")[0].getElementsByClassName("swipe-wrap123")[0].getElementsByClassName("testMenu")[0].innerHTML += nieuwElt.outerHTML;
-            }
-        ////            nieuwElt.setAttribute("onclick", "window.moduleSwipe.slide(" + i + ",20)");
-        ////            nieuwElt.classList.remove("moduleSamenvatting");
-        ////            nieuwElt.classList.add("menuLijstItem");
-
-        ////            document.getElementById("moduleHouder").getElementsByClassName("menu")[0].innerHTML += nieuwElt.outerHTML;
-        ////        }
-
-
-
-        ////    }
-
-            window.organismenSwipe = new Swipe(document.getElementById('organismenMenu'), {
-                startSlide: 2,
-                speed: 400,
-                auto: 0,
-                draggable: false,
-                continuous: true,
-                disableScroll: false,
-                draggable: true,
-                stopPropagation: false,
-                ignore: ".scroller",
-                callback: function (index, elem, dir) { },
-                transitionEnd: function (index, elem) { }
-            });
-            alert("PPP");
-
-        }
-    </script>--> <!--//tttt-->
-
-    <!--<style>
-        .moduleSamenvatting {
-            display: none;
-            background-color: green;
-        }
-
-        .vulling {
-            padding: 0px 10px 0px 10px;
-        }
-
-        .menuLijstItem {
-            width: 100%;
-            margin: 2px;
-        }
-    </style>-->
-
-
-    <!--<div id="filter" class="volledig filter" onclick="menu_Onderwerpen(this)" style="z-index:1000; display:none; background-color: rgba(150, 150, 150, 0.8)"></div>
-    <div id="main" class="volledig container">
-        <div id="MZB_Home" class="volledig module">
-            <div class="volledig logobalk">
-                <p style="text-align: center; vertical-align:central; margin: 0">Logobalk</p>
-            </div>
-            <div id="startpagina" class="volledig pagina">
-                <div class="volledig navigatiebalk">
-                    <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
-                    NAVIGATIEBALK
-                </div>
-                <div class="volledig content" style="background-color: white; overflow:auto">
-                    <h1 style="text-align:center">Modules</h1>
-                    <div style="margin: 1px; background-color: rgb(253,253,253); left:10px; right:10px; height: 100px;overflow:auto; border: 0px solid grey"><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p><p>Eerste module</p></div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                    <div style="margin: 1px; background-color: rgb(240,240,240); left:10px; right:10px; border: 1px solid grey">Eerste module</div>
-                </div>
-                <div class="volledig voetbalk">VOETBALK</div>
-            </div>
-            <div id="actuelepagina" class="volledig pagina" style="left: 10000px">
-                <div class="volledig navigatiebalk">
-                    <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
-                    NAVIGATIEBALK
-                </div>
-                <div class="volledig content" style="background-color:white">
-                </div>
-                <div class="volledig voetbalk">VOETBALK</div>
-            </div>
-            <div id="menuschuif" class="volledig menuschuif" style="z-index:1001; background-color:goldenrod;width:500px; left: -500px">
-                <p onclick="menu_Onderwerpen(this)">X</p>
-                <div id="menuschuifContent" class="volledig" style="top:2em"></div>
-            </div>
-        </div>
-    </div>-->
-    <!--<script>
-        function menu_Onderwerpen(el) {
-            menuBreedte = document.getElementById("menuschuif").style.width.split("px")[0]
-            // wil gaan toggelen dus eerst kijken of links < 0 is
-            if (document.getElementById("menuschuif").style.left.split("px")[0] < 0) {
-                // Dan moet eerst de juiste vulling worden ingevoegd; TODO voorlopig default
-                document.getElementById("menuschuifContent").innerHTML = document.getElementById("menu_1").outerHTML;
-                links = -menuBreedte;  //TODO nog uitlezen uit menuschuif-breedte
-                let timer = setInterval(function () {
-                    if (links > -1) clearInterval(timer);
-                    else {
-                        links += menuBreedte / 8;
-                        document.getElementById("menuschuif").style.left = links + "px";
-                    }
-                }, 20)
-                document.getElementById("filter").style.display = "block";
-            }
-            else {
-                links = 0;
-                let timer = setInterval(function () {
-                    if (links < (-menuBreedte - 1)) clearInterval(timer);
-                    else {
-                        links -= menuBreedte / 8;
-                        document.getElementById("menuschuif").style.left = links + "px";
-                    }
-                }, 20)
-                document.getElementById("filter").style.display = "none";
-            }
-            //// eerst uitzoeken welke menulijst
-            //// zet filterlaag
-            //// schuif menu-lijst naar binnen
-            //links = -200;  //TODO nog uitlezen uit menuschuif-breedte
-            //let timer = setInterval(function () {
-            //    if (links > -1) clearInterval(timer);
-            //    else {
-            //        links += 20;
-            //        document.getElementById("menuschuif").style.left = links + "px";
-            //    }
-            //},20)
-        }
-
-        function testklik(el, test) {
-            alert("PPPP");
-            alert(el.getAttribute("data-test"));
-            alert(test);
-        }
-
-        function toonPagina(id) {
-            menu_Onderwerpen(); // filter en menu wegschuiven
-            document.getElementById("actuelepagina").innerHTML = document.getElementById(id).outerHTML;
-            var breedte = document.getElementById("main").offsetWidth;
-            document.getElementById("actuelepagina").style.width = breedte + "px";
-            document.getElementById("actuelepagina").style.left = breedte + "px";
-            document.getElementById("actuelepagina").style.right = (-breedte) + "px";
-            document.getElementById("actuelepagina").style.display = "block";
-            links = breedte;
-            let timer = setInterval(function () {
-                if (links < 1) {
-                    clearInterval(timer);
-                    document.getElementById("actuelepagina").style.left = "0px";
-                    document.getElementById("actuelepagina").style.rechts = "0px";
-                }
-                else {
-                    links -= breedte / 10;
-                    document.getElementById("actuelepagina").style.left = links + "px";
-                    document.getElementById("actuelepagina").style.rechts = (-links) + "px";
-                }
-            }, 20)
-            var elem = document.getElementById('mySwipe');
-            window.mynSwipe = Swipe(elem, {
-                draggable: true
-                // startSlide: 4,
-                // auto: 3000,
-                // continuous: true,
-                // disableScroll: true,
-                // stopPropagation: true,
-                // callback: function(index, element) {},
-                // transitionEnd: function(index, element) {}
-            });
-
-        }
-    </script>-->
     <div id="bibliotheek" style="display: none">
-        <div id="menu_1" class="volledig menu">
-            <p class="menuKop" style="font-size:200%" data-test="ProbeerIets" onclick="testklik(this, 'proberen')">Testmenu</p>
-            <p class="menuItem" onclick="toonPagina('receptenPagina')">Recepten</p>
-            <p class="menuItem">Markerwadden</p>
-        </div>
+    </div>
+</body>
+</html>
 
-        <div id="receptenPagina" class="volledig">
-            <div class="volledig navigatiebalk">
-                <button id="TESTJE" onclick="menu_Onderwerpen(this)">...</button>
-                RECEPTEN
-            </div>
-            <div class="volledig content">
-                <div id='mySwipe' style='max-width:5000px;margin:0 auto' class='swipe'>
-                    <div class='swipe-wrap'>
-                        <div><b>0</b></div>
-                        <div><b>1</b></div>
-                        <div><b>2</b></div>
-                        <div><b>3</b></div>
-                        <div><b>4</b></div>
-                        <div><b>5</b></div>
-                        <div><b>6</b></div>
-                        <div><b>7</b></div>
-                        <div><b>8</b></div>
-                        <div><b>9</b></div>
-                        <div><b>10</b></div>
-                        <div><b>11</b></div>
-                        <div><b>12</b></div>
-                        <div><b>13</b></div>
-                        <div><b>14</b></div>
-                        <div><b>15</b></div>
-                        <div><b>16</b></div>
-                        <div><b>17</b></div>
-                        <div><b>18</b></div>
-                        <div><b>19</b></div>
-                        <div><b>20</b></div>
+
+
+
+
+
+
+
+
+<!--<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MZBtest</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="white" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+
+
+
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-container-v {
+            background: #eee;
+        }
+
+        .swiper-pagination-v {
+            top: 10px !important;
+        }
+    </style>
+
+</head>
+<body>-->
+    <!-- Slider main container -->
+    <!-- Swiper -->
+    <!--<div id="main" style="width:80%; height: 90%">
+        <div class="swiper-container swiper-container-h">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Horizontal Slide 1 Test h h h h h h h h h h h h h h h h h h h h h h h h h h h h </div>
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
+                        </div>-->
+                        <!-- Add Pagination -->
+                        <!--<div class="swiper-pagination swiper-pagination-v"></div>-->
+                        <!-- If we need navigation buttons -->
+                        <!--<div class="swiper-button-prev v-prev"></div>
+                        <div class="swiper-button-next v-next"></div>
                     </div>
                 </div>
-
-
-
-                <div style='text-align:center;padding-top:20px;'>
-
-                    <button onclick='mynSwipe.prev()'>prev</button>
-                    <button onclick='mynSwipe.next()'>next</button>
-
+                <div class="swiper-slide">Horizontal Slide 3</div>
+                <div class="swiper-slide">Horizontal Slide 4</div>
+                <div class="swiper-slide">Horizontal Slide 5</div>
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1</div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
+                        </div>-->
+                        <!-- Add Pagination -->
+                        <!--<div class="swiper-pagination swiper-pagination-v"></div>-->
+                        <!-- If we need navigation buttons -->
+                        <!--<div class="swiper-button-prev v-prev"></div>
+                        <div class="swiper-button-next v-next"></div>
+                    </div>
                 </div>
+                <div class="swiper-slide">Horizontal Slide 7</div>
+                <div class="swiper-slide">Horizontal Slide 8</div>
+            </div>-->
+            <!-- Add Pagination -->
+            <!--<div class="swiper-pagination swiper-pagination-h"></div>-->
+            <!-- If we need navigation buttons -->
+            <!--<div class="swiper-button-prev h-prev"></div>
+            <div class="swiper-button-next h-next"></div>
 
-            </div>
-            <div class="volledig voetbalk">RECEPTEN VOETBALK</div>
-        </div>
-
-
-
-    </div>
-    <div id="nieuweBibliotheek" style="display:none">
-        <div id="homeModule" class="module">
-            <div id="homeMenu" class="menu vulling">
-                <p>Home</p>
-            </div>
-        </div>
-        <div id="receptenModule" class="module">
-            <div id="receptenMenu" class="menu vulling">
-                <div class="moduleSamenvatting">
-                    <table style="width: 100%; background-color:aquamarine">
-                        <tr>
-                            <td><img src="images/appelvink.jpg" width="160" height="90" /></td>
-                            <td style="vertical-align:top"><p style="padding:0; margin:0">De samenvatting van de recepten module, met daarin de nodige tekst mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden mag ik vermoeden</p></td>
-                        </tr>
-                    </table>
-                </div>
-                <p>Recepten</p>
-            </div>
-        </div>
-        <div id="markerwaddenModule" class="module">
-            <div id="markerwaddenMenu" class="menu vulling">
-                <div class="moduleSamenvatting">
-                    <table style="width: 100%; min-height:90px; background-color:aquamarine; vertical-align:top">
-                        <tr>
-                            <td style="vertical-align:top"><img src="" width="160" height="90" alt="Markerwadden plaatje en meer" /></td>
-                            <td style="vertical-align:top"><p style="padding:0; margin:0">De samenvatting van de Markerwadden module</p></td>
-                        </tr>
-                    </table>
-                </div>
-                <p>Markerwadden</p>
-            </div>
-        </div>
-        <div id="organismenModule" class="module">
-            <div id="organismenMenu" class="menu vulling">
-                <div class="moduleSamenvatting">
-                    <img src="images/appelvink.jpg" alt="..." />
-                    <p>De samenvatting van de organismen module</p>
-                </div>
-                <div class="moduleIntro">
-                    <p style="display:none">Intro bij organismen</p>
-                </div>
-                <div class="moduleMenu">
-                    <div>Zoek en filterregel voor organismen</div>
-                    <div>Lijst met aan zoek/filtervoorwaarde voldoende organismen</div>
-                    Menu voor organismen
-                </div>
-            </div>
-        </div>
-        <div id="systeemModule" class="module">
-            <div id="systeemMenu" class="menu vulling">
-                <div class="moduleSamenvatting">
-                    <img src="images/appelvink.jpg" alt="..." />
-                    <p>De samenvatting van de systeem module</p>
-                </div>
-                <div class="moduleIntro">
-                    <p style="display:none">Intro bij organismen</p>
-                </div>
-                <div class="moduleMenu">
-                    <h1>Mijn Zakboek</h1>
-
-                    <p><strong>M</strong>ijn&nbsp;<strong>Z</strong>ak<strong>b</strong>oek (<strong>MZB</strong>) zet ik op als een Progressive Web Application met als idee dat ik op iPhone en tablet allerlei informatie onder handbereik heb. Omdat ik het op dit moment via een publieke https-server (Github.com) publiceer zet ik er geen vertrouwelijke en priv&eacute; informatie op; alleen informatie die eigenlijk ook via andere routes te vinden is.</p>
-
-                    <p>De inhoud stem ik qua omvang af op gebruik via iPhone/tablet, maar ik wil ook extra informatie kunnen bieden die op laptop/desktop goed te presenteren. De applicatie moet (in ieder geval op termijn) responsive worden.</p>
-
-                    <p>In deze (voorlopige) toelichting probeer i een aantal keuzes die ik bij het ontwerpen van MZB maak toe te lichten, zodat ik t.z.t. nog weet waarom ik bepaalde keuzes heb gemaakt en waarmee ik kan terugvinden hoe e.e.a. werkt.</p>
-
-                    <p>Onderdelen die hier aandacht krijgen zijn:</p>
-
-                    <ul>
-                        <li>Basiswerking van de applicatie</li>
-                        <li>
-                            de verschillende modules:
-                            <ul>
-                                <li><a href="#ModuleOrganismen">Organismen</a></li>
-                                <li><a href="#ModuleMarkerwadden">Markerwadden</a></li>
-                                <li>Recepten</li>
-                                <li>Fotoboeken</li>
-                            </ul>
-                        </li>
-                        <li>Losse flodders (die nog niet een eigen plek hebben)</li>
-                    </ul>
-
-                    <h2><a id="Basiswerking" name="Basiswerking">Basiswerking</a></h2>
-
-                    <p>hh</p>
-
-                    <h2><a id="ModuleOrganismen" name="ModuleOrganismen">Module organismen</a></h2>
-
-                    <p>Bij de module organismen wil ik in het menu een lijst zien met de beschikbare organismen en vervolgens een organisme kiezen, waarna is het gekozen organisme tevoorschijn wil laten komen. Bij een organisme denk ik aan een aantal pagina&#39;s waar ik doorheen kan swipen. Door alle organismen bladeren lijkt me niet zo handig, omdat je dan bij grotere aantallen waarschijnlijk wel even opbouwtijd nodig zult hebben, maar misschien is er een alternatief te bedenken.</p>
-
-                    <p>Voor de lijst met organismen wil ik in ieder geval een zoekfunctie en een filteroptie (alleen planten, alleen vogels, alle organismen die ... , enz.)</p>
-
-                    <p>De organismen komen individueel als &lt;div class=&quot;object organisme&quot;&gt; in de bibliotheek; structuur komt later, maar er moet optie foto in om bij menu-lijst te kunnen tonen.</p>
-
-                    <p>Het vullen van de module organismen gebeurt gelijk bij het starten van de applicatie (<span class="marker">TODO: nog even kijken wat er gebeurt bij grote aantallen</span>) in de functie vulOrganismenModule() {}</p>
-
-                    <h2><a id="ModuleMarkerwadden" name="ModuleMarkerwadden">Module Markerwadden</a></h2>
-
-                    <p>Voor de module Markerwadden, die ik tijdens rondleidingen bij de hand wil hebben voor snelle informatie,&nbsp;denk ik aan pagina&#39;s met:</p>
-
-                    <ul>
-                        <li>Algemene informatie, bijvoorbeeld telefoonnummers van eilandwachter, boswachters en collega-gidsen</li>
-                        <li>Kaartjes van Markerwadden algemeen en haveneiland in meer detail; zorg voor inzoombaar</li>
-                        <li>Historie en ontwikkeling van de Markerwadden</li>
-                        <li>Organismen die voorkomen (gebruik bestaande organismen uit betreffende module)</li>
-                    </ul>
-
-                    <h2>Losse flodders</h2>
-
-                    <h3>Basisletter vergroten/verkleinen</h3>
-
-                    <p>Voor het gebruik is het handig dat (nu nog gedurende een sessie; hopenlijk t.z.t. laatste waarde meenemen naar volgende sessie&nbsp;<strong>TODO</strong>) de lettergrootte kan worden aangepast. Ik kijk hiervoor naar de weergave van onderwerpen bij Trouw. In de bovenbalk een grote en een kleine letter bij klik wordt basisletter vergroot/verkleind. Dit gebeurd door de font-size van de &lt;html&gt; in de gewenste richting aan te passen. Deze font-size is bij start 16px.</p>
-                </div>
-            </div>
-        </div>
-        <div class="gegroepeerdeItemsOrganismen">
-            <div class="object organisme">
-                <h1>Vogel 1</h1>
-                <img src="images/appelvink.jpg" />
-                <div class="beschrijving">
-                    Beschrijving
-                </div>
-
-            </div>
-            <div class="object organisme">
-                <h1>Vogel 2</h1>
-                <img src="images/hello-icon-256.png" />
-                <div class="beschrijving">
-                    Beschrijving
-                </div>
-
-            </div>
-            <div class="object organisme">
-                <h1>Vogel 1</h1>
-                <img src="images/appelvink.jpg" />
-                <div class="beschrijving">
-                    Beschrijving
-                </div>
-
-            </div>
-            <div class="object organisme">
-                <h1>Vogel 1</h1>
-                <img src="images/appelvink.jpg" />
-                <div class="beschrijving">
-                    Beschrijving
-                </div>
-
-            </div>
         </div>
     </div>
-    <script src="swipe.js"></script>
-    <!--<script>
-        // globale variabelen definiëren
-        window.MZB_FONTSIZE = 16;
-        // eerst modules laden en ervoor zorgen dat home-module start
-        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = "";
-        var els = document.getElementById("nieuweBibliotheek").getElementsByClassName("module");
-        // risico bij InternetExplorer; misschien beter jQuery TODO
-        for (i = 0; i < els.length; i++) {
-            var nieuwMenu = document.createElement("div");
-            nieuwMenu.innerHTML = els[i].innerHTML; // geen attributen meenemen; met name id
-            document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += nieuwMenu.outerHTML;
-            if (i > 0) {
-                var samenvatting = els[i].getElementsByClassName("moduleSamenvatting")[0];
-                var foto = samenvatting.children[0];
-                var tekst = samenvatting.children[1];
-                var nieuwElt = document.createElement("div");
-                // Ik gebruik een nieuw element, zodat attribuut-wijzigingen niet in de bibliotheek doorwerken
-                if (samenvatting.children.length == 2) {
-                    var sv = '<table style="width: 100%; min-height: 90px; background-color: aquamarine; vertical-align: top">';
-                    sv += '<tr>';
-                    sv += ' <td style="vertical-align:top">';
-                    sv += '<img src="' + foto.getAttribute("src") + '" width = "160"  height = "90" alt = "' + foto.getAttribute("alt") + '" /></td>';
-                    sv += '<td style="vertical-align:top">';
-                    sv += tekst.innerHTML;
-                    sv += '</td></tr ></table >';
-                    nieuwElt.innerHTML += sv;
-                } else {
-                    nieuwElt.innerHTML = samenvatting.innerHTML;
-                }
-                nieuwElt.setAttribute("onclick", "window.moduleSwipe.slide(" + i + ",20)");
-                nieuwElt.classList.remove("moduleSamenvatting");
-                nieuwElt.classList.add("menuLijstItem");
-
-                document.getElementById("moduleHouder").getElementsByClassName("menu")[0].innerHTML += nieuwElt.outerHTML;
-            }
-            console.log(document.getElementById("moduleHouder").outerHTML);
-
-
-        }
-        //        document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML = document.getElementById("homeMenu").outerHTML;
-        //       document.getElementById("moduleHouder").getElementsByClassName("swipe-wrap123")[0].innerHTML += document.getElementById("receptenModule").outerHTML;
-        window.moduleSwipe = new Swipe(document.getElementById('moduleHouder'), {
-            startSlide: 0,
-            speed: 400,
-            auto: 0,
-            draggable: false,
-            continuous: true,
-            disableScroll: false,
-            draggable: true,
-            stopPropagation: false,
-            ignore: ".scroller",
-            callback: function (index, elem, dir) { },
-            transitionEnd: function (index, elem) { }
-        });
-
-        function maakFontSize(richting) {
-            if (richting == 'groter') {
-                window.MZB_FONTSIZE *= 1.1;
-            }
-            if (richting == 'kleiner') {
-                window.MZB_FONTSIZE *= (1 / 1.1);
-            }
-            document.getElementsByTagName('html')[0].setAttribute("style", "font-size: " + window.MZB_FONTSIZE + "px");
-        }
-
-
-    </script>-->
-
-    <!--<script src='swipe.js'></script>
     <script>
+        $(document).ready(function () {
 
-        // pure JS
-        //var elem = document.getElementById('mySwipe');
-        //window.mynSwipe = Swipe(elem, {
-        //    // startSlide: 4,
-        //    // auto: 3000,
-        //    // continuous: true,
-        //    // disableScroll: true,
-        //    // stopPropagation: true,
-        //    // callback: function(index, element) {},
-        //    // transitionEnd: function(index, element) {}
-        //});
+            var swiperH = new Swiper('.swiper-container-h', {
+                pagination: '.swiper-pagination-h',
+                paginationClickable: true,
+                spaceBetween: 0,
+                nextButton: '.h-next',
+                prevButton: '.h-prev',
+                onSlideChangeStart: function () {
+                    if ($('.swiper-container-h .swiper-slide-active').children().hasClass('swiper-container-v')) {
+                        $('.h-prev, .h-next').hide();
+                    } else {
+                        $('.h-prev, .h-next').show();
+                    }
+                },
+                onSlideNextStart: function () {
+                    $('.h-prev').show();
+                }
+            });
 
+            var swiperV = new Swiper('.swiper-container-v', {
+                pagination: '.swiper-pagination-v',
+                paginationClickable: true,
+                direction: 'horizontal',
+                spaceBetween: 0,
+                nextButton: '.v-next',
+                prevButton: '.v-prev',
+                nested: true,
+                onReachBeginning: function () {
+                    $('.h-prev').show();
+                },
+                onReachEnd: function () {
+                    $('.h-next').show();
+                },
+            });
 
-        window.mySwipe = new Swipe(document.getElementById('mySwipe'), {
-            startSlide: 0,
-            speed: 400,
-            auto: 3000,
-            draggable: false,
-            continuous: true,
-            disableScroll: false,
-            stopPropagation: false,
-            ignore: ".scroller",
-            callback: function (index, elem, dir) { },
-            transitionEnd: function (index, elem) { }
         });
-    </script>-->
-    <!--<div id="items" class="bibliotheek" style="display:none">
-        <div id="testvogel" class="object organisme">
-            <div class="afbeelding"></div>
-            <div class="beschrijving">
-                <h1>Testvogel</h1>
-            </div>
-        </div>
-        <div id="testvogel2" class="object organisme">
-            <div class="afbeelding"></div>
-            <div class="beschrijving">
-                <h1>Tweede testvogel</h1>
-            </div>
-        </div>
-    </div>-->
+
+    </script>
 
 </body>
-
-</html >
+</html>-->
