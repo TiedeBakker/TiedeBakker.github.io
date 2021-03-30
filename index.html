@@ -23,7 +23,6 @@
 
     <script src="js/main.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
-    <script src='swipe.js'></script>
     <style>
 /*        html,
         body {
@@ -76,65 +75,95 @@
 
 </head>
 <body class="fullscreen">
-         <div id="logobalk" class="volledig logobalk">
-            <h2 style="padding:0; margin:0;text-align:center">LOGOBALK 111</h2>
-            <span style="position:absolute; right:40px; top:0">
-                <span onclick="window.moduleSwipe.slide(0,100)">Home</span>
-                <span style="position:relative; left:10px">
-                    <span style="font-size:120%" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
-                    <span style="position:relative; left: 20px" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
-                </span>
+    <script>
+        $(document).ready(function () {
+            $(".modulescherm").css({ "display": "none" });
+            $("#hoofdmenu").css({ "display": "block" });
+        })
+        function openModule(moduleId) {
+            $(".modulescherm").css({ "display": "none" });
+            $("#" + moduleId).css({ "display": "block" });
+        }
+    </script>
+    <div id="logobalk" class="volledig logobalk">
+        <h2 style="padding:0; margin:0;text-align:center">Mijn Digitaal Zakboekje</h2>
+        <span style="position:absolute; right:40px; top:0">
+            <span onclick="openModule('hoofdmenu')">Home</span>
+            <span style="position:relative; left:10px">
+                <span style="font-size:120%" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
+                <span style="position:relative; left: 20px" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
             </span>
-        </div>
-        <div id="content" class="volledig pagina" style="background-color:cornsilk">
-            <div class="swiper-container swiper-container-h">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Horizontal Slide 1 Test h h h h h h h h h h h h h h h h h h h h h h h h h h h h </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
-                            <div class="swiper-wrapper" style="background-color:aquamarine">
-                                <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
-                                <div class="swiper-slide">Vertical Slide 2</div>
-                                <div class="swiper-slide">Vertical Slide 3</div>
-                                <div class="swiper-slide">Vertical Slide 4</div>
-                                <div class="swiper-slide">Vertical Slide 5</div>
-                            </div>
-                            // Add Pagination
-                            <div class="swiper-pagination swiper-pagination-v"></div>
-                            // If we need navigation buttons
-                            <div class="swiper-button-prev v-prev"></div>
-                            <div class="swiper-button-next v-next"></div>
+        </span>
+    </div>
+    <div id="hoofdmenu" class="modulescherm volledig pagina" style="background-color:aliceblue">
+        <p>Dit Digitaal ZakBoekje bevat op dit moment de volgende modules:</p>
+        <ul>
+            <li onclick="openModule('markerwaddenmodule')">De Markerwadden module voor gidsen</li>
+            <li onclick="openModule('organismenmodule')">Organismen</li>
+            <li onclick="openModule('receptenmodule')">Recepten</li>
+        </ul>
+
+    </div>
+
+    <div id="markerwaddenmodule" class="modulescherm volledig pagina" style="background-color:aliceblue">
+        <p>Dit is de Markerwadden-module</p>
+    </div>
+    <div id="organismenmodule" class="modulescherm volledig pagina" style="background-color:aliceblue">
+        <p>Dit is de organismen module</p>
+    </div>
+    <div id="receptenmodule" class="modulescherm volledig pagina" style="background-color:aliceblue">
+        <p>Dit is de recepten module</p>
+    </div>
+
+    <div id="content" class="modulescherm volledig pagina" style="background-color:cornsilk">
+        <div class="swiper-container swiper-container-h">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Horizontal Slide 1 Test h h h h h h h h h h h h h h h h h h h h h h h h h h h h </div>
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
                         </div>
+                        // Add Pagination
+                        <div class="swiper-pagination swiper-pagination-v"></div>
+                        // If we need navigation buttons
+                        <div class="swiper-button-prev v-prev"></div>
+                        <div class="swiper-button-next v-next"></div>
                     </div>
-                    <div class="swiper-slide">Horizontal Slide 3</div>
-                    <div class="swiper-slide">Horizontal Slide 4</div>
-                    <div class="swiper-slide">Horizontal Slide 5</div>
-                    <div class="swiper-slide">
-                        <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
-                            <div class="swiper-wrapper" style="background-color:aquamarine">
-                                <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1</div>
-                                <div class="swiper-slide">Vertical Slide 2</div>
-                                <div class="swiper-slide">Vertical Slide 3</div>
-                                <div class="swiper-slide">Vertical Slide 4</div>
-                                <div class="swiper-slide">Vertical Slide 5</div>
-                            </div>
-                            <!--Add Pagination-->
-                            <div class="swiper-pagination swiper-pagination-v"></div>
-                            <!--If we need navigation buttons-->
-                            <div class="swiper-button-prev v-prev"></div>
-                            <div class="swiper-button-next v-next"></div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">Horizontal Slide 7</div>
-                    <div class="swiper-slide">Horizontal Slide 8</div>
                 </div>
-                <!--Add Pagination-->
-                <div class="swiper-pagination swiper-pagination-h"></div>
-                <!--If we need navigation buttons-->
-                <div class="swiper-button-prev h-prev"></div>
-                <div class="swiper-button-next h-next"></div>
+                <div class="swiper-slide">Horizontal Slide 3</div>
+                <div class="swiper-slide">Horizontal Slide 4</div>
+                <div class="swiper-slide">Horizontal Slide 5</div>
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1</div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
+                        </div>
+                        <!--Add Pagination-->
+                        <div class="swiper-pagination swiper-pagination-v"></div>
+                        <!--If we need navigation buttons-->
+                        <div class="swiper-button-prev v-prev"></div>
+                        <div class="swiper-button-next v-next"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">Horizontal Slide 7</div>
+                <div class="swiper-slide">Horizontal Slide 8</div>
             </div>
+            <!--Add Pagination-->
+            <div class="swiper-pagination swiper-pagination-h"></div>
+            <!--If we need navigation buttons-->
+            <div class="swiper-button-prev h-prev"></div>
+            <div class="swiper-button-next h-next"></div>
         </div>
+    </div>
     <div id="bibliotheek" style="display: none"></div>
     <script>
         $(document).ready(function () {
@@ -149,16 +178,16 @@
                 spaceBetween: 0,
                 nextButton: '.h-next',
                 prevButton: '.h-prev',
-            //    onSlideChangeStart: function () {
-            //        if ($('.swiper-container-h .swiper-slide-active').children().hasClass('swiper-container-v')) {
-            //            $('.h-prev, .h-next').hide();
-            //        } else {
-            //            $('.h-prev, .h-next').show();
-            //        }
-            //    },
-            //    onSlideNextStart: function () {
-            //        $('.h-prev').show();
-            //    }
+                //    onSlideChangeStart: function () {
+                //        if ($('.swiper-container-h .swiper-slide-active').children().hasClass('swiper-container-v')) {
+                //            $('.h-prev, .h-next').hide();
+                //        } else {
+                //            $('.h-prev, .h-next').show();
+                //        }
+                //    },
+                //    onSlideNextStart: function () {
+                //        $('.h-prev').show();
+                //    }
             });
 
             var swiperV = new Swiper('.swiper-container-v', {
@@ -173,12 +202,12 @@
                 nextButton: '.v-next',
                 prevButton: '.v-prev',
                 nested: true,
-            //    onReachBeginning: function () {
-            //        $('.h-prev').show();
-            //    },
-            //    onReachEnd: function () {
-            //        $('.h-next').show();
-            //    },
+                //    onReachBeginning: function () {
+                //        $('.h-prev').show();
+                //    },
+                //    onReachEnd: function () {
+                //        $('.h-next').show();
+                //    },
             });
 
         });
@@ -187,9 +216,3 @@
 
 </body>
 </html>
-
-
-                    <!--
-
-                    </body>
-                    </html>-->
