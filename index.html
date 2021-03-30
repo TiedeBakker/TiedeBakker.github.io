@@ -15,11 +15,9 @@
     <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.js"></script>
 
 
 
@@ -78,9 +76,8 @@
 
 </head>
 <body class="fullscreen">
-    <div id="main" class="volledig" style="background-color:green">
-        <div id="logobalk" class="volledig logobalk">
-            <h2 style="padding:0; margin:0;text-align:center">LOGOBALK je</h2>
+         <div id="logobalk" class="volledig logobalk">
+            <h2 style="padding:0; margin:0;text-align:center">LOGOBALK</h2>
             <span style="position:absolute; right:40px; top:0">
                 <span onclick="window.moduleSwipe.slide(0,100)">Home</span>
                 <span style="position:relative; left:10px">
@@ -133,35 +130,42 @@
                 </div>
                 <!--Add Pagination-->
                 <div class="swiper-pagination swiper-pagination-h"></div>
-                // If we need navigation buttons
+                <!--If we need navigation buttons-->
                 <div class="swiper-button-prev h-prev"></div>
                 <div class="swiper-button-next h-next"></div>
             </div>
         </div>
-    </div>
     <div id="bibliotheek" style="display: none"></div>
     <script>
         $(document).ready(function () {
 
             var swiperH = new Swiper('.swiper-container-h', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
                 pagination: '.swiper-pagination-h',
                 paginationClickable: true,
                 spaceBetween: 0,
                 nextButton: '.h-next',
                 prevButton: '.h-prev',
-                onSlideChangeStart: function () {
-                    if ($('.swiper-container-h .swiper-slide-active').children().hasClass('swiper-container-v')) {
-                        $('.h-prev, .h-next').hide();
-                    } else {
-                        $('.h-prev, .h-next').show();
-                    }
-                },
-                onSlideNextStart: function () {
-                    $('.h-prev').show();
-                }
+            //    onSlideChangeStart: function () {
+            //        if ($('.swiper-container-h .swiper-slide-active').children().hasClass('swiper-container-v')) {
+            //            $('.h-prev, .h-next').hide();
+            //        } else {
+            //            $('.h-prev, .h-next').show();
+            //        }
+            //    },
+            //    onSlideNextStart: function () {
+            //        $('.h-prev').show();
+            //    }
             });
 
             var swiperV = new Swiper('.swiper-container-v', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
                 pagination: '.swiper-pagination-v',
                 paginationClickable: true,
                 direction: 'horizontal',
@@ -169,12 +173,12 @@
                 nextButton: '.v-next',
                 prevButton: '.v-prev',
                 nested: true,
-                onReachBeginning: function () {
-                    $('.h-prev').show();
-                },
-                onReachEnd: function () {
-                    $('.h-next').show();
-                },
+            //    onReachBeginning: function () {
+            //        $('.h-prev').show();
+            //    },
+            //    onReachEnd: function () {
+            //        $('.h-next').show();
+            //    },
             });
 
         });
