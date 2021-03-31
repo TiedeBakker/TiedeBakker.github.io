@@ -78,6 +78,7 @@
 <body class="fullscreen" style="left:20px">
     <div id="logobalk" class="volledig logobalk">
         <h2 style="padding:0; margin:0;text-align:center">Mijn Digitaal Zakboekje</h2>
+        <span style="position:absolute;left:10px;top:5px"><span onclick="toonModule(0)">Menu</span></span>
         <span style="position:absolute; right:40px; top:0">
             <span onclick="toonModule(0)">Home</span>
             <span style="position:relative; left:10px">
@@ -107,8 +108,8 @@
             var menu = document.createElement("div");
             menu.classList.add("module");
             menu.classList.add("volledig");
-            $(menu).css({"background-color":"blue"});
-            var menuHTML = "<h1>MDZB-menu</h1>";
+            $(menu).css({"background-color":"white"});
+            var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
             var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
             for (x = 0; x < modules.length; x++) {
                 menuHTML += "<p onclick='toonModule(" + (x+1) + ")'>" + modules[x].dataset.naam + "</p>";
@@ -120,7 +121,7 @@
             };
             menu.innerHTML = menuHTML;
             $("#main").html(menu.outerHTML + $("#main").html());
-            toonHoofdMenu();
+            toonModule(0);
         }
         function toonModule(deze) {
             $(".module").css({ "display": "none" });
