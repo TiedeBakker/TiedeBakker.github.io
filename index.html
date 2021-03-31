@@ -23,6 +23,7 @@
 
     <script src="js/main.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
+    <script src='swipe.js'></script>
     <style>
 /*        html,
         body {
@@ -74,48 +75,66 @@
 
 
 </head>
-<body class="fullscreen">
-    <script>
-        $(document).ready(function () {
-            $(".modulescherm").css({ "display": "none" });
-            $("#hoofdmenu").css({ "display": "block" });
-        })
-        function openModule(moduleId) {
-            $(".modulescherm").css({ "display": "none" });
-            $("#" + moduleId).css({ "display": "block" });
-        }
-    </script>
+<body class="fullscreen" style="left:20px">
     <div id="logobalk" class="volledig logobalk">
         <h2 style="padding:0; margin:0;text-align:center">Mijn Digitaal Zakboekje</h2>
         <span style="position:absolute; right:40px; top:0">
-            <span onclick="openModule('hoofdmenu')">Home</span>
+            <span onclick="toonModule(0)">Home</span>
             <span style="position:relative; left:10px">
                 <span style="font-size:120%" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
                 <span style="position:relative; left: 20px" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
             </span>
         </span>
     </div>
-    <div id="hoofdmenu" class="modulescherm volledig pagina" style="background-color:aliceblue">
-        <p>Dit Digitaal ZakBoekje bevat op dit moment de volgende modules:</p>
-        <ul>
-            <li onclick="openModule('markerwaddenmodule')">De Markerwadden module voor gidsen</li>
-            <li onclick="openModule('organismenmodule')">Organismen</li>
-            <li onclick="openModule('receptenmodule')">Recepten</li>
-        </ul>
-
+    <div id="main" class="maincontent" style="margin:10px;padding:20px; background-color:green">
+        
+    </div>
+    <div id="bibliotheek" style="display: none">
+        <div id="receptenModule" class="MDZBmodule" data-naam="Recepten module">
+            Recepten
+        </div>
+        <div id="markerwaddenModule" class="MDZBmodule" data-naam="Marker Wadden module">
+            Marker Wadden
+        </div>
     </div>
 
-    <div id="markerwaddenmodule" class="modulescherm volledig pagina" style="background-color:aliceblue">
-        <p>Dit is de Markerwadden-module</p>
-    </div>
-    <div id="organismenmodule" class="modulescherm volledig pagina" style="background-color:aliceblue">
-        <p>Dit is de organismen module</p>
-    </div>
-    <div id="receptenmodule" class="modulescherm volledig pagina" style="background-color:aliceblue">
-        <p>Dit is de recepten module</p>
-    </div>
+    <script>
+        $(document).ready(function () {
+            initMDZB();
+        })
+        function initMDZB() {
+            // eerst menu en modules in main zetten
+            var menu = document.createElement("div");
+            menu.classList.add("module");
+            menu.classList.add("volledig");
+            $(menu).css({"background-color":"blue"});
+            var menuHTML = "<h1>MDZB-menu</h1>";
+            var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
+            for (x = 0; x < modules.length; x++) {
+                menuHTML += "<p onclick='toonModule(" + (x+1) + ")'>" + modules[x].dataset.naam + "</p>";
+                var dezeModule = document.createElement("div");
+                dezeModule.classList.add("module");
+                dezeModule.classList.add("volledig");
+                dezeModule.innerHTML = modules[x].innerHTML;
+                $("#main").html($("#main").html() + dezeModule.outerHTML)
+            };
+            menu.innerHTML = menuHTML;
+            $("#main").html(menu.outerHTML + $("#main").html());
+            toonHoofdMenu();
+        }
+        function toonModule(deze) {
+            $(".module").css({ "display": "none" });
+            $(".module").eq(deze).css({ "display": "block" });
+        }
+        function toonHoofdMenu() {
+            $(".module").css({ "display": "none" });
+            //document.getElementById("main").getElementsByClassName("module")[0].style.setProperty("display", "block");
+            $(".module:first").css({ "display": "block" });
+        }
+    </script>
 
-    <div id="content" class="modulescherm volledig pagina" style="background-color:cornsilk">
+
+    <!--<div id="content" class="volledig pagina" style="background-color:cornsilk; display:none">
         <div class="swiper-container swiper-container-h">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">Horizontal Slide 1 Test h h h h h h h h h h h h h h h h h h h h h h h h h h h h </div>
@@ -146,26 +165,25 @@
                             <div class="swiper-slide">Vertical Slide 3</div>
                             <div class="swiper-slide">Vertical Slide 4</div>
                             <div class="swiper-slide">Vertical Slide 5</div>
-                        </div>
-                        <!--Add Pagination-->
-                        <div class="swiper-pagination swiper-pagination-v"></div>
-                        <!--If we need navigation buttons-->
-                        <div class="swiper-button-prev v-prev"></div>
-                        <div class="swiper-button-next v-next"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">Horizontal Slide 7</div>
-                <div class="swiper-slide">Horizontal Slide 8</div>
+                        </div>-->
+    <!--Add Pagination-->
+    <!--<div class="swiper-pagination swiper-pagination-v"></div>-->
+    <!--If we need navigation buttons-->
+    <!--<div class="swiper-button-prev v-prev"></div>
+                <div class="swiper-button-next v-next"></div>
             </div>
-            <!--Add Pagination-->
-            <div class="swiper-pagination swiper-pagination-h"></div>
-            <!--If we need navigation buttons-->
-            <div class="swiper-button-prev h-prev"></div>
+        </div>
+        <div class="swiper-slide">Horizontal Slide 7</div>
+        <div class="swiper-slide">Horizontal Slide 8</div>
+    </div>-->
+    <!--Add Pagination-->
+    <!--<div class="swiper-pagination swiper-pagination-h"></div>-->
+    <!--If we need navigation buttons-->
+    <!--<div class="swiper-button-prev h-prev"></div>
             <div class="swiper-button-next h-next"></div>
         </div>
-    </div>
-    <div id="bibliotheek" style="display: none"></div>
-    <script>
+    </div>-->
+    <!--<script>
         $(document).ready(function () {
 
             var swiperH = new Swiper('.swiper-container-h', {
@@ -212,7 +230,10 @@
 
         });
 
-    </script>
+    </script>-->
 
 </body>
 </html>
+
+
+  
