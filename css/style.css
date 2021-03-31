@@ -1,11 +1,11 @@
 body {
   font-family: sans-serif;
-background-color: grey;
+  background-color: grey;
 }
 
 /* Make content area fill the entire browser window */
-html,
-.fullscreen {
+html1,
+.fullscreen1 {
   display: flex;
   height: 100%;
   margin: 0;
@@ -32,10 +32,14 @@ html,
 }
 .logobalk {
     height: 2em;
-    background-color: #0F3;
+    background-color: yellow;
 }
 
-.pagina {
+.maincontent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     top: 2em;
     background-color: yellow;
     margin: 0px;
@@ -49,7 +53,7 @@ html,
 .content {
     top: 3em;
     bottom: 2em;
-    background-color: #33F;
+    background-color: white;
 }
 
 .voetbalk {
