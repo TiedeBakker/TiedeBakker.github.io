@@ -25,6 +25,10 @@
     <script src="js/jquery-3.6.0.js"></script>
     <script src='swipe.js'></script>
     <style>
+        .klikbaar {
+            cursor: pointer;
+            color:darkturquoise;
+        }
 /*        html,
         body {
             position: relative;
@@ -42,7 +46,8 @@
 */
         .swiper-container {
             width: 100%;
-            height: 100%;
+            height: 300px;
+            margin: 20px 0;
         }
 
         .swiper-slide {
@@ -68,17 +73,17 @@
             background: #eee;
         }
 
-        .swiper-pagination-v {
+ /*       .swiper-pagination-v {
             top: 10px !important;
         }
-    </style>
+*/    </style>
 
 
 </head>
 <body class="fullscreen" style="left:20px">
     <div id="logobalk" class="volledig logobalk">
         <h2 style="padding:0; margin:0;text-align:center">Mijn Digitaal Zakboekje</h2>
-        <span style="position:absolute;left:10px;top:5px"><span onclick="toonModule(0)">Menu</span></span>
+        <span style="position:absolute;left:10px;top:5px"><span onclick="toonModule(0)" class="klikbaar">Menu</span></span>
         <span style="position:absolute; right:40px; top:0">
             <span onclick="toonModule(0)">Home</span>
             <span style="position:relative; left:10px">
@@ -92,16 +97,47 @@
     </div>
     <div id="bibliotheek" style="display: none">
         <div id="receptenModule" class="MDZBmodule" data-naam="Recepten module">
-            Recepten
+            <div class="swiper-container swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination1"></div>
+            </div>
         </div>
         <div id="markerwaddenModule" class="MDZBmodule" data-naam="Marker Wadden module">
-            Marker Wadden
+            <div class="swiper-container swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination2"></div>
+            </div>
         </div>
     </div>
 
     <script>
         $(document).ready(function () {
             initMDZB();
+            testswiper();
         })
         function initMDZB() {
             // eerst menu en modules in main zetten
@@ -112,7 +148,7 @@
             var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
             var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
             for (x = 0; x < modules.length; x++) {
-                menuHTML += "<p onclick='toonModule(" + (x+1) + ")'>" + modules[x].dataset.naam + "</p>";
+                menuHTML += "<p onclick='toonModule(" + (x+1) + ")' class='klikbaar'>" + modules[x].dataset.naam + "</p>";
                 var dezeModule = document.createElement("div");
                 dezeModule.classList.add("module");
                 dezeModule.classList.add("volledig");
@@ -126,11 +162,40 @@
         function toonModule(deze) {
             $(".module").css({ "display": "none" });
             $(".module").eq(deze).css({ "display": "block" });
+            if (deze == 1) {
+                var swiper1 = new Swiper('.swiper1', {
+                    spaceBetween: 30,
+                    pagination: {
+                        el: '.swiper-pagination1',
+                        clickable: true,
+                    },
+                });
+            }
+            if (deze == 2) {
+                var swiper2 = new Swiper('.swiper2', {
+                    spaceBetween: 30,
+                    pagination: {
+                        el: '.swiper-pagination2',
+                        clickable: true,
+                    },
+                });
+            }
         }
         function toonHoofdMenu() {
             $(".module").css({ "display": "none" });
             //document.getElementById("main").getElementsByClassName("module")[0].style.setProperty("display", "block");
             $(".module:first").css({ "display": "block" });
+        }
+
+        function testswiper() {
+            var swiper1 = new Swiper('.swiper1', {
+                spaceBetween: 30,
+                pagination: {
+                    el: '.swiper-pagination1',
+                    clickable: true,
+                },
+            });
+
         }
     </script>
 
