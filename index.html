@@ -52,22 +52,7 @@
         }
 
         .swiper-slide {
-            text-align: center;
-            font-size: 18px;
             background: #fff;
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
         }
 
         .swiper-container-v {
@@ -104,53 +89,33 @@
             <div class="slide">Eerste</div>
             <div class="slide">tweede</div>
         </div>
-        <div id="markerwaddenModule" class="MDZBmodule swipermodule11" data-naam="Marker Wadden module">
+        <div id="markerwaddenModule" class="MDZBmodule swipermodule" data-naam="Marker Wadden module">
             <div class="modulestart">
                 Marker wadden
             </div>
-            
-            <!--<div class="swiper-container swiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 10</div>
-                </div>-->
-                <!-- Add Pagination -->
-                <!--<div class="swiper-pagination swiper-pagination2"></div>
-            </div>-->
-        </div>
-        <!--<div id="swiper1">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 10</div>
-                </div>-->
-                <!-- Add Pagination -->
-                <!--<div class="swiper-pagination"></div>
+            <div class="slide">
+                <h1>Marker Wadden</h1>
+                <p>Deze Marker Wadden App bevat allerlei typen informatie die ik tijdens excursies graag direct onder handbereik wil hebben.</p>
+                <p>De onderwerpen zijn:</p>
+                <ul>
+                    <li onclick="toonPagina(this, 1)">Algemene informatie incl. belangrijke telefoonnummers</li>
+                    <li onclick="toonPagina(this, 2)">Kaartmateriaal</li>
+                    <li onclick="toonPagina(this, 3)">Voorkomende planten en dieren</li>
+                </ul>
             </div>
-        </div>-->
+            <div class="slide">tweede</div>
+            <div class="slide">Eerste</div>
+            <div class="slide">tweede</div>
+            <div class="slide">Eerste</div>
+            <div class="slide">tweede</div>
+        </div>
     </div>
 
     <script>
         window.Mijnswiper1;
         $(document).ready(function () {
             initMDZB();
-           // testswiper();
+
         })
         function initMDZB() {
             // eerst hoofdmenu opbouwen en in main zetten
@@ -165,6 +130,11 @@
             };
             menu.innerHTML = menuHTML;
             $("#main").html(menu.outerHTML);
+        }
+        function toonPagina(bron, pagnr) {
+            // via .swiper eigenschap van container-element kun je gewenste swiper-instantie benaderen
+            $(bron).parents(".swiper-container").get(0).swiper.slideNext();
+
         }
         function toonMenu() {
             // eerst actuele module verwijderen
@@ -185,7 +155,14 @@
             if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("swipermodule")) {
                 var swiperstring = "<div id='swiper'></div>";
                 $("#main .module").eq(0).html(swiperstring);
-                swiperstring = "<div class='swiper-container'><div class='swiper-wrapper'></div></div>";
+                swiperstring = "<div class='swiper-container swiper-container-main'><div class='swiper-wrapper'></div>"
+
+                swiperstring += "<div class='swiper-pagination swiper-pagination-main'></div>";
+
+                swiperstring += "<div class='swiper-button-prev main-prev'></div>";
+                swiperstring += "<div class='swiper-button-next main-next'></div>";
+
+                swiperstring += "</div>";
                 $("#swiper").html(swiperstring);
                 // Nu pagina's invoegen
                 for (x = 0; x < document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("slide").length; x++) {
@@ -194,13 +171,19 @@
                     slide.classList.add("swiper-slide");
                     $('#swiper .swiper-wrapper').html($('#swiper .swiper-wrapper').html() + slide.outerHTML);
                 }
-                //        <!-- Add Pagination -->
-                //<div class="swiper-pagination"></div>
-                //    </div>
-                //</div>
-                var swiper = new Swiper('.swiper-container', {
+                var swiper1 = new Swiper('.swiper-container-main', {
                     spaceBetween: 30,
+                    pagination: {
+                        el: '.swiper-pagination-main',
+                        type: 'bullets',
+                        clickable: 'true',
+                    },
+                    navigation: {
+                        nextEl: '.main-next',
+                        prevEl: '.main-prev',
+                    },
                 });
+                $('.main-next').css({ "display": "none" });
 
             }
         }
