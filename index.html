@@ -45,9 +45,10 @@
         }
 */
         .swiper-container {
+            position:absolute;
             width: 100%;
-            height: 300px;
-            margin: 20px 0;
+            height: 100%;
+            margin: 0px 0;
         }
 
         .swiper-slide {
@@ -83,9 +84,9 @@
 <body class="fullscreen" style="left:20px">
     <div id="logobalk" class="volledig logobalk">
         <h2 style="padding:0; margin:0;text-align:center">Mijn Digitaal Zakboekje</h2>
-        <span style="position:absolute;left:10px;top:5px"><span onclick="toonModule(0)" class="klikbaar">Menu</span></span>
+        <span style="position:absolute;left:10px;top:5px"><span onclick="toonMenu()" class="klikbaar">Menu</span></span>
         <span style="position:absolute; right:40px; top:0">
-            <span onclick="toonModule(0)">Home</span>
+            <span onclick="toonMenu()">Home</span>
             <span style="position:relative; left:10px">
                 <span style="font-size:120%" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
                 <span style="position:relative; left: 20px" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
@@ -96,8 +97,19 @@
         
     </div>
     <div id="bibliotheek" style="display: none">
-        <div id="receptenModule" class="MDZBmodule" data-naam="Recepten module">
-            <div class="swiper-container swiper1">
+        <div id="receptenModule" class="MDZBmodule swipermodule" data-naam="Recepten module">
+            <div class="modulestart">
+                recepten
+            </div>
+            <div class="slide">Eerste</div>
+            <div class="slide">tweede</div>
+        </div>
+        <div id="markerwaddenModule" class="MDZBmodule swipermodule11" data-naam="Marker Wadden module">
+            <div class="modulestart">
+                Marker wadden
+            </div>
+            
+            <!--<div class="swiper-container swiper2">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">Slide 1</div>
                     <div class="swiper-slide">Slide 2</div>
@@ -109,13 +121,13 @@
                     <div class="swiper-slide">Slide 8</div>
                     <div class="swiper-slide">Slide 9</div>
                     <div class="swiper-slide">Slide 10</div>
-                </div>
+                </div>-->
                 <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination1"></div>
-            </div>
+                <!--<div class="swiper-pagination swiper-pagination2"></div>
+            </div>-->
         </div>
-        <div id="markerwaddenModule" class="MDZBmodule" data-naam="Marker Wadden module">
-            <div class="swiper-container swiper2">
+        <!--<div id="swiper1">
+            <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">Slide 1</div>
                     <div class="swiper-slide">Slide 2</div>
@@ -127,58 +139,69 @@
                     <div class="swiper-slide">Slide 8</div>
                     <div class="swiper-slide">Slide 9</div>
                     <div class="swiper-slide">Slide 10</div>
-                </div>
+                </div>-->
                 <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination2"></div>
+                <!--<div class="swiper-pagination"></div>
             </div>
-        </div>
+        </div>-->
     </div>
 
     <script>
+        window.Mijnswiper1;
         $(document).ready(function () {
             initMDZB();
-            testswiper();
+           // testswiper();
         })
         function initMDZB() {
-            // eerst menu en modules in main zetten
+            // eerst hoofdmenu opbouwen en in main zetten
             var menu = document.createElement("div");
-            menu.classList.add("module");
+            menu.classList.add("hoofdmenu");
             menu.classList.add("volledig");
             $(menu).css({"background-color":"white"});
             var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
             var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
             for (x = 0; x < modules.length; x++) {
-                menuHTML += "<p onclick='toonModule(" + (x+1) + ")' class='klikbaar'>" + modules[x].dataset.naam + "</p>";
-                var dezeModule = document.createElement("div");
-                dezeModule.classList.add("module");
-                dezeModule.classList.add("volledig");
-                dezeModule.innerHTML = modules[x].innerHTML;
-                $("#main").html($("#main").html() + dezeModule.outerHTML)
+                menuHTML += "<p onclick='toonModule(" + (x) + ")' class='klikbaar'>" + modules[x].dataset.naam + "</p>";
             };
             menu.innerHTML = menuHTML;
-            $("#main").html(menu.outerHTML + $("#main").html());
-            toonModule(0);
+            $("#main").html(menu.outerHTML);
+        }
+        function toonMenu() {
+            // eerst actuele module verwijderen
+            document.getElementById("main").getElementsByClassName("module")[0].remove();
+            // menu zichtbaar maken
+            $(".hoofdmenu").css({ "display": "block" });
         }
         function toonModule(deze) {
-            $(".module").css({ "display": "none" });
-            $(".module").eq(deze).css({ "display": "block" });
-            if (deze == 1) {
-                var swiper1 = new Swiper('.swiper1', {
+            // eerst module opbouwen te beginnen bij raamwerkdiv
+            var dezeModule = document.createElement("div");
+            dezeModule.classList.add("module");
+            dezeModule.classList.add("volledig");
+            dezeModule.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("modulestart")[0].innerHTML;
+            $("#main").html($("#main").html() + dezeModule.outerHTML);
+            // menu onzichtbaar maken
+            $(".hoofdmenu").css({ "display": "none" });
+            // afhankelijk van type module raamwerk verder vullen
+            if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("swipermodule")) {
+                var swiperstring = "<div id='swiper'></div>";
+                $("#main .module").eq(0).html(swiperstring);
+                swiperstring = "<div class='swiper-container'><div class='swiper-wrapper'></div></div>";
+                $("#swiper").html(swiperstring);
+                // Nu pagina's invoegen
+                for (x = 0; x < document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("slide").length; x++) {
+                    var slide = document.createElement("div");
+                    slide.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("slide")[x].innerHTML;
+                    slide.classList.add("swiper-slide");
+                    $('#swiper .swiper-wrapper').html($('#swiper .swiper-wrapper').html() + slide.outerHTML);
+                }
+                //        <!-- Add Pagination -->
+                //<div class="swiper-pagination"></div>
+                //    </div>
+                //</div>
+                var swiper = new Swiper('.swiper-container', {
                     spaceBetween: 30,
-                    pagination: {
-                        el: '.swiper-pagination1',
-                        clickable: true,
-                    },
                 });
-            }
-            if (deze == 2) {
-                var swiper2 = new Swiper('.swiper2', {
-                    spaceBetween: 30,
-                    pagination: {
-                        el: '.swiper-pagination2',
-                        clickable: true,
-                    },
-                });
+
             }
         }
         function toonHoofdMenu() {
@@ -186,19 +209,7 @@
             //document.getElementById("main").getElementsByClassName("module")[0].style.setProperty("display", "block");
             $(".module:first").css({ "display": "block" });
         }
-
-        function testswiper() {
-            var swiper1 = new Swiper('.swiper1', {
-                spaceBetween: 30,
-                pagination: {
-                    el: '.swiper-pagination1',
-                    clickable: true,
-                },
-            });
-
-        }
     </script>
-
 
     <!--<div id="content" class="volledig pagina" style="background-color:cornsilk; display:none">
         <div class="swiper-container swiper-container-h">
