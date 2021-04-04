@@ -29,6 +29,9 @@
             cursor: pointer;
             color:darkturquoise;
         }
+        .module {
+            background-color: white;
+        }
 /*        html,
         body {
             position: relative;
@@ -82,6 +85,14 @@
         
     </div>
     <div id="bibliotheek" style="display: none">
+        <div id="MDZBModule" class="MDZBmodule" data-naam="Info over deze App">
+            <div class="modulestart">
+                <h1><strong>M</strong>ijn <strong>D</strong>igitale <strong>Z</strong>ak<strong>B</strong>oek</h1>
+                <p>Deze App gebruik ik om informatie die ik altijd onder handbereik wil hebben te organiseren.</p>
+                <h2>Editor</h2>
+                <p>Voor het snel aanpassen van HTML-teksten gebruik ik een online <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/fullpreset.html">WYSIWYG-editor (CKEditor)</a>, waarin ook allerlei extra code kan worden ingevoegd. Een probleem van de broncode is dat er erg veel witregels tussen komen. Deze kan ik eventueel wegwerken met een online-tool als <a href="https://codebeautify.org/remove-empty-lines?__cf_chl_captcha_tk__=61b0672f13dcaef43ec5019be1b532124ce6c97f-1617558413-0-AdkgfqYNmikBcNpVHMePq2Ug_z37BrzZaHb0sl7fm5GwhRQ6a5EcjBbwdNMgGorb0YZJ9Yg7R05GNNB-Sy64QLam9GrBZBhWvwLQyseTn5Da7puJ5pyjv06B-KAvoljKmc7Vv_2im635ySo0GipJ9QOTC4qQoFjVSyhwQDjJcuqk3gF4ge-Aol3jGt4OJa3ZL0kWQ9kf1XkCJ-U7yO0qyr1bendjLcHl-nFFjYSXjp2EltDiTP39KdfURFbf4Bhx0VgaHhMYcQn7SCNME7Is8KzEgylwM4clPMb7Wh4qoPFPaHRZw4D9q0qZCKnHV-i_4cRinu5zqKbbwdQnLL0dqJLAAmM03qZ8X99cmBqWT5_kRfX44AHJ9hkfKwWjt8zEowh8L_oPKAeM8-rYY_8IctOnHcHfnJ_6moWF5NvCeuwfJ-WiQosXsBhGmtOFAO_o6r2J4WW-CM-tkNn2Xncy2nWUZdubD0AdGV7MLyxM59rJvNruPwwJ3TcvV7jWWIlkRaTEiPS0Q-C-kt7IXEy62NB1Go9h3rbjw1glwCWeIbE271H7EPF7bfS7Q4ze_xG3JeMef2gxgqfEiHg0Y9naDJcypgtOvlClIX2LQxXz0fMi">code verbeteraar (hij heet Code Beautify</a>.</p>
+            </div>
+        </div>
         <div id="receptenModule" class="MDZBmodule swipermodule" data-naam="Recepten module">
             <div class="modulestart">
                 recepten
@@ -172,7 +183,7 @@
                     $('#swiper .swiper-wrapper').html($('#swiper .swiper-wrapper').html() + slide.outerHTML);
                 }
                 var swiper1 = new Swiper('.swiper-container-main', {
-                    spaceBetween: 30,
+                    spaceBetween: 0,
                     pagination: {
                         el: '.swiper-pagination-main',
                         type: 'bullets',
@@ -184,6 +195,7 @@
                     },
                 });
                 $('.main-next').css({ "display": "none" });
+                $('.main-prev').css({ "display": "none" });
 
             }
         }
