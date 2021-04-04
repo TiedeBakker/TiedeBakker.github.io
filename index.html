@@ -1,65 +1,299 @@
-body {
-  font-family: sans-serif;
-  background-color: grey;
-}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MDZB test</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
 
-/* Make content area fill the entire browser window */
-html1,
-.fullscreen1 {
-  display: flex;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
 
-/* Center the content in the browser window */
-.container {
-  margin: auto;
-}
+    <script src="js/swiper-bundle.js"></script>
 
-.title {
-  font-size: 3rem;
-}
 
-/* Eigen toevoegingen*/
-.volledig {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
-.logobalk {
-    height: 2em;
-    background-color: yellow;
-}
 
-.maincontent {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 2em;
-    background-color: yellow;
-    margin: 0px;
-}
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src='swipe.js'></script>
+    <style>
+        .klikbaar {
+            cursor: pointer;
+            color:darkturquoise;
+        }
+/*        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
 
-.navigatiebalk {
-    height: 3em;
-    background-color: #0FF;
-}
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+*/
+        .swiper-container {
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0px 0;
+        }
 
-.content {
-    top: 3em;
-    bottom: 2em;
-    background-color: white;
-}
+        .swiper-slide {
+            background: #fff;
+        }
 
-.voetbalk {
-    height: 2em;
-    top: auto;
-    background-color: #960;
-}
-	
+        .swiper-container-v {
+            background: #eee;
+        }
 
+ /*       .swiper-pagination-v {
+            top: 10px !important;
+        }
+*/    </style>
+
+
+</head>
+<body class="fullscreen" style="left:20px">
+    <div id="logobalk" class="volledig logobalk">
+        <h2 style="padding:0; margin:0;text-align:center">Mijn Digitaal Zakboekje</h2>
+        <span style="position:absolute;left:10px;top:5px"><span onclick="toonMenu()" class="klikbaar">Menu</span></span>
+        <span style="position:absolute; right:40px; top:0">
+            <span onclick="toonMenu()">Home</span>
+            <span style="position:relative; left:10px">
+                <span style="font-size:120%" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
+                <span style="position:relative; left: 20px" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
+            </span>
+        </span>
+    </div>
+    <div id="main" class="maincontent" style="margin:10px;padding:20px; background-color:green">
+        
+    </div>
+    <div id="bibliotheek" style="display: none">
+        <div id="receptenModule" class="MDZBmodule swipermodule" data-naam="Recepten module">
+            <div class="modulestart">
+                recepten
+            </div>
+            <div class="slide">Eerste</div>
+            <div class="slide">tweede</div>
+        </div>
+        <div id="markerwaddenModule" class="MDZBmodule swipermodule" data-naam="Marker Wadden module">
+            <div class="modulestart">
+                Marker wadden
+            </div>
+            <div class="slide">
+                <h1>Marker Wadden</h1>
+                <p>Deze Marker Wadden App bevat allerlei typen informatie die ik tijdens excursies graag direct onder handbereik wil hebben.</p>
+                <p>De onderwerpen zijn:</p>
+                <ul>
+                    <li onclick="toonPagina(this, 1)">Algemene informatie incl. belangrijke telefoonnummers</li>
+                    <li onclick="toonPagina(this, 2)">Kaartmateriaal</li>
+                    <li onclick="toonPagina(this, 3)">Voorkomende planten en dieren</li>
+                </ul>
+            </div>
+            <div class="slide">Algemeen</div>
+            <div class="slide">Kaartmateriaal</div>
+            <div class="slide">Planten</div>
+            <div class="slide">Eerste</div>
+            <div class="slide">tweede</div>
+        </div>
+    </div>
+
+    <script>
+        window.Mijnswiper1;
+        $(document).ready(function () {
+            initMDZB();
+
+        })
+        function initMDZB() {
+            // eerst hoofdmenu opbouwen en in main zetten
+            var menu = document.createElement("div");
+            menu.classList.add("hoofdmenu");
+            menu.classList.add("volledig");
+            $(menu).css({"background-color":"white"});
+            var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
+            var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
+            for (x = 0; x < modules.length; x++) {
+                menuHTML += "<p onclick='toonModule(" + (x) + ")' class='klikbaar'>" + modules[x].dataset.naam + "</p>";
+            };
+            menu.innerHTML = menuHTML;
+            $("#main").html(menu.outerHTML);
+        }
+        function toonPagina(bron, pagnr) {
+            // via .swiper eigenschap van container-element kun je gewenste swiper-instantie benaderen
+            $(bron).parents(".swiper-container").get(0).swiper.slideTo(pagnr);
+
+        }
+        function toonMenu() {
+            // eerst actuele module verwijderen
+            document.getElementById("main").getElementsByClassName("module")[0].remove();
+            // menu zichtbaar maken
+            $(".hoofdmenu").css({ "display": "block" });
+        }
+        function toonModule(deze) {
+            // eerst module opbouwen te beginnen bij raamwerkdiv
+            var dezeModule = document.createElement("div");
+            dezeModule.classList.add("module");
+            dezeModule.classList.add("volledig");
+            dezeModule.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("modulestart")[0].innerHTML;
+            $("#main").html($("#main").html() + dezeModule.outerHTML);
+            // menu onzichtbaar maken
+            $(".hoofdmenu").css({ "display": "none" });
+            // afhankelijk van type module raamwerk verder vullen
+            if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("swipermodule")) {
+                var swiperstring = "<div id='swiper'></div>";
+                $("#main .module").eq(0).html(swiperstring);
+                swiperstring = "<div class='swiper-container swiper-container-main'><div class='swiper-wrapper'></div>"
+
+                swiperstring += "<div class='swiper-pagination swiper-pagination-main'></div>";
+
+                swiperstring += "<div class='swiper-button-prev main-prev'></div>";
+                swiperstring += "<div class='swiper-button-next main-next'></div>";
+
+                swiperstring += "</div>";
+                $("#swiper").html(swiperstring);
+                // Nu pagina's invoegen
+                for (x = 0; x < document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("slide").length; x++) {
+                    var slide = document.createElement("div");
+                    slide.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("slide")[x].innerHTML;
+                    slide.classList.add("swiper-slide");
+                    $('#swiper .swiper-wrapper').html($('#swiper .swiper-wrapper').html() + slide.outerHTML);
+                }
+                var swiper1 = new Swiper('.swiper-container-main', {
+                    spaceBetween: 30,
+                    pagination: {
+                        el: '.swiper-pagination-main',
+                        type: 'bullets',
+                        clickable: 'true',
+                    },
+                    navigation: {
+                        nextEl: '.main-next',
+                        prevEl: '.main-prev',
+                    },
+                });
+                $('.main-next').css({ "display": "none" });
+
+            }
+        }
+        function toonHoofdMenu() {
+            $(".module").css({ "display": "none" });
+            //document.getElementById("main").getElementsByClassName("module")[0].style.setProperty("display", "block");
+            $(".module:first").css({ "display": "block" });
+        }
+    </script>
+
+    <!--<div id="content" class="volledig pagina" style="background-color:cornsilk; display:none">
+        <div class="swiper-container swiper-container-h">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Horizontal Slide 1 Test h h h h h h h h h h h h h h h h h h h h h h h h h h h h </div>
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
+                        </div>
+                        // Add Pagination
+                        <div class="swiper-pagination swiper-pagination-v"></div>
+                        // If we need navigation buttons
+                        <div class="swiper-button-prev v-prev"></div>
+                        <div class="swiper-button-next v-next"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">Horizontal Slide 3</div>
+                <div class="swiper-slide">Horizontal Slide 4</div>
+                <div class="swiper-slide">Horizontal Slide 5</div>
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1</div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
+                        </div>-->
+    <!--Add Pagination-->
+    <!--<div class="swiper-pagination swiper-pagination-v"></div>-->
+    <!--If we need navigation buttons-->
+    <!--<div class="swiper-button-prev v-prev"></div>
+                <div class="swiper-button-next v-next"></div>
+            </div>
+        </div>
+        <div class="swiper-slide">Horizontal Slide 7</div>
+        <div class="swiper-slide">Horizontal Slide 8</div>
+    </div>-->
+    <!--Add Pagination-->
+    <!--<div class="swiper-pagination swiper-pagination-h"></div>-->
+    <!--If we need navigation buttons-->
+    <!--<div class="swiper-button-prev h-prev"></div>
+            <div class="swiper-button-next h-next"></div>
+        </div>
+    </div>-->
+    <!--<script>
+        $(document).ready(function () {
+
+            var swiperH = new Swiper('.swiper-container-h', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: '.swiper-pagination-h',
+                paginationClickable: true,
+                spaceBetween: 0,
+                nextButton: '.h-next',
+                prevButton: '.h-prev',
+                //    onSlideChangeStart: function () {
+                //        if ($('.swiper-container-h .swiper-slide-active').children().hasClass('swiper-container-v')) {
+                //            $('.h-prev, .h-next').hide();
+                //        } else {
+                //            $('.h-prev, .h-next').show();
+                //        }
+                //    },
+                //    onSlideNextStart: function () {
+                //        $('.h-prev').show();
+                //    }
+            });
+
+            var swiperV = new Swiper('.swiper-container-v', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination: '.swiper-pagination-v',
+                paginationClickable: true,
+                direction: 'horizontal',
+                spaceBetween: 0,
+                nextButton: '.v-next',
+                prevButton: '.v-prev',
+                nested: true,
+                //    onReachBeginning: function () {
+                //        $('.h-prev').show();
+                //    },
+                //    onReachEnd: function () {
+                //        $('.h-next').show();
+                //    },
+            });
+
+        });
+
+    </script>-->
+
+</body>
+</html>
+
+
+  
