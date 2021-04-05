@@ -3,21 +3,17 @@
 <head>
     <meta charset="utf-8">
     <title>MDZB test</title>
-    		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="theme-color" content="#29434d" />
-		<meta name="msapplication-TileColor" content="#29434d" />
-		<meta name="mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-		<meta name="apple-mobile-web-app-title" content="Progressive Web Application" />
-		<meta name="application-name" content="Progressive Web Application" />
-
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/hello-icon-152.png">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
     <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
 
     <link rel="stylesheet" href="css/swiper-bundle.css" />
 
@@ -63,7 +59,7 @@
         }
 
         .swiper-container-v {
-            background: #eee;
+            background: #000;
         }
 
  /*       .swiper-pagination-v {
@@ -75,10 +71,14 @@
 </head>
 <body class="fullscreen" style="left:20px">
     <div id="logobalk" class="volledig logobalk">
-        <h2 style="padding:0; margin:0;text-align:center">Mijn Digitaal Zakboekje</h2>
-        <span style="position:absolute;left:10px;top:5px"><span onclick="toonMenu()" class="klikbaar">Menu</span></span>
+        <p style="padding:7px 0 0 0 ; margin:0;text-align:center">Mijn Digitaal Zakboekje</p>
+        <span class="header__icon" style="position:absolute;left:5px;top:5px" onclick="toonMenu()">
+            <svg width="24px" height="24px" viewBox="0 0 48 48" fill="#000">
+                <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
+            </svg>
+        </span>
+        <!--<span style="position:absolute;left:10px;top:5px"><span onclick="toonMenu()" class="klikbaar">Menu</span></span>-->
         <span style="position:absolute; right:40px; top:0">
-            <span onclick="toonMenu()">Home</span>
             <span style="position:relative; left:10px">
                 <span style="font-size:120%" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
                 <span style="position:relative; left: 20px" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
