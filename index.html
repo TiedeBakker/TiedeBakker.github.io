@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="white" />
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
     <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
@@ -71,7 +71,7 @@
 </head>
 <body class="fullscreen" style="font-size:14px">
     <div id="logobalk" class="volledig logobalk">
-        <p style="margin: .4em 0 0 0 ;text-align:center; background-color:aqua">Mijn Digitaal Zakboekje</p>
+        <p id="modulenaam"style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje</p>
         <span class="header__icon" style="position:absolute;left:.5em;top:0em" onclick="toonMenu()">
             <svg width="2em" height="2em" viewBox="0 0 48 48" fill="#000">
                 <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
@@ -156,6 +156,7 @@
             document.getElementById("main").getElementsByClassName("module")[0].remove();
             // menu zichtbaar maken
             $(".hoofdmenu").css({ "display": "block" });
+            $("#modulenaam").html("Mijn digitaal zakboekje");
         }
         function toonModule(deze) {
             // eerst module opbouwen te beginnen bij raamwerkdiv
@@ -164,6 +165,7 @@
             dezeModule.classList.add("volledig");
             dezeModule.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("modulestart")[0].innerHTML;
             $("#main").html($("#main").html() + dezeModule.outerHTML);
+            $("#modulenaam").html(document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].dataset.naam);
             // menu onzichtbaar maken
             $(".hoofdmenu").css({ "display": "none" });
             // afhankelijk van type module raamwerk verder vullen
