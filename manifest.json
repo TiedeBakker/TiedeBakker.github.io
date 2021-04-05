@@ -1,6 +1,8 @@
 {
   "name": "Hello World",
   "short_name": "Hello",
+  	"background_color": "#f5f5f5",
+	"theme_color": "#29434d",
   "icons": [{
     "src": "images/hello-icon-128.png",
       "sizes": "128x128",
