@@ -69,7 +69,7 @@
 
 
 </head>
-<body class="fullscreen" style="left:20px">
+<body class="fullscreen" style="left:20px; font-size:12px">
     <div id="logobalk" class="volledig logobalk">
         <p style="padding:7px 0 0 0 ; margin:0;text-align:center">Mijn Digitaal Zakboekje</p>
         <span class="header__icon" style="position:absolute;left:5px;top:5px" onclick="toonMenu()">
@@ -80,8 +80,8 @@
         <!--<span style="position:absolute;left:10px;top:5px"><span onclick="toonMenu()" class="klikbaar">Menu</span></span>-->
         <span style="position:absolute; right:40px; top:0">
             <span style="position:relative; left:10px">
-                <span style="font-size:120%" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
-                <span style="position:relative; left: 20px" onclick="alert('wijzig fontsize (functie maakFontSize() overhalen uit oude versie')">A</span>
+                <span style="font-size:120%" onclick="maakFontSize('+')">A</span>
+                <span style="position:relative; left: 20px" onclick="maakFontSize('-')">A</span>
             </span>
         </span>
     </div>
@@ -207,6 +207,12 @@
             $(".module").css({ "display": "none" });
             //document.getElementById("main").getElementsByClassName("module")[0].style.setProperty("display", "block");
             $(".module:first").css({ "display": "block" });
+        }
+        function maakFontSize(delta) {
+            var fontSize = $("body").css("font-size").split('px')[0];
+            if (delta == '+') fontSize *= 1.2;
+            else fontSize /= 1.2;
+            $('body').css({ "font-size": fontSize + "px" });
         }
     </script>
 
