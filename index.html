@@ -107,8 +107,30 @@
             </div>
             <div class="slide">
                 <p>Even een test voor doorbladerbare plaatjes</p>
-                <div class="fotocontainer" ontouchmove="event.stopPropagation()"  style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
-                    <p>Fotocontainer</p>
+                <div class="fotocontainer" ontouchmove="event.stopPropagation()" style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
+
+
+
+
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
+                        </div>
+                        // Add Pagination
+                        <div class="swiper-pagination swiper-pagination-v"></div>
+                        // If we need navigation buttons
+                        <div class="swiper-button-prev v-prev"></div>
+                        <div class="swiper-button-next v-next"></div>
+                    </div>
+
+
+
+
+
 
                 </div>
                 <div class="toelichtcontainer" style="position:absolute;left:20px; top:130px;right:20px;bottom:10px; background-color: rgba(0,100,0,0.3)">
@@ -221,6 +243,25 @@
                 });
                 $('.main-next').css({ "display": "none" });
                 $('.main-prev').css({ "display": "none" });
+
+
+
+                $('#main .swiper-container-v').get(0).classList.add("swiper-container-tiede");
+                $('#main .v-prev').get(0).classList.add("v-prev-tiede");
+                $('#main .v-next').get(0).classList.add("v-next-tiede");
+                $('#main .swiper-pagination-v').get(0).classList.add("swiper-pagination-tiede");
+                var swiper2 = new Swiper('.swiper-container-tiede', {
+                    spaceBetween: 0,
+                    pagination: {
+                        el: '.swiper-pagination-tiede',
+                        type: 'bullets',
+                        clickable: 'true',
+                    },
+                    navigation: {
+                        nextEl: '.v-next-tiede',
+                        prevEl: '.v-prev-tiede',
+                    },
+                });
 
             }
         }
