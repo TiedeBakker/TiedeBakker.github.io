@@ -71,7 +71,7 @@
 </head>
 <body class="fullscreen" style="font-size:14px">
     <div id="logobalk" class="volledig logobalk">
-        <p id="modulenaam"style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje</p>
+        <p id="modulenaam"style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje stop</p>
         <span class="header__icon" style="position:absolute;left:.5em;top:0em" onclick="toonMenu()">
             <svg width="2em" height="2em" viewBox="0 0 48 48" fill="#000">
                 <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
@@ -107,8 +107,9 @@
             </div>
             <div class="slide">
                 <p>Even een test voor doorbladerbare plaatjes</p>
-                <div class="fotocontainer" ontouchmove="alert('tikje')"  style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
+                <div class="fotocontainer" ontouchmove="event.stopPropagation()"  style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
                     <p>Fotocontainer</p>
+
                 </div>
                 <div class="toelichtcontainer" style="position:absolute;left:20px; top:130px;right:20px;bottom:10px; background-color: rgba(0,100,0,0.3)">
                     <p>Toelichtcontainer</p>
