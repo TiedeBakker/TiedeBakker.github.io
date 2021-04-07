@@ -91,8 +91,31 @@
     <div id="bibliotheek" style="display: none">
         <div id="MDZBModule" class="MDZBmodule" data-naam="Info over deze App">
             <div class="modulestart">
-                <h1><strong>M</strong>ijn <strong>D</strong>igitale <strong>Z</strong>ak<strong>B</strong>oek</h1>
-                <p>Deze App gebruik ik om informatie die ik altijd onder handbereik wil hebben te organiseren.</p>
+                <h1><strong>M</strong>ijn <strong>D</strong>igitale <strong>Z</strong>ak<strong>B</strong>oek (MdZb)</h1>
+                <p><span style="color:#ff0000"><span style="background-color:#ffff00">Snel aanpassen:</span></span></p>
+                <p><span style="color:#ff0000"><span style="background-color:#ffff00">Gele balk bovenin met modulenaam verdwijnt op dit moment bij scrollen; in ieder geval in deze module; ik weet nog niet wat er in slides gebeurd</span></span></p>
+                <p>Deze Progressive WebApp gebruik ik om informatie die ik altijd onder handbereik wil hebben te organiseren. MdZb bestaat uit een (eenvoudig aan te passen) aantal modules die ik voor verschillende doeleinden wil kunnen gebruiken. De modules vormen tegelijk een oefentuin voor verschillende soorten aanpak.</p>
+                <p>MdZb moet in ieder geval op Smartphone en Tablet goed functioneren. De desktop-versie is wat mij betreft een afgeleide, maar ik ga ervan uit dat die thuis ook zijn functie zal bewijzen voor modules/informatie die ik niet onderweg beschikbaar hoef te hebben, maar wel in dezelfde structuur beschikbaar wil hebben.</p>
+                <p>De modules waarmee ik op dit moment bezig ben zijn:</p>
+                <ul>
+                    <li>Recepten</li>
+                    <li>Organismen</li>
+                </ul>
+                <h1>De modules</h1>
+                <h2>Organismen</h2>
+                <h3>Vertrekpunt/idee&euml;n</h3>
+                <p>Voor de organismen module wil ik rekening houden met een grote dataset. Ik ga er voorlopig even vanuit dat ik in ieder tientallen vogels en planten op wil nemen. In de testfase wil ik in ieder geval uiteindelijk ook met 1000 organismen testen.</p>
+                <p>Van een organisme wil ik &eacute;&eacute;n of meer foto&#39;s kunnen tonen en een aantal aspecten beschrijven. Dat betekent dat een organisme-pagina uit in ieder geval drie delen bestaat:</p>
+                <ol>
+                    <li>Een kop met de naam, deze is steeds zichtbaar</li>
+                    <li>Een foto-blok waarin &eacute;&eacute;n foto zichtbaar is, maar waarin je door alle beschikbare foto&#39;s voor dit organisme kunt bladeren (swipen); dit mag globaal &frac14; - van de pagina (in portrait) innemen</li>
+                    <li>Een infoblok waarin een aantal onderwerpen worden besproken; welke dat hangt van het type organisme af. Door de infoblokken kan ook weer worden gebladerd. Het streven is dat de infoblokken zo kort zijn dat ze op de resterende ruimte van de pagina passen, maar meer info is mogelijk doordat er gescrolld kan worden binnen het infoblok. E&eacute;n van de infoblokken die ik wil verkennen is een blok met vergelijkbare soorten, die in kenmerken foto worden getoond. ook door deze foto&#39;s moet je kunnen bladeren/swipen.</li>
+                </ol>
+                <h3>Uitvoering</h3>
+                <p>Omdat een pagina voor ieder organisme apart opgebouwd moet worden lijkt het me niet verstandig om bij het startten van de WebApp of bij het starten van de module alle organismen eerst op te bouwen. Ik denk dat het mogelijk moet zijn om met drie tegelijk opgebouwde organismen te werken: de actuele, de voorafgaande en de volgende. Bij doorschuiven naar de volgende wordt de eerste van de drie weggehaald (removeSlide) en wordt een nieuwe volgende toegevoegd (appenSlide). Bij terugschuiven naar de voorafgaande wordt de laatste pagina weggewerkt (removeSlide) en wordt een nieuwe voorafgaande ingevoegd (addSlide). Je hebt dat een lijst met te tonen organismen nodig die door selectie/filter-mechanisme tot stand komt.</p>
+                <p>Dit eerst maar eens testen op performance</p>
+                <p>&nbsp;</p>
+                <h1>Gebruikte tools</h1>
                 <h2>Editor</h2>
                 <p>Voor het snel aanpassen van HTML-teksten gebruik ik een online <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/fullpreset.html">WYSIWYG-editor (CKEditor)</a>, waarin ook allerlei extra code kan worden ingevoegd. Een probleem van de broncode is dat er erg veel witregels tussen komen. Deze kan ik eventueel wegwerken met een online-tool als <a href="https://codebeautify.org/remove-empty-lines?__cf_chl_captcha_tk__=61b0672f13dcaef43ec5019be1b532124ce6c97f-1617558413-0-AdkgfqYNmikBcNpVHMePq2Ug_z37BrzZaHb0sl7fm5GwhRQ6a5EcjBbwdNMgGorb0YZJ9Yg7R05GNNB-Sy64QLam9GrBZBhWvwLQyseTn5Da7puJ5pyjv06B-KAvoljKmc7Vv_2im635ySo0GipJ9QOTC4qQoFjVSyhwQDjJcuqk3gF4ge-Aol3jGt4OJa3ZL0kWQ9kf1XkCJ-U7yO0qyr1bendjLcHl-nFFjYSXjp2EltDiTP39KdfURFbf4Bhx0VgaHhMYcQn7SCNME7Is8KzEgylwM4clPMb7Wh4qoPFPaHRZw4D9q0qZCKnHV-i_4cRinu5zqKbbwdQnLL0dqJLAAmM03qZ8X99cmBqWT5_kRfX44AHJ9hkfKwWjt8zEowh8L_oPKAeM8-rYY_8IctOnHcHfnJ_6moWF5NvCeuwfJ-WiQosXsBhGmtOFAO_o6r2J4WW-CM-tkNn2Xncy2nWUZdubD0AdGV7MLyxM59rJvNruPwwJ3TcvV7jWWIlkRaTEiPS0Q-C-kt7IXEy62NB1Go9h3rbjw1glwCWeIbE271H7EPF7bfS7Q4ze_xG3JeMef2gxgqfEiHg0Y9naDJcypgtOvlClIX2LQxXz0fMi">code verbeteraar (hij heet Code Beautify</a>.</p>
             </div>
@@ -103,7 +126,8 @@
             </div>
             <div class="slide">
                 <h1>Organismen module</h1>
-                <p>In de organismen module wil ik het mogelijk maken door een lijst met organismen te bladeren. Ook moet ik de mogelijkheid hebben een filter te zetten. Het is prettig om op elk moment het zoekvenster met &eacute;&eacute;n klik te kunnen bereiken. Bij elk organisme probeer ik &eacute;&eacute;n of meer afbeeldingen te selecteren die in het veld handig zijn. Ik moet door die individuele afbeeldingen kunnen bladeren/swipen; eventueel via een klik vooruit/achteruit</p>
+                <p>In de organismen module wil ik het mogelijk maken door een lijst met organismen te bladeren. Ook moet ik de mogelijkheid hebben een filter te zetten. Het is prettig om op elk moment het zoekvenster met &eacute;&eacute;n klik te kunnen bereiken. Bij elk organisme probeer ik &eacute;&eacute;n of meer afbeeldingen te selecteren die in het veld handig zijn. Ik moet door die individuele afbeeldingen kunnen bladeren/swipen; eventueel via een klik vooruit/achteruit. Dit laatste probeer ik eerst maar eens operationeel te krijgen.</p>
+                <p>De afbeelding staat steeds bovenaan op de pagina, eronder komen informatiebladen, die eventueel van de pagina af mogen lopen (scrollbaar dus)</p>
             </div>
             <div class="slide">
                 <p>Even een test voor doorbladerbare plaatjes</p>
@@ -213,12 +237,12 @@
             if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("swipermodule")) {
                 var swiperstring = "<div id='swiper'></div>";
                 $("#main .module").eq(0).html(swiperstring);
-                swiperstring = "<div class='swiper-container swiper-container-main'><div class='swiper-wrapper'></div>"
+                swiperstring = "<div class='swiper-container module-container'><div class='swiper-wrapper'></div>"
 
-                swiperstring += "<div class='swiper-pagination swiper-pagination-main'></div>";
+                swiperstring += "<div class='swiper-pagination module-pagination'></div>";
 
-                swiperstring += "<div class='swiper-button-prev main-prev'></div>";
-                swiperstring += "<div class='swiper-button-next main-next'></div>";
+                swiperstring += "<div class='swiper-button-prev module-prev'></div>";
+                swiperstring += "<div class='swiper-button-next module-next'></div>";
 
                 swiperstring += "</div>";
                 $("#swiper").html(swiperstring);
@@ -229,20 +253,21 @@
                     slide.classList.add("swiper-slide");
                     $('#swiper .swiper-wrapper').html($('#swiper .swiper-wrapper').html() + slide.outerHTML);
                 }
-                var swiper1 = new Swiper('.swiper-container-main', {
+                var swipercontainer = $(".module-container")[0];
+                var swiper = new Swiper(swipercontainer, {
                     spaceBetween: 0,
                     pagination: {
-                        el: '.swiper-pagination-main',
+                        el: '.module-pagination',
                         type: 'bullets',
                         clickable: 'true',
                     },
                     navigation: {
-                        nextEl: '.main-next',
-                        prevEl: '.main-prev',
+                        nextEl: '.module-next',
+                        prevEl: '.module-prev',
                     },
                 });
-                $('.main-next').css({ "display": "none" });
-                $('.main-prev').css({ "display": "none" });
+                $('.module-next').css({ "display": "none" });
+                $('.module-prev').css({ "display": "none" });
 
 
 
@@ -250,10 +275,10 @@
                 $('#main .v-prev').get(0).classList.add("v-prev-tiede");
                 $('#main .v-next').get(0).classList.add("v-next-tiede");
                 $('#main .swiper-pagination-v').get(0).classList.add("swiper-pagination-tiede");
-                var swiper2 = new Swiper('.swiper-container-tiede', {
+                var swiper = new Swiper('.fotocontainer .swiper-container', {
                     spaceBetween: 0,
                     pagination: {
-                        el: '.swiper-pagination-tiede',
+                        el: '.fotocontainer .swiper-pagination',
                         type: 'bullets',
                         clickable: 'true',
                     },
