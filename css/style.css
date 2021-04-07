@@ -29,6 +29,7 @@ html1,
     top: 0;
     right: 0;
     bottom: 0;
+    overflow:auto;
 }
 .logobalk {
     height: 2em;
