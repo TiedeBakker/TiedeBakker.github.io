@@ -23,7 +23,6 @@
 
     <script src="js/main.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
-    <script src='swipe.js'></script>
     <style>
         .klikbaar {
             cursor: pointer;
@@ -120,7 +119,7 @@
                 <p>Voor het snel aanpassen van HTML-teksten gebruik ik een online <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/fullpreset.html">WYSIWYG-editor (CKEditor)</a>, waarin ook allerlei extra code kan worden ingevoegd. Een probleem van de broncode is dat er erg veel witregels tussen komen. Deze kan ik eventueel wegwerken met een online-tool als <a href="https://codebeautify.org/remove-empty-lines?__cf_chl_captcha_tk__=61b0672f13dcaef43ec5019be1b532124ce6c97f-1617558413-0-AdkgfqYNmikBcNpVHMePq2Ug_z37BrzZaHb0sl7fm5GwhRQ6a5EcjBbwdNMgGorb0YZJ9Yg7R05GNNB-Sy64QLam9GrBZBhWvwLQyseTn5Da7puJ5pyjv06B-KAvoljKmc7Vv_2im635ySo0GipJ9QOTC4qQoFjVSyhwQDjJcuqk3gF4ge-Aol3jGt4OJa3ZL0kWQ9kf1XkCJ-U7yO0qyr1bendjLcHl-nFFjYSXjp2EltDiTP39KdfURFbf4Bhx0VgaHhMYcQn7SCNME7Is8KzEgylwM4clPMb7Wh4qoPFPaHRZw4D9q0qZCKnHV-i_4cRinu5zqKbbwdQnLL0dqJLAAmM03qZ8X99cmBqWT5_kRfX44AHJ9hkfKwWjt8zEowh8L_oPKAeM8-rYY_8IctOnHcHfnJ_6moWF5NvCeuwfJ-WiQosXsBhGmtOFAO_o6r2J4WW-CM-tkNn2Xncy2nWUZdubD0AdGV7MLyxM59rJvNruPwwJ3TcvV7jWWIlkRaTEiPS0Q-C-kt7IXEy62NB1Go9h3rbjw1glwCWeIbE271H7EPF7bfS7Q4ze_xG3JeMef2gxgqfEiHg0Y9naDJcypgtOvlClIX2LQxXz0fMi">code verbeteraar (hij heet Code Beautify</a>.</p>
             </div>
         </div>
-        <div id="organismenModule" class="MDZBmodule swipermodule" data-naam="Organismen">
+        <div id="organismenModule" class="MDZBmodule objectenmodule" data-naam="Organismen">
             <div class="modulestart">
                 organismen
             </div>
@@ -152,7 +151,79 @@
                     </div>
 
 
+                    <script>
+                        var veger =1;
+                        function maakObjectenModule(containerElement) {
+                            // er is eerst een swiper-container nodig
+                            $(containerElement).html("Testje");
+                            var HTML = "<div id='wiper' class='swiper-container tiede-container' style='position:absolute; width:100%;height:100%'>";
+                            HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+                            //HTML += "<div class='swiper-slide' style='background-color:aquamarine'>Slide 1</div>";
+                            //HTML += "<div class='swiper-slide'>Vertical Slide 2</div>";
+                            //HTML += "<div class='swiper-slide'>Vertical Slide 3</div>";
+                            //HTML += "<div class='swiper-slide'>Vertical Slide 4</div>";
+                            //HTML += "<div class='swiper-slide'>Vertical Slide 5</div>";
+                            //HTML += "<div class='swiper-slide'>Vertical Slide 6</div>";
+                            //HTML += "<div class='swiper-slide'; style='background-color:grey'>Vertical Slide 7</div>";
+                            //HTML += "<div class='swiper-slide'; style='background-color:grey'>Vertical Slide 8</div>";
+                            HTML += '</div>';
+                            // Add Pagination
+                            HTML += "<div class='swiper-pagination'></div>";
+                            HTML += '</div>';
+                            $(containerElement).html(HTML);
+                                                       
 
+                            var swipercontainer = containerElement.getElementsByClassName("swiper-container")[0];
+                            var paginas = containerElement.getElementsByClassName("swiper-pagination")[0];
+                            veger = new Swiper('.tiede-container', {
+                                spaceBetween: 10,
+                                pagination: {
+                                    el: paginas,
+                                    type: 'bullets',
+                                    clickable: 'true',
+                                },
+                            //    navigation: {
+                            //        nextEl: '.module-next',
+                            //        prevEl: '.module-prev',
+                            //    },
+                            });
+
+                            // eerste 3 slides toevoegen
+                            var nummer = 3;
+                            veger.appendSlide('<div class="swiper-slide" data-slideid = 1 >pagina 1</div>');
+                            veger.appendSlide('<div class="swiper-slide" data-slideid = 2 >pagina 2</div>');
+                            veger.appendSlide('<div class="swiper-slide" data-slideid = 3 >pagina 3</div>');
+                        //    swipercontainer.swiper.appendSlide('<div class="swiper-slide">pagina 2</div>');
+                            veger.on('slideChange', function () {
+                                if (this.activeIndex == 2) {
+                                    var nweslide = geefSlide(Number(this.slides[this.activeIndex].dataset.slideid) + 1);
+                                    if (nweslide != "") {
+                                        this.removeSlide(0);
+                                        this.appendSlide(nweslide);
+                                    }
+                                }
+                                if (this.activeIndex == 0 ) {
+                                    var nweslide = geefSlide(Number(this.slides[this.activeIndex].dataset.slideid) - 1);
+                                    if (nweslide != "") {
+                                        this.removeSlide(2);
+                                        this.prependSlide(nweslide);
+                                    }
+                                }
+                            })
+
+                        //    veger.removeSlide(3);
+                        }
+
+                        function geefSlide(nummer) {
+                            var resultaat = "";
+                            if (nummer > 0) {
+                                if (nummer <= 20) {
+                                    resultaat = '<div class="swiper-slide" data-slideid = ' + nummer + '>pagina ' + nummer + '</div>';
+                                }
+                            }
+                            return resultaat;
+                        }
+                    </script>
 
 
 
@@ -228,6 +299,7 @@
             var dezeModule = document.createElement("div");
             dezeModule.classList.add("module");
             dezeModule.classList.add("volledig");
+
             dezeModule.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("modulestart")[0].innerHTML;
             $("#main").html($("#main").html() + dezeModule.outerHTML);
             $("#modulenaam").html(document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].dataset.naam);
@@ -288,6 +360,9 @@
                     },
                 });
 
+            }
+            if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("objectenmodule")) {
+                maakObjectenModule($("#main .module")[0]);
             }
         }
         function toonHoofdMenu() {
