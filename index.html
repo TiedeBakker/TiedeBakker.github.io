@@ -92,31 +92,48 @@
         <div id="MDZBModule" class="MDZBmodule" data-naam="Info over deze App">
             <div class="modulestart">
                 <h1><strong>M</strong>ijn <strong>D</strong>igitale <strong>Z</strong>ak<strong>B</strong>oek (MdZb)</h1>
-                <p><span style="color:#ff0000"><span style="background-color:#ffff00">Snel aanpassen:</span></span></p>
-                <p><span style="color:#ff0000"><span style="background-color:#ffff00">Gele balk bovenin met modulenaam verdwijnt op dit moment bij scrollen; in ieder geval in deze module; ik weet nog niet wat er in slides gebeurd</span></span></p>
+
+                <p><span style="color:#ff0000"><span style="background-color:#ffff00">Snel aanpassen:&nbsp; Even niets actueel</span></span></p>
+
                 <p>Deze Progressive WebApp gebruik ik om informatie die ik altijd onder handbereik wil hebben te organiseren. MdZb bestaat uit een (eenvoudig aan te passen) aantal modules die ik voor verschillende doeleinden wil kunnen gebruiken. De modules vormen tegelijk een oefentuin voor verschillende soorten aanpak.</p>
+
                 <p>MdZb moet in ieder geval op Smartphone en Tablet goed functioneren. De desktop-versie is wat mij betreft een afgeleide, maar ik ga ervan uit dat die thuis ook zijn functie zal bewijzen voor modules/informatie die ik niet onderweg beschikbaar hoef te hebben, maar wel in dezelfde structuur beschikbaar wil hebben.</p>
+
                 <p>De modules waarmee ik op dit moment bezig ben zijn:</p>
+
                 <ul>
                     <li>Recepten</li>
                     <li>Organismen</li>
                 </ul>
+
                 <h1>De modules</h1>
+
                 <h2>Organismen</h2>
+
                 <h3>Vertrekpunt/idee&euml;n</h3>
+
                 <p>Voor de organismen module wil ik rekening houden met een grote dataset. Ik ga er voorlopig even vanuit dat ik in ieder tientallen vogels en planten op wil nemen. In de testfase wil ik in ieder geval uiteindelijk ook met 1000 organismen testen.</p>
+
                 <p>Van een organisme wil ik &eacute;&eacute;n of meer foto&#39;s kunnen tonen en een aantal aspecten beschrijven. Dat betekent dat een organisme-pagina uit in ieder geval drie delen bestaat:</p>
+
                 <ol>
                     <li>Een kop met de naam, deze is steeds zichtbaar</li>
                     <li>Een foto-blok waarin &eacute;&eacute;n foto zichtbaar is, maar waarin je door alle beschikbare foto&#39;s voor dit organisme kunt bladeren (swipen); dit mag globaal &frac14; - van de pagina (in portrait) innemen</li>
                     <li>Een infoblok waarin een aantal onderwerpen worden besproken; welke dat hangt van het type organisme af. Door de infoblokken kan ook weer worden gebladerd. Het streven is dat de infoblokken zo kort zijn dat ze op de resterende ruimte van de pagina passen, maar meer info is mogelijk doordat er gescrolld kan worden binnen het infoblok. E&eacute;n van de infoblokken die ik wil verkennen is een blok met vergelijkbare soorten, die in kenmerken foto worden getoond. ook door deze foto&#39;s moet je kunnen bladeren/swipen.</li>
                 </ol>
+
                 <h3>Uitvoering</h3>
+
                 <p>Omdat een pagina voor ieder organisme apart opgebouwd moet worden lijkt het me niet verstandig om bij het startten van de WebApp of bij het starten van de module alle organismen eerst op te bouwen. Ik denk dat het mogelijk moet zijn om met drie tegelijk opgebouwde organismen te werken: de actuele, de voorafgaande en de volgende. Bij doorschuiven naar de volgende wordt de eerste van de drie weggehaald (removeSlide) en wordt een nieuwe volgende toegevoegd (appenSlide). Bij terugschuiven naar de voorafgaande wordt de laatste pagina weggewerkt (removeSlide) en wordt een nieuwe voorafgaande ingevoegd (addSlide). Je hebt dat een lijst met te tonen organismen nodig die door selectie/filter-mechanisme tot stand komt.</p>
+
                 <p>Dit eerst maar eens testen op performance</p>
+
                 <p>&nbsp;</p>
+
                 <h1>Gebruikte tools</h1>
+
                 <h2>Editor</h2>
+
                 <p>Voor het snel aanpassen van HTML-teksten gebruik ik een online <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/fullpreset.html">WYSIWYG-editor (CKEditor)</a>, waarin ook allerlei extra code kan worden ingevoegd. Een probleem van de broncode is dat er erg veel witregels tussen komen. Deze kan ik eventueel wegwerken met een online-tool als <a href="https://codebeautify.org/remove-empty-lines?__cf_chl_captcha_tk__=61b0672f13dcaef43ec5019be1b532124ce6c97f-1617558413-0-AdkgfqYNmikBcNpVHMePq2Ug_z37BrzZaHb0sl7fm5GwhRQ6a5EcjBbwdNMgGorb0YZJ9Yg7R05GNNB-Sy64QLam9GrBZBhWvwLQyseTn5Da7puJ5pyjv06B-KAvoljKmc7Vv_2im635ySo0GipJ9QOTC4qQoFjVSyhwQDjJcuqk3gF4ge-Aol3jGt4OJa3ZL0kWQ9kf1XkCJ-U7yO0qyr1bendjLcHl-nFFjYSXjp2EltDiTP39KdfURFbf4Bhx0VgaHhMYcQn7SCNME7Is8KzEgylwM4clPMb7Wh4qoPFPaHRZw4D9q0qZCKnHV-i_4cRinu5zqKbbwdQnLL0dqJLAAmM03qZ8X99cmBqWT5_kRfX44AHJ9hkfKwWjt8zEowh8L_oPKAeM8-rYY_8IctOnHcHfnJ_6moWF5NvCeuwfJ-WiQosXsBhGmtOFAO_o6r2J4WW-CM-tkNn2Xncy2nWUZdubD0AdGV7MLyxM59rJvNruPwwJ3TcvV7jWWIlkRaTEiPS0Q-C-kt7IXEy62NB1Go9h3rbjw1glwCWeIbE271H7EPF7bfS7Q4ze_xG3JeMef2gxgqfEiHg0Y9naDJcypgtOvlClIX2LQxXz0fMi">code verbeteraar (hij heet Code Beautify</a>.</p>
             </div>
         </div>
@@ -153,20 +170,11 @@
 
 
                     <script>
-                        var veger =1;
                         function maakObjectenModule(containerElement) {
                             // er is eerst een swiper-container nodig
                             $(containerElement).html("Testje");
                             var HTML = "<div id='wiper' class='swiper-container tiede-container' style='position:absolute; width:100%;height:100%'>";
                             HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
-                            //HTML += "<div class='swiper-slide' style='background-color:aquamarine'>Slide 1</div>";
-                            //HTML += "<div class='swiper-slide'>Vertical Slide 2</div>";
-                            //HTML += "<div class='swiper-slide'>Vertical Slide 3</div>";
-                            //HTML += "<div class='swiper-slide'>Vertical Slide 4</div>";
-                            //HTML += "<div class='swiper-slide'>Vertical Slide 5</div>";
-                            //HTML += "<div class='swiper-slide'>Vertical Slide 6</div>";
-                            //HTML += "<div class='swiper-slide'; style='background-color:grey'>Vertical Slide 7</div>";
-                            //HTML += "<div class='swiper-slide'; style='background-color:grey'>Vertical Slide 8</div>";
                             HTML += '</div>';
                             // Add Pagination
                             HTML += "<div class='swiper-pagination'></div>";
@@ -176,7 +184,7 @@
 
                             var swipercontainer = containerElement.getElementsByClassName("swiper-container")[0];
                             var paginas = containerElement.getElementsByClassName("swiper-pagination")[0];
-                            veger = new Swiper('.tiede-container', {
+                            var veger = new Swiper(swipercontainer, {
                                 spaceBetween: 10,
                                 pagination: {
                                     el: paginas,
@@ -195,7 +203,7 @@
                             veger.appendSlide('<div class="swiper-slide" data-slideid = 2 >pagina 2</div>');
                             veger.appendSlide('<div class="swiper-slide" data-slideid = 3 >pagina 3</div>');
                         //    swipercontainer.swiper.appendSlide('<div class="swiper-slide">pagina 2</div>');
-                            veger.on('slideChange', function () {
+                            veger.on('slideChangeTransitionEnd', function () {
                                 if (this.activeIndex == 2) {
                                     var nweslide = geefSlide(Number(this.slides[this.activeIndex].dataset.slideid) + 1);
                                     if (nweslide != "") {
