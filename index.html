@@ -264,10 +264,16 @@
                         resultaat = '<div class="swiper-slide" data-slideid = ' + nummer + '>';
                         resultaat += '<div class="organisme-header">' + organisme.dataset.naam + '</div>';
                         resultaat += '<div class="organisme-content">';
-                        resultaat += '<div class="organisme-fotovenster">';
+                        resultaat += '<div class="organisme-fotovenster" ontouchmove="event.stopPropagation()">';
                         // foto-swiper
                         resultaat += "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
                         resultaat += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+
+                        resultaat += '<div class="swiper-slide">Slide 1</div>';
+                        resultaat += '<div class="swiper-slide">Slide 2</div>';
+                        resultaat += '<div class="swiper-slide">Slide 3</div>';
+
+
                         resultaat += '</div>';
                         // Add Pagination
                         resultaat += "<div class='swiper-pagination'></div>";
@@ -449,7 +455,20 @@
                 }
             })
             function zetFotoSwiper(slideid) {
-                $(containerElement).find("[data-slideid=" + slideid + "]").find(".swiper-wrapper").html(slideid);
+                $(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-wrapper").html(slideid);
+                var paginas = $(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-pagination")
+                var fotoswiper = new Swiper($(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-container"), {
+                    spaceBetween: 50,
+                //    pagination: {
+                //        el: paginas,
+                //        type: 'bullets',
+                //        clickable: 'true',
+                //    },
+                });
+            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide</div>');
+            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 2</div>');
+            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 3</div>');
+            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 4</div>');
             }
         }
     </script>
