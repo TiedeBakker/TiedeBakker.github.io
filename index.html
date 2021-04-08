@@ -71,7 +71,7 @@
 </head>
 <body class="fullscreen" style="font-size:14px">
     <div id="logobalk" class="volledig logobalk">
-        <p id="modulenaam"style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje stop</p>
+        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje stop</p>
         <span class="header__icon" style="position:absolute;left:.5em;top:0em" onclick="toonMenu()">
             <svg width="2em" height="2em" viewBox="0 0 48 48" fill="#000">
                 <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
@@ -86,7 +86,7 @@
         </span>
     </div>
     <div id="main" class="maincontent" style="margin:10px;padding:20px; background-color:green">
-        
+
     </div>
     <div id="bibliotheek" style="display: none">
         <div id="MDZBModule" class="MDZBmodule" data-naam="Info over deze App">
@@ -168,74 +168,6 @@
                         <div class="swiper-button-next v-next"></div>
                     </div>
 
-
-                    <script>
-                        function maakObjectenModule(containerElement) {
-                            // er is eerst een swiper-container nodig
-                            $(containerElement).html("Testje");
-                            var HTML = "<div id='wiper' class='swiper-container tiede-container' style='position:absolute; width:100%;height:100%'>";
-                            HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
-                            HTML += '</div>';
-                            // Add Pagination
-                            HTML += "<div class='swiper-pagination'></div>";
-                            HTML += '</div>';
-                            $(containerElement).html(HTML);
-                                                       
-
-                            var swipercontainer = containerElement.getElementsByClassName("swiper-container")[0];
-                            var paginas = containerElement.getElementsByClassName("swiper-pagination")[0];
-                            var veger = new Swiper(swipercontainer, {
-                                spaceBetween: 10,
-                                pagination: {
-                                    el: paginas,
-                                    type: 'bullets',
-                                    clickable: 'true',
-                                },
-                            //    navigation: {
-                            //        nextEl: '.module-next',
-                            //        prevEl: '.module-prev',
-                            //    },
-                            });
-
-                            // eerste 3 slides toevoegen
-                            var nummer = 3;
-                            veger.appendSlide('<div class="swiper-slide" data-slideid = 1 >pagina 1</div>');
-                            veger.appendSlide('<div class="swiper-slide" data-slideid = 2 >pagina 2</div>');
-                            veger.appendSlide('<div class="swiper-slide" data-slideid = 3 >pagina 3</div>');
-                        //    swipercontainer.swiper.appendSlide('<div class="swiper-slide">pagina 2</div>');
-                            veger.on('slideChangeTransitionEnd', function () {
-                                if (this.activeIndex == 2) {
-                                    var nweslide = geefSlide(Number(this.slides[this.activeIndex].dataset.slideid) + 1);
-                                    if (nweslide != "") {
-                                        this.removeSlide(0);
-                                        this.appendSlide(nweslide);
-                                    }
-                                }
-                                if (this.activeIndex == 0 ) {
-                                    var nweslide = geefSlide(Number(this.slides[this.activeIndex].dataset.slideid) - 1);
-                                    if (nweslide != "") {
-                                        this.removeSlide(2);
-                                        this.prependSlide(nweslide);
-                                    }
-                                }
-                            })
-
-                        //    veger.removeSlide(3);
-                        }
-
-                        function geefSlide(nummer) {
-                            var resultaat = "";
-                            if (nummer > 0) {
-                                if (nummer <= 20) {
-                                    resultaat = '<div class="swiper-slide" data-slideid = ' + nummer + '>pagina ' + nummer + '</div>';
-                                }
-                            }
-                            return resultaat;
-                        }
-                    </script>
-
-
-
                 </div>
                 <div class="toelichtcontainer" style="position:absolute;left:20px; top:130px;right:20px;bottom:10px; background-color: rgba(0,100,0,0.3)">
                     <p>Toelichtcontainer</p>
@@ -269,20 +201,96 @@
             <div class="slide">Eerste</div>
             <div class="slide">tweede</div>
         </div>
-    </div>
+        <div id="organismenbibliotheek">
+            <div id="organisme_1" class="organisme" data-naam="Eerste organisme">
 
+            </div>
+            <div id="organisme_2" class="organisme" data-naam="Tweede organisme">
+
+            </div>
+            <div id="organisme_3" class="organisme" data-naam="Derde organisme">
+
+            </div>
+            <div id="organisme_4" class="organisme" data-naam="Organisme nummer vier">
+
+            </div>
+            <div id="organisme_5" class="organisme" data-naam="Vijfde organisme">
+
+            </div>
+            <div id="organisme_6" class="organisme" data-naam="Zesde organisme">
+
+            </div>
+        </div>
+    </div>
+    <style>
+        .organisme-header, .organisme-content, .organisme-fotovenster, .organisme-infovenster {
+            position:absolute;
+            left:0px;
+            right:0px;
+            top:0px;
+            bottom:0px;
+        }
+        .organisme-header {
+            background-color:antiquewhite;
+            text-align:center;
+            height:2em;
+        }
+        .organisme-content {
+            top: 2em;
+            background-color:green;
+        }
+        .organisme-fotovenster {
+            background-color: aqua;
+            bottom: 75%;
+        }
+        .organisme-infovenster {
+            background-color:azure;
+            top:25%;
+        }
+    </style>
     <script>
-        window.Mijnswiper1;
         $(document).ready(function () {
             initMDZB();
 
         })
+
+        var organismenSet = {
+            organismenLijst: [],
+            geefOrganisme: function (nummer) {
+                var resultaat = "";
+                if (nummer > 0) {
+                    if (nummer <= this.organismenLijst.length) {
+                        var organisme = document.getElementById(this.organismenLijst[nummer - 1]);
+                        resultaat = '<div class="swiper-slide" data-slideid = ' + nummer + '>';
+                        resultaat += '<div class="organisme-header">' + organisme.dataset.naam + '</div>';
+                        resultaat += '<div class="organisme-content">';
+                        resultaat += '<div class="organisme-fotovenster">';
+                        // foto-swiper
+                        resultaat += "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
+                        resultaat += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+                        resultaat += '</div>';
+                        // Add Pagination
+                        resultaat += "<div class='swiper-pagination'></div>";
+                        resultaat += '</div>';
+                        resultaat += 'foto</div>';
+                        resultaat += '<div class="organisme-infovenster">info</div>';
+                        resultaat += '</div>';
+                        resultaat += '</div>';
+                    }
+                }
+                return resultaat;
+            }
+        };
+
+        organismenSet.organismenLijst = ["organisme_1", "organisme_3", "organisme_2", "organisme_4", "organisme_5", "organisme_6"];
+        //organismenSet.organismenLijst.push("Acht");
+
         function initMDZB() {
             // eerst hoofdmenu opbouwen en in main zetten
             var menu = document.createElement("div");
             menu.classList.add("hoofdmenu");
             menu.classList.add("volledig");
-            $(menu).css({"background-color":"white"});
+            $(menu).css({ "background-color": "white" });
             var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
             var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
             for (x = 0; x < modules.length; x++) {
@@ -384,6 +392,66 @@
             if (delta == '+') fontSize *= 1.2;
             else fontSize /= 1.2;
             $('body').css({ "font-size": fontSize + "px" });
+        }
+        function maakObjectenModule(containerElement) {
+            // er is eerst een swiper-container nodig
+            $(containerElement).html("Testje");
+            var HTML = "<div class='swiper-container tiede-container' style='position:absolute; width:100%;height:100%'>";
+            HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+            HTML += '</div>';
+            // Add Pagination
+            HTML += "<div class='swiper-pagination'></div>";
+            HTML += '</div>';
+            $(containerElement).html(HTML);
+
+
+            var swipercontainer = containerElement.getElementsByClassName("swiper-container")[0];
+            var paginas = containerElement.getElementsByClassName("swiper-pagination")[0];
+            var veger = new Swiper(swipercontainer, {
+                spaceBetween: 10,
+                pagination: {
+                    el: paginas,
+                    type: 'bullets',
+                    clickable: 'true',
+                },
+                //    navigation: {
+                //        nextEl: '.module-next',
+                //        prevEl: '.module-prev',
+                //    },
+            });
+
+            // eerste 3 slides toevoegen
+            veger.appendSlide(organismenSet.geefOrganisme(1));
+            veger.appendSlide(organismenSet.geefOrganisme(2));
+            veger.appendSlide(organismenSet.geefOrganisme(3));
+            veger.on('slideChangeTransitionEnd', function () {
+                var nweslide = "";
+                if (this.activeIndex == 2) {
+                    nweslide = organismenSet.geefOrganisme(Number(this.slides[this.activeIndex].dataset.slideid) + 1);
+                    if (nweslide != "") {
+                        this.removeSlide(0);
+                        this.appendSlide(nweslide);
+                        nweslide = Number(this.slides[this.activeIndex].dataset.slideid) + 1;
+                    }
+                }
+                if (this.activeIndex == 0) {
+                    nweslide = organismenSet.geefOrganisme(Number(this.slides[this.activeIndex].dataset.slideid) - 1);
+                    if (nweslide != "") {
+                        this.removeSlide(2);
+                        this.prependSlide(nweslide);
+                        nweslide = Number(this.slides[this.activeIndex].dataset.slideid) - 1;
+                    }
+                }
+                alert(nweslide);
+                if (nweslide != "") {
+                    // dit moet een aparte functie worden; ook bij veger.append nodig
+                    // dan bevat nweslide de id van de toegevoegde
+                    zetFotoSwiper(nweslide);
+                }
+            })
+            function zetFotoSwiper(slideid) {
+                $(containerElement).find("[data-slideid=" + slideid + "]").find(".swiper-wrapper").html(slideid);
+            }
         }
     </script>
 
