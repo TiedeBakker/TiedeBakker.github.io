@@ -71,7 +71,7 @@
 </head>
 <body class="fullscreen" style="font-size:14px">
     <div id="logobalk" class="volledig logobalk">
-        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn  Zakboekje stop</p>
+        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje stop</p>
         <span class="header__icon" style="position:absolute;left:.5em;top:0em" onclick="toonMenu()">
             <svg width="2em" height="2em" viewBox="0 0 48 48" fill="#000">
                 <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
@@ -148,7 +148,7 @@
             </div>
             <div class="slide">
                 <p>Even een test voor doorbladerbare plaatjes</p>
-                <div class="fotocontainer" ontouchmove="event.stopPropagation()" style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
+                <div class="fotocontainer" onmousemove="event.stopPropagation()" ontouchmove="event.stopPropagation()" style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
 
 
 
@@ -180,6 +180,11 @@
             </div>
             <div class="slide">Eerste</div>
             <div class="slide">tweede</div>
+        </div>
+        <div id="nieuweOrganismenModule" class="MDZBmodule menumodule" data-naam="Alternatieve organismen module">
+            <div class="modulestart">
+                Alternatief voor organismen
+            </div>
         </div>
         <div id="markerwaddenModule" class="MDZBmodule swipermodule" data-naam="Marker Wadden module">
             <div class="modulestart">
@@ -387,6 +392,9 @@
             if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("objectenmodule")) {
                 maakObjectenModule($("#main .module")[0]);
             }
+            if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("menumodule")) {
+                maakMenuModule($("#main .module")[0]);
+            }
         }
         function toonHoofdMenu() {
             $(".module").css({ "display": "none" });
@@ -398,6 +406,11 @@
             if (delta == '+') fontSize *= 1.2;
             else fontSize /= 1.2;
             $('body').css({ "font-size": fontSize + "px" });
+        }
+
+        function maakMenuModule(containerElement) {
+            // eerst menu-scherm aanmaken en ruimte voor organismen die komen voorschuiven
+            $(containerElement).html("Hier ben ik bezig");
         }
         function maakObjectenModule(containerElement) {
             // er is eerst een swiper-container nodig
@@ -430,6 +443,9 @@
             veger.appendSlide(organismenSet.geefOrganisme(1));
             veger.appendSlide(organismenSet.geefOrganisme(2));
             veger.appendSlide(organismenSet.geefOrganisme(3));
+            veger.on('sliderFirstMove', function () {
+    //            alert("Move");
+            });
             veger.on('slideChangeTransitionEnd', function () {
                 var nweslide = "";
                 if (this.activeIndex == 2) {
@@ -455,17 +471,26 @@
                 }
             })
             function zetFotoSwiper(slideid) {
-                $(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-wrapper").html(slideid);
-                var paginas = $(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-pagination")
-                var fotoswiper = new Swiper($(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-container"), {
+                //alert("TTT");
+                //$(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-wrapper").html(slideid);
+
+                var swipercontainer = $(containerElement).find("[data-slideid=" + slideid + "]")[0].getElementsByClassName('organisme-fotovenster')[0].getElementsByClassName('swiper-container')[0];
+                var paginas = $(containerElement).find("[data-slideid=" + slideid + "]")[0].getElementsByClassName('organisme-fotovenster')[0].getElementsByClassName('swiper-pagination')[0];
+                var fotoswiper = new Swiper(swipercontainer, {
                     spaceBetween: 50,
-                    touchMoveStopPropagation:true,
-                //    pagination: {
-                //        el: paginas,
-                //        type: 'bullets',
-                //        clickable: 'true',
-                //    },
+                    //touchMoveStopPropagation:true,
+                    pagination: {
+                        el: paginas,
+                        type: 'bullets',
+                        clickable: 'true',
+                    },
                 });
+                fotoswiper.on('sliderFirstMove', function () {
+                    alert("Move foto");
+                });
+//                alert("Test");
+  //              alert(fotoswiper.slides.length);
+
             //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide</div>');
             //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 2</div>');
             //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 3</div>');
