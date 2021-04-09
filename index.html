@@ -229,28 +229,32 @@
     </div>
     <style>
         .organisme-header, .organisme-content, .organisme-fotovenster, .organisme-infovenster {
-            position:absolute;
-            left:0px;
-            right:0px;
-            top:0px;
-            bottom:0px;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
         }
+
         .organisme-header {
-            background-color:antiquewhite;
-            text-align:center;
-            height:2em;
+            background-color: antiquewhite;
+            text-align: center;
+            height: 2em;
         }
+
         .organisme-content {
             top: 2em;
-            background-color:green;
+            background-color: green;
         }
+
         .organisme-fotovenster {
             background-color: aqua;
             bottom: 75%;
         }
+
         .organisme-infovenster {
-            background-color:azure;
-            top:25%;
+            background-color: azure;
+            top: 25%;
         }
     </style>
     <script>
@@ -410,8 +414,79 @@
         }
 
         function maakMenuModule(containerElement) {
-            // eerst menu-scherm aanmaken en ruimte voor organismen die komen voorschuiven
-            $(containerElement).html("Hier ben ik bezig");
+            // een menu-module bestaat uit twee pagina's:
+            // - de eerste pagina geeft een lijst met alle beschikbare items; de pagina heeft ook een selectie/filter mogelijkheid (schuift naar beneden)
+            // - op de tweede pagina kan een gekozen item worden getoond en deze pagina kan weer weggeschoven worden om menu terug te krijgen
+
+            // Eerst een swiper initialiseren
+            var menuSwiper = maakSwiper(containerElement, true, true, true);
+            // default niet mogelijk om van menu via swipe bij item te komen
+            menuSwiper.allowSlideNext = false;
+            // twee pagina's aanmaken
+            menuSwiper.appendSlide('<div class="swiper-slide menu-pagina">Menu</div>');
+            menuSwiper.appendSlide('<div class="swiper-slide item-pagina">Item</div>');
+            // vul menu
+            var menuPagina = containerElement.getElementsByClassName("menu-pagina")[0];
+            var itemPagina = containerElement.getElementsByClassName("item-pagina")[0];
+            vulMenuPagina(menuSwiper, menuPagina, window.organismenSet, "");
+        }
+        function vulMenuPagina(dezeSwiper, paginaElt, bron, filter) {
+            var filterDiv = "<div class='filtervenster'>Filter</div>";
+            var menuDiv = "<div class='menuVenster'>";
+            menuDiv += "<h1>Menu-items</h1>";
+            for (var x = 0; x < bron.organismenLijst.length; x++) {
+                menuDiv += "<p onclick='toonItem(this)' data-itemid=" + bron.organismenLijst[x] + ">" + bron.organismenLijst[x] + "</p>";
+            }
+            menuDiv += "</div>";
+
+            paginaElt.innerHTML = filterDiv + menuDiv;
+        }
+
+        function toonItem(deze) {
+            // alert($(deze).closest(".menu-pagina").next().html());
+
+            // slide next; deze moet eerst voorbereid met allow slidenext
+            var swiper = $(deze).closest(".swiper-container")[0].swiper;
+            swiper.allowSlideNext = true;
+            swiper.slideNext();
+            swiper.allowSlideNext = false;
+        }
+
+ 
+
+        function maakSwiper(containerVoorSwiper, pag = false, nav = false) {
+            var nweSwiper;
+            var HTML = "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
+            HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+            HTML += '</div>';
+            // Add Pagination
+            HTML += "<div class='swiper-pagination'></div>";
+            HTML += '</div>';
+            // If we need navigation buttons
+            HTML += '<div class="swiper-button-prev"></div>';
+            HTML += '<div class="swiper-button-next"></div>';
+            // If we need scrollbar
+            //HTML += '<div class="swiper-scrollbar"></div>';
+            $(containerVoorSwiper).html(HTML);
+            var swiperContainer = containerVoorSwiper.getElementsByClassName("swiper-container")[0];
+            var paginas = containerVoorSwiper.getElementsByClassName("swiper-pagination")[0];
+            var toonnext = containerVoorSwiper.getElementsByClassName("swiper-button-next")[0];
+            var toonprev = containerVoorSwiper.getElementsByClassName("swiper-button-prev")[0];
+
+            nweSwiper = new Swiper(swiperContainer, {
+                spaceBetween: 10,
+                touchMoveStopPropagation: true,
+                pagination: {
+                    el: paginas,
+                    type: 'bullets',
+                    clickable: 'true',
+                },
+                navigation: {
+                    nextEl: toonnext,
+                    prevEl: toonprev,
+                },
+            });
+            return nweSwiper
         }
         function maakObjectenModule(containerElement) {
             // er is eerst een swiper-container nodig
@@ -473,7 +548,7 @@
                 var paginas = $(containerElement).find("[data-slideid=" + slideid + "]")[0].getElementsByClassName('organisme-fotovenster')[0].getElementsByClassName('swiper-pagination')[0];
                 var fotoswiper = new Swiper(swipercontainer, {
                     spaceBetween: 50,
-                    touchMoveStopPropagation:true,
+                    touchMoveStopPropagation: true,
                     pagination: {
                         el: paginas,
                         type: 'bullets',
@@ -481,13 +556,32 @@
                     },
                 });
 
-            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide</div>');
-            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 2</div>');
-            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 3</div>');
-            //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 4</div>');
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide</div>');
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 2</div>');
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 3</div>');
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 4</div>');
             }
         }
     </script>
+    <style>
+        .filtervenster {
+            position: absolute;
+            left:0;
+            right:0;
+            top:0;
+            height:1.5em;
+            background-color:honeydew;
+        }
+        .menuVenster {
+            position:absolute;
+            left:0;
+            right:0;
+            bottom:0;
+            top:1.5em;
+            overflow:auto;
+            background-color:lightgoldenrodyellow;
+        }
+    </style>
 
     <!--<div id="content" class="volledig pagina" style="background-color:cornsilk; display:none">
         <div class="swiper-container swiper-container-h">
