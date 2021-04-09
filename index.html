@@ -71,7 +71,7 @@
 </head>
 <body class="fullscreen" style="font-size:14px">
     <div id="logobalk" class="volledig logobalk">
-        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje stop</p>
+        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn Zakboekje stop</p>
         <span class="header__icon" style="position:absolute;left:.5em;top:0em" onclick="toonMenu()">
             <svg width="2em" height="2em" viewBox="0 0 48 48" fill="#000">
                 <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
@@ -148,32 +148,33 @@
             </div>
             <div class="slide">
                 <p>Even een test voor doorbladerbare plaatjes</p>
-                <div class="fotocontainer" onmousemove="event.stopPropagation()" ontouchmove="event.stopPropagation()" style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
+                <div class="fotocontainer" onmousemove="event.stopPropagation()" style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
+                    //                    <div class="fotocontainer" onmousemove="event.stopPropagation()" ontouchmove="event.stopPropagation()" style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
 
 
 
 
-                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
-                        <div class="swiper-wrapper" style="background-color:aquamarine">
-                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
-                            <div class="swiper-slide">Vertical Slide 2</div>
-                            <div class="swiper-slide">Vertical Slide 3</div>
-                            <div class="swiper-slide">Vertical Slide 4</div>
-                            <div class="swiper-slide">Vertical Slide 5</div>
+                        <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                            <div class="swiper-wrapper" style="background-color:aquamarine">
+                                <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
+                                <div class="swiper-slide">Vertical Slide 2</div>
+                                <div class="swiper-slide">Vertical Slide 3</div>
+                                <div class="swiper-slide">Vertical Slide 4</div>
+                                <div class="swiper-slide">Vertical Slide 5</div>
+                            </div>
+                            // Add Pagination
+                            <div class="swiper-pagination swiper-pagination-v"></div>
+                            // If we need navigation buttons
+                            <div class="swiper-button-prev v-prev"></div>
+                            <div class="swiper-button-next v-next"></div>
                         </div>
-                        // Add Pagination
-                        <div class="swiper-pagination swiper-pagination-v"></div>
-                        // If we need navigation buttons
-                        <div class="swiper-button-prev v-prev"></div>
-                        <div class="swiper-button-next v-next"></div>
-                    </div>
 
-                </div>
-                <div class="toelichtcontainer" style="position:absolute;left:20px; top:130px;right:20px;bottom:10px; background-color: rgba(0,100,0,0.3)">
-                    <p>Toelichtcontainer</p>
+                    </div>
+                    <div class="toelichtcontainer" style="position:absolute;left:20px; top:130px;right:20px;bottom:10px; background-color: rgba(0,100,0,0.3)">
+                        <p>Toelichtcontainer</p>
+                    </div>
                 </div>
             </div>
-        </div>
         <div id="receptenModule" class="MDZBmodule swipermodule" data-naam="Recepten module">
             <div class="modulestart">
                 recepten
@@ -443,8 +444,6 @@
             veger.appendSlide(organismenSet.geefOrganisme(1));
             veger.appendSlide(organismenSet.geefOrganisme(2));
             veger.appendSlide(organismenSet.geefOrganisme(3));
-            veger.on('sliderFirstMove', function () {
-    //            alert("Move");
             });
             veger.on('slideChangeTransitionEnd', function () {
                 var nweslide = "";
@@ -471,25 +470,17 @@
                 }
             })
             function zetFotoSwiper(slideid) {
-                //alert("TTT");
-                //$(containerElement).find("[data-slideid=" + slideid + "]").find(".organisme-fotovenster .swiper-wrapper").html(slideid);
-
                 var swipercontainer = $(containerElement).find("[data-slideid=" + slideid + "]")[0].getElementsByClassName('organisme-fotovenster')[0].getElementsByClassName('swiper-container')[0];
                 var paginas = $(containerElement).find("[data-slideid=" + slideid + "]")[0].getElementsByClassName('organisme-fotovenster')[0].getElementsByClassName('swiper-pagination')[0];
                 var fotoswiper = new Swiper(swipercontainer, {
                     spaceBetween: 50,
-                    //touchMoveStopPropagation:true,
+                    touchMoveStopPropagation:true,
                     pagination: {
                         el: paginas,
                         type: 'bullets',
                         clickable: 'true',
                     },
                 });
-                fotoswiper.on('sliderFirstMove', function () {
-                    alert("Move foto");
-                });
-//                alert("Test");
-  //              alert(fotoswiper.slides.length);
 
             //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide</div>');
             //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 2</div>');
