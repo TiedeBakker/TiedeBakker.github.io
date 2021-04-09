@@ -103,12 +103,34 @@
 
                 <ul>
                     <li>Recepten</li>
-                    <li>Organismen</li>
+                    <li><a href="#module_organismen">Organismen</a></li>
                 </ul>
 
                 <h1>De modules</h1>
 
-                <h2>Organismen</h2>
+                <h2><a id="module_organismen" name="module_organismen">Organismen module</a></h2>
+
+                <h3>Vertrekpunt/idee&euml;n</h3>
+
+                <p>Voor de organismen module wil ik rekening houden met een grote dataset. Ik ga er voorlopig even vanuit dat ik in ieder tientallen vogels en planten op wil nemen. In de testfase wil ik in ieder geval uiteindelijk ook met 1000 organismen testen.</p>
+
+                <p>Van een organisme wil ik &eacute;&eacute;n of meer foto&#39;s kunnen tonen en een aantal aspecten beschrijven. Dat betekent dat een organisme-pagina uit in ieder geval drie delen bestaat:</p>
+
+                <ol>
+                    <li>Een kop met de naam, deze is steeds zichtbaar</li>
+                    <li>Een foto-blok waarin &eacute;&eacute;n foto zichtbaar is, maar waarin je door alle beschikbare foto&#39;s voor dit organisme kunt bladeren (swipen); dit mag globaal &frac14; - van de pagina (in portrait) innemen</li>
+                    <li>Een infoblok waarin een aantal onderwerpen worden besproken; welke dat hangt van het type organisme af. Door de infoblokken kan ook weer worden gebladerd. Het streven is dat de infoblokken zo kort zijn dat ze op de resterende ruimte van de pagina passen, maar meer info is mogelijk doordat er gescrolld kan worden binnen het infoblok. E&eacute;n van de infoblokken die ik wil verkennen is een blok met vergelijkbare soorten, die in kenmerken foto worden getoond. ook door deze foto&#39;s moet je kunnen bladeren/swipen.</li>
+                </ol>
+
+                <p>In de basis denk ik aan een menu, waarop de al dan niet geselecteerde en/of gefilterde organismen in een doorlopende lijst worden getoond met een herkenbare foto en de relevante naam-aanduiding. Voor zover er ruimte is ook iets van andere info erbij. Voor dit menu heb ik een zoek en/of <strong>filtermogelijkheid</strong> nodig.</p>
+
+                <p>Naast de <strong>menu-pagina</strong> moet er een <strong>item-pagina</strong> komen, die tevoorschijn komt zodra je een organisme aanklikt. Op de item-pagina staan de hierboven aangegeven illustraties en beschrijvende onderdelen. Als je de item-pagina wegveegt komt het menu weer tevoorschijn.</p>
+
+                <h3>De Uitvoering</h3>
+
+                <p>De organismen-module is een voorbeeld (en het eerste, dus ik moet er ervaring mee opdoen) van een <em><strong>[.menumodule]</strong></em>. Dit type module wordt opgebouwd in de <em>functie <strong>maakMenuModule(...)</strong></em>.</p>
+
+                <h2>Eerdere Organismenmodule</h2>
 
                 <h3>Vertrekpunt/idee&euml;n</h3>
 
@@ -137,7 +159,12 @@
                 <p>Voor het snel aanpassen van HTML-teksten gebruik ik een online <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/fullpreset.html">WYSIWYG-editor (CKEditor)</a>, waarin ook allerlei extra code kan worden ingevoegd. Een probleem van de broncode is dat er erg veel witregels tussen komen. Deze kan ik eventueel wegwerken met een online-tool als <a href="https://codebeautify.org/remove-empty-lines?__cf_chl_captcha_tk__=61b0672f13dcaef43ec5019be1b532124ce6c97f-1617558413-0-AdkgfqYNmikBcNpVHMePq2Ug_z37BrzZaHb0sl7fm5GwhRQ6a5EcjBbwdNMgGorb0YZJ9Yg7R05GNNB-Sy64QLam9GrBZBhWvwLQyseTn5Da7puJ5pyjv06B-KAvoljKmc7Vv_2im635ySo0GipJ9QOTC4qQoFjVSyhwQDjJcuqk3gF4ge-Aol3jGt4OJa3ZL0kWQ9kf1XkCJ-U7yO0qyr1bendjLcHl-nFFjYSXjp2EltDiTP39KdfURFbf4Bhx0VgaHhMYcQn7SCNME7Is8KzEgylwM4clPMb7Wh4qoPFPaHRZw4D9q0qZCKnHV-i_4cRinu5zqKbbwdQnLL0dqJLAAmM03qZ8X99cmBqWT5_kRfX44AHJ9hkfKwWjt8zEowh8L_oPKAeM8-rYY_8IctOnHcHfnJ_6moWF5NvCeuwfJ-WiQosXsBhGmtOFAO_o6r2J4WW-CM-tkNn2Xncy2nWUZdubD0AdGV7MLyxM59rJvNruPwwJ3TcvV7jWWIlkRaTEiPS0Q-C-kt7IXEy62NB1Go9h3rbjw1glwCWeIbE271H7EPF7bfS7Q4ze_xG3JeMef2gxgqfEiHg0Y9naDJcypgtOvlClIX2LQxXz0fMi">code verbeteraar (hij heet Code Beautify</a>.</p>
             </div>
         </div>
-        <div id="organismenModule" class="MDZBmodule objectenmodule" data-naam="Organismen">
+        <div id="nieuweOrganismenModule" class="MDZBmodule menumodule" data-naam="Nieuwe organismen module">
+            <div class="modulestart">
+                Alternatief voor organismen
+            </div>
+        </div>
+        <div id="organismenModule" class="MDZBmodule objectenmodule" data-naam="eerste Organismen">
             <div class="modulestart">
                 organismen
             </div>
@@ -180,11 +207,6 @@
             </div>
             <div class="slide">Eerste</div>
             <div class="slide">tweede</div>
-        </div>
-        <div id="nieuweOrganismenModule" class="MDZBmodule menumodule" data-naam="Alternatieve organismen module">
-            <div class="modulestart">
-                Alternatief voor organismen
-            </div>
         </div>
         <div id="markerwaddenModule" class="MDZBmodule swipermodule" data-naam="Marker Wadden module">
             <div class="modulestart">
