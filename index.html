@@ -422,6 +422,19 @@
             var menuSwiper = maakSwiper(containerElement, true, true, true);
             // default niet mogelijk om van menu via swipe bij item te komen
             menuSwiper.allowSlideNext = false;
+            // bij menu-pagina geen pagination (je kunt niet swipen), maar bij item wel
+            $(containerElement).find(".swiper-pagination").css('display', 'none');
+            menuSwiper.on('activeIndexChange', function () {
+                if (this.activeIndex == 0) {
+                    $(containerElement).find(".swiper-pagination").css('display', 'none');
+                }
+                else {
+                    $(containerElement).find(".swiper-pagination").css('display', 'block');
+                }
+            });
+
+
+
             // twee pagina's aanmaken
             menuSwiper.appendSlide('<div class="swiper-slide menu-pagina">Menu</div>');
             menuSwiper.appendSlide('<div class="swiper-slide item-pagina">Item</div>');
@@ -450,6 +463,7 @@
             swiper.allowSlideNext = true;
             swiper.slideNext();
             swiper.allowSlideNext = false;
+            //$(deze).closest(".swiper-container").find(".swiper-pagination").css('display', 'block');
         }
 
  
@@ -459,12 +473,16 @@
             var HTML = "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
             HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
             HTML += '</div>';
-            // Add Pagination
-            HTML += "<div class='swiper-pagination'></div>";
-            HTML += '</div>';
-            // If we need navigation buttons
-            HTML += '<div class="swiper-button-prev"></div>';
-            HTML += '<div class="swiper-button-next"></div>';
+            if (pag) {
+                // Add Pagination
+                HTML += "<div class='swiper-pagination'></div>";
+                HTML += '</div>';
+            };
+            if (nav) {
+                // If we need navigation buttons
+                HTML += '<div class="swiper-button-prev"></div>';
+                HTML += '<div class="swiper-button-next"></div>';
+            }
             // If we need scrollbar
             //HTML += '<div class="swiper-scrollbar"></div>';
             $(containerVoorSwiper).html(HTML);
@@ -472,20 +490,24 @@
             var paginas = containerVoorSwiper.getElementsByClassName("swiper-pagination")[0];
             var toonnext = containerVoorSwiper.getElementsByClassName("swiper-button-next")[0];
             var toonprev = containerVoorSwiper.getElementsByClassName("swiper-button-prev")[0];
-
-            nweSwiper = new Swiper(swiperContainer, {
+            var swiperParams = {
                 spaceBetween: 10,
                 touchMoveStopPropagation: true,
-                pagination: {
+            };
+            if (pag) {
+                swiperParams['pagination'] = {
                     el: paginas,
                     type: 'bullets',
                     clickable: 'true',
-                },
-                navigation: {
+                };
+            }
+            if (nav) {
+                swiperParams['navigation'] = {
                     nextEl: toonnext,
                     prevEl: toonprev,
-                },
-            });
+                }
+            }
+            nweSwiper = new Swiper(swiperContainer, swiperParams);
             return nweSwiper
         }
         function maakObjectenModule(containerElement) {
