@@ -478,7 +478,22 @@
         }
 
         function toonItem(deze) {
-            // alert($(deze).closest(".menu-pagina").next().html());
+            var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
+            // eerst hoofdstructuur
+            var itemHTML = "<div class='itemHeader volledig' style='height:3em; background-color:red; text-align:center'>Item-naam</div><div class='itemContent volledig' style='top: 3em;'><div class='itemImages volledig' style='height:25%; background-color:blue'></div><div class='itemInfo volledig' style='height:75%; top:auto; background-color:green'></div></div>"
+            itemPaginaElt.innerHTML = itemHTML;
+            // sliders voor afbeeldingen en toelichting
+            var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, true);
+            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 1</div>');
+            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
+            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 3</div>');
+            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 4</div>');
+            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 5</div>');
+
+            var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, true);
+            infoSwiper.appendSlide('<div class="swiper-slide">Info 1</div>');
+            infoSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
+            infoSwiper.appendSlide('<div class="swiper-slide">Foto 3</div>');
 
             // slide next; deze moet eerst voorbereid met allow slidenext
             var swiper = $(deze).closest(".swiper-container")[0].swiper;
