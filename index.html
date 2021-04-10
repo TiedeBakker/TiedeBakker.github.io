@@ -441,7 +441,7 @@
             // - op de tweede pagina kan een gekozen item worden getoond en deze pagina kan weer weggeschoven worden om menu terug te krijgen
 
             // Eerst een swiper initialiseren
-            var menuSwiper = maakSwiper(containerElement, true, true, true);
+            var menuSwiper = maakSwiper(containerElement, false, true, true);
             // default niet mogelijk om van menu via swipe bij item te komen
             menuSwiper.allowSlideNext = false;
             // bij menu-pagina geen pagination (je kunt niet swipen), maar bij item wel
@@ -483,14 +483,14 @@
             var itemHTML = "<div class='itemHeader volledig' style='height:3em; background-color:red; text-align:center'>Item-naam</div><div class='itemContent volledig' style='top: 3em;'><div class='itemImages volledig' style='height:25%; background-color:blue'></div><div class='itemInfo volledig' style='height:75%; top:auto; background-color:green'></div></div>"
             itemPaginaElt.innerHTML = itemHTML;
             // sliders voor afbeeldingen en toelichting
-            var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, true);
+            var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 1</div>');
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 3</div>');
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 4</div>');
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 5</div>');
 
-            var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, true);
+            var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
             infoSwiper.appendSlide('<div class="swiper-slide">Info 1</div>');
             infoSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
             infoSwiper.appendSlide('<div class="swiper-slide">Foto 3</div>');
