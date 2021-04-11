@@ -100,12 +100,6 @@
                 <p>MdZb moet in ieder geval op Smartphone en Tablet goed functioneren. De desktop-versie is wat mij betreft een afgeleide, maar ik ga ervan uit dat die thuis ook zijn functie zal bewijzen voor modules/informatie die ik niet onderweg beschikbaar hoef te hebben, maar wel in dezelfde structuur beschikbaar wil hebben.</p>
 
                 <p>De modules waarmee ik op dit moment bezig ben zijn:</p>
-                <audio controls>
-                    <source src="horse.ogg" type="audio/ogg">
-                    <source src="huismus.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-
 
                 <ul>
                     <li>Recepten</li>
@@ -177,6 +171,8 @@
                 </ul>
 
                 <p>Binnen de organisme-bibliotheek is het mogelijk subgroepen te defini&euml;ren, waardoor bij onderhoud sneller gezocht kan worden.</p>
+
+                <p>LET OP: Ik kan ook bijvoorbeeld vogelgeluiden meenemen. mp3-bestandjes zijn bijvoorbeeld van site vogelbescherming via geavanceerd knippen plakken te krijgen. daarna volgens systematiek van <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">audio-controls</a> in html op te nemen.</p>
 
                 <h1>Gebruikte tools</h1>
 
@@ -262,11 +258,26 @@
                     <img src="images/brandgans.jpg" alt="Appelvink" />
                     <img src="images/appelvink.jpg" alt="Appelvink" />
                 </div>
-                <div class="organisme_info">
-                    <div class="organisme_namen"></div>
-                    <div class="veldkenmerken"></div>
-                    <div class="voorkomen"></div>
-                    <div class="vergelijkbare_soorten"></div>
+                <div class="organisme-info">
+                    <div class="info-pagina organisme_namen">
+                        <h1>Appelvink</h1>
+                        <h3><em>Coccothraustus coccothraustus</em></h3>
+                        <ul>
+                            <li>E: Hawfinch</li>
+                            <li>D: Kernbeisser</li>
+                            <li>F: Gros-bec</li>
+                        </ul>
+                    </div>
+                    <div class="info-pagina veldkenmerken">
+                        <h1>Veldkenmerken</h1>
+                        <p>Grootte:18. <em>Geweldige snavel</em>, &#39;stierenek&#39;, korte staart met witte eindrand, blauwzwarte vleugels met grote, witte schoudervlekken. Geelbruine kop, warmbruine rug, licht roze onderdelen, zwarte keel en teugel. Snavel in voorjaar loodblauw, in winter licht hoornkleurig. Vrl. lichter, minder rozzig op kruin. Juveniel van onderen bruin dwars gestreept, met gele keelvlek. Vlucht snel en gewoonlijk hoog, maar sterk golvend over korte afstand. Vliegbeeld (grote kop, korte staart) is onmiskenbaar. Loopt rechtop met waggelende gang en hipt met krachtige sprongen. In winter vaak in troepen op de grond voedsel zoekend, samen met ander vinken. Vrij schuwe vogel, die steeds waakzaam is. Nestelt in boomtop, op horizontale tak of tegen boomstam.</p>
+                        <p>Geluid: een luid, explosief ptik of ptik...ptik-it, een dun tzie&iuml;p enz. Zang wordt weinig gehoord: een hokkend tiek, tiek, tur-wie-wie met variaties. Zingt doorgaans vanuit boomtop.</p>
+                    </div>
+                    <div class="info-pagina voorkomen">
+                        <h3>Voorkomen</h3>
+                        <p>vrij schaarse broedvogel van het ossten en zuiden des lands. Zwerft in winter rond, soms in troepjes.</p>
+                    </div>
+                    <div class="info-pagina vergelijkbare_soorten">Vergelijkbare soorten; nog even bedenken hoe</div>
                 </div>
             </div>
             <div id="organisme_2" class="organisme" data-naam="Tweede organisme">
@@ -553,9 +564,14 @@
                 afbeeldingSwiper.appendSlide('<div class="swiper-slide"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div>')
             };
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
-            infoSwiper.appendSlide('<div class="swiper-slide">Info 1</div>');
-            infoSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
-            infoSwiper.appendSlide('<div class="swiper-slide">Foto 3</div>');
+            for (var nr = 0; nr < itemElt.find(".organisme-info").find(".info-pagina").length; nr++) {
+                var infoPagina = itemElt.find(".organisme-info").find(".info-pagina").eq(nr);
+                infoSwiper.appendSlide('<div class="swiper-slide">' + infoPagina[0].innerHTML + '</div>');
+            };
+            // als er geen informatie in bibliotheek staat:
+            if (itemElt.find(".organisme-info").find(".info-pagina").length == 0) {
+                infoSwiper.appendSlide('<div class="swiper-slide">Geen informatie beschikbaar</div>');
+            }
 
             // slide next; deze moet eerst voorbereid met allow slidenext
             var swiper = $(deze).closest(".swiper-container")[0].swiper;
