@@ -106,6 +106,13 @@
                     <li><a href="#module_organismen">Organismen</a></li>
                 </ul>
 
+                <p>De inhoud voor nagenoeg alle pagina&#39;s is ondergebracht in een bibliotheek-element. In deze bibliotheek zit in ieder geval een element voor elke module. Verder zijn er nog eigen elementen voor een aantal typen informatie die bijvoorbeeld in meerdere modules gebruikt kunnen worden. Dit zijn:</p>
+
+                <ul>
+                    <li><a href="#bibliotheek_organismen">De organismen-bibliotheek</a></li>
+                    <li>De personen-bibliotheek</li>
+                </ul>
+
                 <h1>De modules</h1>
 
                 <h2><a id="module_organismen" name="module_organismen">Organismen module</a></h2>
@@ -150,7 +157,20 @@
 
                 <p>Dit eerst maar eens testen op performance</p>
 
-                <p>&nbsp;</p>
+                <h1>Bibliotheken</h1>
+
+                <h2><a id="bibliotheek_organismen" name="bibliotheek_organismen">Organisme-bibliotheek</a></h2>
+
+                <p>De organisme-bibliotheek beschrijft alle organanismen waarover informatie in de applicatie is opgenomen. Deze bibliotheek wordt primair gebruikt in de organisme-module. Verder worden (delen) uit de bibliotheek in andere modules, bijvoorbeeld de Markerwadden-module, gebruikt. De organisme-bibliotheek bevat voor elk organisme een apart element met een aantal vaste onderdelen:</p>
+
+                <ul>
+                    <li>Een unieke Id bestaande uit het woord organisme, een underscore en een uniek volgnummer: &quot;organisme_<em>[volgnummer]</em>;</li>
+                    <li>De klasse-aanduiding <em>class=&quot;organisme&quot;</em>;</li>
+                    <li>Het data-attribuut data-naam=<em>[naam van het organisme, zoals in overzicht/kop weer te geven]</em>.</li>
+                    <li>Een element van de klasse <em>fotos</em>; hierin staan &eacute;&eacute;n of meer fotos van het organisme. Voorlopig bevat de img-tag naast de verwijzing naar het foto-bestand (&#39;src = ...&#39;) ook een alt-attribuut met een eventueel kort op- of bijschrift. De foto waarnaar verwezen wordt moet een vaste lenge/breedte verhouding hebben</li>
+                </ul>
+
+                <p>Binnen de organisme-bibliotheek is het mogelijk subgroepen te defini&euml;ren, waardoor bij onderhoud sneller gezocht kan worden.</p>
 
                 <h1>Gebruikte tools</h1>
 
@@ -229,23 +249,53 @@
             <div class="slide">tweede</div>
         </div>
         <div id="organismenbibliotheek">
-            <div id="organisme_1" class="organisme" data-naam="Eerste organisme">
-
+            <div id="organisme_1" class="organisme" data-naam="Appelvink">
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
             </div>
             <div id="organisme_2" class="organisme" data-naam="Tweede organisme">
-
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
             </div>
             <div id="organisme_3" class="organisme" data-naam="Derde organisme">
-
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
             </div>
             <div id="organisme_4" class="organisme" data-naam="Organisme nummer vier">
-
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
             </div>
             <div id="organisme_5" class="organisme" data-naam="Vijfde organisme">
-
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
             </div>
             <div id="organisme_6" class="organisme" data-naam="Zesde organisme">
-
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
             </div>
         </div>
     </div>
@@ -479,17 +529,17 @@
 
         function toonItem(deze) {
             var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
+            var itemId = $(deze).data("itemid");
+            var itemElt = $("#bibliotheek").find("#" + itemId);
             // eerst hoofdstructuur
-            var itemHTML = "<div class='itemHeader volledig' style='height:3em; background-color:red; text-align:center'>Item-naam</div><div class='itemContent volledig' style='top: 3em;'><div class='itemImages volledig' style='height:25%; background-color:blue'></div><div class='itemInfo volledig' style='height:75%; top:auto; background-color:green'></div></div>"
+            var itemHTML = "<div class='itemHeader volledig' style='height:3em; background-color:red; text-align:center'>" + itemElt.data("naam") + "</div><div class='itemContent volledig' style='top: 3em;'><div class='itemImages volledig' style='height:25%; background-color:blue'></div><div class='itemInfo volledig' style='height:75%; top:auto; background-color:green'></div></div>"
             itemPaginaElt.innerHTML = itemHTML;
             // sliders voor afbeeldingen en toelichting
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
-            afbeeldingSwiper.appendSlide('<div class="swiper-slide"><img src="images/appelvink.jpg" alt="Paris" style="height:90%;margin:auto; display:block"></div>');
-            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
-            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 3</div>');
-            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 4</div>');
-            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 5</div>');
-
+            for (var nr = 0; nr < itemElt.find(".fotos").find("img").length; nr++) {
+                var foto = itemElt.find(".fotos").find("img").eq(nr);
+                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" style="height:100%;margin:auto; display:block"></div>')
+            };
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
             infoSwiper.appendSlide('<div class="swiper-slide">Info 1</div>');
             infoSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
