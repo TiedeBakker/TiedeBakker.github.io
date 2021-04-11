@@ -484,7 +484,7 @@
             itemPaginaElt.innerHTML = itemHTML;
             // sliders voor afbeeldingen en toelichting
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
-            afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 1</div>');
+            afbeeldingSwiper.appendSlide('<div class="swiper-slide"><img src="images/appelvink.jpg" alt="Paris" style="height:90%;margin:auto; display:block"></div>');
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 2</div>');
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 3</div>');
             afbeeldingSwiper.appendSlide('<div class="swiper-slide">Foto 4</div>');
@@ -642,103 +642,7 @@
         }
     </style>
 
-    <!--<div id="content" class="volledig pagina" style="background-color:cornsilk; display:none">
-        <div class="swiper-container swiper-container-h">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">Horizontal Slide 1 Test h h h h h h h h h h h h h h h h h h h h h h h h h h h h </div>
-                <div class="swiper-slide">
-                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
-                        <div class="swiper-wrapper" style="background-color:aquamarine">
-                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
-                            <div class="swiper-slide">Vertical Slide 2</div>
-                            <div class="swiper-slide">Vertical Slide 3</div>
-                            <div class="swiper-slide">Vertical Slide 4</div>
-                            <div class="swiper-slide">Vertical Slide 5</div>
-                        </div>
-                        // Add Pagination
-                        <div class="swiper-pagination swiper-pagination-v"></div>
-                        // If we need navigation buttons
-                        <div class="swiper-button-prev v-prev"></div>
-                        <div class="swiper-button-next v-next"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">Horizontal Slide 3</div>
-                <div class="swiper-slide">Horizontal Slide 4</div>
-                <div class="swiper-slide">Horizontal Slide 5</div>
-                <div class="swiper-slide">
-                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
-                        <div class="swiper-wrapper" style="background-color:aquamarine">
-                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1</div>
-                            <div class="swiper-slide">Vertical Slide 2</div>
-                            <div class="swiper-slide">Vertical Slide 3</div>
-                            <div class="swiper-slide">Vertical Slide 4</div>
-                            <div class="swiper-slide">Vertical Slide 5</div>
-                        </div>-->
-    <!--Add Pagination-->
-    <!--<div class="swiper-pagination swiper-pagination-v"></div>-->
-    <!--If we need navigation buttons-->
-    <!--<div class="swiper-button-prev v-prev"></div>
-                <div class="swiper-button-next v-next"></div>
-            </div>
-        </div>
-        <div class="swiper-slide">Horizontal Slide 7</div>
-        <div class="swiper-slide">Horizontal Slide 8</div>
-    </div>-->
-    <!--Add Pagination-->
-    <!--<div class="swiper-pagination swiper-pagination-h"></div>-->
-    <!--If we need navigation buttons-->
-    <!--<div class="swiper-button-prev h-prev"></div>
-            <div class="swiper-button-next h-next"></div>
-        </div>
-    </div>-->
-    <!--<script>
-        $(document).ready(function () {
-
-            var swiperH = new Swiper('.swiper-container-h', {
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                pagination: '.swiper-pagination-h',
-                paginationClickable: true,
-                spaceBetween: 0,
-                nextButton: '.h-next',
-                prevButton: '.h-prev',
-                //    onSlideChangeStart: function () {
-                //        if ($('.swiper-container-h .swiper-slide-active').children().hasClass('swiper-container-v')) {
-                //            $('.h-prev, .h-next').hide();
-                //        } else {
-                //            $('.h-prev, .h-next').show();
-                //        }
-                //    },
-                //    onSlideNextStart: function () {
-                //        $('.h-prev').show();
-                //    }
-            });
-
-            var swiperV = new Swiper('.swiper-container-v', {
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                pagination: '.swiper-pagination-v',
-                paginationClickable: true,
-                direction: 'horizontal',
-                spaceBetween: 0,
-                nextButton: '.v-next',
-                prevButton: '.v-prev',
-                nested: true,
-                //    onReachBeginning: function () {
-                //        $('.h-prev').show();
-                //    },
-                //    onReachEnd: function () {
-                //        $('.h-next').show();
-                //    },
-            });
-
-        });
-
-    </script>-->
+   
 
 </body>
 </html>
