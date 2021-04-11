@@ -252,8 +252,8 @@
             <div id="organisme_1" class="organisme" data-naam="Appelvink">
                 <div class="fotos">
                     <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/bergeend.jpg" alt="Appelvink" />
+                    <img src="images/brandgans.jpg" alt="Appelvink" />
                     <img src="images/appelvink.jpg" alt="Appelvink" />
                 </div>
             </div>
@@ -538,7 +538,7 @@
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
             for (var nr = 0; nr < itemElt.find(".fotos").find("img").length; nr++) {
                 var foto = itemElt.find(".fotos").find("img").eq(nr);
-                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" style="height:100%;margin:auto; display:block"></div>')
+                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div>')
             };
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
             infoSwiper.appendSlide('<div class="swiper-slide">Info 1</div>');
