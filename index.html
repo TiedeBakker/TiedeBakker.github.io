@@ -244,8 +244,64 @@
                     <li onclick="toonPagina(this, 3)">Voorkomende planten en dieren</li>
                 </ul>
             </div>
-            <div class="slide">Algemeen</div>
-            <div class="slide">Kaartmateriaal</div>
+            <div class="slide">
+                <h1>Algemene informatie</h1>
+
+                <p>Belangrijke telefoonnummers:</p>
+
+                <ul>
+                    <li>Eilandwachters: 06-82737601</li>
+                    <li>Elsa Paters:<span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"> </span></span><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">06-57648504</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Barbara Halverhout: 06-51052464</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Gea Otten: 06-22328848</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Marjan Dunning: 06-54295320</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Hulpdiensten: 112</span></span></span></span></li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h1>Programma</h1>
+
+                <h2>Ontvangst/introductie</h2>
+
+                <p>Gids haalt de deelnemers op bij de ontmoetingsplek bij de bankjes voor het Eilandpaviljoen op Marker Wadden en heet de deelnemers welkom namens Natuurmonumenten.</p>
+
+                <h2>Kernboodschap</h2>
+
+                <p>Nieuwe natuureilanden in het Markermeer verrijken het planten- en dierenleven, boven &eacute;n onder water.</p>
+
+                <h2>Sleutelervaringen (bijzondere ervaringen)</h2>
+
+                <p>Door een kort rondje over Marker Wadden probeer we mensen minimaal een of twee van deze sleutelervaringen te laten beleven:</p>
+
+                <ol>
+                    <li>Ik ervaar op Marker Wadden een <strong>&eacute;cht eilandgevoel:</strong> de weidse eilanden, waar de elementen vrij spel hebben en het uitgestrekte Markermeer rondom ligt.</li>
+                    <li>Ik zie met eigen ogen dat het <strong>water</strong> rondom Marker Wadden <strong>helder</strong> is en <strong>vol leven</strong> zit.</li>
+                    <li>Ik ben verrast dat op de nieuwste eilanden van Nederland de <strong>prille moerasnatuur zich zo snel ontwikkelt</strong>. Overal om mij heen hoor en zie ik grote aantallen vogels.</li>
+                    <li>Ik ben onder de indruk van wat de Nederlandse <strong>waterbouwkundigen</strong> met zand, klei en slib midden in het meer hebben gebouwd.</li>
+                </ol>
+
+                <h2>Afsluiting</h2>
+
+                <ul>
+                    <li>Afsluiting vindt buiten plaats, op het kruispunt vlonderpad richting Duikeend (bij de malaisevallen).</li>
+                    <li>Geef aan wat deelnemers zelf nog kunnen doen op Marker Wadden, zoals uitzichttoren Steltloper op, rondje buitenom, fossielen zoeken op het strand, meedoen aan de fotomonitoring,&nbsp; etc.</li>
+                    <li>Wijs deelnemers nog op mogelijkheid om lid te worden en het aanbod van andere Natuurmonumenten-activiteiten op Marker Wadden of in andere gebieden.</li>
+                </ul>
+
+                <h2>Bijzonderheden</h2>
+
+                <ul>
+                    <li>Houd je aan de tijd van 1,5 uur!</li>
+                    <li>In de toekomst willen we op Marker Wadden gaan differenti&euml;ren in excursies. Meer exclusieve belevenissen.</li>
+                    <li>Neem de bezoekers liever niet mee op de Steltloper. Laat mensen ook zelf nog iets te ontdekken.</li>
+                    <li>Op de veerboot hebben de gidsen geen speciale rol. Je kunt natuurlijk wel mensen te woord staan en warm maken voor het bezoek. Vertel niet het hele verhaal, maar geef alleen korte, praktische informatie. Je kunt helpen kaartjes te controleren.</li>
+                </ul>
+
+                <p>&nbsp;</p>
+
+                <p>&nbsp;</p>
+
+            </div>
             <div class="slide">Planten</div>
             <div class="slide">Eerste</div>
             <div class="slide">tweede</div>
@@ -357,9 +413,6 @@
         .organisme-infovenster {
             background-color: azure;
             top: 25%;
-        }
-        .vergelijk-venster {
-            bottom:66%;
         }
 
     </style>
@@ -578,13 +631,13 @@
                 // speciale info-pagina's eerst afhandelen
                 var defaultPagina = true;
                 if (infoPagina.hasClass("vergelijkbare_soorten")) {
-                    infoSwiper.appendSlide('<div class="swiper-slide soorten-vergelijker"></div>')
+                    infoSwiper.appendSlide('<div class="swiper-slide soorten-vergelijker">ttt</div>')
                     var dezePagina = $(itemPaginaElt).find(".itemInfo").find(".soorten-vergelijker").eq(0);
-                    dezePagina.html('<div class="vergelijk-venster" style="background-color:blue"></div>');
+                    dezePagina.html('<div class="vergelijk-venster volledig" style="background-color:blue"></div>');
                     var vergelijkSwiper = maakSwiper($(dezePagina).find(".vergelijk-venster")[0], true, false);
                     for (var nr = 0; nr < infoPagina.find("img").length; nr++) {
                         var foto = infoPagina.find("img").eq(nr);
-                        vergelijkSwiper.appendSlide('<div class="swiper-slide"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div>')
+                        vergelijkSwiper.appendSlide('<div class="swiper-slide"><div class="volledig" style="background-color:yellow"><p style="background-color:rgba(255,0,0,0.1)">Test</p><div style="height:33%"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div><p>Testje</p></div></div>')
                     }
                     defaultPagina = false;
                 }
@@ -602,9 +655,6 @@
             swiper.allowSlideNext = false;
             //$(deze).closest(".swiper-container").find(".swiper-pagination").css('display', 'block');
         }
-
- 
-
         function maakSwiper(containerVoorSwiper, pag = false, nav = false) {
             var nweSwiper;
             var HTML = "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
