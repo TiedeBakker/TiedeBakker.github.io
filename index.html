@@ -277,7 +277,14 @@
                         <h3>Voorkomen</h3>
                         <p>vrij schaarse broedvogel van het ossten en zuiden des lands. Zwerft in winter rond, soms in troepjes.</p>
                     </div>
-                    <div class="info-pagina vergelijkbare_soorten">Vergelijkbare soorten; nog even bedenken hoe</div>
+                    <div class="info-pagina vergelijkbare_soorten">
+                        <div class="fotos">
+                            <img src="images/appelvink.jpg" alt="Appelvink" />
+                            <img src="images/bergeend.jpg" alt="Appelvink" />
+                            <img src="images/brandgans.jpg" alt="Appelvink" />
+                            <img src="images/appelvink.jpg" alt="Appelvink" />
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="organisme_2" class="organisme" data-naam="Tweede organisme">
@@ -323,7 +330,7 @@
         </div>
     </div>
     <style>
-        .organisme-header, .organisme-content, .organisme-fotovenster, .organisme-infovenster {
+        .organisme-header, .organisme-content, .organisme-fotovenster, .organisme-infovenster, .vergelijk-venster {
             position: absolute;
             left: 0px;
             right: 0px;
@@ -351,6 +358,10 @@
             background-color: azure;
             top: 25%;
         }
+        .vergelijk-venster {
+            bottom:66%;
+        }
+
     </style>
     <script>
         $(document).ready(function () {
@@ -507,7 +518,6 @@
             else fontSize /= 1.2;
             $('body').css({ "font-size": fontSize + "px" });
         }
-
         function maakMenuModule(containerElement) {
             // een menu-module bestaat uit twee pagina's:
             // - de eerste pagina geeft een lijst met alle beschikbare items; de pagina heeft ook een selectie/filter mogelijkheid (schuift naar beneden)
@@ -549,7 +559,6 @@
 
             paginaElt.innerHTML = filterDiv + menuDiv;
         }
-
         function toonItem(deze) {
             var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
             var itemId = $(deze).data("itemid");
@@ -566,7 +575,20 @@
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
             for (var nr = 0; nr < itemElt.find(".organisme-info").find(".info-pagina").length; nr++) {
                 var infoPagina = itemElt.find(".organisme-info").find(".info-pagina").eq(nr);
-                infoSwiper.appendSlide('<div class="swiper-slide">' + infoPagina[0].innerHTML + '</div>');
+                // speciale info-pagina's eerst afhandelen
+                var defaultPagina = true;
+                if (infoPagina.hasClass("vergelijkbare_soorten")) {
+                    infoSwiper.appendSlide('<div class="swiper-slide soorten-vergelijker"></div>')
+                    var dezePagina = $(itemPaginaElt).find(".itemInfo").find(".soorten-vergelijker").eq(0);
+                    dezePagina.html('<div class="vergelijk-venster" style="background-color:blue"></div>');
+                    var vergelijkSwiper = maakSwiper($(dezePagina).find(".vergelijk-venster")[0], true, false);
+                    for (var nr = 0; nr < infoPagina.find("img").length; nr++) {
+                        var foto = infoPagina.find("img").eq(nr);
+                        vergelijkSwiper.appendSlide('<div class="swiper-slide"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div>')
+                    }
+                    defaultPagina = false;
+                }
+                if (defaultPagina) infoSwiper.appendSlide('<div class="swiper-slide">' + infoPagina[0].innerHTML + '</div>');
             };
             // als er geen informatie in bibliotheek staat:
             if (itemElt.find(".organisme-info").find(".info-pagina").length == 0) {
