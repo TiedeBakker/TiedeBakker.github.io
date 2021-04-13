@@ -71,7 +71,7 @@
 </head>
 <body class="fullscreen" style="font-size:14px">
     <div id="logobalk" class="volledig logobalk">
-        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje</p>
+        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaale Zakboekje</p>
         <span class="header__icon" style="position:absolute;left:.5em;top:0em" onclick="toonMenu()">
             <svg width="2em" height="2em" viewBox="0 0 48 48" fill="#fff">
                 <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
@@ -814,7 +814,7 @@
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
             for (var nr = 0; nr < itemElt.find(".fotos").find("img").length; nr++) {
                 var foto = itemElt.find(".fotos").find("img").eq(nr);
-                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="width:100%;width:auto; margin:auto; display:block"></div>')
+                afbeeldingSwiper.appendSlide('<div class="swiper-slide" style="left:-3px;right:-3px"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="width:100%;width:auto; margin:auto; display:block"></div>')
             };
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
             for (var nr = 0; nr < itemElt.find(".organisme-info").find(".info-pagina").length; nr++) {
