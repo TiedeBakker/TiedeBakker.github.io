@@ -799,7 +799,16 @@
             var itemId = $(deze).data("itemid");
             var itemElt = $("#bibliotheek").find("#" + itemId);
             // eerst hoofdstructuur
-            var itemHTML = "<div class='itemHeader volledig' style='height:3em; background-color:red; text-align:center'>" + itemElt.data("naam") + "</div><div class='itemContent volledig' style='top: 3em;'><div class='itemImages volledig' style='height:25%; background-color:blue'></div><div class='itemInfo volledig' style='height:75%; top:auto; background-color:green'></div></div>"
+            var schermbreedte = screen.width;
+            //var itemHTML = "<div class='itemHeader volledig' style='height:3em; background-color:red; text-align:center'>" + itemElt.data("naam") + "</div>";
+            //itemHTML += "<div class='itemContent volledig' style='top: 3em;'>";
+            //itemHTML += "<div class='itemImages volledig' style='height:25%; background-color:blue'></div>";
+            //itemHTML += "<div class='itemInfo volledig' style='height:75%; top:auto; background-color:green'></div>";
+            //itemHTML += "</div>"
+            var itemHTML = "<div class='itemContent volledig'>";
+            itemHTML += "<div class='itemImages volledig' style='height:" + schermbreedte*180/320 + "px; background-color:blue'></div>";
+            itemHTML += "<div class='itemInfo volledig' style='top:" + schermbreedte * 180 / 320 + "px; background-color:green'></div>";
+            itemHTML += "</div>"
             itemPaginaElt.innerHTML = itemHTML;
             // sliders voor afbeeldingen en toelichting
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
