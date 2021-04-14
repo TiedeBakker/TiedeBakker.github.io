@@ -525,20 +525,14 @@
                     </div>
                 </div>
             </div>
-            <div id="organisme_2" class="organisme" data-naam="Tweede organisme">
+            <div id="organisme_2" class="organisme" data-naam="Bergeend">
                 <div class="fotos">
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/bergeend.jpg" alt="Bergeend" />
                 </div>
             </div>
-            <div id="organisme_3" class="organisme" data-naam="Derde organisme">
+            <div id="organisme_3" class="organisme" data-naam="Brandgans">
                 <div class="fotos">
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
-                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/brandgans.jpg" alt="Brandgans" />
                 </div>
             </div>
             <div id="organisme_4" class="organisme" data-naam="Organisme nummer vier">
@@ -557,7 +551,7 @@
                     <img src="images/appelvink.jpg" alt="Appelvink" />
                 </div>
             </div>
-            <div id="organisme_6" class="organisme" data-naam="Zesde organisme">
+            <div id="organisme_6" class="organisme" data-naam="AAZesde organisme">
                 <div class="fotos">
                     <img src="images/appelvink.jpg" alt="Appelvink" />
                     <img src="images/appelvink.jpg" alt="Appelvink" />
@@ -605,12 +599,13 @@
         })
 
         var organismenSet = {
-            organismenLijst: [],
-            geefOrganisme: function (nummer) {
+            itemLijst: [],
+            alleItems: [],
+            geefItem: function (nummer) {
                 var resultaat = "";
                 if (nummer > 0) {
-                    if (nummer <= this.organismenLijst.length) {
-                        var organisme = document.getElementById(this.organismenLijst[nummer - 1]);
+                    if (nummer <= this.itemLijst.length) {
+                        var organisme = document.getElementById(this.itemLijst[nummer - 1]);
                         resultaat = '<div class="swiper-slide" data-slideid = ' + nummer + '>';
                         resultaat += '<div class="organisme-header">' + organisme.dataset.naam + '</div>';
                         resultaat += '<div class="organisme-content">';
@@ -636,11 +631,28 @@
                     }
                 }
                 return resultaat;
-            }
+            },
+            laadItems: function () {
+                // alleItems leegmaken
+                this.alleItems.length = 0
+                for (var x = 0; x < $("#organismenbibliotheek .organisme").length; x++) {
+                    this.alleItems.push({ "id": $("#organismenbibliotheek .organisme")[x].id, "naam": $("#organismenbibliotheek .organisme")[x].dataset.naam, "foto": [{ "src": $("#organismenbibliotheek .organisme").eq(x).find(".fotos").find("img").get(0).src }] });
+                }
+                // nu nog sorteren
+                this.alleItems.sort(function (a, b) {
+                    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
+                });
+                // kopie op volgorde naar (actuele) itemLijst
+                this.itemLijst.length = 0;
+                for (var x = 0; x < this.alleItems.length; x++) {
+                    this.itemLijst.push(this.alleItems[x].id);
+                }
+            },
         };
 
-        organismenSet.organismenLijst = ["organisme_1", "organisme_3", "organisme_2", "organisme_4", "organisme_5", "organisme_6"];
-        //organismenSet.organismenLijst.push("Acht");
+        organismenSet.itemLijst = ["organisme_1", "organisme_3", "organisme_2", "organisme_4", "organisme_5", "organisme_6"];
+        //organismenSet.itemLijst.push("Acht");
+        organismenSet.laadItems();
 
         function initMDZB() {
             // eerst hoofdmenu opbouwen en in main zetten
@@ -665,7 +677,7 @@
             // eerst actuele module verwijderen
             document.getElementById("main").getElementsByClassName("module")[0].remove();
             // menu zichtbaar maken
-            $(".hoofdmenu").css({ "display": "block"});
+            $(".hoofdmenu").css({ "display": "block" });
             $("#modulenaam").html("Mijn digitaal zakboekje");
         }
         function toonModule(deze) {
@@ -787,8 +799,8 @@
             var filterDiv = "<div class='filtervenster'>Filter</div>";
             var menuDiv = "<div class='menuVenster'>";
             menuDiv += "<h1>Menu-items</h1>";
-            for (var x = 0; x < bron.organismenLijst.length; x++) {
-                menuDiv += "<p onclick='toonItem(this)' data-itemid=" + bron.organismenLijst[x] + ">" + bron.organismenLijst[x] + "</p>";
+            for (var x = 0; x < bron.alleItems.length; x++) {
+                menuDiv += "<div class='menuItem'style='height:32px;background-color:yellow;position:relative' onclick='toonItem(this)' data-itemid=" + bron.alleItems[x].id + "><img src='" + bron.alleItems[x].foto[0].src + "' alt='Girl in a jacket' width='64' height='36'><span style='position:absolute; left:80px'>" + bron.alleItems[x].naam + "</span></div>";
             }
             menuDiv += "</div>";
 
@@ -814,7 +826,7 @@
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
             for (var nr = 0; nr < itemElt.find(".fotos").find("img").length; nr++) {
                 var foto = itemElt.find(".fotos").find("img").eq(nr);
-                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="width:100%;height:auto;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;font-size:120%">' + itemElt.data("naam") + '</span></div></div>')
+                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="width:100%;height:auto;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + itemElt.data("naam") + '</span></div></div>')
             };
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
             for (var nr = 0; nr < itemElt.find(".organisme-info").find(".info-pagina").length; nr++) {
@@ -916,13 +928,13 @@
             });
 
             // eerste 3 slides toevoegen
-            veger.appendSlide(organismenSet.geefOrganisme(1));
-            veger.appendSlide(organismenSet.geefOrganisme(2));
-            veger.appendSlide(organismenSet.geefOrganisme(3));
+            veger.appendSlide(organismenSet.geefItem(1));
+            veger.appendSlide(organismenSet.geefItem(2));
+            veger.appendSlide(organismenSet.geefItem(3));
             veger.on('slideChangeTransitionEnd', function () {
                 var nweslide = "";
                 if (this.activeIndex == 2) {
-                    nweslide = organismenSet.geefOrganisme(Number(this.slides[this.activeIndex].dataset.slideid) + 1);
+                    nweslide = organismenSet.geefItem(Number(this.slides[this.activeIndex].dataset.slideid) + 1);
                     if (nweslide != "") {
                         this.removeSlide(0);
                         this.appendSlide(nweslide);
@@ -930,7 +942,7 @@
                     }
                 }
                 if (this.activeIndex == 0) {
-                    nweslide = organismenSet.geefOrganisme(Number(this.slides[this.activeIndex].dataset.slideid) - 1);
+                    nweslide = organismenSet.geefItem(Number(this.slides[this.activeIndex].dataset.slideid) - 1);
                     if (nweslide != "") {
                         this.removeSlide(2);
                         this.prependSlide(nweslide);
