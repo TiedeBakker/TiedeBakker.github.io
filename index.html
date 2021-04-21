@@ -19,8 +19,6 @@
 
     <script src="js/swiper-bundle.js"></script>
 
-
-
     <script src="js/main.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <style>
@@ -2120,18 +2118,31 @@
             background-color: azure;
             top: 25%;
         }
-
     </style>
     <script>
-        $(document).ready(function () {
-            initMDZB();
-
-        })
-
         var organismenSet = {
+            alleOrganismen: [],  // deze set wordt vanuit bibliotheek.js ingevuld
+            organismen: new Map(),
             itemLijst: [],
-            alleItems: [],
+
+            initieerSet: function () {
+                // eerst even op naam sorteren (krijgen we een alfabetische lijst te zien)
+                this.alleOrganismen.sort(function (a, b) {
+                    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
+                });
+                // kopie op volgorde naar (actuele) itemLijst
+                this.itemLijst.length = 0;
+                for (var x = 0; x < this.alleOrganismen.length; x++) {
+                    this.itemLijst.push(this.alleOrganismen[x].id);
+                }
+
+                // naar de map overbrengen
+                for (var x = 0; x < this.alleOrganismen.length; x++) {
+                    this.organismen.set(this.alleOrganismen[x].id, this.alleOrganismen[x]);
+                }
+            },
             geefItem: function (nummer) {
+                alert("PPP");
                 var resultaat = "";
                 if (nummer > 0) {
                     if (nummer <= this.itemLijst.length) {
@@ -2160,29 +2171,51 @@
                         resultaat += '</div>';
                     }
                 }
+                alert(resultaat);
                 return resultaat;
             },
-            laadItems: function () {
-                // alleItems leegmaken
-                this.alleItems.length = 0
-                for (var x = 0; x < $("#organismenbibliotheek .organisme").length; x++) {
-                    this.alleItems.push({ "id": $("#organismenbibliotheek .organisme")[x].id, "naam": $("#organismenbibliotheek .organisme")[x].dataset.naam, "foto": [{ "src": $("#organismenbibliotheek .organisme").eq(x).find(".fotos").find("img").get(0).src }] });
-                }
-                // nu nog sorteren
-                this.alleItems.sort(function (a, b) {
-                    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
-                });
-                // kopie op volgorde naar (actuele) itemLijst
-                this.itemLijst.length = 0;
-                for (var x = 0; x < this.alleItems.length; x++) {
-                    this.itemLijst.push(this.alleItems[x].id);
-                }
-            },
+        //    laadItems: function () {
+        //        // alleItems leegmaken
+        //        this.alleItems.length = 0
+        //        for (var x = 0; x < $("#organismenbibliotheek .organisme").length; x++) {
+        //            this.alleItems.push({ "id": $("#organismenbibliotheek .organisme")[x].id, "naam": $("#organismenbibliotheek .organisme")[x].dataset.naam, "foto": [{ "src": $("#organismenbibliotheek .organisme").eq(x).find(".fotos").find("img").get(0).src }] });
+        //        }
+        //        // nu nog sorteren
+        //        this.alleItems.sort(function (a, b) {
+        //            return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
+        //        });
+        //        // kopie op volgorde naar (actuele) itemLijst
+        //        this.itemLijst.length = 0;
+        //        for (var x = 0; x < this.alleItems.length; x++) {
+        //            this.itemLijst.push(this.alleItems[x].id);
+        //        }
+
+        //        // naar de map overbrengen
+        //        for (var x = 0; x < this.alleItems.length; x++) {
+        //            this.organismen.set(this.alleItems[x].id, this.alleItems[x]);
+        //        }
+        //    },
         };
 
-        organismenSet.itemLijst = ["organisme_1", "organisme_3", "organisme_2", "organisme_4", "organisme_5", "organisme_6"];
-        //organismenSet.itemLijst.push("Acht");
-        organismenSet.laadItems();
+    </script>
+    <script src="js/bibliotheek.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            initMDZB();
+
+        })
+        //organismenSet.alleOrganismen.sort(function (a, b) {
+        //    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
+        //});
+
+
+
+
+        //organismenSet.itemLijst = ["organisme_1", "organisme_3", "organisme_2", "organisme_4", "organisme_5", "organisme_6"];
+        ////organismenSet.itemLijst.push("Acht");
+        //organismenSet.laadItems();
+        organismenSet.initieerSet();
 
         function initMDZB() {
             // eerst hoofdmenu opbouwen en in main zetten
@@ -2329,8 +2362,9 @@
             var filterDiv = "<div class='filtervenster'>Filter</div>";
             var menuDiv = "<div class='menuVenster'>";
             menuDiv += "<h1>Menu-items</h1>";
-            for (var x = 0; x < bron.alleItems.length; x++) {
-                menuDiv += "<div class='menuItem'style='height:36px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.alleItems[x].id + "><img src='" + bron.alleItems[x].foto[0].src + "' alt='Girl in a jacket' width='64' height='36'><span style='position:absolute; left:80px'>" + bron.alleItems[x].naam + "</span></div>";
+            organismenSet.initieerSet
+            for (var x = 0; x < bron.itemLijst.length; x++) {
+                menuDiv += "<div class='menuItem'style='height:36px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + bron.organismen.get(bron.itemLijst[x]).fotos[0].vindplaats + "' alt='Girl in a jacket' width='64' height='36'><span style='position:absolute; left:80px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
             }
             menuDiv += "</div>";
 
@@ -2339,46 +2373,44 @@
         function toonItem(deze) {
             var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
             var itemId = $(deze).data("itemid");
-            var itemElt = $("#bibliotheek").find("#" + itemId);
+
+            // nu informatie uit bron.organismen.get(itemId);
+//            var itemElt = $("#bibliotheek").find("#" + itemId);
             // eerst hoofdstructuur
             var schermbreedte = document.getElementsByTagName("body")[0].offsetWidth;
-            //var itemHTML = "<div class='itemHeader volledig' style='height:3em; background-color:red; text-align:center'>" + itemElt.data("naam") + "</div>";
-            //itemHTML += "<div class='itemContent volledig' style='top: 3em;'>";
-            //itemHTML += "<div class='itemImages volledig' style='height:25%; background-color:blue'></div>";
-            //itemHTML += "<div class='itemInfo volledig' style='height:75%; top:auto; background-color:green'></div>";
-            //itemHTML += "</div>"
             var itemHTML = "<div class='itemContent volledig'>";
-            itemHTML += "<div class='itemImages volledig' style='height:" + schermbreedte*180/320 + "px; background-color:blue'></div>";
+            itemHTML += "<div class='itemImages volledig' style='height:" + schermbreedte * 180 / 320 + "px; background-color:blue'></div>";
             itemHTML += "<div class='itemInfo volledig' style='top:" + schermbreedte * 180 / 320 + "px; background-color:green'></div>";
-            itemHTML += "</div>"
+            itemHTML += "</div>";
             itemPaginaElt.innerHTML = itemHTML;
-            // sliders voor afbeeldingen en toelichting
+            // slider voor afbeeldingen
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
-            for (var nr = 0; nr < itemElt.find(".fotos").find("img").length; nr++) {
-                var foto = itemElt.find(".fotos").find("img").eq(nr);
-                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="width:100%;height:auto;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + itemElt.data("naam") + '</span></div></div>')
-            };
+            var ditItem = organismenSet.organismen.get(itemId);
+            for (var nr = 0; nr < ditItem.fotos.length; nr++) {
+                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="images/' + ditItem.fotos[nr].vindplaats + '" alt="' + ditItem.fotos[nr].naam + '" width="320" height="180" style="width:100%;height:auto;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + ditItem.fotos[nr].vindplaats + '</span></div></div>')
+            }
+            // slider voor toelichtingen
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
-            for (var nr = 0; nr < itemElt.find(".organisme-info").find(".info-pagina").length; nr++) {
-                var infoPagina = itemElt.find(".organisme-info").find(".info-pagina").eq(nr);
-                // speciale info-pagina's eerst afhandelen
+            for (var nr = 0; nr < ditItem.informatie.length; nr++) {
+            //    var infoPagina = itemElt.find(".organisme-info").find(".info-pagina").eq(nr);
+                //    // speciale info-pagina's eerst afhandelen
                 var defaultPagina = true;
-                if (infoPagina.hasClass("vergelijkbare_soorten")) {
-                    infoSwiper.appendSlide('<div class="swiper-slide soorten-vergelijker">ttt</div>')
-                    var dezePagina = $(itemPaginaElt).find(".itemInfo").find(".soorten-vergelijker").eq(0);
-                    dezePagina.html('<div class="vergelijk-venster volledig" style="background-color:blue"></div>');
-                    var vergelijkSwiper = maakSwiper($(dezePagina).find(".vergelijk-venster")[0], true, false);
-                    for (var nr = 0; nr < infoPagina.find("img").length; nr++) {
-                        var foto = infoPagina.find("img").eq(nr);
-                        vergelijkSwiper.appendSlide('<div class="swiper-slide"><div class="volledig" style="background-color:yellow"><p style="background-color:rgba(255,0,0,0.1)">Test</p><div style="height:33%"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div><p>Testje</p></div></div>')
-                    }
-                    defaultPagina = false;
-                }
-                if (defaultPagina) infoSwiper.appendSlide('<div class="swiper-slide">' + infoPagina[0].innerHTML + '</div>');
+            //    if (infoPagina.hasClass("vergelijkbare_soorten")) {
+            //        infoSwiper.appendSlide('<div class="swiper-slide soorten-vergelijker">ttt</div>')
+            //        var dezePagina = $(itemPaginaElt).find(".itemInfo").find(".soorten-vergelijker").eq(0);
+            //        dezePagina.html('<div class="vergelijk-venster volledig" style="background-color:blue"></div>');
+            //        var vergelijkSwiper = maakSwiper($(dezePagina).find(".vergelijk-venster")[0], true, false);
+            //        for (var nr = 0; nr < infoPagina.find("img").length; nr++) {
+            //            var foto = infoPagina.find("img").eq(nr);
+            //            vergelijkSwiper.appendSlide('<div class="swiper-slide"><div class="volledig" style="background-color:yellow"><p style="background-color:rgba(255,0,0,0.1)">Test</p><div style="height:33%"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div><p>Testje</p></div></div>')
+            //        }
+            //        defaultPagina = false;
+                //    }
+                if (defaultPagina) infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">' + ditItem.informatie[nr].infoblok + '<p style="text-align:center;"></br>---------------------</p></div></div>');
             };
             // als er geen informatie in bibliotheek staat:
-            if (itemElt.find(".organisme-info").find(".info-pagina").length == 0) {
-                infoSwiper.appendSlide('<div class="swiper-slide">Geen informatie beschikbaar</div>');
+            if (ditItem.informatie.length == 0) {
+                infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">Geen informatie beschikbaar<p style="text-align:center;"></br>---------------------</p></div></div>');
             }
 
             // slide next; deze moet eerst voorbereid met allow slidenext
@@ -2506,26 +2538,31 @@
         }
     </script>
     <style>
+        .infoslide {
+            padding-left:10px;
+            padding-right:10px;
+        }
         .filtervenster {
             position: absolute;
-            left:0;
-            right:0;
-            top:0;
-            height:1.5em;
-            background-color:honeydew;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 1.5em;
+            background-color: honeydew;
         }
+
         .menuVenster {
-            position:absolute;
-            left:0;
-            right:0;
-            bottom:0;
-            top:1.5em;
-            overflow:auto;
-            background-color:lightgoldenrodyellow;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 1.5em;
+            overflow: auto;
+            background-color: lightgoldenrodyellow;
         }
     </style>
 
-   
+
 
 </body>
 </html>
