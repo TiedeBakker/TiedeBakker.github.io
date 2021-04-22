@@ -83,9 +83,53 @@
             </span>
         </span>
     </div>
-    <div id="main" class="maincontent" style="padding:20px; background-color:green">
+    <div id="main" class="maincontent" style="padding:20px; background-color:green"></div>
+    <script>
+        $(document).ready(function () {
+            initMDZB();
+        })
+        function initMDZB() {
+            // eerst hoofdmenu opbouwen en in main zetten
+            var menu = document.createElement("div");
+            menu.classList.add("hoofdmenu");
+            menu.classList.add("volledig");
+            $(menu).css({ "background-color": "white", "padding": "0 10px 0 10px" });
+            var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
+            var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
+            for (x = 0; x < modules.length; x++) {
+                menuHTML += "<p onclick='toonModule(" + (x) + ")' class='klikbaar'>" + modules[x].dataset.naam + "</p>";
+            };
+            menu.innerHTML = menuHTML;
+            $("#main").html(menu.outerHTML);
+            // vanuit nieuwe structuur; hier eerst als demo opbouwen
 
-    </div>
+            var MDZBmodules = new Map();
+            MDZBmodules.set("Module 1", { naam: "Module 1", type: "infoblad" });
+            MDZBmodules.set("Module 2", { naam: "Module 2" });
+            MDZBmodules.set("Module 3", { naam: "Module 1", type: "infoblad" });
+            MDZBmodules.set("Module 4", { naam: "Module 2" });
+            MDZBmodules.set("Module 5", { naam: "Module 1", type: "infoblad" });
+            MDZBmodules.set("Module 6", { naam: "Module 2" });
+            MDZBmodules.set("Module 7", { naam: "Module 1", type: "infoblad" });
+            MDZBmodules.set("Module 8", { naam: "Module 2" });
+            MDZBmodules.set("Module 9", { naam: "Module 1", type: "infoblad" });
+            MDZBmodules.set("Module 20", { naam: "Module 2" });
+            MDZBmodules.set("Module 22", { naam: "Module 1", type: "infoblad" });
+            MDZBmodules.set("Module 25", { naam: "Module 2" });
+
+            for (const [key, value] of MDZBmodules.entries()) {
+                //console.log(key, value);
+                var menuRegel = document.createElement("div");
+                menuRegel.setAttribute("onclick", "startModule(this)");
+                menuRegel.setAttribute("data-module", key);
+                menuRegel.classList.add("klikbaar");
+                menuRegel.innerHTML = value.naam
+                $(".hoofdmenu").eq(0).html($(".hoofdmenu").eq(0).html() + menuRegel.outerHTML);
+            }
+
+        }
+
+    </script>
     <div id="bibliotheek" style="display: none">
         <div id="MDZBModule" class="MDZBmodule" data-naam="Info over deze App">
             <div class="modulestart">
@@ -486,7 +530,7 @@
             <div class="slide">Eerste</div>
             <div class="slide">tweede</div>
         </div>
-        <div id="organismenbibliotheek">
+        <!--<div id="organismenbibliotheek">
             <div id="organisme_1" class="organisme" data-naam="Appelvink">
                 <div class="fotos">
                     <img src="images/appelvink.jpg" alt="Appelvink" />
@@ -2087,7 +2131,7 @@
                 </div>
             </div>
 
-        </div>
+        </div>-->
     </div>
     <style>
         .organisme-header, .organisme-content, .organisme-fotovenster, .organisme-infovenster, .vergelijk-venster {
@@ -2201,10 +2245,6 @@
     <script src="js/bibliotheek.js"></script>
 
     <script>
-        $(document).ready(function () {
-            initMDZB();
-
-        })
         //organismenSet.alleOrganismen.sort(function (a, b) {
         //    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
         //});
@@ -2217,20 +2257,6 @@
         //organismenSet.laadItems();
         organismenSet.initieerSet();
 
-        function initMDZB() {
-            // eerst hoofdmenu opbouwen en in main zetten
-            var menu = document.createElement("div");
-            menu.classList.add("hoofdmenu");
-            menu.classList.add("volledig");
-            $(menu).css({ "background-color": "white", "padding": "0 10px 0 10px" });
-            var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
-            var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
-            for (x = 0; x < modules.length; x++) {
-                menuHTML += "<p onclick='toonModule(" + (x) + ")' class='klikbaar'>" + modules[x].dataset.naam + "</p>";
-            };
-            menu.innerHTML = menuHTML;
-            $("#main").html(menu.outerHTML);
-        }
         function toonPagina(bron, pagnr) {
             // via .swiper eigenschap van container-element kun je gewenste swiper-instantie benaderen
             $(bron).parents(".swiper-container").get(0).swiper.slideTo(pagnr);
@@ -2359,16 +2385,20 @@
             vulMenuPagina(menuSwiper, menuPagina, window.organismenSet, "");
         }
         function vulMenuPagina(dezeSwiper, paginaElt, bron, filter) {
-            var filterDiv = "<div class='filtervenster'>Filter</div>";
+            var filterDiv = "<div class='filtervenster'>Filter<input type='text' id='fname' name='fname'></div>";
             var menuDiv = "<div class='menuVenster'>";
             menuDiv += "<h1>Menu-items</h1>";
             organismenSet.initieerSet
             for (var x = 0; x < bron.itemLijst.length; x++) {
-                menuDiv += "<div class='menuItem'style='height:36px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + bron.organismen.get(bron.itemLijst[x]).fotos[0].vindplaats + "' alt='Girl in a jacket' width='64' height='36'><span style='position:absolute; left:80px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
+                var fotobron = "";
+                if (bron.organismen.get(bron.itemLijst[x]).fotos.length > 0) fotobron = bron.organismen.get(bron.itemLijst[x]).fotos[0].vindplaats;
+                menuDiv += "<div class='menuItem'style='height:36px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + fotobron + "' alt='Geen foto' width='64' height='36'><span style='position:absolute; left:80px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
             }
             menuDiv += "</div>";
 
             paginaElt.innerHTML = filterDiv + menuDiv;
+
+            $(paginaElt).find(".filtervenster").on("click", filter(this));
         }
         function toonItem(deze) {
             var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
