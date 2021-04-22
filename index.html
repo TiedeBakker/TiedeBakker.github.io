@@ -2384,6 +2384,18 @@
             var itemPagina = containerElement.getElementsByClassName("item-pagina")[0];
             vulMenuPagina(menuSwiper, menuPagina, window.organismenSet, "");
         }
+        function filterMenu(deze, tekst) {
+            alert(tekst);
+            alert($(deze).get(0).outerHTML);
+        }
+
+        // contains case-insensitive maken (zie ook: https://css-tricks.com/snippets/jquery/make-jquery-contains-case-insensitive/)
+        $.expr[":"].contains = $.expr.createPseudo(function (arg) {
+            return function (elem) {
+                return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+            };
+        });
+
         function vulMenuPagina(dezeSwiper, paginaElt, bron, filter) {
             var filterDiv = "<div class='filtervenster'>Filter<input type='text' id='fname' name='fname'></div>";
             var menuDiv = "<div class='menuVenster'>";
@@ -2397,8 +2409,12 @@
             menuDiv += "</div>";
 
             paginaElt.innerHTML = filterDiv + menuDiv;
-
-            $(paginaElt).find(".filtervenster").on("click", filter(this));
+            // voorlopige selectie functie (beperkt)
+            $(paginaElt).find("input").eq(0).change(function () {
+                $(paginaElt).find(".menuItem").css("display", "none");
+                $(paginaElt).find(".menuItem:contains(" + $(this).val() + ")").css("display", "block");
+            })
+                
         }
         function toonItem(deze) {
             var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
@@ -2577,7 +2593,7 @@
             left: 0;
             right: 0;
             top: 0;
-            height: 1.5em;
+            height: 2.5em;
             background-color: honeydew;
         }
 
@@ -2586,7 +2602,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            top: 1.5em;
+            top: 2.5em;
             overflow: auto;
             background-color: lightgoldenrodyellow;
         }
