@@ -2401,10 +2401,13 @@
             var menuDiv = "<div class='menuVenster'>";
             menuDiv += "<h1>Menu-items</h1>";
             organismenSet.initieerSet
-            for (var x = 0; x < bron.itemLijst.length; x++) {
-                var fotobron = "";
-                if (bron.organismen.get(bron.itemLijst[x]).fotos.length > 0) fotobron = bron.organismen.get(bron.itemLijst[x]).fotos[0].vindplaats;
-                menuDiv += "<div class='menuItem'style='height:36px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + fotobron + "' alt='Geen foto' width='64' height='36'><span style='position:absolute; left:80px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
+            for (var y =0 ; y < 100; y++) {
+
+                for (var x = 0; x < bron.itemLijst.length; x++) {
+                    var fotobron = "";
+                    if (bron.organismen.get(bron.itemLijst[x]).fotos.length > 0) fotobron = bron.organismen.get(bron.itemLijst[x]).fotos[0].vindplaats;
+                    menuDiv += "<div class='menuItem'style='height:36px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + fotobron + "' alt='Geen foto' width='64' height='36'><span style='position:absolute; left:80px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
+                }
             }
             menuDiv += "</div>";
 
