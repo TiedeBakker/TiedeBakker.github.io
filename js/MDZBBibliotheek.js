@@ -4,5 +4,5 @@ MDZBmodules.set('Handboek MDZB', { naam: 'Handboek MDZB', type: 'Basismodule', b
 'Lege pagina',
 ]});
 MDZBmodules.set('Losse opmerkingen en notities', { naam: 'Losse opmerkingen en notities', type: 'Basismodule', bladzijden:[
-'Lege pagina',
+'<p>In deze module neem ik allerlei losse informatie op die ik nog in andere modules wil opnemen of die ik nog verder wil uitzoeken. Voorloig is het gewoon een domme lijst.</p><h1>Nieuwe zaken die ik nog in MDZB-Data op wil nemen.</h1><ul> <li>Basisbewerkingen van modules verder uitbreiden: <ul>  <li>Nieuwe modules toevoegen</li>  <li>Editmogelijkheid voor naam en type module</li>  <li>Toelichting verder implementeren</li> </ul> </li> <li>Nieuwe typen modules toevoegen <ul>  <li>Oude organismen-module omzetten naar nieuwe structuur en zodra die werkt oude structuur afbreken</li> </ul> </li></ul><h1>Nieuwe zaken die ik in PWA versie MDZB op wil nemen</h1>',
 ]});
