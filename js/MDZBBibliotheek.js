@@ -6,3 +6,12 @@ MDZBmodules.set('Handboek MDZB', { naam: 'Handboek MDZB', type: 'Basismodule', b
 MDZBmodules.set('Losse opmerkingen en notities', { naam: 'Losse opmerkingen en notities', type: 'Basismodule', bladzijden:[
 '<p>In deze module neem ik allerlei losse informatie op die ik nog in andere modules wil opnemen of die ik nog verder wil uitzoeken. Voorloig is het gewoon een domme lijst.</p><h1>Nieuwe zaken die ik nog in MDZB-Data op wil nemen.</h1><ul> <li>Basisbewerkingen van modules verder uitbreiden: <ul>  <li>Nieuwe modules toevoegen</li>  <li>Editmogelijkheid voor naam en type module</li>  <li>Toelichting verder implementeren</li> </ul> </li> <li>Nieuwe typen modules toevoegen <ul>  <li>Oude organismen-module omzetten naar nieuwe structuur en zodra die werkt oude structuur afbreken</li> </ul> </li></ul><h1>Nieuwe zaken die ik in PWA versie MDZB op wil nemen</h1>',
 ]});
+MDZBmodules.set('Kennisgebieden', { naam: 'Kennisgebieden', type: 'Basismodule', bladzijden:[
+'<h1>Kennisgebieden</h1><p>Ik gebruik de module kennisgebieden om voor allerlei kennisgebieden (&eacute;&eacute;n per pagina) kort de structuur van het betreffende gebied te verkennen. De kennisgebieden die ik hier onderscheid zijn:</p><ul> <li>Biologie</li> <li>Scheikunde</li> <li>Natuurkunde</li> <li>Veldbiologie</li> <li>Fotografie</li></ul>',
+'<h1>Biologie</h1><p>Binnen het kennisgebied &quot;Biologie&quot; onderscheid ik in eerste instantie een aantal kennisterreinen, zoals ik die ook in de indeling in mijn studie zelf ben tegen gekomen:</p><ul> <li>Celbiologie; hier bestaat een directe link met Biochemie, dat ik heb ondergebracht bij Scheikunde</li> <li>Botanie <ul>  <li>Indeling plantenrijk</li>  <li>Anatomie</li>  <li>Plantenfysiologie</li> </ul> </li> <li>Zo&ouml;logie <ul>  <li>Indeling dierenrijk</li>  <li>Histologie</li>  <li>Dierfysiologie</li> </ul> </li> <li>Microbiologie</li> <li>Genetica</li> <li>Ecologie</li></ul>',
+'<h1>Scheikunde</h1>',
+'<h1>Natuurkunde</h1>',
+'<h1>Wiskunde</h1>',
+'<h1>Veldbiologie</h1><p>Veldbiologie omvat voor mij alles wat ik op niveau van organismen en groepen organismen kan waarnemen in het veld (of onder binoculair/microscoop in meegebrachte samples). Ik wil daarbij enerzijd aandacht besteden aan beschrijven van soorten en systemen, determinatietabellen, waarnemings-, vang en conserveermethoden</p>',
+'<h1>Fotografie</h1>',
+]});
