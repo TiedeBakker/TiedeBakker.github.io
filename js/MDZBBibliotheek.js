@@ -4,7 +4,7 @@ MDZBmodules.set('Handboek MDZB', { naam: 'Handboek MDZB', type: 'Basismodule', b
 'Lege pagina',
 ]});
 MDZBmodules.set('Losse opmerkingen en notities', { naam: 'Losse opmerkingen en notities', type: 'Basismodule', bladzijden:[
-'<p>In deze module neem ik allerlei losse informatie op die ik nog in andere modules wil opnemen of die ik nog verder wil uitzoeken. Voorloig is het gewoon een domme lijst.</p><h1>Nieuwe zaken die ik nog in MDZB-Data op wil nemen.</h1><ul> <li>Basisbewerkingen van modules verder uitbreiden: <ul>  <li><s>Nieuwe modules toevoegen</s></li>  <li><s>Editmogelijkheid voor naam en type module</s></li>  <li>Toelichting verder implementeren</li> </ul> </li> <li>Nieuwe typen modules toevoegen <ul>  <li>Oude organismen-module omzetten naar nieuwe structuur en zodra die werkt oude structuur afbreken</li>  <li>Kennisgebieden</li> </ul> </li></ul><h1>Nieuwe zaken die ik in PWA versie MDZB op wil nemen</h1><h1>Inhoud</h1><ul> <li>Vogel die eigen naam roept: <strong><em>onomatopee</em></strong></li></ul>',
+'<p>In deze module neem ik allerlei losse informatie op die ik nog in andere modules wil opnemen of die ik nog verder wil uitzoeken. Voorlopig is het gewoon een domme lijst.</p><h1>Nieuwe zaken die ik nog in MDZB-Data op wil nemen.</h1><ul> <li>Basisbewerkingen van modules verder uitbreiden: <ul>  <li><s>Nieuwe modules toevoegen</s></li>  <li><s>Editmogelijkheid voor naam en type module</s></li>  <li>Toelichting verder implementeren</li> </ul> </li> <li>Nieuwe typen modules toevoegen <ul>  <li>Oude organismen-module omzetten naar nieuwe structuur en zodra die werkt oude structuur afbreken</li>  <li>Kennisgebieden</li> </ul> </li></ul><h1>Nieuwe zaken die ik in PWA versie MDZB op wil nemen</h1><h1>Inhoud</h1><ul> <li>Vogel die eigen naam roept: <strong><em>onomatopee</em></strong></li></ul>',
 ]});
 MDZBmodules.set('Kennisgebieden', { naam: 'Kennisgebieden', type: 'Basismodule', bladzijden:[
 '<h1>Kennisgebieden</h1><p>Ik gebruik de module kennisgebieden om voor allerlei kennisgebieden (&eacute;&eacute;n per pagina) kort de structuur van het betreffende gebied te verkennen. De kennisgebieden die ik hier onderscheid zijn:</p><ul> <li>Biologie</li> <li>Scheikunde</li> <li>Natuurkunde</li> <li>Veldbiologie</li> <li>Fotografie</li></ul>',
@@ -14,4 +14,11 @@ MDZBmodules.set('Kennisgebieden', { naam: 'Kennisgebieden', type: 'Basismodule',
 '<h1>Wiskunde</h1>',
 '<h1>Veldbiologie</h1><p>Veldbiologie omvat voor mij alles wat ik op niveau van organismen en groepen organismen kan waarnemen in het veld (of onder binoculair/microscoop in meegebrachte samples). Ik wil daarbij enerzijd aandacht besteden aan beschrijven van soorten en systemen, determinatietabellen, waarnemings-, vang en conserveermethoden</p>',
 '<h1>Fotografie</h1>',
+]});
+MDZBmodules.set('Muziek', { naam: 'Muziek', type: '', bladzijden:[
+]});
+MDZBmodules.set('Hout- en metaalbewerking', { naam: 'Hout- en metaalbewerking', type: 'Basismodule', bladzijden:[
+'<h1>Hout- en metaalbewerking</h1><p>In de module hout- en metaalbewerking wil ik allerlei tips en trucks op het gebied van hout- en metaalbewerken (en mogelijk meer, denk aan schilderen, metselen, enz) opnemen.</p><p>Voor elke categorieverwacht ik in eerste instantie een eigen pagina in te richten.</p>',
+'Hout bewerking',
+'Metaalbewerking',
 ]});
