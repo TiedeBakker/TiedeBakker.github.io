@@ -2458,7 +2458,7 @@
             var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
             var ditItem = organismenSet.organismen.get(itemId);
             for (var nr = 0; nr < ditItem.fotos.length; nr++) {
-                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="images/' + ditItem.fotos[nr].vindplaats + '" alt="' + ditItem.fotos[nr].naam + '" width="320" height="180" style="width:100%;height:auto;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + ditItem.fotos[nr].vindplaats + '</span></div></div>')
+                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="images/' + ditItem.fotos[nr].vindplaats + '" alt="' + ditItem.fotos[nr].naam + '" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + ditItem.fotos[nr].vindplaats + '</span></div></div>')
             }
             // slider voor toelichtingen
             var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
