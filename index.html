@@ -89,7 +89,7 @@
             initMDZB();
         })
         function initMDZB() {
-            // eerst hoofdmenu opbouwen en in main zetten
+            //  hoofdmenu opbouwen en in main zetten
             var menu = document.createElement("div");
             menu.classList.add("hoofdmenu");
             menu.classList.add("volledig");
@@ -2436,11 +2436,10 @@
 
             paginaElt.innerHTML = filterDiv + menuDiv;
             // voorlopige selectie functie (beperkt)
-            $(paginaElt).find("input").eq(0).change(function () {
+            $(paginaElt).find("input").eq(0).on("input", function () {
                 $(paginaElt).find(".menuItem").css("display", "none");
                 $(paginaElt).find(".menuItem:contains(" + $(this).val() + ")").css("display", "block");
-            })
-                
+            })               
         }
         function toonItem(deze) {
             var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
