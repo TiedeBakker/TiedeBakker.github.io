@@ -2290,6 +2290,7 @@
             var basisSwiper = maakSwiper(containerElement, false, true, true);
             // bladzijden invoegen
             for (var x = 0; x < module.bladzijden.length; x++) {
+                alert(module.bladzijden[x].paginatype);
                 switch (module.bladzijden[x].paginatype) {
                     case "basistype":
                         basisSwiper.appendSlide('<div class="swiper-slide menu-pagina">' + module.bladzijden[x].paginainhoud + '</div>');
