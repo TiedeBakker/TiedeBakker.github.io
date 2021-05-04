@@ -2270,8 +2270,6 @@
             $("#modulenaam").html("Mijn digitaal zakboekje");
         }
         function startModule(deze) {
-            //alert(MDZBmodules.get($(deze).data("module")).bladzijden.length);
-            // eerst module opbouwen te beginnen bij raamwerkdiv
             var dezeModule = document.createElement("div");
             dezeModule.classList.add("module");
             dezeModule.classList.add("volledig");
@@ -2292,7 +2290,12 @@
             var basisSwiper = maakSwiper(containerElement, false, true, true);
             // bladzijden invoegen
             for (var x = 0; x < module.bladzijden.length; x++) {
-                basisSwiper.appendSlide('<div class="swiper-slide menu-pagina">' + module.bladzijden[x] + '</div>');
+                switch (module.bladzijden[x].paginatype) {
+                    case "basistype":
+                        basisSwiper.appendSlide('<div class="swiper-slide menu-pagina">' + module.bladzijden[x].paginainhoud + '</div>');
+                        break;
+                }
+                
             }
         }
         function toonModule(deze) {
