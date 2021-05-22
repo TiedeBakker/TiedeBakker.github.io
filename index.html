@@ -2245,6 +2245,13 @@
     <script src="js/bibliotheek.js"></script>
     <script src="js\MDZBBibliotheek.js"></script>
     <script>
+        alert("tijdreekspagina nog niet vanuit MDZBBiliotheek lopend");
+        MDZBmodules.set('TEST', {
+            naam: 'TEST', type: 'Basismodule', bladzijden: [
+                { paginatype: 'tijdreeks', paginainhoud: 'Hout bewerking' },
+                { paginatype: 'basistype', paginainhoud: 'Hout bewerking' },
+            ]
+        });
         //organismenSet.alleOrganismen.sort(function (a, b) {
         //    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
         //});
@@ -2293,6 +2300,28 @@
                 switch (module.bladzijden[x].paginatype) {
                     case "basistype":
                         basisSwiper.appendSlide('<div class="swiper-slide menu-pagina">' + module.bladzijden[x].paginainhoud + '</div>');
+                        break;
+                    case "tijdreeks":
+                        // eerst een lege pagina met twee swipers maken
+                        var paginaHTML = '<div class="swiper-slide">';
+                        var schermbreedte = document.getElementsByTagName("body")[0].offsetWidth;
+                        paginaHTML += "<div class='terugknop' style='position:absolute;z-index=9000;left=0;top=0;width=100;heighth=100;background-color=red'>TERUG</div>";
+                        paginaHTML += "<div class='itemImages volledig' style='height:" + schermbreedte * 180 / 320 + "px; background-color:blue'>Fotoreeks</div>";
+                        paginaHTML += "<div class='itemInfo volledig' style='top:" + schermbreedte * 180 / 320 + "px; background-color:green'>Serie</div>";
+                        paginaHTML += '</div > '
+
+
+
+
+
+                        basisSwiper.appendSlide(paginaHTML);
+                        alert($(containerElement).find(".itemImages").length);
+                        var imageSwiper = maakSwiper($(containerElement).find(".itemImages")[0], true, false, false);
+                        imageSwiper.appendSlide('<div class="swiper-slide menu-pagina">TEST 1</div>');
+                        imageSwiper.appendSlide('<div class="swiper-slide">TEST 2</div>');
+                        // terugknop toevoegen
+                        //var terugknop = "<div class='terugknop' style='position:absolute;z-index=9000;left=0;top=0;width=100;heighth=100;background-color=red'>TERUG</div>";
+                        //$(containerElement).html($(containerElement).html() + terugknop);
                         break;
                 }
                 
@@ -2433,7 +2462,7 @@
             for (var x = 0; x < bron.itemLijst.length; x++) {
                 var fotobron = "";
                 if (bron.organismen.get(bron.itemLijst[x]).fotos.length > 0) fotobron = bron.organismen.get(bron.itemLijst[x]).fotos[0].vindplaats;
-                menuDiv += "<div class='menuItem'style='height:92px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + fotobron + "' alt='Geen foto' width='160' height='90'><span style='position:absolute; left:170px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
+                menuDiv += "<div class='menuItem'style='height:92px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + fotobron + "' alt='Geen foto' width='auto' height='90'><span style='position:absolute; left:170px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
             }
             menuDiv += "</div>";
 
