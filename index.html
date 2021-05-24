@@ -2339,6 +2339,8 @@
                         basisSwiper.appendSlide(paginaHTML);
                         //alert($(containerElement).find(".itemImages").length);
                         var imageSwiper = maakSwiper($(containerElement).find(".itemImages")[0], true, false, false);
+                        var compareSwiper = maakSwiper($(containerElement).find(".itemCompareImages")[0], true, false, false);
+                        var infoSwiper = maakSwiper($(containerElement).find(".itemInfo")[0], true, false, false);
                         imageSwiper.appendSlide('<div class="swiper-slide menu-pagina">TEST 1</div>');
 
 
@@ -2349,6 +2351,11 @@
 
 
                         imageSwiper.appendSlide('<div class="swiper-slide">TEST 2</div>');
+
+                        compareSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(1).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(1).naam + '</span></div></div>');
+                        compareSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(2).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(2).naam + '</span></div></div>');
+                        compareSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(3).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(3).naam + '</span></div></div>');
+
                         // terugknop toevoegen
                         //var terugknop = "<div class='terugknop' style='position:absolute;z-index=9000;left=0;top=0;width=100;heighth=100;background-color=red'>TERUG</div>";
                         //$(containerElement).html($(containerElement).html() + terugknop);
