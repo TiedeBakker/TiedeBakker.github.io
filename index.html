@@ -1,0 +1,2715 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MDZB test</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mijn ZakBoek - MZB">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
+
+    <script src="js/swiper-bundle.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <style>
+        .klikbaar {
+            cursor: pointer;
+            color:darkturquoise;
+        }
+        .module {
+            background-color: white;
+        }
+/*        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+*/
+        .swiper-container {
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0px 0;
+        }
+
+        .swiper-slide {
+            background: #fff;
+            overflow: auto;
+        }
+
+        .swiper-container-v {
+            background: #000;
+        }
+
+ /*       .swiper-pagination-v {
+            top: 10px !important;
+        }
+*/    </style>
+
+
+</head>
+<body class="fullscreen" style="font-size:14px">
+    <div id="logobalk" class="volledig logobalk">
+        <p id="modulenaam" style="margin: .4em 0 0 0 ;text-align:center">Mijn Digitaal Zakboekje</p>
+        <span class="header__icon" style="position:absolute;left:.5em;top:0em" onclick="toonMenu()">
+            <svg width="2em" height="2em" viewBox="0 0 48 48" fill="#fff">
+                <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
+            </svg>
+        </span>
+        <!--<span style="position:absolute;left:10px;top:5px"><span onclick="toonMenu()" class="klikbaar">Menu</span></span>-->
+        <span style="position:absolute; right:40px; top:0">
+            <span style="position:relative; left:10px">
+                <span style="font-size:120%" onclick="maakFontSize('+')">A</span>
+                <span style="position:relative; left: 20px" onclick="maakFontSize('-')">A</span>
+            </span>
+        </span>
+    </div>
+    <div id="main" class="maincontent" style="padding:20px; background-color:green"></div>
+    <div id="toelichtvenster" style="position:absolute;left:50px;right:50px;top:50px;bottom:50px;z-index:5000; background-color:rgb(10, 151, 160, 0.13)"><div style="position:absolute;top:60px;right:60px;height:20px;width:20px;background-color:red;text-align:center;cursor:pointer" onclick="verberg(this)">X</div></div>
+    <script>
+        $(document).ready(function () {
+            initMDZB();
+        })
+        function initMDZB() {
+            //  hoofdmenu opbouwen en in main zetten
+            var menu = document.createElement("div");
+            menu.classList.add("hoofdmenu");
+            menu.classList.add("volledig");
+            $(menu).css({ "background-color": "white", "padding": "0 10px 0 10px" });
+            var menuHTML = "<h1>Mijn Digitaal ZakBoekje</h1><p>Beschikbare modules:</p>";
+            var modules = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule");
+            for (x = 0; x < modules.length; x++) {
+                menuHTML += "<p onclick='toonModule(" + (x) + ")' class='klikbaar'>" + modules[x].dataset.naam + "</p>";
+            };
+            menu.innerHTML = menuHTML;
+            $("#main").html(menu.outerHTML);
+            // vanuit nieuwe structuur; hier eerst als demo opbouwen
+
+            //var MDZBmodules = new Map();
+            //MDZBmodules.set("Module 1", { naam: "Module 1", type: "infoblad" });
+            //MDZBmodules.set("Module 2", { naam: "Module 2" });
+            //MDZBmodules.set("Module 3", { naam: "Module 1", type: "infoblad" });
+            //MDZBmodules.set("Module 4", { naam: "Module 2" });
+            //MDZBmodules.set("Module 5", { naam: "Module 1", type: "infoblad" });
+            //MDZBmodules.set("Module 6", { naam: "Module 2" });
+            //MDZBmodules.set("Module 7", { naam: "Module 1", type: "infoblad" });
+            //MDZBmodules.set("Module 8", { naam: "Module 2" });
+            //MDZBmodules.set("Module 9", { naam: "Module 1", type: "infoblad" });
+            //MDZBmodules.set("Module 20", { naam: "Module 2" });
+            //MDZBmodules.set("Module 22", { naam: "Module 1", type: "infoblad" });
+            //MDZBmodules.set("Module 25", { naam: "Module 2" });
+
+            for (const [key, value] of MDZBmodules.entries()) {
+                //console.log(key, value);
+                var menuRegel = document.createElement("div");
+                menuRegel.setAttribute("onclick", "startModule(this)");
+                menuRegel.setAttribute("data-module", key);
+                menuRegel.classList.add("klikbaar");
+                menuRegel.innerHTML = value.naam
+                $(".hoofdmenu").eq(0).html($(".hoofdmenu").eq(0).html() + menuRegel.outerHTML);
+            }
+
+        }
+        function verberg(deze) {
+            $(deze).parent().css({ 'display': 'none' });
+        }
+
+    </script>
+    <div id="bibliotheek" style="display: none">
+        <div id="MDZBModule" class="MDZBmodule" data-naam="Info over deze App">
+            <div class="modulestart">
+                <h1><strong>M</strong>ijn <strong>D</strong>igitale <strong>Z</strong>ak<strong>B</strong>oek (MdZb)</h1>
+
+                <p><span style="color:#ff0000"><span style="background-color:#ffff00">Snel aanpassen:&nbsp; Even niets actueel</span></span></p>
+
+                <p>Deze Progressive WebApp gebruik ik om informatie die ik altijd onder handbereik wil hebben te organiseren. MdZb bestaat uit een (eenvoudig aan te passen) aantal modules die ik voor verschillende doeleinden wil kunnen gebruiken. De modules vormen tegelijk een oefentuin voor verschillende soorten aanpak.</p>
+
+                <p>MdZb moet in ieder geval op Smartphone en Tablet goed functioneren. De desktop-versie is wat mij betreft een afgeleide, maar ik ga ervan uit dat die thuis ook zijn functie zal bewijzen voor modules/informatie die ik niet onderweg beschikbaar hoef te hebben, maar wel in dezelfde structuur beschikbaar wil hebben.</p>
+
+                <p>De modules waarmee ik op dit moment bezig ben zijn:</p>
+
+                <ul>
+                    <li>Recepten</li>
+                    <li><a href="#module_organismen">Organismen</a></li>
+                </ul>
+
+                <p>De inhoud voor nagenoeg alle pagina&#39;s is ondergebracht in een bibliotheek-element. In deze bibliotheek zit in ieder geval een element voor elke module. Verder zijn er nog eigen elementen voor een aantal typen informatie die bijvoorbeeld in meerdere modules gebruikt kunnen worden. Dit zijn:</p>
+
+                <ul>
+                    <li><a href="#bibliotheek_organismen">De organismen-bibliotheek</a></li>
+                    <li>De personen-bibliotheek</li>
+                </ul>
+
+                <h1>De modules</h1>
+
+                <h2><a id="module_organismen" name="module_organismen">Organismen module</a></h2>
+
+                <h3>Vertrekpunt/idee&euml;n</h3>
+
+                <p>Voor de organismen module wil ik rekening houden met een grote dataset. Ik ga er voorlopig even vanuit dat ik in ieder tientallen vogels en planten op wil nemen. In de testfase wil ik in ieder geval uiteindelijk ook met 1000 organismen testen.</p>
+
+                <p>Van een organisme wil ik &eacute;&eacute;n of meer foto&#39;s kunnen tonen en een aantal aspecten beschrijven. Dat betekent dat een organisme-pagina uit in ieder geval drie delen bestaat:</p>
+
+                <ol>
+                    <li>Een kop met de naam, deze is steeds zichtbaar</li>
+                    <li>Een foto-blok waarin &eacute;&eacute;n foto zichtbaar is, maar waarin je door alle beschikbare foto&#39;s voor dit organisme kunt bladeren (swipen); dit mag globaal &frac14; - van de pagina (in portrait) innemen</li>
+                    <li>Een infoblok waarin een aantal onderwerpen worden besproken; welke dat hangt van het type organisme af. Door de infoblokken kan ook weer worden gebladerd. Het streven is dat de infoblokken zo kort zijn dat ze op de resterende ruimte van de pagina passen, maar meer info is mogelijk doordat er gescrolld kan worden binnen het infoblok. E&eacute;n van de infoblokken die ik wil verkennen is een blok met vergelijkbare soorten, die in kenmerken foto worden getoond. ook door deze foto&#39;s moet je kunnen bladeren/swipen.</li>
+                </ol>
+
+                <p>In de basis denk ik aan een menu, waarop de al dan niet geselecteerde en/of gefilterde organismen in een doorlopende lijst worden getoond met een herkenbare foto en de relevante naam-aanduiding. Voor zover er ruimte is ook iets van andere info erbij. Voor dit menu heb ik een zoek en/of <strong>filtermogelijkheid</strong> nodig.</p>
+
+                <p>Naast de <strong>menu-pagina</strong> moet er een <strong>item-pagina</strong> komen, die tevoorschijn komt zodra je een organisme aanklikt. Op de item-pagina staan de hierboven aangegeven illustraties en beschrijvende onderdelen. Als je de item-pagina wegveegt komt het menu weer tevoorschijn.</p>
+
+                <h3>De Uitvoering</h3>
+
+                <p>De organismen-module is een voorbeeld (en het eerste, dus ik moet er ervaring mee opdoen) van een <em><strong>[.menumodule]</strong></em>. Dit type module wordt opgebouwd in de <em>functie <strong>maakMenuModule(...)</strong></em>.</p>
+
+                <h2>Eerdere Organismenmodule</h2>
+
+                <h3>Vertrekpunt/idee&euml;n</h3>
+
+                <p>Voor de organismen module wil ik rekening houden met een grote dataset. Ik ga er voorlopig even vanuit dat ik in ieder tientallen vogels en planten op wil nemen. In de testfase wil ik in ieder geval uiteindelijk ook met 1000 organismen testen.</p>
+
+                <p>Van een organisme wil ik &eacute;&eacute;n of meer foto&#39;s kunnen tonen en een aantal aspecten beschrijven. Dat betekent dat een organisme-pagina uit in ieder geval drie delen bestaat:</p>
+
+                <ol>
+                    <li>Een kop met de naam, deze is steeds zichtbaar</li>
+                    <li>Een foto-blok waarin &eacute;&eacute;n foto zichtbaar is, maar waarin je door alle beschikbare foto&#39;s voor dit organisme kunt bladeren (swipen); dit mag globaal &frac14; - van de pagina (in portrait) innemen</li>
+                    <li>Een infoblok waarin een aantal onderwerpen worden besproken; welke dat hangt van het type organisme af. Door de infoblokken kan ook weer worden gebladerd. Het streven is dat de infoblokken zo kort zijn dat ze op de resterende ruimte van de pagina passen, maar meer info is mogelijk doordat er gescrolld kan worden binnen het infoblok. E&eacute;n van de infoblokken die ik wil verkennen is een blok met vergelijkbare soorten, die in kenmerken foto worden getoond. ook door deze foto&#39;s moet je kunnen bladeren/swipen.</li>
+                </ol>
+
+                <h3>Uitvoering</h3>
+
+                <p>Omdat een pagina voor ieder organisme apart opgebouwd moet worden lijkt het me niet verstandig om bij het startten van de WebApp of bij het starten van de module alle organismen eerst op te bouwen. Ik denk dat het mogelijk moet zijn om met drie tegelijk opgebouwde organismen te werken: de actuele, de voorafgaande en de volgende. Bij doorschuiven naar de volgende wordt de eerste van de drie weggehaald (removeSlide) en wordt een nieuwe volgende toegevoegd (appenSlide). Bij terugschuiven naar de voorafgaande wordt de laatste pagina weggewerkt (removeSlide) en wordt een nieuwe voorafgaande ingevoegd (addSlide). Je hebt dat een lijst met te tonen organismen nodig die door selectie/filter-mechanisme tot stand komt.</p>
+
+                <p>Dit eerst maar eens testen op performance</p>
+
+                <h1>Bibliotheken</h1>
+
+                <h2><a id="bibliotheek_organismen" name="bibliotheek_organismen">Organisme-bibliotheek</a></h2>
+
+                <p>De organisme-bibliotheek beschrijft alle organanismen waarover informatie in de applicatie is opgenomen. Deze bibliotheek wordt primair gebruikt in de organisme-module. Verder worden (delen) uit de bibliotheek in andere modules, bijvoorbeeld de Markerwadden-module, gebruikt. De organisme-bibliotheek bevat voor elk organisme een apart element met een aantal vaste onderdelen:</p>
+
+                <ul>
+                    <li>Een unieke Id bestaande uit het woord organisme, een underscore en een uniek volgnummer: &quot;organisme_<em>[volgnummer]</em>;</li>
+                    <li>De klasse-aanduiding <em>class=&quot;organisme&quot;</em>;</li>
+                    <li>Het data-attribuut data-naam=<em>[naam van het organisme, zoals in overzicht/kop weer te geven]</em>.</li>
+                    <li>Een element van de klasse <em>fotos</em>; hierin staan &eacute;&eacute;n of meer fotos van het organisme. Voorlopig bevat de img-tag naast de verwijzing naar het foto-bestand (&#39;src = ...&#39;) ook een alt-attribuut met een eventueel kort op- of bijschrift. De foto waarnaar verwezen wordt moet een vaste lenge/breedte verhouding hebben</li>
+                </ul>
+
+                <p>Binnen de organisme-bibliotheek is het mogelijk subgroepen te defini&euml;ren, waardoor bij onderhoud sneller gezocht kan worden.</p>
+
+                <p>LET OP: Ik kan ook bijvoorbeeld vogelgeluiden meenemen. mp3-bestandjes zijn bijvoorbeeld van site vogelbescherming via geavanceerd knippen plakken te krijgen. daarna volgens systematiek van <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">audio-controls</a> in html op te nemen.</p>
+
+                <h1>Gebruikte tools</h1>
+
+                <h2>Editor</h2>
+
+                <p>Voor het snel aanpassen van HTML-teksten gebruik ik een online <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/fullpreset.html">WYSIWYG-editor (CKEditor)</a>, waarin ook allerlei extra code kan worden ingevoegd. Een probleem van de broncode is dat er erg veel witregels tussen komen. Deze kan ik eventueel wegwerken met een online-tool als <a href="https://codebeautify.org/remove-empty-lines?__cf_chl_captcha_tk__=61b0672f13dcaef43ec5019be1b532124ce6c97f-1617558413-0-AdkgfqYNmikBcNpVHMePq2Ug_z37BrzZaHb0sl7fm5GwhRQ6a5EcjBbwdNMgGorb0YZJ9Yg7R05GNNB-Sy64QLam9GrBZBhWvwLQyseTn5Da7puJ5pyjv06B-KAvoljKmc7Vv_2im635ySo0GipJ9QOTC4qQoFjVSyhwQDjJcuqk3gF4ge-Aol3jGt4OJa3ZL0kWQ9kf1XkCJ-U7yO0qyr1bendjLcHl-nFFjYSXjp2EltDiTP39KdfURFbf4Bhx0VgaHhMYcQn7SCNME7Is8KzEgylwM4clPMb7Wh4qoPFPaHRZw4D9q0qZCKnHV-i_4cRinu5zqKbbwdQnLL0dqJLAAmM03qZ8X99cmBqWT5_kRfX44AHJ9hkfKwWjt8zEowh8L_oPKAeM8-rYY_8IctOnHcHfnJ_6moWF5NvCeuwfJ-WiQosXsBhGmtOFAO_o6r2J4WW-CM-tkNn2Xncy2nWUZdubD0AdGV7MLyxM59rJvNruPwwJ3TcvV7jWWIlkRaTEiPS0Q-C-kt7IXEy62NB1Go9h3rbjw1glwCWeIbE271H7EPF7bfS7Q4ze_xG3JeMef2gxgqfEiHg0Y9naDJcypgtOvlClIX2LQxXz0fMi">code verbeteraar (hij heet Code Beautify</a>.</p>
+                <h1>Even testen</h1>
+                <p>Voor een telefoon: <a href="tel:+31-6-39433651">Ellen</a> werkt dit wel/niet</p>
+            </div>
+        </div>
+        <div id="nieuweOrganismenModule" class="MDZBmodule menumodule" data-naam="Nieuwe organismen module">
+            <div class="modulestart">
+                Alternatief voor organismen
+            </div>
+        </div>
+        <div id="organismenModule" class="MDZBmodule objectenmodule" data-naam="eerste Organismen">
+            <div class="modulestart">
+                organismen
+            </div>
+            <div class="slide">
+                <h1>Organismen module</h1>
+                <p>In de organismen module wil ik het mogelijk maken door een lijst met organismen te bladeren. Ook moet ik de mogelijkheid hebben een filter te zetten. Het is prettig om op elk moment het zoekvenster met &eacute;&eacute;n klik te kunnen bereiken. Bij elk organisme probeer ik &eacute;&eacute;n of meer afbeeldingen te selecteren die in het veld handig zijn. Ik moet door die individuele afbeeldingen kunnen bladeren/swipen; eventueel via een klik vooruit/achteruit. Dit laatste probeer ik eerst maar eens operationeel te krijgen.</p>
+                <p>De afbeelding staat steeds bovenaan op de pagina, eronder komen informatiebladen, die eventueel van de pagina af mogen lopen (scrollbaar dus)</p>
+            </div>
+            <div class="slide">
+                <p>Even een test voor doorbladerbare plaatjes</p>
+                <div class="fotocontainer" onmousemove="event.stopPropagation()" style="position:absolute;left:20px;top:5px;right:20px;height:100px;background-color:rgba(100,0,0,0.3)">
+
+
+
+
+                    <div class="swiper-container swiper-container-v" style="width:70%;height:70%">
+                        <div class="swiper-wrapper" style="background-color:aquamarine">
+                            <div class="swiper-slide" style="background-color:aquamarine">Vertical Slide 1 k k k k k k k k k k k k k k kk </div>
+                            <div class="swiper-slide">Vertical Slide 2</div>
+                            <div class="swiper-slide">Vertical Slide 3</div>
+                            <div class="swiper-slide">Vertical Slide 4</div>
+                            <div class="swiper-slide">Vertical Slide 5</div>
+                        </div>
+                        // Add Pagination
+                        <div class="swiper-pagination swiper-pagination-v"></div>
+                        // If we need navigation buttons
+                        <div class="swiper-button-prev v-prev"></div>
+                        <div class="swiper-button-next v-next"></div>
+                    </div>
+
+                </div>
+                <div class="toelichtcontainer" style="position:absolute;left:20px; top:130px;right:20px;bottom:10px; background-color: rgba(0,100,0,0.3)">
+                    <p>Toelichtcontainer</p>
+                </div>
+            </div>
+        </div>
+        <div id="receptenModule" class="MDZBmodule swipermodule" data-naam="Recepten module">
+            <div class="modulestart">
+                recepten
+            </div>
+            <div class="slide">Eerste</div>
+            <div class="slide">tweede</div>
+        </div>
+        <div id="markerwaddenModule" class="MDZBmodule swipermodule" data-naam="Marker Wadden module">
+            <div class="modulestart">
+                Marker wadden
+            </div>
+            <div class="slide">
+                <h1>Marker Wadden</h1>
+                <p>Deze Marker Wadden App bevat allerlei typen informatie die ik tijdens excursies graag direct onder handbereik wil hebben.</p>
+                <p>De onderwerpen zijn:</p>
+                <ul>
+                    <li onclick="toonPagina(this, 1)">Algemene informatie incl. belangrijke telefoonnummers</li>
+                    <li onclick="toonPagina(this, 2)">Kaartmateriaal</li>
+                    <li onclick="toonPagina(this, 3)">Voorkomende planten en dieren</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h1>Algemene informatie</h1>
+
+                <p>Belangrijke telefoonnummers:</p>
+
+                <ul>
+                    <li>Eilandwachters: 06-82737601</li>
+                    <li>Elsa Paters:<span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"> </span></span><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">06-57648504</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Barbara Halverhout: 06-51052464</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Gea Otten: 06-22328848</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Marjan Dunning: 06-54295320</span></span></span></span></li>
+                    <li><span style="font-size:10pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Hulpdiensten: 112</span></span></span></span></li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h1>Programma</h1>
+
+                <h2>Ontvangst/introductie</h2>
+
+                <p>Gids haalt de deelnemers op bij de ontmoetingsplek bij de bankjes voor het Eilandpaviljoen op Marker Wadden en heet de deelnemers welkom namens Natuurmonumenten.</p>
+
+                <h2>Kernboodschap</h2>
+
+                <p>Nieuwe natuureilanden in het Markermeer verrijken het planten- en dierenleven, boven &eacute;n onder water.</p>
+
+                <h2>Sleutelervaringen (bijzondere ervaringen)</h2>
+
+                <p>Door een kort rondje over Marker Wadden probeer we mensen minimaal een of twee van deze sleutelervaringen te laten beleven:</p>
+
+                <ol>
+                    <li>Ik ervaar op Marker Wadden een <strong>&eacute;cht eilandgevoel:</strong> de weidse eilanden, waar de elementen vrij spel hebben en het uitgestrekte Markermeer rondom ligt.</li>
+                    <li>Ik zie met eigen ogen dat het <strong>water</strong> rondom Marker Wadden <strong>helder</strong> is en <strong>vol leven</strong> zit.</li>
+                    <li>Ik ben verrast dat op de nieuwste eilanden van Nederland de <strong>prille moerasnatuur zich zo snel ontwikkelt</strong>. Overal om mij heen hoor en zie ik grote aantallen vogels.</li>
+                    <li>Ik ben onder de indruk van wat de Nederlandse <strong>waterbouwkundigen</strong> met zand, klei en slib midden in het meer hebben gebouwd.</li>
+                </ol>
+
+                <h2>Afsluiting</h2>
+
+                <ul>
+                    <li>Afsluiting vindt buiten plaats, op het kruispunt vlonderpad richting Duikeend (bij de malaisevallen).</li>
+                    <li>Geef aan wat deelnemers zelf nog kunnen doen op Marker Wadden, zoals uitzichttoren Steltloper op, rondje buitenom, fossielen zoeken op het strand, meedoen aan de fotomonitoring,&nbsp; etc.</li>
+                    <li>Wijs deelnemers nog op mogelijkheid om lid te worden en het aanbod van andere Natuurmonumenten-activiteiten op Marker Wadden of in andere gebieden.</li>
+                </ul>
+
+                <h2>Bijzonderheden</h2>
+
+                <ul>
+                    <li>Houd je aan de tijd van 1,5 uur!</li>
+                    <li>In de toekomst willen we op Marker Wadden gaan differenti&euml;ren in excursies. Meer exclusieve belevenissen.</li>
+                    <li>Neem de bezoekers liever niet mee op de Steltloper. Laat mensen ook zelf nog iets te ontdekken.</li>
+                    <li>Op de veerboot hebben de gidsen geen speciale rol. Je kunt natuurlijk wel mensen te woord staan en warm maken voor het bezoek. Vertel niet het hele verhaal, maar geef alleen korte, praktische informatie. Je kunt helpen kaartjes te controleren.</li>
+                </ul>
+
+                <p>&nbsp;</p>
+
+                <p>&nbsp;</p>
+
+            </div>
+            <div class="slide">
+                <h1>ACHTERGRONDINFO EXPEDITIE MARKER WADDEN</h1>
+
+                <p>
+                    De eerste fase van het project Marker Wadden begint zijn voltooiing te naderen. Vanaf januari 2021 heeft Natuurmonumenten de eilanden in beheer. Vanaf 2018 is Natuurmonumenten de gastheer op dit haveneiland en is bezoek welkom.<br />
+                    De expedities zijn een belangrijk middel voor beleving, informatievoorziening en verzilvering (ledenwerving en inkomsten).
+                </p>
+
+                <h2>I&nbsp;&nbsp; &nbsp;ALGEMEEN</h2>
+
+                <h3>Bijzondere beleving</h3>
+
+                <p>
+                    Voor bezoekers blijkt het beleven van bijzondere ervaringen vele malen meer bij te dragen aan verbondenheid met een gebied, dan alleen het lezen of horen van informatie. Maak van je excursie een echte expeditie en laat je deelnemers ook zelf ervaren en beleven. Maak een mooie mix van beleven en luisteren.<br />
+                    Ze hoeven niet in een excursie &aacute;lles over Marker Wadden te weten. Voor de verbondenheid met een gebied is het belangrijk om herhalingsbezoek te stimuleren. Wijs mensen op andere momenten dat het mooi is op Marker Wadden.
+                </p>
+
+                <h3>Ledenwerving en verzilvering</h3>
+
+                <p>
+                    Excursies blijven een belangrijk middel om bezoekers bijzondere ervaringen te laten beleven, hen te informeren over natuur en ontstaan van Marker Wadden en hen te verbinden aan Natuurmonumenten. De ticketing rond excursies via Z-tickets is een goed middel om leden te werven vanwege het ledenvoordeel. Ook via Gidsen en Eilandwachters kunnen leden worden geworven.<br />
+                    Gidsen kunnen nieuwe leden werven door de Marker Wadden ledenwerffolder in te laten vullen. Om aan te sluiten bij de sleutelervaringen van Marker Wadden zal een belangrijk deel van de excursies worden neergezet als &lsquo;expeditie&rsquo;.<br />
+                    <em>NB! In 2020 hebben we voor bezoekers op Marker Wadden twee soort excursies: Expeditie Marker Wadden van 1,5 uur en een introductie voor charterpassagiers van 15 minuten in het eilandpaviljoen. Voor sommige specialistische groepen is nog steeds maatwerk mogelijk. We gaan in 2021 twee excursies ontwikkelen (met de boot en naar het zuidstrand).</em>
+                </p>
+
+                <h3>Veiligheid</h3>
+
+                <p>
+                    Met heel slecht weer (windkracht 8 en hoger) vertrekt de veerboot niet en gaat de excursie niet door. Deelnemers krijgen dan via Ledenservice hun geld terug.<br />
+                    Bezoekers moeten weten dat ze op de paden moeten blijven, vanwege het aanwezige drijfzand. Maar maak mensen niet te bang!<br />
+                    Ook is het belangrijk dat zij broedvogels niet verstoren. In het broedseizoen kunnen een aantal delen van het haveneiland afgesloten zijn zodat vogels daar ongestoord kunnen broeden. Dit staat aangegeven met gele bordjes in het veld. <strong>!Geef zelf steeds het goede voorbeeld!</strong>
+                </p>
+
+                <h3>Kleding</h3>
+
+                <p>Gidsen en eilandwachters die excursie begeleiden hebben herkenbare Natuurmonumenten-kleding&nbsp; aan. Gidsen hebben een eigen kledingpakket in bruikleen. Vrijwilligersco&ouml;rdinator Gea Otten voorziet hierin.</p>
+
+                <h3>Onderzoek</h3>
+
+                <p>
+                    Op Marker Wadden wordt veel onderzoek gedaan naar de ontwikkeling van het gebied (zie ook inhoud). Onderzoekers lopen rond in een opvallend hesje. Zij mogen overal in het gebied komen.<br />
+                    Je kunt ze vragen kort iets over hun onderzoek te vertellen als je ze tegenkomt.
+                </p>
+
+                <h3>Communicatiemiddelen op Marker Wadden</h3>
+
+                <ul>
+                    <li>In 2021 ontwikkelen we een aantal nieuwe communicatiemiddelen (nu in ontwikkeling).&nbsp;</li>
+                    <li>Het kleine vogelboekje is opnieuw uitgegeven. Dit kunnen bezoekers tegen kostprijs (1 euro) kopen bij de Eilandwachters.</li>
+                    <li>Voor Marker Wadden is een eigen Ledenwerffolder gemaakt. Neem zelf exemplaren mee, die je kunt gebruiken. Ook bij de Eilandwachters zijn deze folders aanwezig.</li>
+                    <li>Bij de Eilandwachters is een algemene gebiedsfolder te halen over Marker Wadden. Hierin staat een beknopt kaartje van het haveneiland en wat spelregels voor een bezoek. De folder is er ook in Engels en Duits. Mensen mogen deze folder zelf houden of teruggeven na gebruik. Hij is gemaakt van steenpapier en heel duurzaam.</li>
+                    <li>Jaarrond zijn op het eiland Eilandwachters aanwezig die informatie kunnen geven over Marker Wadden.</li>
+                </ul>
+
+                <h2>II&nbsp;&nbsp; &nbsp;INHOUD</h2>
+
+                <h3>Essentie van Marker Wadden</h3>
+
+                <p>
+                    Met de nieuwe natuureilanden Marker Wadden wekken we het Markermeer weer tot leven. Samen met Nederlandse waterbouwkundigen en de overheid maakt Natuurmonumenten met een innovatieve baggertechniek eilanden van slib, klei en zand uit het meer. De eilanden met moerasvlaktes, natuurlijke oevers en luwten leggen het slib vast, waardoor de waterkwaliteit zich kan herstellen. Bedreigde (water)planten, vissen en vogels profiteren daarvan. Met dit herstel dragen we bij aan een robuust natuurgebied in het hart van Nederland dat voor de hele Nederlandse natuur &eacute;n internationaal gezien van groot belang is.<br />
+                    Tegelijkertijd maken we het Markermeer recreatief aantrekkelijker. Zo is een van de eilanden toegankelijk voor natuurliefhebbers en watersporters. Iedereen is welkom en betaalt mee aan het beheer.
+                </p>
+
+                <p><u>Kernboodschap</u>: Nieuwe natuureilanden in het Markermeer verrijken het planten- en dierenleven, boven &eacute;n onder water.</p>
+
+                <p><u>Sleutelervaringen</u>:</p>
+
+                <ol>
+                    <li>Ik ervaar op Marker Wadden een &eacute;cht eilandgevoel: de weidse eilanden, waar de elementen vrij spel hebben en het uitgestrekte Markermeer rondom ligt.</li>
+                    <li>Ik zie met eigen ogen dat het water rondom Marker Wadden helder is en vol leven zit.</li>
+                    <li>Ik ben verrast dat op de nieuwste eilanden van Nederland de prille moerasnatuur zich zo snel ontwikkelt. Overal om mij heen hoor en zie ik grote aantallen vogels.</li>
+                    <li>Ik ben onder de indruk van wat de Nederlandse waterbouwkundigen met zand, klei en slib midden in het meer hebben gebouwd.</li>
+                </ol>
+
+                <h3>Afbakening</h3>
+
+                <ul>
+                    <li>We willen Marker Wadden niet neer zetten als een archeologische vindplaats.</li>
+                    <li>Uitgebreide technische verhalen over de aanleg vertellen we alleen bij hele specialistische groepen.</li>
+                </ul>
+
+                <h3>Beleving en informatievoorziening per sleutelervaring</h3>
+
+                <p>Kies een aantal elementen uit en stel daarmee je expeditie samen.</p>
+
+                <ul>
+                    <li>
+                        <u>Sleutelervaring 1</u>: Ik ervaar op Marker Wadden een &eacute;cht eilandgevoel: de weidse eilanden, waar de elementen vrij spel hebben en het uitgestrekte Markermeer rondom ligt.
+
+                        <ul>
+                            <li>Dit eerste en grootste eiland wordt toegankelijk voor recreanten en op de andere vier eiland daar zijn de vogels, planten en de vissen de baas. Het bieden van recreatie mogelijkheden helpt ook bij het krijgen van brede steun voor de toekomstige ambities van het project Marker Wadden.</li>
+                            <li>Op het haveneiland is een 750 meter lang strand, wandelroutes van in totaal 12 kilometer,&nbsp; drie vogelkijkhutten, een uitkijktoren. In 2019 wordt gestart met de bouw van een nederzetting. Die bestaat uit kleine gebouwen in het nieuwe landschap die nodig zijn voor het beheer, de onderzoekers, toezicht, ontvangst publiek en recreatie.</li>
+                            <li>Laat mensen op het strand hun ogen dichtdoen en luisteren naar de &lsquo;zee&rsquo;.</li>
+                            <li>Vertel op een plek met uitzicht aan de rand van het haveneiland over het Markermeer, de Houtribdijk of de andere eilanden.</li>
+                            <li>Kijk rond vanaf de Steltloper of stimuleer deelnemers dat na de excursie nog te doen.</li>
+                            <li>Marker Wadden maakt deel uit het van het nieuwe Nationaal Park Nieuw Land, waar ook Oostvaardersplassen en Lepelaarsplassen bij horen.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <u>Sleutelervaring 2</u>: Ik zie met eigen ogen dat het water rondom Marker Wadden helder is en vol leven zit.
+                        <ul>
+                            <li>Het Markermeer is pas ontstaan in 1976 met aanleg van de Houtribdijk tussen Enkhuizen en Lelystad. Daarvoor maakte het gebied deel uit van het IJsselmeer en voor 1932 vormde het een deel van de Zuiderzee. Door de aanleg van dammen en dijken en ontginningen heeft het Markermeer nauwelijks natuurlijke oevers en is het meer niet langer verbonden met de zee of een rivier. Op veel plaatsen heeft zich een dikke slibdeken afgezet op de bodem met grote gevolgen voor het bodemleven. Daarbij komt dat bij hardere wind het water vaak troebel is door slib dat op woelt van de bodem. Al deze problemen hebben er toe geleid dat de vis- en vogelstand sterk zijn achteruitgegaan.</li>
+                            <li>Hoewel de massa en variatie aan vis sterk is afgenomen ten opzichte van de jaren 80, komt in het Markermeer nog een breed scala aan vissoorten voor. Denk hierbij aan soorten als spiering, blankvoorn, ruisvoorn, baars, brasem, karper, zeelt, snoek, pos, driedoornige stekelbaars en snoekbaars. De aanwezigheid van vis en in het bijzonder de aanwezigheid van spiering als belangrijke voedselbron, is voor de visetende vogels in het Markermeer essentieel.</li>
+                            <li>
+                                Natuurmonumenten heeft de ambitie om met Marker Wadden natuurvriendelijke oevers, (on)dieptes terug te brengen in het Markermeer en het slibprobleem deels op te lossen.<br />
+                                De eilanden met hun natuurlijke oevers zijn inderdaad een duidelijke impuls voor de voedselketen. Uit onderzoek blijkt dat de afgelopen twee jaar de beschikbaarheid van voedingsstoffen in het water flink is toegenomen. Hierdoor kwamen er grote hoeveelheden insecten en ander klein leven zoals algen, watervlooien en vislarven. Zij zijn op hun beurt weer voer voor vogels en vissen.
+                            </li>
+                            <li>Bezoek de Duikeend en neem een kijkje onderwater.</li>
+                            <li>Bekijk het heldere water onder de vlonders.</li>
+                            <li>Vertel over het Markermeer en waarom Marker Wadden zijn gebouwd.</li>
+                            <li>Vertel over voedselketens in het Markermeer met de zeearend als hoogste op de ladder.</li>
+                            <li>Stimuleer mensen bij mooi weer om te zwemmen vanaf het strand.</li>
+                            <li>Stimuleer ouders met jonge kinderen om na de excursie nog een watersafari met schepnet en zoekkaart te lenen, verkrijgbaar bij de Eilandwachters.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <u>Sleutelervaring 3</u>: Ik ben verrast dat op de nieuwste eilanden van Nederland de prille moerasnatuur zich zo snel ontwikkelt. Overal om mij heen hoor en zie ik grote aantallen vogels.
+                        <ul>
+                            <li>Het doel op Marker Wadden is moerasvegetatie. We zitten nu nog in een pionierssituatie met pionierssoorten. In totaal zijn er al ruim 100 geteld. Soorten van kustvegetaties (de oude Zuiderzee) is bijvoorbeeld de zeeraket. Pionierssoorten van moerassystemen zijn bijvoorbeeld moerasandijvie en slijkgroen.</li>
+                            <li>Aan het eind van de voedselketen zitten de vogels. Vertel hoeveel vogels er al broeden en hebben gebroed. Wijs de bezoeker erop dat er ook de toppredatoren van de voedselketen, roofvogels als de slechtvalk (kan broeden op de televisietoren van Lelystad) en zeearend (broedt in Oostvaardersplassen), zijn gesignaleerd.</li>
+                            <li>Het waterpeil in de compartimenten wordt soms nog even hoog gehouden om de groei van wilgen tegen te gaan en de ontwikkeling van het riet meer kans te bieden. We willen open moeraslandschap voor de vogels, kwelders voor het slib en geen wilgenbossen.</li>
+                            <li>Er werkt ook een natuurfilmer die het hele proces vastlegt en daar een prachtige documentaire van gaat maken.</li>
+                            <li>Ga naar een onderzoekslocatie en vertel daarover.</li>
+                            <li>Stimuleer deelnemers om na de excursie mee te doen aan de fotomonitoring op het eiland. Doe het zelf een keer voor tijdens de expeditie.</li>
+                            <li>
+                                Het KIMA is opgericht, dat staat voor Kennis en Innovatie Marker Wadden. Want wat we hier doen, bouwen met zand, klei en slib uit het Markermeer is&nbsp; nieuw, een wereldprimeur. Dat wordt natuurlijk uitvoerig onderzocht en gemonitord. De technische ontwikkeling van de slibafzet, de ontwikkeling van de natuur en het monitoren van de dieren en planten.<br />
+                                Begin 2020 is het eerste tussenrapport opgeleverd, met de resultaten van alle onderzoeken tot nu toe. In 2022 wordt het definitieve evaluatieonderzoek van het KIMA opgeleverd.<br />
+                                Onderzoek op Marker Wadden wordt gedaan door: NIOO-KNAW (Nederlands instituut voor ecologie en Koninklijke Academie voor Wetenschappen), Natuurmonumenten, Jan van der Winden Ecology, Rijksuniversiteit Groningen, Radboud Universiteit Nijmegen, Witteveen+Bos, Wageningen Marine Research, Deltares, Sportvisserij Nederland, Boskalis en Rijkswaterstaat.
+                            </li>
+                            <li>De eerste resultaten over de vogels die dit stukje land al ontdekt hebben zijn verbluffend. Tot 2018 zijn meer dan 120 verschillende soorten vogels&nbsp; gezien waarvan er 17 ook op de eilanden broedden.</li>
+                            <li>Tip voor de bezoekers: Vogelboekje voor 1 euro bij de Eilandwachters.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <u>Sleutelervaring 4</u>: Ik ben onder de indruk van wat de Nederlandse waterbouwkundigen met zand, klei en slib midden in het meer hebben gebouwd.
+                        <ul>
+                            <li>Vertel over de slechte kwaliteit Markermeer, het initiatief van Natuurmonumenten om daar wat aan te doen. Start dankzij geld van Postcodeloterij, de samenwerking met alle betrokken partijen. Uitvoeringsorganisatie is Rijkswaterstaat en Natuurmonumenten samen.&nbsp; Overheid en provincie doen ook mee omdat zij verantwoordelijk zijn voor de waterkwaliteit en een ecologisch gezond Markermer en de ambities. Dit is de eerste fase van vijf eilanden, hiermee laten we zien dat het kan. Om de natuur van het hele Markermeer weer&nbsp; te herstellen is een grotere archipel nodig van in totaal ongeveer 10.000 hectare.&nbsp; Daar gaat Natuurmonumenten ook voor lobbyen bij de overheden.</li>
+                            <li>Vertel over hoe de Marker Wadden zijn gebouwd.</li>
+                            <li>Ga naar het pad met de drie vlonders en laat bezoekers naast de vlonder even met blote voeten door het slib lopen. Zeker als er kinderen mee zijn.</li>
+                            <li>Bouw gaat snel omdat Boskalis groot materieel ingezet heeft. De grote zandkopzuiger de Edax van 86 meter lang, werkte normaal in Suez gebied en nu voor het eerst op Markermeer. Daar waren nogal wat aanpassingen voor nodig om dit enorme schip door de Oranjesluizen te krijgen.&nbsp; Er worden randen van zand gemaakt en de compartimenten worden opgevuld met holocene klei en slib (12.000 jaar oud). Laag voor laag wordt het onder water opgebouwd als een soort 3D Printer.&nbsp; Er zijn grote winputten gemaakt waaruit om en om klei en zand wordt gehaald. Er komt dwars op het eiland een grote slibgeul die het slib van het Markermeer kan invangen, dat weer gebruikt kan worden bij de aanleg.</li>
+                            <li>Zoek fossielen in de stuifduinen langs het strand of stimuleer mensen dat later zelf te doen.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>III&nbsp;&nbsp; &nbsp;BRONNEN</h2>
+
+                <ul>
+                    <li>Nieuwe presentatie (powerpoint) van Natuurmonumenten over Marker Wadden</li>
+                    <li>Volg het laatste nieuws op <a href="http://www.markerwadden.nl">www.markerwadden.nl</a></li>
+                    <li>Afleveringen van Het Klokhuis over Marker Wadden (3 x in 2019)</li>
+                    <li>Nieuwsbrief Marker Wadden (aanmelding via <a href="http://www.markerwadden.nl">www.markerwadden.nl</a>)</li>
+                    <li>Facebook Marker Wadden: <a href="https://nl-nl.facebook.com/markerwadden/">https://nl-nl.facebook.com/markerwadden/</a></li>
+                    <li>Twitter: @marker_wadden</li>
+                    <li>KiekOnline platform voor vrijwilligers: Vrijwilligers Flevoland Excursies Marker Wadden</li>
+                    <li>Eilandwachters van dienst hebben actuele informatie over soorten of werkzaamheden</li>
+                    <li>Factsheet Marker Wadden: Marker Wadden facts (pdf op <a href="https://www.markerwadden.nl">www.markerwadden.nl</a>)</li>
+                    <li>
+                        Op waarneming.nl is een speciale portal voor Marker Wadden:<br />
+                        <a href="https://waarneming.nl/locations/599465/">https://waarneming.nl/locations/599465/</a>
+                    </li>
+                    <li>
+                        Resultaten van de 1000-soortendag Marker Wadden (juni 2019):<br />
+                        <a href="https://waarnem...g-14-juni-2019/">https://waarnem...g-14-juni-2019/</a>
+                    </li>
+                    <li>
+                        KIMA projectsite:<br />
+                        <a href="https://kennismarkerwadden.nl/">https://kennismarkerwadden.nl/</a><br />
+                        ! Tip: je kunt je abonneren op de KIMA-nieuwsbrief: <a href="https://kennism...-november-2019/">https://kennism...-november-2019/</a>
+                    </li>
+                    <li>! Tip: verwijs ge&iuml;nteresseerde bezoekers naar deze website en naar de nieuwsbrief</li>
+                    <li>! Tip: op deze website vind je een onderzoekskaart om een idee te hebben waar wat aan onderzoek wordt gedaan</li>
+                    <li>
+                        EcoShape - Building with Nature:<br />
+                        <a href="https://www.ecoshape.org/nl/">https://www.ecoshape.org/nl/</a> ... zoeken op Marker Wadden
+                    </li>
+                </ul>
+
+                <p>&nbsp;</p>
+
+            </div>
+            <div class="slide">Eerste</div>
+            <div class="slide">tweede</div>
+        </div>
+        <!--<div id="organismenbibliotheek">
+            <div id="organisme_1" class="organisme" data-naam="Appelvink">
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/bergeend.jpg" alt="Appelvink" />
+                    <img src="images/brandgans.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
+                <div class="organisme-info">
+                    <div class="info-pagina organisme_namen">
+                        <h1>Appelvink</h1>
+                        <h3><em>Coccothraustus coccothraustus</em></h3>
+                        <ul>
+                            <li>E: Hawfinch</li>
+                            <li>D: Kernbeisser</li>
+                            <li>F: Gros-bec</li>
+                        </ul>
+                    </div>
+                    <div class="info-pagina veldkenmerken">
+                        <h1>Veldkenmerken</h1>
+                        <p>Grootte:18. <em>Geweldige snavel</em>, &#39;stierenek&#39;, korte staart met witte eindrand, blauwzwarte vleugels met grote, witte schoudervlekken. Geelbruine kop, warmbruine rug, licht roze onderdelen, zwarte keel en teugel. Snavel in voorjaar loodblauw, in winter licht hoornkleurig. Vrl. lichter, minder rozzig op kruin. Juveniel van onderen bruin dwars gestreept, met gele keelvlek. Vlucht snel en gewoonlijk hoog, maar sterk golvend over korte afstand. Vliegbeeld (grote kop, korte staart) is onmiskenbaar. Loopt rechtop met waggelende gang en hipt met krachtige sprongen. In winter vaak in troepen op de grond voedsel zoekend, samen met ander vinken. Vrij schuwe vogel, die steeds waakzaam is. Nestelt in boomtop, op horizontale tak of tegen boomstam.</p>
+                        <p>Geluid: een luid, explosief ptik of ptik...ptik-it, een dun tzie&iuml;p enz. Zang wordt weinig gehoord: een hokkend tiek, tiek, tur-wie-wie met variaties. Zingt doorgaans vanuit boomtop.</p>
+                    </div>
+                    <div class="info-pagina voorkomen">
+                        <h3>Voorkomen</h3>
+                        <p>vrij schaarse broedvogel van het ossten en zuiden des lands. Zwerft in winter rond, soms in troepjes.</p>
+                    </div>
+                    <div class="info-pagina vergelijkbare_soorten">
+                        <div class="fotos">
+                            <img src="images/appelvink.jpg" alt="Appelvink" />
+                            <img src="images/bergeend.jpg" alt="Appelvink" />
+                            <img src="images/brandgans.jpg" alt="Appelvink" />
+                            <img src="images/appelvink.jpg" alt="Appelvink" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="organisme_2" class="organisme" data-naam="Bergeend">
+                <div class="fotos">
+                    <img src="images/bergeend.jpg" alt="Bergeend" />
+                </div>
+            </div>
+            <div id="organisme_3" class="organisme" data-naam="Brandgans">
+                <div class="fotos">
+                    <img src="images/brandgans.jpg" alt="Brandgans" />
+                </div>
+            </div>
+            <div id="organisme_4" class="organisme" data-naam="Organisme nummer vier">
+                <div class="fotos">
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                    <img src="images/appelvink.jpg" alt="Appelvink" />
+                </div>
+            </div>
+            <div id='organisme_10' class='organisme' data-naam='Aalscholver'>
+                <div class='fotos'>
+                    <img src='images/aalscholver.jpg' alt='Aalscholver' />
+                </div>
+            </div>
+            <div id='organisme_11' class='organisme' data-naam='Alk'>
+                <div class='fotos'>
+                    <img src='images/alk.jpg' alt='Alk' />
+                </div>
+            </div>
+            <div id='organisme_12' class='organisme' data-naam='Appelvink'>
+                <div class='fotos'>
+                    <img src='images/appelvink.jpg' alt='Appelvink' />
+                </div>
+            </div>
+            <div id='organisme_13' class='organisme' data-naam='Baardman'>
+                <div class='fotos'>
+                    <img src='images/baardman.jpg' alt='Baardman' />
+                </div>
+            </div>
+            <div id='organisme_14' class='organisme' data-naam='Beflijster'>
+                <div class='fotos'>
+                    <img src='images/beflijster.jpg' alt='Beflijster' />
+                </div>
+            </div>
+            <div id='organisme_15' class='organisme' data-naam='Bergeend'>
+                <div class='fotos'>
+                    <img src='images/bergeend.jpg' alt='Bergeend' />
+                </div>
+            </div>
+            <div id='organisme_16' class='organisme' data-naam='Bijeneter'>
+                <div class='fotos'>
+                    <img src='images/bijeneter.jpg' alt='Bijeneter' />
+                </div>
+            </div>
+            <div id='organisme_17' class='organisme' data-naam='Bladkoning'>
+                <div class='fotos'>
+                    <img src='images/bladkoning.jpg' alt='Bladkoning' />
+                </div>
+            </div>
+            <div id='organisme_18' class='organisme' data-naam='Blauwborst'>
+                <div class='fotos'>
+                    <img src='images/blauwborst.jpg' alt='Blauwborst' />
+                </div>
+            </div>
+            <div id='organisme_19' class='organisme' data-naam='Blauwe kiekendief'>
+                <div class='fotos'>
+                    <img src='images/blauwe kiekendief.jpg' alt='Blauwe kiekendief' />
+                </div>
+            </div>
+            <div id='organisme_20' class='organisme' data-naam='Blauwe reiger'>
+                <div class='fotos'>
+                    <img src='images/blauwereiger.jpg' alt='Blauwereiger' />
+                </div>
+            </div>
+            <div id='organisme_21' class='organisme' data-naam='Blonde ruiter'>
+                <div class='fotos'>
+                    <img src='images/blonderuiter.jpg' alt='Blonderuiter' />
+                </div>
+            </div>
+            <div id='organisme_22' class='organisme' data-naam='Boerenzwaluw'>
+                <div class='fotos'>
+                    <img src='images/boerenzwaluw.jpg' alt='Boerenzwaluw' />
+                </div>
+            </div>
+            <div id='organisme_23' class='organisme' data-naam='Bokje'>
+                <div class='fotos'>
+                    <img src='images/bokje.jpg' alt='Bokje' />
+                </div>
+            </div>
+            <div id='organisme_24' class='organisme' data-naam='Bontbekplevier'>
+                <div class='fotos'>
+                    <img src='images/bontbekplevier.jpg' alt='Bontbekplevier' />
+                </div>
+            </div>
+            <div id='organisme_25' class='organisme' data-naam='Bonte kraai'>
+                <div class='fotos'>
+                    <img src='images/bontekraai.jpg' alt='Bontekraai' />
+                </div>
+            </div>
+            <div id='organisme_26' class='organisme' data-naam='Bonte strandloper'>
+                <div class='fotos'>
+                    <img src='images/bontestrandloper.jpg' alt='Bontestrandloper' />
+                </div>
+            </div>
+            <div id='organisme_27' class='organisme' data-naam='Bontevliegenvanger'>
+                <div class='fotos'>
+                    <img src='images/bontevliegenvanger.jpg' alt='Bonte vliegenvanger' />
+                </div>
+            </div>
+            <div id='organisme_28' class='organisme' data-naam='Boomklever'>
+                <div class='fotos'>
+                    <img src='images/boomklever.jpg' alt='Boomklever' />
+                </div>
+            </div>
+            <div id='organisme_29' class='organisme' data-naam='Boomkruiper'>
+                <div class='fotos'>
+                    <img src='images/boomkruiper.jpg' alt='Boomkruiper' />
+                </div>
+            </div>
+            <div id='organisme_30' class='organisme' data-naam='Boomleeuwerik'>
+                <div class='fotos'>
+                    <img src='images/boomleeuwerik.jpg' alt='Boomleeuwerik' />
+                </div>
+            </div>
+            <div id='organisme_31' class='organisme' data-naam='Boompieper'>
+                <div class='fotos'>
+                    <img src='images/boompieper.jpg' alt='Boompieper' />
+                </div>
+            </div>
+            <div id='organisme_32' class='organisme' data-naam='Boomvalk'>
+                <div class='fotos'>
+                    <img src='images/boomvalk.jpg' alt='Boomvalk' />
+                </div>
+            </div>
+            <div id='organisme_33' class='organisme' data-naam='Bosrietzanger'>
+                <div class='fotos'>
+                    <img src='images/bosrietzanger.jpg' alt='Bosrietzanger' />
+                </div>
+            </div>
+            <div id='organisme_34' class='organisme' data-naam='Bosruiter'>
+                <div class='fotos'>
+                    <img src='images/bosruiter.jpg' alt='Bosruiter' />
+                </div>
+            </div>
+            <div id='organisme_35' class='organisme' data-naam='Bosuil'>
+                <div class='fotos'>
+                    <img src='images/bosuil.jpg' alt='Bosuil' />
+                </div>
+            </div>
+            <div id='organisme_36' class='organisme' data-naam='Braamsluiper'>
+                <div class='fotos'>
+                    <img src='images/braamsluiper.jpg' alt='Braamsluiper' />
+                </div>
+            </div>
+            <div id='organisme_37' class='organisme' data-naam='Brandgans'>
+                <div class='fotos'>
+                    <img src='images/brandgans.jpg' alt='Brandgans' />
+                </div>
+            </div>
+            <div id='organisme_38' class='organisme' data-naam='Breedbekstrandloper'>
+                <div class='fotos'>
+                    <img src='images/breedbekstrandloper.jpg' alt='Breedbekstrandloper' />
+                </div>
+            </div>
+            <div id='organisme_39' class='organisme' data-naam='Brilduiker'>
+                <div class='fotos'>
+                    <img src='images/brilduiker.jpg' alt='Brilduiker' />
+                </div>
+            </div>
+            <div id='organisme_40' class='organisme' data-naam='Bruine kiekendief'>
+                <div class='fotos'>
+                    <img src='images/bruinekiekendief.jpg' alt='Bruinekiekendief' />
+                </div>
+            </div>
+            <div id='organisme_41' class='organisme' data-naam='Buidelmees'>
+                <div class='fotos'>
+                    <img src='images/buidelmees.jpg' alt='Buidelmees' />
+                </div>
+            </div>
+            <div id='organisme_42' class='organisme' data-naam='Buizerd'>
+                <div class='fotos'>
+                    <img src='images/buizerd.jpg' alt='Buizerd' />
+                </div>
+            </div>
+            <div id='organisme_43' class='organisme' data-naam='Casarca'>
+                <div class='fotos'>
+                    <img src='images/casarca.jpg' alt='Casarca' />
+                </div>
+            </div>
+            <div id='organisme_44' class='organisme' data-naam='Cettiszanger'>
+                <div class='fotos'>
+                    <img src='images/cettiszanger.jpg' alt='Cettiszanger' />
+                </div>
+            </div>
+            <div id='organisme_45' class='organisme' data-naam='Dodaars'>
+                <div class='fotos'>
+                    <img src='images/dodaars.jpg' alt='Dodaars' />
+                </div>
+            </div>
+            <div id='organisme_46' class='organisme' data-naam='Draaihals'>
+                <div class='fotos'>
+                    <img src='images/draaihals.jpg' alt='Draaihals' />
+                </div>
+            </div>
+            <div id='organisme_47' class='organisme' data-naam='Drieteenmeeuw'>
+                <div class='fotos'>
+                    <img src='images/drieteenmeeuw.jpg' alt='Drieteenmeeuw' />
+                </div>
+            </div>
+            <div id='organisme_48' class='organisme' data-naam='Drieteenstrandloper'>
+                <div class='fotos'>
+                    <img src='images/drieteenstrandloper.jpg' alt='Drieteenstrandloper' />
+                </div>
+            </div>
+            <div id='organisme_49' class='organisme' data-naam='Duinpieper'>
+                <div class='fotos'>
+                    <img src='images/duinpieper.jpg' alt='Duinpieper' />
+                </div>
+            </div>
+            <div id='organisme_50' class='organisme' data-naam='Dwerggans'>
+                <div class='fotos'>
+                    <img src='images/dwerggans.jpg' alt='Dwerggans' />
+                </div>
+            </div>
+            <div id='organisme_51' class='organisme' data-naam='Dwergmeeuw'>
+                <div class='fotos'>
+                    <img src='images/dwergmeeuw.jpg' alt='Dwergmeeuw' />
+                </div>
+            </div>
+            <div id='organisme_52' class='organisme' data-naam='Dwergstern'>
+                <div class='fotos'>
+                    <img src='images/dwergstern.jpg' alt='Dwergstern' />
+                </div>
+            </div>
+            <div id='organisme_53' class='organisme' data-naam='Eider'>
+                <div class='fotos'>
+                    <img src='images/eider.jpg' alt='Eider' />
+                </div>
+            </div>
+            <div id='organisme_54' class='organisme' data-naam='Ekster'>
+                <div class='fotos'>
+                    <img src='images/ekster.jpg' alt='Ekster' />
+                </div>
+            </div>
+            <div id='organisme_55' class='organisme' data-naam='Engelse kwikstaart'>
+                <div class='fotos'>
+                    <img src='images/engelsekwikstaart.jpg' alt='Engelsekwikstaart' />
+                </div>
+            </div>
+            <div id='organisme_56' class='organisme' data-naam='Europese kanarie'>
+                <div class='fotos'>
+                    <img src='images/europesekanarie.jpg' alt='Europesekanarie' />
+                </div>
+            </div>
+            <div id='organisme_57' class='organisme' data-naam='Fazant'>
+                <div class='fotos'>
+                    <img src='images/fazant.jpg' alt='Fazant' />
+                </div>
+            </div>
+            <div id='organisme_58' class='organisme' data-naam='Fitis'>
+                <div class='fotos'>
+                    <img src='images/fitis.jpg' alt='Fitis' />
+                </div>
+            </div>
+            <div id='organisme_59' class='organisme' data-naam='Flamingo'>
+                <div class='fotos'>
+                    <img src='images/flamingo.jpg' alt='Flamingo' />
+                </div>
+            </div>
+            <div id='organisme_60' class='organisme' data-naam='Fluiter'>
+                <div class='fotos'>
+                    <img src='images/fluiter.jpg' alt='Fluiter' />
+                </div>
+            </div>
+            <div id='organisme_61' class='organisme' data-naam='Frater'>
+                <div class='fotos'>
+                    <img src='images/frater.jpg' alt='Frater' />
+                </div>
+            </div>
+            <div id='organisme_62' class='organisme' data-naam='Fuut'>
+                <div class='fotos'>
+                    <img src='images/fuut.jpg' alt='Fuut' />
+                </div>
+            </div>
+            <div id='organisme_63' class='organisme' data-naam='Gaai'>
+                <div class='fotos'>
+                    <img src='images/gaai.jpg' alt='Gaai' />
+                </div>
+            </div>
+            <div id='organisme_64' class='organisme' data-naam='Geelgors'>
+                <div class='fotos'>
+                    <img src='images/geelgors.jpg' alt='Geelgors' />
+                </div>
+            </div>
+            <div id='organisme_65' class='organisme' data-naam='Gekraagde roodstaart'>
+                <div class='fotos'>
+                    <img src='images/gekraagderoodstaart.jpg' alt='Gekraagderoodstaart' />
+                </div>
+            </div>
+            <div id='organisme_66' class='organisme' data-naam='Gele kwikstaart'>
+                <div class='fotos'>
+                    <img src='images/gelekwikstaart.jpg' alt='Gele kwikstaart' />
+                </div>
+            </div>
+            <div id='organisme_67' class='organisme' data-naam='Geoorde fuut'>
+                <div class='fotos'>
+                    <img src='images/geoordefuut.jpg' alt='Geoordefuut' />
+                </div>
+            </div>
+            <div id='organisme_68' class='organisme' data-naam='Gestreepte strandloper'>
+                <div class='fotos'>
+                    <img src='images/gestreeptestrandloper.jpg' alt='Gestreepte strandloper' />
+                </div>
+            </div>
+            <div id='organisme_69' class='organisme' data-naam='Gierzwaluw'>
+                <div class='fotos'>
+                    <img src='images/gierzwaluw.jpg' alt='Gierzwaluw' />
+                </div>
+            </div>
+            <div id='organisme_70' class='organisme' data-naam='Glanskop'>
+                <div class='fotos'>
+                    <img src='images/glanskop.jpg' alt='Glanskop' />
+                </div>
+            </div>
+            <div id='organisme_71' class='organisme' data-naam='Goudhaan'>
+                <div class='fotos'>
+                    <img src='images/goudhaan.jpg' alt='Goudhaan' />
+                </div>
+            </div>
+            <div id='organisme_72' class='organisme' data-naam='Goudplevier'>
+                <div class='fotos'>
+                    <img src='images/goudplevier.jpg' alt='Goudplevier' />
+                </div>
+            </div>
+            <div id='organisme_73' class='organisme' data-naam='Goudvink'>
+                <div class='fotos'>
+                    <img src='images/goudvink.jpg' alt='Goudvink' />
+                </div>
+            </div>
+            <div id='organisme_74' class='organisme' data-naam='Grasmus'>
+                <div class='fotos'>
+                    <img src='images/grasmus.jpg' alt='Grasmus' />
+                </div>
+            </div>
+            <div id='organisme_75' class='organisme' data-naam='Graspieper'>
+                <div class='fotos'>
+                    <img src='images/graspieper.jpg' alt='Graspieper' />
+                </div>
+            </div>
+            <div id='organisme_76' class='organisme' data-naam='Graszanger'>
+                <div class='fotos'>
+                    <img src='images/graszanger.jpg' alt='Graszanger' />
+                </div>
+            </div>
+            <div id='organisme_77' class='organisme' data-naam='Grauwe franjepoot'>
+                <div class='fotos'>
+                    <img src='images/grauwefranjepoot.jpg' alt='Grauwefranjepoot' />
+                </div>
+            </div>
+            <div id='organisme_78' class='organisme' data-naam='Grauwe gans'>
+                <div class='fotos'>
+                    <img src='images/grauwegans.jpg' alt='Grauwegans' />
+                </div>
+            </div>
+            <div id='organisme_79' class='organisme' data-naam='Grauwe gors'>
+                <div class='fotos'>
+                    <img src='images/grauwegors.jpg' alt='Grauwegors' />
+                </div>
+            </div>
+            <div id='organisme_80' class='organisme' data-naam='Grauwe kiekendief'>
+                <div class='fotos'>
+                    <img src='images/grauwekiekendief.jpg' alt='Grauwekiekendief' />
+                </div>
+            </div>
+            <div id='organisme_81' class='organisme' data-naam='Grauwe klauwier'>
+                <div class='fotos'>
+                    <img src='images/grauweklauwier.jpg' alt='Grauweklauwier' />
+                </div>
+            </div>
+            <div id='organisme_82' class='organisme' data-naam='Grauwe pijlstormvogel'>
+                <div class='fotos'>
+                    <img src='images/grauwepijlstormvogel.jpg' alt='Grauwepijlstormvogel' />
+                </div>
+            </div>
+            <div id='organisme_83' class='organisme' data-naam='Grauwe vliegenvanger'>
+                <div class='fotos'>
+                    <img src='images/grauwevliegenvanger.jpg' alt='Grauwevliegenvanger' />
+                </div>
+            </div>
+            <div id='organisme_84' class='organisme' data-naam='Griel'>
+                <div class='fotos'>
+                    <img src='images/griel.jpg' alt='Griel' />
+                </div>
+            </div>
+            <div id='organisme_85' class='organisme' data-naam='Groene specht'>
+                <div class='fotos'>
+                    <img src='images/groenespecht.jpg' alt='Groenespecht' />
+                </div>
+            </div>
+            <div id='organisme_86' class='organisme' data-naam='Groenling'>
+                <div class='fotos'>
+                    <img src='images/groenling.jpg' alt='Groenling' />
+                </div>
+            </div>
+            <div id='organisme_87' class='organisme' data-naam='Groenpootruiter'>
+                <div class='fotos'>
+                    <img src='images/groenpootruiter.jpg' alt='Groenpootruiter' />
+                </div>
+            </div>
+            <div id='organisme_88' class='organisme' data-naam='Grote barmsijs'>
+                <div class='fotos'>
+                    <img src='images/grotebarmsijs.jpg' alt='Grotebarmsijs' />
+                </div>
+            </div>
+            <div id='organisme_89' class='organisme' data-naam='Grote bonte specht'>
+                <div class='fotos'>
+                    <img src='images/grotebontespecht.jpg' alt='Grotebontespecht' />
+                </div>
+            </div>
+            <div id='organisme_90' class='organisme' data-naam='Grote canadese gans'>
+                <div class='fotos'>
+                    <img src='images/grotecanadesegans.jpg' alt='Grotecanadesegans' />
+                </div>
+            </div>
+            <div id='organisme_91' class='organisme' data-naam='Grote gele kwikstaart'>
+                <div class='fotos'>
+                    <img src='images/grotegelekwikstaart.jpg' alt='Grotegelekwikstaart' />
+                </div>
+            </div>
+            <div id='organisme_92' class='organisme' data-naam='Grote jager'>
+                <div class='fotos'>
+                    <img src='images/grotejager.jpg' alt='Grotejager' />
+                </div>
+            </div>
+            <div id='organisme_93' class='organisme' data-naam='Grote karekiet'>
+                <div class='fotos'>
+                    <img src='images/grotekarekiet.jpg' alt='Grotekarekiet' />
+                </div>
+            </div>
+            <div id='organisme_94' class='organisme' data-naam='Grote kruisbek'>
+                <div class='fotos'>
+                    <img src='images/grotekruisbek.jpg' alt='Grotekruisbek' />
+                </div>
+            </div>
+            <div id='organisme_95' class='organisme' data-naam='Grote lijster'>
+                <div class='fotos'>
+                    <img src='images/grotelijster.jpg' alt='Grotelijster' />
+                </div>
+            </div>
+            <div id='organisme_96' class='organisme' data-naam='Grote mantelmeeuw'>
+                <div class='fotos'>
+                    <img src='images/grotemantelmeeuw.jpg' alt='Grotemantelmeeuw' />
+                </div>
+            </div>
+            <div id='organisme_97' class='organisme' data-naam='Grote pieper'>
+                <div class='fotos'>
+                    <img src='images/grotepieper.jpg' alt='Grotepieper' />
+                </div>
+            </div>
+            <div id='organisme_98' class='organisme' data-naam='Grote stern'>
+                <div class='fotos'>
+                    <img src='images/grotestern.jpg' alt='Grotestern' />
+                </div>
+            </div>
+            <div id='organisme_99' class='organisme' data-naam='Grote zaagbek'>
+                <div class='fotos'>
+                    <img src='images/grotezaagbek.jpg' alt='Grotezaagbek' />
+                </div>
+            </div>
+            <div id='organisme_100' class='organisme' data-naam='Grote zeeeend'>
+                <div class='fotos'>
+                    <img src='images/grotezeeeend.jpg' alt='Grotezeeeend' />
+                </div>
+            </div>
+            <div id='organisme_101' class='organisme' data-naam='Grote zilverreiger'>
+                <div class='fotos'>
+                    <img src='images/grotezilverreiger.jpg' alt='Grotezilverreiger' />
+                </div>
+            </div>
+            <div id='organisme_102' class='organisme' data-naam='Grutto'>
+                <div class='fotos'>
+                    <img src='images/grutto.jpg' alt='Grutto' />
+                </div>
+            </div>
+            <div id='organisme_103' class='organisme' data-naam='Havik'>
+                <div class='fotos'>
+                    <img src='images/havik.jpg' alt='Havik' />
+                </div>
+            </div>
+            <div id='organisme_104' class='organisme' data-naam='Heggenmus'>
+                <div class='fotos'>
+                    <img src='images/heggenmus.jpg' alt='Heggenmus' />
+                </div>
+            </div>
+            <div id='organisme_105' class='organisme' data-naam='Heiligeibis'>
+                <div class='fotos'>
+                    <img src='images/heiligeibis.jpg' alt='Heiligeibis' />
+                </div>
+            </div>
+            <div id='organisme_106' class='organisme' data-naam='Holenduif'>
+                <div class='fotos'>
+                    <img src='images/holenduif.jpg' alt='Holenduif' />
+                </div>
+            </div>
+            <div id='organisme_107' class='organisme' data-naam='Hop'>
+                <div class='fotos'>
+                    <img src='images/hop.jpg' alt='Hop' />
+                </div>
+            </div>
+            <div id='organisme_108' class='organisme' data-naam='Houtduif'>
+                <div class='fotos'>
+                    <img src='images/houtduif.jpg' alt='Houtduif' />
+                </div>
+            </div>
+            <div id='organisme_109' class='organisme' data-naam='Houtsnip'>
+                <div class='fotos'>
+                    <img src='images/houtsnip.jpg' alt='Houtsnip' />
+                </div>
+            </div>
+            <div id='organisme_110' class='organisme' data-naam='Huismus'>
+                <div class='fotos'>
+                    <img src='images/huismus.jpg' alt='Huismus' />
+                </div>
+            </div>
+            <div id='organisme_111' class='organisme' data-naam='Huiszwaluw'>
+                <div class='fotos'>
+                    <img src='images/huiszwaluw.jpg' alt='Huiszwaluw' />
+                </div>
+            </div>
+            <div id='organisme_112' class='organisme' data-naam='IJsduiker'>
+                <div class='fotos'>
+                    <img src='images/ijsduiker.jpg' alt='Ijsduiker' />
+                </div>
+            </div>
+            <div id='organisme_113' class='organisme' data-naam='IJseend'>
+                <div class='fotos'>
+                    <img src='images/ijseend.jpg' alt='Ijseend' />
+                </div>
+            </div>
+            <div id='organisme_114' class='organisme' data-naam='IJsgors'>
+                <div class='fotos'>
+                    <img src='images/ijsgors.jpg' alt='Ijsgors' />
+                </div>
+            </div>
+            <div id='organisme_115' class='organisme' data-naam='IJsvogel'>
+                <div class='fotos'>
+                    <img src='images/ijsvogel.jpg' alt='Ijsvogel' />
+                </div>
+            </div>
+            <div id='organisme_116' class='organisme' data-naam='Jan van gent'>
+                <div class='fotos'>
+                    <img src='images/janvangent.jpg' alt='Janvangent' />
+                </div>
+            </div>
+            <div id='organisme_117' class='organisme' data-naam='Kanoet'>
+                <div class='fotos'>
+                    <img src='images/kanoet.jpg' alt='Kanoet' />
+                </div>
+            </div>
+            <div id='organisme_118' class='organisme' data-naam='Kauw'>
+                <div class='fotos'>
+                    <img src='images/kauw.jpg' alt='Kauw' />
+                </div>
+            </div>
+            <div id='organisme_119' class='organisme' data-naam='Keep'>
+                <div class='fotos'>
+                    <img src='images/keep.jpg' alt='Keep' />
+                </div>
+            </div>
+            <div id='organisme_120' class='organisme' data-naam='Kemphaan'>
+                <div class='fotos'>
+                    <img src='images/kemphaan.jpg' alt='Kemphaan' />
+                </div>
+            </div>
+            <div id='organisme_121' class='organisme' data-naam='Kerkuil'>
+                <div class='fotos'>
+                    <img src='images/kerkuil.jpg' alt='Kerkuil' />
+                </div>
+            </div>
+            <div id='organisme_122' class='organisme' data-naam='Kievit'>
+                <div class='fotos'>
+                    <img src='images/kievit.jpg' alt='Kievit' />
+                </div>
+            </div>
+            <div id='organisme_123' class='organisme' data-naam='Klapekster'>
+                <div class='fotos'>
+                    <img src='images/klapekster.jpg' alt='Klapekster' />
+                </div>
+            </div>
+            <div id='organisme_124' class='organisme' data-naam='Kleinealk'>
+                <div class='fotos'>
+                    <img src='images/kleinealk.jpg' alt='Kleinealk' />
+                </div>
+            </div>
+            <div id='organisme_125' class='organisme' data-naam='Kleine barmsijs'>
+                <div class='fotos'>
+                    <img src='images/kleinebarmsijs.jpg' alt='Kleinebarmsijs' />
+                </div>
+            </div>
+            <div id='organisme_126' class='organisme' data-naam='Kleine bonte specht'>
+                <div class='fotos'>
+                    <img src='images/kleinebontespecht.jpg' alt='Kleinebontespecht' />
+                </div>
+            </div>
+            <div id='organisme_127' class='organisme' data-naam='Kleine jager'>
+                <div class='fotos'>
+                    <img src='images/kleinejager.jpg' alt='Kleinejager' />
+                </div>
+            </div>
+            <div id='organisme_128' class='organisme' data-naam='Kleine karekiet'>
+                <div class='fotos'>
+                    <img src='images/kleinekarekiet.jpg' alt='Kleinekarekiet' />
+                </div>
+            </div>
+            <div id='organisme_129' class='organisme' data-naam='Kleine mantelmeeuw'>
+                <div class='fotos'>
+                    <img src='images/kleinemantelmeeuw.jpg' alt='Kleinemantelmeeuw' />
+                </div>
+            </div>
+            <div id='organisme_130' class='organisme' data-naam='Kleine plevier'>
+                <div class='fotos'>
+                    <img src='images/kleineplevier.jpg' alt='Kleineplevier' />
+                </div>
+            </div>
+            <div id='organisme_131' class='organisme' data-naam='Kleine rietgans'>
+                <div class='fotos'>
+                    <img src='images/kleinerietgans.jpg' alt='Kleinerietgans' />
+                </div>
+            </div>
+            <div id='organisme_132' class='organisme' data-naam='Kleine strandloper'>
+                <div class='fotos'>
+                    <img src='images/kleinestrandloper.jpg' alt='Kleinestrandloper' />
+                </div>
+            </div>
+            <div id='organisme_133' class='organisme' data-naam='Kleine vliegenvanger'>
+                <div class='fotos'>
+                    <img src='images/kleinevliegenvanger.jpg' alt='Kleinevliegenvanger' />
+                </div>
+            </div>
+            <div id='organisme_134' class='organisme' data-naam='Kleine zilverreiger'>
+                <div class='fotos'>
+                    <img src='images/kleinezilverreiger.jpg' alt='Kleinezilverreiger' />
+                </div>
+            </div>
+            <div id='organisme_135' class='organisme' data-naam='Kleine zwaan'>
+                <div class='fotos'>
+                    <img src='images/kleinezwaan.jpg' alt='Kleinezwaan' />
+                </div>
+            </div>
+            <div id='organisme_136' class='organisme' data-naam='Kleinste jager'>
+                <div class='fotos'>
+                    <img src='images/kleinstejager.jpg' alt='Kleinstejager' />
+                </div>
+            </div>
+            <div id='organisme_137' class='organisme' data-naam='Kleinst waterhoen'>
+                <div class='fotos'>
+                    <img src='images/kleinstwaterhoen.jpg' alt='Kleinstwaterhoen' />
+                </div>
+            </div>
+            <div id='organisme_138' class='organisme' data-naam='Klein waterhoen'>
+                <div class='fotos'>
+                    <img src='images/kleinwaterhoen.jpg' alt='Kleinwaterhoen' />
+                </div>
+            </div>
+            <div id='organisme_139' class='organisme' data-naam='Kluut'>
+                <div class='fotos'>
+                    <img src='images/kluut.jpg' alt='Kluut' />
+                </div>
+            </div>
+            <div id='organisme_140' class='organisme' data-naam='Kneu'>
+                <div class='fotos'>
+                    <img src='images/kneu.jpg' alt='Kneu' />
+                </div>
+            </div>
+            <div id='organisme_141' class='organisme' data-naam='Knobbelzwaan'>
+                <div class='fotos'>
+                    <img src='images/knobbelzwaan.jpg' alt='Knobbelzwaan' />
+                </div>
+            </div>
+            <div id='organisme_142' class='organisme' data-naam='Koekoek'>
+                <div class='fotos'>
+                    <img src='images/koekoek.jpg' alt='Koekoek' />
+                </div>
+            </div>
+            <div id='organisme_143' class='organisme' data-naam='Koereiger'>
+                <div class='fotos'>
+                    <img src='images/koereiger.jpg' alt='Koereiger' />
+                </div>
+            </div>
+            <div id='organisme_144' class='organisme' data-naam='Kokmeeuw'>
+                <div class='fotos'>
+                    <img src='images/kokmeeuw.jpg' alt='Kokmeeuw' />
+                </div>
+            </div>
+            <div id='organisme_145' class='organisme' data-naam='Kolgans'>
+                <div class='fotos'>
+                    <img src='images/kolgans.jpg' alt='Kolgans' />
+                </div>
+            </div>
+            <div id='organisme_146' class='organisme' data-naam='Koolmees'>
+                <div class='fotos'>
+                    <img src='images/koolmees.jpg' alt='Koolmees' />
+                </div>
+            </div>
+            <div id='organisme_147' class='organisme' data-naam='Koperwiek'>
+                <div class='fotos'>
+                    <img src='images/koperwiek.jpg' alt='Koperwiek' />
+                </div>
+            </div>
+            <div id='organisme_148' class='organisme' data-naam='Korhoen'>
+                <div class='fotos'>
+                    <img src='images/korhoen.jpg' alt='Korhoen' />
+                </div>
+            </div>
+            <div id='organisme_149' class='organisme' data-naam='Kraanvogel'>
+                <div class='fotos'>
+                    <img src='images/kraanvogel.jpg' alt='Kraanvogel' />
+                </div>
+            </div>
+            <div id='organisme_150' class='organisme' data-naam='Krakeend'>
+                <div class='fotos'>
+                    <img src='images/krakeend.jpg' alt='Krakeend' />
+                </div>
+            </div>
+            <div id='organisme_151' class='organisme' data-naam='Kramsvogel'>
+                <div class='fotos'>
+                    <img src='images/kramsvogel.jpg' alt='Kramsvogel' />
+                </div>
+            </div>
+            <div id='organisme_152' class='organisme' data-naam='Krombekstrandloper'>
+                <div class='fotos'>
+                    <img src='images/krombekstrandloper.jpg' alt='Krombekstrandloper' />
+                </div>
+            </div>
+            <div id='organisme_153' class='organisme' data-naam='Krooneend'>
+                <div class='fotos'>
+                    <img src='images/krooneend.jpg' alt='Krooneend' />
+                </div>
+            </div>
+            <div id='organisme_154' class='organisme' data-naam='Kruisbek'>
+                <div class='fotos'>
+                    <img src='images/kruisbek.jpg' alt='Kruisbek' />
+                </div>
+            </div>
+            <div id='organisme_155' class='organisme' data-naam='Kuifaalscholver'>
+                <div class='fotos'>
+                    <img src='images/kuifaalscholver.jpg' alt='Kuifaalscholver' />
+                </div>
+            </div>
+            <div id='organisme_156' class='organisme' data-naam='Kuifduiker'>
+                <div class='fotos'>
+                    <img src='images/kuifduiker.jpg' alt='Kuifduiker' />
+                </div>
+            </div>
+            <div id='organisme_157' class='organisme' data-naam='Kuifeend'>
+                <div class='fotos'>
+                    <img src='images/kuifeend.jpg' alt='Kuifeend' />
+                </div>
+            </div>
+            <div id='organisme_158' class='organisme' data-naam='Kuifleeuwerik'>
+                <div class='fotos'>
+                    <img src='images/kuifleeuwerik.jpg' alt='Kuifleeuwerik' />
+                </div>
+            </div>
+            <div id='organisme_159' class='organisme' data-naam='Kuifmees'>
+                <div class='fotos'>
+                    <img src='images/kuifmees.jpg' alt='Kuifmees' />
+                </div>
+            </div>
+            <div id='organisme_160' class='organisme' data-naam='Kwak'>
+                <div class='fotos'>
+                    <img src='images/kwak.jpg' alt='Kwak' />
+                </div>
+            </div>
+            <div id='organisme_161' class='organisme' data-naam='Kwartel'>
+                <div class='fotos'>
+                    <img src='images/kwartel.jpg' alt='Kwartel' />
+                </div>
+            </div>
+            <div id='organisme_162' class='organisme' data-naam='Kwartelkoning'>
+                <div class='fotos'>
+                    <img src='images/kwartelkoning.jpg' alt='Kwartelkoning' />
+                </div>
+            </div>
+            <div id='organisme_163' class='organisme' data-naam='Lachstern'>
+                <div class='fotos'>
+                    <img src='images/lachstern.jpg' alt='Lachstern' />
+                </div>
+            </div>
+            <div id='organisme_164' class='organisme' data-naam='Lepelaar'>
+                <div class='fotos'>
+                    <img src='images/lepelaar.jpg' alt='Lepelaar' />
+                </div>
+            </div>
+            <div id='organisme_165' class='organisme' data-naam='Mandarijneend'>
+                <div class='fotos'>
+                    <img src='images/mandarijneend.jpg' alt='Mandarijneend' />
+                </div>
+            </div>
+            <div id='organisme_166' class='organisme' data-naam='Matkop'>
+                <div class='fotos'>
+                    <img src='images/matkop.jpg' alt='Matkop' />
+                </div>
+            </div>
+            <div id='organisme_167' class='organisme' data-naam='Meerkoet'>
+                <div class='fotos'>
+                    <img src='images/meerkoet.jpg' alt='Meerkoet' />
+                </div>
+            </div>
+            <div id='organisme_168' class='organisme' data-naam='Merel'>
+                <div class='fotos'>
+                    <img src='images/merel.jpg' alt='Merel' />
+                </div>
+            </div>
+            <div id='organisme_169' class='organisme' data-naam='Middelstebontespecht'>
+                <div class='fotos'>
+                    <img src='images/middelstebontespecht.jpg' alt='Middelstebontespecht' />
+                </div>
+            </div>
+            <div id='organisme_170' class='organisme' data-naam='Middelstejager'>
+                <div class='fotos'>
+                    <img src='images/middelstejager.jpg' alt='Middelstejager' />
+                </div>
+            </div>
+            <div id='organisme_171' class='organisme' data-naam='Middelstezaagbek'>
+                <div class='fotos'>
+                    <img src='images/middelstezaagbek.jpg' alt='Middelstezaagbek' />
+                </div>
+            </div>
+            <div id='organisme_172' class='organisme' data-naam='Morinelplevier'>
+                <div class='fotos'>
+                    <img src='images/morinelplevier.jpg' alt='Morinelplevier' />
+                </div>
+            </div>
+            <div id='organisme_173' class='organisme' data-naam='Nachtegaal'>
+                <div class='fotos'>
+                    <img src='images/nachtegaal.jpg' alt='Nachtegaal' />
+                </div>
+            </div>
+            <div id='organisme_174' class='organisme' data-naam='Nachtzwaluw'>
+                <div class='fotos'>
+                    <img src='images/nachtzwaluw.jpg' alt='Nachtzwaluw' />
+                </div>
+            </div>
+            <div id='organisme_175' class='organisme' data-naam='Nonnetje'>
+                <div class='fotos'>
+                    <img src='images/nonnetje.jpg' alt='Nonnetje' />
+                </div>
+            </div>
+            <div id='organisme_176' class='organisme' data-naam='Noordsekwikstaart'>
+                <div class='fotos'>
+                    <img src='images/noordsekwikstaart.jpg' alt='Noordsekwikstaart' />
+                </div>
+            </div>
+            <div id='organisme_177' class='organisme' data-naam='Noordsenachtegaal'>
+                <div class='fotos'>
+                    <img src='images/noordsenachtegaal.jpg' alt='Noordsenachtegaal' />
+                </div>
+            </div>
+            <div id='organisme_178' class='organisme' data-naam='Noordse pijlstormvogel'>
+                <div class='fotos'>
+                    <img src='images/noordsepijlstormvogel.jpg' alt='Noordsepijlstormvogel' />
+                </div>
+            </div>
+            <div id='organisme_179' class='organisme' data-naam='Noordse stern'>
+                <div class='fotos'>
+                    <img src='images/noordsestern.jpg' alt='Noordsestern' />
+                </div>
+            </div>
+            <div id='organisme_180' class='organisme' data-naam='Noordse stormvogel'>
+                <div class='fotos'>
+                    <img src='images/noordsestormvogel.jpg' alt='Noordsestormvogel' />
+                </div>
+            </div>
+            <div id='organisme_181' class='organisme' data-naam='Notenkraker'>
+                <div class='fotos'>
+                    <img src='images/notenkraker.jpg' alt='Notenkraker' />
+                </div>
+            </div>
+            <div id='organisme_182' class='organisme' data-naam='Oehoe'>
+                <div class='fotos'>
+                    <img src='images/oehoe.jpg' alt='Oehoe' />
+                </div>
+            </div>
+            <div id='organisme_183' class='organisme' data-naam='Oeverloper'>
+                <div class='fotos'>
+                    <img src='images/oeverloper.jpg' alt='Oeverloper' />
+                </div>
+            </div>
+            <div id='organisme_184' class='organisme' data-naam='Oeverpieper'>
+                <div class='fotos'>
+                    <img src='images/oeverpieper.jpg' alt='Oeverpieper' />
+                </div>
+            </div>
+            <div id='organisme_185' class='organisme' data-naam='Oeverzwaluw'>
+                <div class='fotos'>
+                    <img src='images/oeverzwaluw.jpg' alt='Oeverzwaluw' />
+                </div>
+            </div>
+            <div id='organisme_186' class='organisme' data-naam='Ooievaar'>
+                <div class='fotos'>
+                    <img src='images/ooievaar.jpg' alt='Ooievaar' />
+                </div>
+            </div>
+            <div id='organisme_187' class='organisme' data-naam='Orpheusspotvogel'>
+                <div class='fotos'>
+                    <img src='images/orpheusspotvogel.jpg' alt='Orpheusspotvogel' />
+                </div>
+            </div>
+            <div id='organisme_188' class='organisme' data-naam='Ortolaan'>
+                <div class='fotos'>
+                    <img src='images/ortolaan.jpg' alt='Ortolaan' />
+                </div>
+            </div>
+            <div id='organisme_189' class='organisme' data-naam='Paapje'>
+                <div class='fotos'>
+                    <img src='images/paapje.jpg' alt='Paapje' />
+                </div>
+            </div>
+            <div id='organisme_190' class='organisme' data-naam='Paarse strandloper'>
+                <div class='fotos'>
+                    <img src='images/paarsestrandloper.jpg' alt='Paarsestrandloper' />
+                </div>
+            </div>
+            <div id='organisme_191' class='organisme' data-naam='Pallasboszanger'>
+                <div class='fotos'>
+                    <img src='images/pallasboszanger.jpg' alt='Pallasboszanger' />
+                </div>
+            </div>
+            <div id='organisme_192' class='organisme' data-naam='Papegaaiduiker'>
+                <div class='fotos'>
+                    <img src='images/papegaaiduiker.jpg' alt='Papegaaiduiker' />
+                </div>
+            </div>
+            <div id='organisme_193' class='organisme' data-naam='Parelduiker'>
+                <div class='fotos'>
+                    <img src='images/parelduiker.jpg' alt='Parelduiker' />
+                </div>
+            </div>
+            <div id='organisme_194' class='organisme' data-naam='Patrijs'>
+                <div class='fotos'>
+                    <img src='images/patrijs.jpg' alt='Patrijs' />
+                </div>
+            </div>
+            <div id='organisme_195' class='organisme' data-naam='Pestvogel'>
+                <div class='fotos'>
+                    <img src='images/pestvogel.jpg' alt='Pestvogel' />
+                </div>
+            </div>
+            <div id='organisme_196' class='organisme' data-naam='Pijlstaart'>
+                <div class='fotos'>
+                    <img src='images/pijlstaart.jpg' alt='Pijlstaart' />
+                </div>
+            </div>
+            <div id='organisme_197' class='organisme' data-naam='Pimpelmees'>
+                <div class='fotos'>
+                    <img src='images/pimpelmees.jpg' alt='Pimpelmees' />
+                </div>
+            </div>
+            <div id='organisme_198' class='organisme' data-naam='Poelruiter'>
+                <div class='fotos'>
+                    <img src='images/poelruiter.jpg' alt='Poelruiter' />
+                </div>
+            </div>
+            <div id='organisme_199' class='organisme' data-naam='Porseleinhoen'>
+                <div class='fotos'>
+                    <img src='images/porseleinhoen.jpg' alt='Porseleinhoen' />
+                </div>
+            </div>
+            <div id='organisme_200' class='organisme' data-naam='Purperreiger'>
+                <div class='fotos'>
+                    <img src='images/purperreiger.jpg' alt='Purperreiger' />
+                </div>
+            </div>
+            <div id='organisme_201' class='organisme' data-naam='Putter'>
+                <div class='fotos'>
+                    <img src='images/putter.jpg' alt='Putter' />
+                </div>
+            </div>
+            <div id='organisme_202' class='organisme' data-naam='Ralreiger'>
+                <div class='fotos'>
+                    <img src='images/ralreiger.jpg' alt='Ralreiger' />
+                </div>
+            </div>
+            <div id='organisme_203' class='organisme' data-naam='Ransuil'>
+                <div class='fotos'>
+                    <img src='images/ransuil.jpg' alt='Ransuil' />
+                </div>
+            </div>
+            <div id='organisme_204' class='organisme' data-naam='Regenwulp'>
+                <div class='fotos'>
+                    <img src='images/regenwulp.jpg' alt='Regenwulp' />
+                </div>
+            </div>
+            <div id='organisme_205' class='organisme' data-naam='Reuzenstern'>
+                <div class='fotos'>
+                    <img src='images/reuzenstern.jpg' alt='Reuzenstern' />
+                </div>
+            </div>
+            <div id='organisme_206' class='organisme' data-naam='Rietgors'>
+                <div class='fotos'>
+                    <img src='images/rietgors.jpg' alt='Rietgors' />
+                </div>
+            </div>
+            <div id='organisme_207' class='organisme' data-naam='Rietzanger'>
+                <div class='fotos'>
+                    <img src='images/rietzanger.jpg' alt='Rietzanger' />
+                </div>
+            </div>
+            <div id='organisme_208' class='organisme' data-naam='Ringmus'>
+                <div class='fotos'>
+                    <img src='images/ringmus.jpg' alt='Ringmus' />
+                </div>
+            </div>
+            <div id='organisme_209' class='organisme' data-naam='Rode wouw'>
+                <div class='fotos'>
+                    <img src='images/rodewouw.jpg' alt='Rodewouw' />
+                </div>
+            </div>
+            <div id='organisme_210' class='organisme' data-naam='Roek'>
+                <div class='fotos'>
+                    <img src='images/roek.jpg' alt='Roek' />
+                </div>
+            </div>
+            <div id='organisme_211' class='organisme' data-naam='Roerdomp'>
+                <div class='fotos'>
+                    <img src='images/roerdomp.jpg' alt='Roerdomp' />
+                </div>
+            </div>
+            <div id='organisme_212' class='organisme' data-naam='Roodborst'>
+                <div class='fotos'>
+                    <img src='images/roodborst.jpg' alt='Roodborst' />
+                </div>
+            </div>
+            <div id='organisme_213' class='organisme' data-naam='Roodborst tapuit'>
+                <div class='fotos'>
+                    <img src='images/roodborsttapuit.jpg' alt='Roodborsttapuit' />
+                </div>
+            </div>
+            <div id='organisme_214' class='organisme' data-naam='Roodhalsfuut'>
+                <div class='fotos'>
+                    <img src='images/roodhalsfuut.jpg' alt='Roodhalsfuut' />
+                </div>
+            </div>
+            <div id='organisme_215' class='organisme' data-naam='Roodhalsgans'>
+                <div class='fotos'>
+                    <img src='images/roodhalsgans.jpg' alt='Roodhalsgans' />
+                </div>
+            </div>
+            <div id='organisme_216' class='organisme' data-naam='Roodkeelduiker'>
+                <div class='fotos'>
+                    <img src='images/roodkeelduiker.jpg' alt='Roodkeelduiker' />
+                </div>
+            </div>
+            <div id='organisme_217' class='organisme' data-naam='Roodkeelpieper'>
+                <div class='fotos'>
+                    <img src='images/roodkeelpieper.jpg' alt='Roodkeelpieper' />
+                </div>
+            </div>
+            <div id='organisme_218' class='organisme' data-naam='Roodkopklauwier'>
+                <div class='fotos'>
+                    <img src='images/roodkopklauwier.jpg' alt='Roodkopklauwier' />
+                </div>
+            </div>
+            <div id='organisme_219' class='organisme' data-naam='Roodmus'>
+                <div class='fotos'>
+                    <img src='images/roodmus.jpg' alt='Roodmus' />
+                </div>
+            </div>
+            <div id='organisme_220' class='organisme' data-naam='Roodpootvalk'>
+                <div class='fotos'>
+                    <img src='images/roodpootvalk.jpg' alt='Roodpootvalk' />
+                </div>
+            </div>
+            <div id='organisme_221' class='organisme' data-naam='Rosse franjepoot'>
+                <div class='fotos'>
+                    <img src='images/rossefranjepoot.jpg' alt='Rossefranjepoot' />
+                </div>
+            </div>
+            <div id='organisme_222' class='organisme' data-naam='Rosseg rutto'>
+                <div class='fotos'>
+                    <img src='images/rossegrutto.jpg' alt='Rossegrutto' />
+                </div>
+            </div>
+            <div id='organisme_223' class='organisme' data-naam='Rotgans'>
+                <div class='fotos'>
+                    <img src='images/rotgans.jpg' alt='Rotgans' />
+                </div>
+            </div>
+            <div id='organisme_224' class='organisme' data-naam='Rouwkwikstaart'>
+                <div class='fotos'>
+                    <img src='images/rouwkwikstaart.jpg' alt='Rouwkwikstaart' />
+                </div>
+            </div>
+            <div id='organisme_225' class='organisme' data-naam='Rozes preeuw'>
+                <div class='fotos'>
+                    <img src='images/rozespreeuw.jpg' alt='Rozespreeuw' />
+                </div>
+            </div>
+            <div id='organisme_226' class='organisme' data-naam='Ruigpootbuizerd'>
+                <div class='fotos'>
+                    <img src='images/ruigpootbuizerd.jpg' alt='Ruigpootbuizerd' />
+                </div>
+            </div>
+            <div id='organisme_227' class='organisme' data-naam='Scharrelaar'>
+                <div class='fotos'>
+                    <img src='images/scharrelaar.jpg' alt='Scharrelaar' />
+                </div>
+            </div>
+            <div id='organisme_228' class='organisme' data-naam='Scholekster'>
+                <div class='fotos'>
+                    <img src='images/scholekster.jpg' alt='Scholekster' />
+                </div>
+            </div>
+            <div id='organisme_229' class='organisme' data-naam='Schoolekster'>
+                <div class='fotos'>
+                    <img src='images/schoolekster.jpg' alt='Schoolekster' />
+                </div>
+            </div>
+            <div id='organisme_230' class='organisme' data-naam='Siberische boompieper'>
+                <div class='fotos'>
+                    <img src='images/siberischeboompieper.jpg' alt='Siberischeboompieper' />
+                </div>
+            </div>
+            <div id='organisme_231' class='organisme' data-naam='Sijs'>
+                <div class='fotos'>
+                    <img src='images/sijs.jpg' alt='Sijs' />
+                </div>
+            </div>
+            <div id='organisme_232' class='organisme' data-naam='Slangenarend'>
+                <div class='fotos'>
+                    <img src='images/slangenarend.jpg' alt='Slangenarend' />
+                </div>
+            </div>
+            <div id='organisme_233' class='organisme' data-naam='Slechtvalk'>
+                <div class='fotos'>
+                    <img src='images/slechtvalk.jpg' alt='Slechtvalk' />
+                </div>
+            </div>
+            <div id='organisme_234' class='organisme' data-naam='Slobeend'>
+                <div class='fotos'>
+                    <img src='images/slobeend.jpg' alt='Slobeend' />
+                </div>
+            </div>
+            <div id='organisme_235' class='organisme' data-naam='Smelleken'>
+                <div class='fotos'>
+                    <img src='images/smelleken.jpg' alt='Smelleken' />
+                </div>
+            </div>
+            <div id='organisme_236' class='organisme' data-naam='Smient'>
+                <div class='fotos'>
+                    <img src='images/smient.jpg' alt='Smient' />
+                </div>
+            </div>
+            <div id='organisme_237' class='organisme' data-naam='Sneeuwgans'>
+                <div class='fotos'>
+                    <img src='images/sneeuwgans.jpg' alt='Sneeuwgans' />
+                </div>
+            </div>
+            <div id='organisme_238' class='organisme' data-naam='Sneeuwgors'>
+                <div class='fotos'>
+                    <img src='images/sneeuwgors.jpg' alt='Sneeuwgors' />
+                </div>
+            </div>
+            <div id='organisme_239' class='organisme' data-naam='Sneeuwuil'>
+                <div class='fotos'>
+                    <img src='images/sneeuwuil.jpg' alt='Sneeuwuil' />
+                </div>
+            </div>
+            <div id='organisme_240' class='organisme' data-naam='Snor'>
+                <div class='fotos'>
+                    <img src='images/snor.jpg' alt='Snor' />
+                </div>
+            </div>
+            <div id='organisme_241' class='organisme' data-naam='Sperwer'>
+                <div class='fotos'>
+                    <img src='images/sperwer.jpg' alt='Sperwer' />
+                </div>
+            </div>
+            <div id='organisme_242' class='organisme' data-naam='Sperwergrasmus'>
+                <div class='fotos'>
+                    <img src='images/sperwergrasmus.jpg' alt='Sperwergrasmus' />
+                </div>
+            </div>
+            <div id='organisme_243' class='organisme' data-naam='Sperweruil'>
+                <div class='fotos'>
+                    <img src='images/sperweruil.jpg' alt='Sperweruil' />
+                </div>
+            </div>
+            <div id='organisme_244' class='organisme' data-naam='Spotvogel'>
+                <div class='fotos'>
+                    <img src='images/spotvogel.jpg' alt='Spotvogel' />
+                </div>
+            </div>
+            <div id='organisme_245' class='organisme' data-naam='Spreeuw'>
+                <div class='fotos'>
+                    <img src='images/spreeuw.jpg' alt='Spreeuw' />
+                </div>
+            </div>
+            <div id='organisme_246' class='organisme' data-naam='Sprinkhaanzanger'>
+                <div class='fotos'>
+                    <img src='images/sprinkhaanzanger.jpg' alt='Sprinkhaanzanger' />
+                </div>
+            </div>
+            <div id='organisme_247' class='organisme' data-naam='Staartmees'>
+                <div class='fotos'>
+                    <img src='images/staartmees.jpg' alt='Staartmees' />
+                </div>
+            </div>
+            <div id='organisme_248' class='organisme' data-naam='Steenarend'>
+                <div class='fotos'>
+                    <img src='images/steenarend.jpg' alt='Steenarend' />
+                </div>
+            </div>
+            <div id='organisme_249' class='organisme' data-naam='Steenloper'>
+                <div class='fotos'>
+                    <img src='images/steenloper.jpg' alt='Steenloper' />
+                </div>
+            </div>
+            <div id='organisme_250' class='organisme' data-naam='Steenuil'>
+                <div class='fotos'>
+                    <img src='images/steenuil.jpg' alt='Steenuil' />
+                </div>
+            </div>
+            <div id='organisme_251' class='organisme' data-naam='Steltkluut'>
+                <div class='fotos'>
+                    <img src='images/steltkluut.jpg' alt='Steltkluut' />
+                </div>
+            </div>
+            <div id='organisme_252' class='organisme' data-naam='Steppekievit'>
+                <div class='fotos'>
+                    <img src='images/steppekievit.jpg' alt='Steppekievit' />
+                </div>
+            </div>
+            <div id='organisme_253' class='organisme' data-naam='Steppenkiekendief'>
+                <div class='fotos'>
+                    <img src='images/steppenkiekendief.jpg' alt='Steppenkiekendief' />
+                </div>
+            </div>
+            <div id='organisme_254' class='organisme' data-naam='Stormmeeuw'>
+                <div class='fotos'>
+                    <img src='images/stormmeeuw.jpg' alt='Stormmeeuw' />
+                </div>
+            </div>
+            <div id='organisme_255' class='organisme' data-naam='Stormvogeltje'>
+                <div class='fotos'>
+                    <img src='images/stormvogeltje.jpg' alt='Stormvogeltje' />
+                </div>
+            </div>
+            <div id='organisme_256' class='organisme' data-naam='Strandleeuwerik'>
+                <div class='fotos'>
+                    <img src='images/strandleeuwerik.jpg' alt='Strandleeuwerik' />
+                </div>
+            </div>
+            <div id='organisme_257' class='organisme' data-naam='Strandplevier'>
+                <div class='fotos'>
+                    <img src='images/strandplevier.jpg' alt='Strandplevier' />
+                </div>
+            </div>
+            <div id='organisme_258' class='organisme' data-naam='Tafeleend'>
+                <div class='fotos'>
+                    <img src='images/tafeleend.jpg' alt='Tafeleend' />
+                </div>
+            </div>
+            <div id='organisme_259' class='organisme' data-naam='Taigaboomkruiper'>
+                <div class='fotos'>
+                    <img src='images/taigaboomkruiper.jpg' alt='Taigaboomkruiper' />
+                </div>
+            </div>
+            <div id='organisme_260' class='organisme' data-naam='Taigarietgans'>
+                <div class='fotos'>
+                    <img src='images/taigarietgans.jpg' alt='Taigarietgans' />
+                </div>
+            </div>
+            <div id='organisme_261' class='organisme' data-naam='Tapuit'>
+                <div class='fotos'>
+                    <img src='images/tapuit.jpg' alt='Tapuit' />
+                </div>
+            </div>
+            <div id='organisme_262' class='organisme' data-naam='Temmincks strandloper'>
+                <div class='fotos'>
+                    <img src='images/temmincksstrandloper.jpg' alt='Temmincksstrandloper' />
+                </div>
+            </div>
+            <div id='organisme_263' class='organisme' data-naam='Terek ruiter'>
+                <div class='fotos'>
+                    <img src='images/terekruiter.jpg' alt='Terekruiter' />
+                </div>
+            </div>
+            <div id='organisme_264' class='organisme' data-naam='Tjiftjaf'>
+                <div class='fotos'>
+                    <img src='images/tjiftjaf.jpg' alt='Tjiftjaf' />
+                </div>
+            </div>
+            <div id='organisme_265' class='organisme' data-naam='Toendra rietgans'>
+                <div class='fotos'>
+                    <img src='images/toendrarietgans.jpg' alt='Toendrarietgans' />
+                </div>
+            </div>
+            <div id='organisme_266' class='organisme' data-naam='Topper'>
+                <div class='fotos'>
+                    <img src='images/topper.jpg' alt='Topper' />
+                </div>
+            </div>
+            <div id='organisme_267' class='organisme' data-naam='Torenvalk'>
+                <div class='fotos'>
+                    <img src='images/torenvalk.jpg' alt='Torenvalk' />
+                </div>
+            </div>
+            <div id='organisme_268' class='organisme' data-naam='Tuinfluiter'>
+                <div class='fotos'>
+                    <img src='images/tuinfluiter.jpg' alt='Tuinfluiter' />
+                </div>
+            </div>
+            <div id='organisme_269' class='organisme' data-naam='Tureluur'>
+                <div class='fotos'>
+                    <img src='images/tureluur.jpg' alt='Tureluur' />
+                </div>
+            </div>
+            <div id='organisme_270' class='organisme' data-naam='Turkse tortel'>
+                <div class='fotos'>
+                    <img src='images/turksetortel.jpg' alt='Turksetortel' />
+                </div>
+            </div>
+            <div id='organisme_271' class='organisme' data-naam='Vaal stormvogeltje'>
+                <div class='fotos'>
+                    <img src='images/vaalstormvogeltje.jpg' alt='Vaalstormvogeltje' />
+                </div>
+            </div>
+            <div id='organisme_272' class='organisme' data-naam='Vale gier'>
+                <div class='fotos'>
+                    <img src='images/valegier.jpg' alt='Vale gier' />
+                </div>
+            </div>
+            <div id='organisme_273' class='organisme' data-naam='Vale pijlstormvogel'>
+                <div class='fotos'>
+                    <img src='images/valepijlstormvogel.jpg' alt='Valepijlstormvogel' />
+                </div>
+            </div>
+            <div id='organisme_274' class='organisme' data-naam='Veldleeuwerik'>
+                <div class='fotos'>
+                    <img src='images/veldleeuwerik.jpg' alt='Veldleeuwerik' />
+                </div>
+            </div>
+            <div id='organisme_275' class='organisme' data-naam='Velduil'>
+                <div class='fotos'>
+                    <img src='images/velduil.jpg' alt='Velduil' />
+                </div>
+            </div>
+            <div id='organisme_276' class='organisme' data-naam='Vink'>
+                <div class='fotos'>
+                    <img src='images/vink.jpg' alt='Vink' />
+                </div>
+            </div>
+            <div id='organisme_277' class='organisme' data-naam='Visdief'>
+                <div class='fotos'>
+                    <img src='images/visdief.jpg' alt='Visdief' />
+                </div>
+            </div>
+            <div id='organisme_278' class='organisme' data-naam='Vorkstaartmeeuw'>
+                <div class='fotos'>
+                    <img src='images/vorkstaartmeeuw.jpg' alt='Vorkstaartmeeuw' />
+                </div>
+            </div>
+            <div id='organisme_279' class='organisme' data-naam='Vuurgoudhaan'>
+                <div class='fotos'>
+                    <img src='images/vuurgoudhaan.jpg' alt='Vuurgoudhaan' />
+                </div>
+            </div>
+            <div id='organisme_280' class='organisme' data-naam='Waterhoen'>
+                <div class='fotos'>
+                    <img src='images/waterhoen.jpg' alt='Waterhoen' />
+                </div>
+            </div>
+            <div id='organisme_281' class='organisme' data-naam='Waterpieper'>
+                <div class='fotos'>
+                    <img src='images/waterpieper.jpg' alt='Waterpieper' />
+                </div>
+            </div>
+            <div id='organisme_282' class='organisme' data-naam='Waterral'>
+                <div class='fotos'>
+                    <img src='images/waterral.jpg' alt='Waterral' />
+                </div>
+            </div>
+            <div id='organisme_283' class='organisme' data-naam='Waterrietzanger'>
+                <div class='fotos'>
+                    <img src='images/waterrietzanger.jpg' alt='Waterrietzanger' />
+                </div>
+            </div>
+            <div id='organisme_284' class='organisme' data-naam='Watersnip'>
+                <div class='fotos'>
+                    <img src='images/watersnip.jpg' alt='Watersnip' />
+                </div>
+            </div>
+            <div id='organisme_285' class='organisme' data-naam='Waterspreeuw'>
+                <div class='fotos'>
+                    <img src='images/waterspreeuw.jpg' alt='Waterspreeuw' />
+                </div>
+            </div>
+            <div id='organisme_286' class='organisme' data-naam='Wielewaal'>
+                <div class='fotos'>
+                    <img src='images/wielewaal.jpg' alt='Wielewaal' />
+                </div>
+            </div>
+            <div id='organisme_287' class='organisme' data-naam='Wilde eend'>
+                <div class='fotos'>
+                    <img src='images/wildeeend.jpg' alt='Wildeeend' />
+                </div>
+            </div>
+            <div id='organisme_288' class='organisme' data-naam='Wilde zwaan'>
+                <div class='fotos'>
+                    <img src='images/wildezwaan.jpg' alt='Wildezwaan' />
+                </div>
+            </div>
+            <div id='organisme_289' class='organisme' data-naam='Winterkoning'>
+                <div class='fotos'>
+                    <img src='images/winterkoning.jpg' alt='Winterkoning' />
+                </div>
+            </div>
+            <div id='organisme_290' class='organisme' data-naam='Wintertaling'>
+                <div class='fotos'>
+                    <img src='images/wintertaling.jpg' alt='Wintertaling' />
+                </div>
+            </div>
+            <div id='organisme_291' class='organisme' data-naam='Witbandkruisbek'>
+                <div class='fotos'>
+                    <img src='images/witbandkruisbek.jpg' alt='Witbandkruisbek' />
+                </div>
+            </div>
+            <div id='organisme_292' class='organisme' data-naam='Witgatje'>
+                <div class='fotos'>
+                    <img src='images/witgatje.jpg' alt='Witgatje' />
+                </div>
+            </div>
+            <div id='organisme_293' class='organisme' data-naam='Withalsvliegenvanger'>
+                <div class='fotos'>
+                    <img src='images/withalsvliegenvanger.jpg' alt='Withalsvliegenvanger' />
+                </div>
+            </div>
+            <div id='organisme_294' class='organisme' data-naam='Witte kwikstaart'>
+                <div class='fotos'>
+                    <img src='images/wittekwikstaart.jpg' alt='Wittekwikstaart' />
+                </div>
+            </div>
+            <div id='organisme_295' class='organisme' data-naam='Witvleugelstern'>
+                <div class='fotos'>
+                    <img src='images/witvleugelstern.jpg' alt='Witvleugelstern' />
+                </div>
+            </div>
+            <div id='organisme_296' class='organisme' data-naam='Witwangstern'>
+                <div class='fotos'>
+                    <img src='images/witwangstern.jpg' alt='Witwangstern' />
+                </div>
+            </div>
+            <div id='organisme_297' class='organisme' data-naam='Woudaap'>
+                <div class='fotos'>
+                    <img src='images/woudaap.jpg' alt='Woudaap' />
+                </div>
+            </div>
+            <div id='organisme_298' class='organisme' data-naam='Wulp'>
+                <div class='fotos'>
+                    <img src='images/wulp.jpg' alt='Wulp' />
+                </div>
+            </div>
+            <div id='organisme_299' class='organisme' data-naam='Zanglijster'>
+                <div class='fotos'>
+                    <img src='images/zanglijster.jpg' alt='Zanglijster' />
+                </div>
+            </div>
+            <div id='organisme_300' class='organisme' data-naam='Zeearend'>
+                <div class='fotos'>
+                    <img src='images/zeearend.jpg' alt='Zeearend' />
+                </div>
+            </div>
+            <div id='organisme_301' class='organisme' data-naam='Zeekoet'>
+                <div class='fotos'>
+                    <img src='images/zeekoet.jpg' alt='Zeekoet' />
+                </div>
+            </div>
+            <div id='organisme_302' class='organisme' data-naam='Zilvermeeuw'>
+                <div class='fotos'>
+                    <img src='images/zilvermeeuw.jpg' alt='Zilvermeeuw' />
+                </div>
+            </div>
+            <div id='organisme_303' class='organisme' data-naam='Zilverplevier'>
+                <div class='fotos'>
+                    <img src='images/zilverplevier.jpg' alt='Zilverplevier' />
+                </div>
+            </div>
+            <div id='organisme_304' class='organisme' data-naam='Zomertaling'>
+                <div class='fotos'>
+                    <img src='images/zomertaling.jpg' alt='Zomertaling' />
+                </div>
+            </div>
+            <div id='organisme_305' class='organisme' data-naam='Zomertortel'>
+                <div class='fotos'>
+                    <img src='images/zomertortel.jpg' alt='Zomertortel' />
+                </div>
+            </div>
+            <div id='organisme_306' class='organisme' data-naam='Zwarte ibis'>
+                <div class='fotos'>
+                    <img src='images/zwarteibis.jpg' alt='Zwarteibis' />
+                </div>
+            </div>
+            <div id='organisme_307' class='organisme' data-naam='Zwarte kraai'>
+                <div class='fotos'>
+                    <img src='images/zwartekraai.jpg' alt='Zwartekraai' />
+                </div>
+            </div>
+            <div id='organisme_308' class='organisme' data-naam='Zwarte mees'>
+                <div class='fotos'>
+                    <img src='images/zwartemees.jpg' alt='Zwartemees' />
+                </div>
+            </div>
+            <div id='organisme_309' class='organisme' data-naam='Zwarte ooievaar'>
+                <div class='fotos'>
+                    <img src='images/zwarteooievaar.jpg' alt='Zwarteooievaar' />
+                </div>
+            </div>
+            <div id='organisme_310' class='organisme' data-naam='Zwarte roodstaart'>
+                <div class='fotos'>
+                    <img src='images/zwarteroodstaart.jpg' alt='Zwarteroodstaart' />
+                </div>
+            </div>
+            <div id='organisme_311' class='organisme' data-naam='Zwarte ruiter'>
+                <div class='fotos'>
+                    <img src='images/zwarteruiter.jpg' alt='Zwarteruiter' />
+                </div>
+            </div>
+            <div id='organisme_312' class='organisme' data-naam='Zwarte specht'>
+                <div class='fotos'>
+                    <img src='images/zwartespecht.jpg' alt='Zwartespecht' />
+                </div>
+            </div>
+            <div id='organisme_313' class='organisme' data-naam='Zwarte stern'>
+                <div class='fotos'>
+                    <img src='images/zwartestern.jpg' alt='Zwartestern' />
+                </div>
+            </div>
+            <div id='organisme_314' class='organisme' data-naam='Zwarte wouw'>
+                <div class='fotos'>
+                    <img src='images/zwartewouw.jpg' alt='Zwartewouw' />
+                </div>
+            </div>
+            <div id='organisme_315' class='organisme' data-naam='Zwarte zeeeend'>
+                <div class='fotos'>
+                    <img src='images/zwartezeeeend.jpg' alt='Zwartezeeeend' />
+                </div>
+            </div>
+            <div id='organisme_316' class='organisme' data-naam='Zwarte zeekoet'>
+                <div class='fotos'>
+                    <img src='images/zwartezeekoet.jpg' alt='Zwartezeekoet' />
+                </div>
+            </div>
+            <div id='organisme_317' class='organisme' data-naam='Zwartkop'>
+                <div class='fotos'>
+                    <img src='images/zwartkop.jpg' alt='Zwartkop' />
+                </div>
+            </div>
+            <div id='organisme_318' class='organisme' data-naam='Zwartkopmeeuw'>
+                <div class='fotos'>
+                    <img src='images/zwartkopmeeuw.jpg' alt='Zwartkopmeeuw' />
+                </div>
+            </div>
+
+        </div>-->
+    </div>
+    <style>
+        .organisme-header, .organisme-content, .organisme-fotovenster, .organisme-infovenster, .vergelijk-venster {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+        }
+
+        .organisme-header {
+            background-color: antiquewhite;
+            text-align: center;
+            height: 2em;
+        }
+
+        .organisme-content {
+            top: 2em;
+            background-color: green;
+        }
+
+        .organisme-fotovenster {
+            background-color: aqua;
+            bottom: 75%;
+        }
+
+        .organisme-infovenster {
+            background-color: azure;
+            top: 25%;
+        }
+    </style>
+    <script>
+        var organismenSet = {
+            alleOrganismen: [],  // deze set wordt vanuit bibliotheek.js ingevuld
+            organismen: new Map(),
+            itemLijst: [],
+
+            initieerSet: function () {
+                // eerst even op naam sorteren (krijgen we een alfabetische lijst te zien)
+                this.alleOrganismen.sort(function (a, b) {
+                    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
+                });
+                // kopie op volgorde naar (actuele) itemLijst
+                this.itemLijst.length = 0;
+                for (var x = 0; x < this.alleOrganismen.length; x++) {
+                    this.itemLijst.push(this.alleOrganismen[x].id);
+                }
+
+                // naar de map overbrengen
+                for (var x = 0; x < this.alleOrganismen.length; x++) {
+                    this.organismen.set(this.alleOrganismen[x].id, this.alleOrganismen[x]);
+                }
+            },
+            geefItem: function (nummer) {
+                alert("PPP");
+                var resultaat = "";
+                if (nummer > 0) {
+                    if (nummer <= this.itemLijst.length) {
+                        var organisme = document.getElementById(this.itemLijst[nummer - 1]);
+                        resultaat = '<div class="swiper-slide" data-slideid = ' + nummer + '>';
+                        resultaat += '<div class="organisme-header">' + organisme.dataset.naam + '</div>';
+                        resultaat += '<div class="organisme-content">';
+                        resultaat += '<div class="organisme-fotovenster">';
+                        // foto-swiper
+                        resultaat += "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
+                        resultaat += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+
+                        resultaat += '<div class="swiper-slide">Slide 1</div>';
+                        resultaat += '<div class="swiper-slide">Slide 2</div>';
+                        resultaat += '<div class="swiper-slide">Slide 3</div>';
+                        resultaat += '<div class="swiper-slide">Slide 4</div>';
+
+
+                        resultaat += '</div>';
+                        // Add Pagination
+                        resultaat += "<div class='swiper-pagination'></div>";
+                        resultaat += '</div>';
+                        resultaat += 'foto</div>';
+                        resultaat += '<div class="organisme-infovenster">info</div>';
+                        resultaat += '</div>';
+                        resultaat += '</div>';
+                    }
+                }
+                alert(resultaat);
+                return resultaat;
+            },
+        //    laadItems: function () {
+        //        // alleItems leegmaken
+        //        this.alleItems.length = 0
+        //        for (var x = 0; x < $("#organismenbibliotheek .organisme").length; x++) {
+        //            this.alleItems.push({ "id": $("#organismenbibliotheek .organisme")[x].id, "naam": $("#organismenbibliotheek .organisme")[x].dataset.naam, "foto": [{ "src": $("#organismenbibliotheek .organisme").eq(x).find(".fotos").find("img").get(0).src }] });
+        //        }
+        //        // nu nog sorteren
+        //        this.alleItems.sort(function (a, b) {
+        //            return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
+        //        });
+        //        // kopie op volgorde naar (actuele) itemLijst
+        //        this.itemLijst.length = 0;
+        //        for (var x = 0; x < this.alleItems.length; x++) {
+        //            this.itemLijst.push(this.alleItems[x].id);
+        //        }
+
+        //        // naar de map overbrengen
+        //        for (var x = 0; x < this.alleItems.length; x++) {
+        //            this.organismen.set(this.alleItems[x].id, this.alleItems[x]);
+        //        }
+        //    },
+        };
+
+    </script>
+    <script src="js/bibliotheek.js"></script>
+    <script src="js\MDZBBibliotheek.js"></script>
+    <script>
+        //alert("tijdreekspagina nog niet vanuit MDZBBiliotheek lopend");
+        MDZBmodules.set('TEST', {
+            naam: 'TEST', type: 'Basismodule', bladzijden: [
+                { paginatype: 'tijdreeks', paginainhoud: 'Hout bewerking' },
+                { paginatype: 'basistype', paginainhoud: 'Hout bewerking' },
+            ]
+        });
+        var MDZBfotos = new Map();
+        MDZBfotos.set(1, {
+            vindplaats: "images/aalscholver.jpg",
+            naam: "aalscholver",
+        });
+        MDZBfotos.set(2, {
+            vindplaats: "images/alk.jpg",
+            naam: "alk",
+        });
+        MDZBfotos.set(3, {
+            vindplaats: "images/apollovlinder_1_vlinderstichting.jpg",
+            naam: "apollovlinder",
+        });
+        MDZBfotos.set(4, {
+            vindplaats: "images/apollovlinder_2_vlinderstichting.jpg",
+            naam: "apollovlinder",
+        });
+        MDZBfotos.set(5, {
+            vindplaats: "images/bosuil.jpg",
+            naam: "bosuil",
+        });
+        //organismenSet.alleOrganismen.sort(function (a, b) {
+        //    return a.naam < b.naam ? -1 : a.naam > b.naam ? 1 : 0;
+        //});
+
+
+
+
+        //organismenSet.itemLijst = ["organisme_1", "organisme_3", "organisme_2", "organisme_4", "organisme_5", "organisme_6"];
+        ////organismenSet.itemLijst.push("Acht");
+        //organismenSet.laadItems();
+        organismenSet.initieerSet();
+
+        function toonPagina(bron, pagnr) {
+            // via .swiper eigenschap van container-element kun je gewenste swiper-instantie benaderen
+            $(bron).parents(".swiper-container").get(0).swiper.slideTo(pagnr);
+
+        }
+        function toonMenu() {
+            // eerst actuele module verwijderen
+            document.getElementById("main").getElementsByClassName("module")[0].remove();
+            // menu zichtbaar maken
+            $(".hoofdmenu").css({ "display": "block" });
+            $("#modulenaam").html("Mijn digitaal zakboekje");
+        }
+        function startModule(deze) {
+            var dezeModule = document.createElement("div");
+            dezeModule.classList.add("module");
+            dezeModule.classList.add("volledig");
+            //dezeModule.innerHTML = MDZBmodules.get($(deze).data("module")).bladzijden[0];
+            $("#main").html($("#main").html() + dezeModule.outerHTML);
+            // swiper aanmaken
+            maakBasismodule($("#main .module")[0], MDZBmodules.get($(deze).data("module")));
+
+            // menu onzichtbaar maken
+            $(".hoofdmenu").css({ "display": "none" });
+            //<div id="nieuweOrganismenModule" class="MDZBmodule menumodule" data-naam="Nieuwe organismen module">
+            //    <div class="modulestart">
+
+
+        }
+
+        function maakBasismodule(containerElement, module) {
+            var basisSwiper = maakSwiper(containerElement, false, true, true);
+            // bladzijden invoegen
+            for (var x = 0; x < module.bladzijden.length; x++) {
+                switch (module.bladzijden[x].paginatype) {
+                    case "basistype":
+                        basisSwiper.appendSlide('<div class="swiper-slide menu-pagina">' + module.bladzijden[x].paginainhoud + '</div>');
+                        break;
+                    case "tijdreeks":
+                        // eerst een lege pagina met twee swipers maken
+                        var paginaHTML = '<div class="swiper-slide">';
+                        var schermbreedte = document.getElementsByTagName("body")[0].offsetWidth;
+                        paginaHTML += "<div class='terugknop' style='position:absolute;z-index=9000;left=0;top=0;width=100;heighth=100;background-color=red'>TERUG</div>";
+                        paginaHTML += "<div class='itemImages volledig' style='height:" + schermbreedte * 180 / 320 + "px; background-color:blue'>Fotoreeks</div>";
+                        paginaHTML += "<div class='itemCompareImages volledig' style='top:" + schermbreedte * 180 / 320 + "px;height:" + schermbreedte * 180 / 320 + "px; background-color:green'>Serie</div>";
+                        paginaHTML += "<div class='itemInfo volledig' style='top:" + 2* schermbreedte * 180 / 320 + "px; background-color:yellow'>Serie</div>";
+                        paginaHTML += '</div > '
+
+
+
+
+
+                        basisSwiper.appendSlide(paginaHTML);
+                        //alert($(containerElement).find(".itemImages").length);
+                        var imageSwiper = maakSwiper($(containerElement).find(".itemImages")[0], true, false, false);
+                        var compareSwiper = maakSwiper($(containerElement).find(".itemCompareImages")[0], true, false, false);
+                        //var infoSwiper = maakSwiper($(containerElement).find(".itemInfo")[0], true, false, false);
+                        imageSwiper.appendSlide('<div class="swiper-slide menu-pagina">TEST 1</div>');
+
+
+                        //imageSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="images/' + ditItem.fotos[nr].vindplaats + '" alt="' + ditItem.fotos[nr].naam + '" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + ditItem.naam + '</span></div></div>')
+                        imageSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(1).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(1).naam + '</span></div></div>');
+                        imageSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(2).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(2).naam + '</span></div></div>');
+                        imageSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(3).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(3).naam + '</span></div></div>');
+
+
+                        imageSwiper.appendSlide('<div class="swiper-slide">TEST 2</div>');
+
+                        compareSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(1).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(1).naam + '</span></div></div>');
+                        compareSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(2).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(2).naam + '</span></div></div>');
+                        compareSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="' + MDZBfotos.get(3).vindplaats + '" alt= "alt test" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + MDZBfotos.get(3).naam + '</span></div></div>');
+
+                        // terugknop toevoegen
+                        //var terugknop = "<div class='terugknop' style='position:absolute;z-index=9000;left=0;top=0;width=100;heighth=100;background-color=red'>TERUG</div>";
+                        //$(containerElement).html($(containerElement).html() + terugknop);
+                        break;
+                }
+                
+            }
+        }
+        function toonModule(deze) {
+            // eerst module opbouwen te beginnen bij raamwerkdiv
+            var dezeModule = document.createElement("div");
+            dezeModule.classList.add("module");
+            dezeModule.classList.add("volledig");
+
+            dezeModule.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("modulestart")[0].innerHTML;
+            $("#main").html($("#main").html() + dezeModule.outerHTML);
+            $("#modulenaam").html(document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].dataset.naam);
+            // menu onzichtbaar maken
+            $(".hoofdmenu").css({ "display": "none" });
+            // afhankelijk van type module raamwerk verder vullen
+            if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("swipermodule")) {
+                var swiperstring = "<div id='swiper'></div>";
+                $("#main .module").eq(0).html(swiperstring);
+                swiperstring = "<div class='swiper-container module-container'><div class='swiper-wrapper'></div>"
+
+                swiperstring += "<div class='swiper-pagination module-pagination'></div>";
+
+                swiperstring += "<div class='swiper-button-prev module-prev'></div>";
+                swiperstring += "<div class='swiper-button-next module-next'></div>";
+
+                swiperstring += "</div>";
+                $("#swiper").html(swiperstring);
+                // Nu pagina's invoegen
+                for (x = 0; x < document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("slide").length; x++) {
+                    var slide = document.createElement("div");
+                    slide.innerHTML = document.getElementById("bibliotheek").getElementsByClassName("MDZBmodule")[deze].getElementsByClassName("slide")[x].innerHTML;
+                    slide.classList.add("swiper-slide");
+                    $('#swiper .swiper-wrapper').html($('#swiper .swiper-wrapper').html() + slide.outerHTML);
+                }
+                var swipercontainer = $(".module-container")[0];
+                var swiper = new Swiper(swipercontainer, {
+                    spaceBetween: 0,
+                    pagination: {
+                        el: '.module-pagination',
+                        type: 'bullets',
+                        clickable: 'true',
+                    },
+                    navigation: {
+                        nextEl: '.module-next',
+                        prevEl: '.module-prev',
+                    },
+                });
+                $('.module-next').css({ "display": "none" });
+                $('.module-prev').css({ "display": "none" });
+
+
+
+                $('#main .swiper-container-v').get(0).classList.add("swiper-container-tiede");
+                $('#main .v-prev').get(0).classList.add("v-prev-tiede");
+                $('#main .v-next').get(0).classList.add("v-next-tiede");
+                $('#main .swiper-pagination-v').get(0).classList.add("swiper-pagination-tiede");
+                var swiper = new Swiper('.fotocontainer .swiper-container', {
+                    spaceBetween: 0,
+                    pagination: {
+                        el: '.fotocontainer .swiper-pagination',
+                        type: 'bullets',
+                        clickable: 'true',
+                    },
+                    navigation: {
+                        nextEl: '.v-next-tiede',
+                        prevEl: '.v-prev-tiede',
+                    },
+                });
+
+            }
+            if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("objectenmodule")) {
+                maakObjectenModule($("#main .module")[0]);
+            }
+            if ($("#bibliotheek .MDZBmodule").eq(deze).hasClass("menumodule")) {
+                maakMenuModule($("#main .module")[0]);
+            }
+        }
+        function toonHoofdMenu() {
+            $(".module").css({ "display": "none" });
+            //document.getElementById("main").getElementsByClassName("module")[0].style.setProperty("display", "block");
+            $(".module:first").css({ "display": "block" });
+        }
+        function maakFontSize(delta) {
+            var fontSize = $("body").css("font-size").split('px')[0];
+            if (delta == '+') fontSize *= 1.2;
+            else fontSize /= 1.2;
+            $('body').css({ "font-size": fontSize + "px" });
+        }
+        function maakMenuModule(containerElement) {
+            // een menu-module bestaat uit twee pagina's:
+            // - de eerste pagina geeft een lijst met alle beschikbare items; de pagina heeft ook een selectie/filter mogelijkheid (schuift naar beneden)
+            // - op de tweede pagina kan een gekozen item worden getoond en deze pagina kan weer weggeschoven worden om menu terug te krijgen
+
+            // Eerst een swiper initialiseren
+            var menuSwiper = maakSwiper(containerElement, false, true, true);
+            // default niet mogelijk om van menu via swipe bij item te komen
+            menuSwiper.allowSlideNext = false;
+            // bij menu-pagina geen pagination (je kunt niet swipen), maar bij item wel
+            $(containerElement).find(".swiper-pagination").css('display', 'none');
+            menuSwiper.on('activeIndexChange', function () {
+                if (this.activeIndex == 0) {
+                    $(containerElement).find(".swiper-pagination").css('display', 'none');
+                }
+                else {
+                    $(containerElement).find(".swiper-pagination").css('display', 'block');
+                }
+            });
+
+
+
+            // twee pagina's aanmaken
+            menuSwiper.appendSlide('<div class="swiper-slide menu-pagina">Menu</div>');
+            menuSwiper.appendSlide('<div class="swiper-slide item-pagina">Item</div>');
+            // vul menu
+            var menuPagina = containerElement.getElementsByClassName("menu-pagina")[0];
+            var itemPagina = containerElement.getElementsByClassName("item-pagina")[0];
+            vulMenuPagina(menuSwiper, menuPagina, window.organismenSet, "");
+        }
+        function filterMenu(deze, tekst) {
+            alert(tekst);
+            alert($(deze).get(0).outerHTML);
+        }
+
+        // contains case-insensitive maken (zie ook: https://css-tricks.com/snippets/jquery/make-jquery-contains-case-insensitive/)
+        $.expr[":"].contains = $.expr.createPseudo(function (arg) {
+            return function (elem) {
+                return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+            };
+        });
+
+        function vulMenuPagina(dezeSwiper, paginaElt, bron, filter) {
+            var filterDiv = "<div class='filtervenster'>Filter<input type='text' id='fname' name='fname' style='font-size:16px'></div>";
+            var menuDiv = "<div class='menuVenster'>";
+            menuDiv += "<h1>Menu-items</h1>";
+            organismenSet.initieerSet();
+            for (var x = 0; x < bron.itemLijst.length; x++) {
+                var fotobron = "";
+                if (bron.organismen.get(bron.itemLijst[x]).fotos.length > 0) fotobron = bron.organismen.get(bron.itemLijst[x]).fotos[0].vindplaats;
+                menuDiv += "<div class='menuItem'style='height:92px;background-color:yellow;position:relative;margin:3px 0' onclick='toonItem(this)' data-itemid=" + bron.itemLijst[x] + "><img src='images/" + fotobron + "' alt='Geen foto' width='auto' height='90'><span style='position:absolute; left:170px'>" + bron.organismen.get(bron.itemLijst[x]).naam + "</span></div>";
+            }
+            menuDiv += "</div>";
+
+            paginaElt.innerHTML = filterDiv + menuDiv;
+            // voorlopige selectie functie (beperkt)
+            $(paginaElt).find("input").eq(0).on("input", function () {
+                $(paginaElt).find(".menuItem").css("display", "none");
+                $(paginaElt).find(".menuItem:contains(" + $(this).val() + ")").css("display", "block");
+            })               
+        }
+        function toonItem(deze) {
+            var itemPaginaElt = $(deze).closest(".menu-pagina").next()[0];
+            var itemId = $(deze).data("itemid");
+
+            // nu informatie uit bron.organismen.get(itemId);
+//            var itemElt = $("#bibliotheek").find("#" + itemId);
+            // eerst hoofdstructuur
+            var schermbreedte = document.getElementsByTagName("body")[0].offsetWidth;
+            var itemHTML = "<div class='itemContent volledig'>";
+            itemHTML += "<div class='itemImages volledig' style='height:" + schermbreedte * 180 / 320 + "px; background-color:blue'></div>";
+            itemHTML += "<div class='itemInfo volledig' style='top:" + schermbreedte * 180 / 320 + "px; background-color:green'></div>";
+            itemHTML += "</div>";
+            itemPaginaElt.innerHTML = itemHTML;
+            // slider voor afbeeldingen
+            var afbeeldingSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemImages")[0], true, false);
+            var ditItem = organismenSet.organismen.get(itemId);
+            for (var nr = 0; nr < ditItem.fotos.length; nr++) {
+                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="images/' + ditItem.fotos[nr].vindplaats + '" alt="' + ditItem.fotos[nr].naam + '" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + ditItem.naam + '</span></div></div>')
+            }
+            // slider voor toelichtingen
+            var infoSwiper = maakSwiper(itemPaginaElt.getElementsByClassName("itemInfo")[0], true, false);
+            for (var nr = 0; nr < ditItem.informatie.length; nr++) {
+            //    var infoPagina = itemElt.find(".organisme-info").find(".info-pagina").eq(nr);
+                //    // speciale info-pagina's eerst afhandelen
+                var defaultPagina = true;
+            //    if (infoPagina.hasClass("vergelijkbare_soorten")) {
+            //        infoSwiper.appendSlide('<div class="swiper-slide soorten-vergelijker">ttt</div>')
+            //        var dezePagina = $(itemPaginaElt).find(".itemInfo").find(".soorten-vergelijker").eq(0);
+            //        dezePagina.html('<div class="vergelijk-venster volledig" style="background-color:blue"></div>');
+            //        var vergelijkSwiper = maakSwiper($(dezePagina).find(".vergelijk-venster")[0], true, false);
+            //        for (var nr = 0; nr < infoPagina.find("img").length; nr++) {
+            //            var foto = infoPagina.find("img").eq(nr);
+            //            vergelijkSwiper.appendSlide('<div class="swiper-slide"><div class="volledig" style="background-color:yellow"><p style="background-color:rgba(255,0,0,0.1)">Test</p><div style="height:33%"><img src="' + $(foto).attr("src") + '" alt="' + $(foto).attr("alt") + '" width="320" height="180" style="height:100%;width:auto; margin:auto; display:block"></div><p>Testje</p></div></div>')
+            //        }
+            //        defaultPagina = false;
+                //    }
+                if (defaultPagina) infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">' + ditItem.informatie[nr].infoblok + '<p style="text-align:center;"></br>---------------------</p></div></div>');
+            };
+            // als er geen informatie in bibliotheek staat:
+            if (ditItem.informatie.length == 0) {
+                infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">Geen informatie beschikbaar<p style="text-align:center;"></br>---------------------</p></div></div>');
+            }
+
+            // slide next; deze moet eerst voorbereid met allow slidenext
+            var swiper = $(deze).closest(".swiper-container")[0].swiper;
+            swiper.allowSlideNext = true;
+            swiper.slideNext();
+            swiper.allowSlideNext = false;
+            //$(deze).closest(".swiper-container").find(".swiper-pagination").css('display', 'block');
+        }
+        function maakSwiper(containerVoorSwiper, pag = false, nav = false) {
+            var nweSwiper;
+            var HTML = "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
+            HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+            HTML += '</div>';
+            if (pag) {
+                // Add Pagination
+                HTML += "<div class='swiper-pagination'></div>";
+                HTML += '</div>';
+            };
+            if (nav) {
+                // If we need navigation buttons
+                HTML += '<div class="swiper-button-prev"></div>';
+                HTML += '<div class="swiper-button-next"></div>';
+            }
+            // If we need scrollbar
+            //HTML += '<div class="swiper-scrollbar"></div>';
+            $(containerVoorSwiper).html(HTML);
+            var swiperContainer = containerVoorSwiper.getElementsByClassName("swiper-container")[0];
+            var paginas = containerVoorSwiper.getElementsByClassName("swiper-pagination")[0];
+            var toonnext = containerVoorSwiper.getElementsByClassName("swiper-button-next")[0];
+            var toonprev = containerVoorSwiper.getElementsByClassName("swiper-button-prev")[0];
+            var swiperParams = {
+                spaceBetween: 10,
+                touchMoveStopPropagation: true,
+            };
+            if (pag) {
+                swiperParams['pagination'] = {
+                    el: paginas,
+                    type: 'bullets',
+                    clickable: 'true',
+                };
+            }
+            if (nav) {
+                swiperParams['navigation'] = {
+                    nextEl: toonnext,
+                    prevEl: toonprev,
+                }
+            }
+            nweSwiper = new Swiper(swiperContainer, swiperParams);
+            return nweSwiper
+        }
+        function maakObjectenModule(containerElement) {
+            // er is eerst een swiper-container nodig
+            $(containerElement).html("Testje");
+            var HTML = "<div class='swiper-container tiede-container' style='position:absolute; width:100%;height:100%'>";
+            HTML += '<div class="swiper-wrapper" style="background-color:aquamarine">';
+            HTML += '</div>';
+            // Add Pagination
+            HTML += "<div class='swiper-pagination'></div>";
+            HTML += '</div>';
+            $(containerElement).html(HTML);
+
+
+            var swipercontainer = containerElement.getElementsByClassName("swiper-container")[0];
+            var paginas = containerElement.getElementsByClassName("swiper-pagination")[0];
+            var veger = new Swiper(swipercontainer, {
+                spaceBetween: 10,
+                pagination: {
+                    el: paginas,
+                    type: 'bullets',
+                    clickable: 'true',
+                },
+                //    navigation: {
+                //        nextEl: '.module-next',
+                //        prevEl: '.module-prev',
+                //    },
+            });
+
+            // eerste 3 slides toevoegen
+            veger.appendSlide(organismenSet.geefItem(1));
+            veger.appendSlide(organismenSet.geefItem(2));
+            veger.appendSlide(organismenSet.geefItem(3));
+            veger.on('slideChangeTransitionEnd', function () {
+                var nweslide = "";
+                if (this.activeIndex == 2) {
+                    nweslide = organismenSet.geefItem(Number(this.slides[this.activeIndex].dataset.slideid) + 1);
+                    if (nweslide != "") {
+                        this.removeSlide(0);
+                        this.appendSlide(nweslide);
+                        nweslide = Number(this.slides[this.activeIndex].dataset.slideid) + 1;
+                    }
+                }
+                if (this.activeIndex == 0) {
+                    nweslide = organismenSet.geefItem(Number(this.slides[this.activeIndex].dataset.slideid) - 1);
+                    if (nweslide != "") {
+                        this.removeSlide(2);
+                        this.prependSlide(nweslide);
+                        nweslide = Number(this.slides[this.activeIndex].dataset.slideid) - 1;
+                    }
+                }
+                if (nweslide != "") {
+                    // dit moet een aparte functie worden; ook bij veger.append nodig
+                    // dan bevat nweslide de id van de toegevoegde
+                    zetFotoSwiper(nweslide);
+                }
+            })
+            function zetFotoSwiper(slideid) {
+                var swipercontainer = $(containerElement).find("[data-slideid=" + slideid + "]")[0].getElementsByClassName('organisme-fotovenster')[0].getElementsByClassName('swiper-container')[0];
+                var paginas = $(containerElement).find("[data-slideid=" + slideid + "]")[0].getElementsByClassName('organisme-fotovenster')[0].getElementsByClassName('swiper-pagination')[0];
+                var fotoswiper = new Swiper(swipercontainer, {
+                    spaceBetween: 50,
+                    touchMoveStopPropagation: true,
+                    pagination: {
+                        el: paginas,
+                        type: 'bullets',
+                        clickable: 'true',
+                    },
+                });
+
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide</div>');
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 2</div>');
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 3</div>');
+                //    fotoswiper.appendSlide('<div class="swiper-slide"> foto-slide 4</div>');
+            }
+        }
+    </script>
+    <style>
+        .infoslide {
+            padding-left:10px;
+            padding-right:10px;
+        }
+        .filtervenster {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 2.5em;
+            background-color: honeydew;
+        }
+
+        .menuVenster {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 2.5em;
+            overflow: auto;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+
+
+
+</body>
+</html>
+
+
+  
