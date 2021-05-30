@@ -84,6 +84,7 @@
         </span>
     </div>
     <div id="main" class="maincontent" style="padding:20px; background-color:green"></div>
+    <div id="toelichtvenster" style="position:absolute;left:50px;right:50px;top:50px;bottom:50px;z-index:5000; background-color:rgb(10, 151, 160, 0.13)"><div style="position:absolute;top:60px;right:60px;height:20px;width:20px;background-color:red;text-align:center;cursor:pointer" onclick="verberg(this)">X</div></div>
     <script>
         $(document).ready(function () {
             initMDZB();
@@ -127,6 +128,9 @@
                 $(".hoofdmenu").eq(0).html($(".hoofdmenu").eq(0).html() + menuRegel.outerHTML);
             }
 
+        }
+        function verberg(deze) {
+            $(deze).parent().css({ 'display': 'none' });
         }
 
     </script>
