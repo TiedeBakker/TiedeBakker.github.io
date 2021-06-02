@@ -84,7 +84,7 @@
         </span>
     </div>
     <div id="main" class="maincontent" style="padding:20px; background-color:green"></div>
-    <div id="toelichtvenster" style="position:absolute;left:50px;right:50px;top:50px;bottom:50px;z-index:5000; background-color:rgb(10, 151, 160, 0.13)"><div style="position:absolute;top:60px;right:60px;height:20px;width:20px;background-color:red;text-align:center;cursor:pointer" onclick="verberg(this)">X</div></div>
+    <div id="toelichtvenster" style="display:none;position:absolute;left:50px;right:50px;top:50px;bottom:50px;z-index:1000; background-color:rgb(10, 151, 160, 0.13)"><div class="toelichtContent" style="position:absolute;left:10px;top:10px;right:10px;bottom:10px;background-color:blue">TTT</div><div style="z-index:5000;position:absolute;top:60px;right:60px;height:20px;width:20px;background-color:red;text-align:center;cursor:pointer" onclick="verberg(this)">X</div></div>
     <script>
         $(document).ready(function () {
             initMDZB();
@@ -2556,6 +2556,24 @@
             if (ditItem.informatie.length == 0) {
                 infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">Geen informatie beschikbaar<p style="text-align:center;"></br>---------------------</p></div></div>');
             }
+            for (x = 0; x < infoSwiper.slides.length; x++) {
+                //alert($(infoSwiper.slides[x]).find("a[id^='LINK_']").length);
+                for (x = 0; x < $(infoSwiper.slides[x]).find("a[id^='LINK_']").length; x++) {
+                    var link = $(infoSwiper.slides[x]).find("a[id^='LINK_']")[x].id;
+                    var tabel = link.split('_')[1];
+                    var linkId = link.split('_')[2];
+                    var content = $(infoSwiper.slides[x]).find("a[id^='LINK_']").eq(x).find("span")[0].innerHTML;
+                    //alert(tabel);
+                    //alert($(infoSwiper.slides[x]).find("a[id^='LINK_']")[x].id);
+                    //$(infoSwiper.slides[x]).find("a[id^='LINK_']")[x].innerHTML = "myFunction()";
+                    //$(infoSwiper.slides[x]).find("a[id^='LINK_']")[x].click(function () { myFunction(); });
+                    var nweLink = "<span class='toelichtlink' style='background-color:red;cursor:pointer' onclick='toonLink(this)'>" + content + "</span";
+                    $(infoSwiper.slides[x]).find("a[id^='LINK_']")[x].outerHTML = nweLink;
+                }
+            }
+            //alert(infoSwiper.slides.length);
+
+            //if ($(infoSwiper).find('.swiper-slide') > 0) {alert("oke")}";
 
             // slide next; deze moet eerst voorbereid met allow slidenext
             var swiper = $(deze).closest(".swiper-container")[0].swiper;
@@ -2563,6 +2581,22 @@
             swiper.slideNext();
             swiper.allowSlideNext = false;
             //$(deze).closest(".swiper-container").find(".swiper-pagination").css('display', 'block');
+        }
+        function toonLink(deze) {
+            $("#toelichtvenster").css({ 'display': 'block', });
+            toonInfoItemType_1($("#toelichtvenster").find(".toelichtContent")[0], 5, 7)
+
+        }
+
+        function toonInfoItemType_1(containerElt, typeItem, itemId) {
+//            $(containerElt).html("TESTJE");
+            var schermbreedte = document.getElementsByTagName("body")[0].offsetWidth;
+            var itemHTML = "<div class='itemContent volledig'>";
+            itemHTML += "<div class='itemImages volledig' style='height:" + schermbreedte * 180 / 320 + "px; background-color:blue'></div>";
+            itemHTML += "<div class='itemInfo volledig' style='top:" + schermbreedte * 180 / 320 + "px; background-color:green'></div>";
+            itemHTML += "</div>";
+            containerElt.innerHTML = itemHTML;
+
         }
         function maakSwiper(containerVoorSwiper, pag = false, nav = false) {
             var nweSwiper;
