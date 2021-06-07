@@ -29,7 +29,7 @@ organismenMap.set('4',{naam:'Baardman',wetenschappelijke_naam:'',type_organisme:
 {vindplaats:'baardman.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'<h1>Koptekst</h1><p>Nu een <span style="color:#c0392b">rode</span> tekst &#39;s avonds &gt; 5</p><p><a href="http://www.nu.nl">Nu.nl</a>.</p>jdfkljsdffsdsdf;l sdkjsdfj ldskfjsdlk lksdfjslkdfj lksjdfkjsdkf ljkkljsdfkj ljkkjsdkjfkj sdlkfjsdlkfj lksdfjsdlkfjsd <h1><span style="color:#008080"><span style="font-family:Georgia,serif">Apollo 11</span></span></h1><p style="text-align:justify"><strong>Apollo 11</strong> was the spaceflight that landed the first humans, Americans <a href="http://en.wikipedia.org/wiki/Neil_Armstrong">Neil Armstrong</a> and <a href="http://en.wikipedia.org/wiki/Buzz_Aldrin">Buzz Aldrin</a>, on the Moon on July 20<sup>th</sup>, 1969, at 20:</p>', },{'volgnummer':'2', 'informatie':'', },{'volgnummer':'3', 'informatie':'', },],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Een kleine, meesachtige vogel met geelbruine bovendelen, lange, geelbruine staart en roze-grijze onderdelen. Manl. heeft blauwgrijze kop met opvallende, zwarte baardstreep en zwarte onderstaart. Vrl. is lichter, met geelbruine kop, zonder baardstreep en zonder zwarte onderstaart. Juveniel heeft donkere rug, vleugeldekveren en zijstaart. Vlucht &#39;moeizaam&#39; en golvend, met gespreide, aghangende staart. Klimt acrobatisch tussen de rietstengels. Nestelt meestal goed verborgen in moerasvegetatie, laag boven de grond.<br /><strong>Geluid</strong>: een opmerkelijk tjingelend <em>ping-ping</em>, een scheldend <em>pwut</em>, een pieperig <em>tsjie&uuml;</em>, enz.<br /><strong>Voorkomen</strong>: in wisselend aantal voorkomende broedvogel van uitgestrekte rietmoerassen (Zwarte Meer; in laatste jaren in groot aantal in Oostelijk Flevoland). Zwerft na de broedtijd in troepjes rond, meestal nabij eigen broedterreinen.</p><p>[Eind Petersons]</p>', },{'volgnummer':'2', 'informatie':'Leeg', },{'volgnummer':'3', 'informatie':'Leeg', },],})
 organismenMap.set('5',{naam:'Beflijster',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'beflijster.jpg'},
 ],
@@ -155,11 +155,11 @@ organismenMap.set('29',{naam:'Breedbekstrandloper',wetenschappelijke_naam:'',typ
 ],
 informatieblok:[
 ],})
-organismenMap.set('30',{naam:'Brilduiker',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('30',{naam:'Brilduiker',wetenschappelijke_naam:'Bucephala clangula',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'brilduiker.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Goldeneye</p><p>D: Schellente</p><p>F: Garrot &agrave; l&#39;oeil d&#39;or</p><p><strong>Veldkenmerken</strong>: 46. Manl. frappant zwart en wit; hals en onderzijde wit, rug en staart zwart met zwart gestreepte, witte schouderveren; &#39;driehoekige&#39; kop is groenzwart met korte, zwarte snavel. <em>Grote, ronde, witte vlek tussen snavel en ogen</em>. Poten oranje. In vlucht herkenbaar aan grote kop, korte hals, groot, <em>vierkant, wit vleugelschild</em> en snelle vleugelslag. Lijkt in eclipskleed op vrl., maar behoudt zwartachtige kop en witte borst. Vrl. heeft grijsgerande bovendelen met <em>chocolabruine, driehoekige kop, witte halsband en groot vierkant, wit vleugelschild</em> (ook zichtbaar bij gesloten veleugel). Juv. bruiner zonder halsband. Stijgt gemakkelijker uit water op dan andere duikeenden. Vleugels maken eigenaardig fluitend geluid. Zie ook Toppereend en IJlandse Brilduiker. Nestelt in boomholten, konijnegaten, nestkasten e.d. nabij water.<br /><strong>Geluid</strong>: gewoonlijk zwijgzaam. Manl. heeft een scherp, nasaal, tweedelig geluid. Schorre geluiden van vrl. lijken op die van Toppereend.<br /><strong>Voorkomen</strong>: vrij talrijke doortrekker en wintergast van eind sept. tot begin mei. Enkele zomerwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('31',{naam:'Bruinekiekendief',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bruinekiekendief.jpg'},
 ],
@@ -170,11 +170,11 @@ organismenMap.set('32',{naam:'Buidelmees',wetenschappelijke_naam:'',type_organis
 ],
 informatieblok:[
 ],})
-organismenMap.set('33',{naam:'Buizerd',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('33',{naam:'Buizerd',wetenschappelijke_naam:'Buteo buteo',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'buizerd.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Buzzard</p><p>D: M&auml;usebussard</p><p>F: Buse variable</p><p><strong>Veldkenmerken</strong>: 51-56. Buizerden zijn te herkennen aan vliegbeeld; <em>brede vleugels, brede, afgeronde staart en korte hals</em>. Adult zeer variabel, meestal donkerbruin, van onderen wit gevlekt. Hoeveelheid wit op onderdelen en ondervleugel varieert, maar zelden zo geprononceerd als bij Ruigpootbuizerd. Verschilt van deze door <em>smal gebandeerde</em>, bruin-en-grijze staart met brede, donkere eindband, onopvallende &#39;polsvlekken&#39; op ondervleugel en <em>onbevederd</em>, geel loopbeen. Cirkelt urenlang in zweefvlucht, op brede, onbeweeglijke vleugels, met opgekrulde vleugelpunten, wijd gespreide staart en enigszins <em>opwaarts gehouden vleugels</em>; ingetrokken kop en korte hals geven indruk van &#39;afgestompt&#39; vliegsilhouet (anders dan bij arenden, waarbij de kop duidelijk uitsteekt). Vlucht vrij &#39;zwaar&#39;. &#39;Bidt&#39; nu en dan. Jaagt door van geringe hoogte neer te vallen op kleine dieren, kevers, e.d., zelden kleine vogels; ook verzot op aas. Dikwijls in klein aantal te zien. Zie ook Wespendief. Nestelt op rotsrichels, in bomen en op oneffen grond.<br /><strong>Geluid</strong>: een hoog, klagend, miauwend <em>hie-&egrave;h</em>, dikwijls langgerekt; ook een kort krassend geluid.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel in het oosten des lands, in loof- en naaldhout. Vrij algemene doortrekker en wintergast van augustus tot in mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('34',{naam:'Casarca',wetenschappelijke_naam:'Casarca ferruginea',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'casarca.jpg'},
 ],
@@ -455,11 +455,11 @@ organismenMap.set('89',{naam:'Grotestern',wetenschappelijke_naam:'',type_organis
 ],
 informatieblok:[
 ],})
-organismenMap.set('90',{naam:'Grotezaagbek',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('90',{naam:'Grote zaagbek',wetenschappelijke_naam:'Mergus merganser',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotezaagbek.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Goosander</p><p>D: G&auml;nses&auml;ger</p><p>F: Harle bi&egrave;vre</p><p><strong>Veldkenmerken</strong>: 66. Heeft langgerekt en slank lichaam. Groter dan Wilde Eend, met zeer dunne rode snavel en rode poten. Manl. heeft <em>roze- of zalmkleurige witte borst en onderdelen</em>, zwarte rug, groenzwarte kop; in vlucht gemakkelijk herkenbaar aan wit lichaam en vleugels, met zwarte kop en handpennen. Verschilt van kleinere, donkerder gekleurde Middelste Zaagbek door ontbreken van kuif en door geheel witachtige borst, flanken en onderdelen. Vrl. heeft <em>gekuifde, kastanjebruine kop</em>, blauwgrijze bovendelen en flanken, witte onderdelen en in vlucht opvallend <em>vierkant, wit vleugelveld</em>; verschilt van vrl. Middelste Zaagbek door <em>scherpe afscheiding</em> van roodbruine keel met witte onderhals en door <em>blauwgrijze</em> bovenzijde. Vliegbeeld duidelijk langgerekt. Nestelt in holle bomen, oevergaten, e.d., doorgaans tussen bomen nabij water, maar ook boven boomgrens (in het Noorden).<br /><strong>Geluid</strong>: gewoonlijk zwijgzaam. Manl. heeft een laag, krassend geluid, vrl. een gutteraal <em>karr</em>.<br /><strong>Voorkomen</strong>: vrij algemene doortrekker en wintergast van begin okt. tot begin mei, vooral in binnenland. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('91',{naam:'Grote zeeëend',wetenschappelijke_naam:'Melanitta fusca',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotezeeeend.jpg'},
 ],
@@ -475,11 +475,11 @@ organismenMap.set('93',{naam:'Grutto',wetenschappelijke_naam:'',type_organisme:'
 ],
 informatieblok:[
 ],})
-organismenMap.set('94',{naam:'Havik',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('94',{naam:'Havik',wetenschappelijke_naam:'Accipiter gentilis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'havik.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Goshawk</p><p>D: Habicht</p><p>F: Autour des palombes</p><p><strong>Veldkenmerken</strong>: 48-61. Vrl. veel groter dan manl. Lijkt in vlucht op <em>zeer groot vrl. Sperwer</em>, met aan de basis brede vleugels, die dikwijls puntig lijken (behalve in zeilvlucht). Bovendelen donker, met <em>witachtige streep boven</em> en achter oog, onderdelen witachtig, dicht donkerbruin dwarsgestreept, met opvallende <em>witte onderstaart</em>. Juv. is van boven lichter, van onderen op isabelkleurige ondergrond zwaar donkerbruin <em>overlangs</em> gestreept. Jaagt onstuimig achter vogels aan, daarbij met grote behendigheid tussen bomen manoeuvrerend. Op zoek naar prooi vliegt hij snel en laag met vlugge vleugelslag, afgewisseld met glijvlucht. Bouwt groot nest of adopteerd oude nesten.<br /><strong>Geluid</strong>: een korte, Buizerd-achtige roep en een kekkerend <em>kik-kik-kik</em>.<br /><strong>Voorkomen</strong>: zeldzame broedvogel van naald- en loofbossen in het oosten des lands. Is de meest uitgesproken standvogel onder onze roofvogels. In winterhalfjaar in klein aantal buiten broedgebied aan te treffen.</p><p>[Eind Petersons]</p>', },{'volgnummer':'2', 'informatie':'Leeg informatieblok', },],})
 organismenMap.set('95',{naam:'Heggenmus',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'heggenmus.jpg'},
 ],
@@ -525,11 +525,11 @@ organismenMap.set('103',{naam:'IJsduiker',wetenschappelijke_naam:'Gavia immer',t
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Northern Diver</p><p>D: Eistaucher</p><p>F: Plongeon imbrin</p><p><strong>Veldkenmerken</strong>: 68-82. Zo groot als een gans. In prachtkleed <em>zwart en wit geruite bovendelen</em>; glanzend zwarte kop en hals; <em>zwart en wit gestreepte halsband</em> en zware dolksnavel. In winter van boven donker grijsbruin; wangen, voorhals en onderdelen wit met aanduiding van donkere band aan halsbasis; kruin meestal donkerder dan rug; in voorwinter vaak nog met &#39;ruitpatroon&#39;. Vliegt met iets afhangende hals en buiten staart uitstekende poten. Heeft aanloop nodig om uit water op te stijgen; daalt onder veel geplas met naar voren gestoken borst. Zelden aan land. Verschilt zwemmend van Aalscholver door <em>horizontaal</em> gehouden (niet naar boven gerichte) snavel; in vlucht door veel kortere hals en staart en meer wit op onderdelen.<br /><strong>Geluid</strong>: in vlucht een kort, blaffend <em>kwuk</em>; op broedplaats lang aangehouden, klagende geluiden en een geheimzinnig vibrerend &#39;gelach&#39;.<br /><strong>Voorkomen</strong>: onregelmatige gast in het winterhalfjaar, voornamelijk langs de kust, doch ook in het binnenland.</p><p>[Eind Petersons]</p><p>&nbsp;</p>', },{'volgnummer':'2', 'informatie':'Leeg informatieblok', },],})
-organismenMap.set('104',{naam:'Ijseend',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('104',{naam:'IJseend',wetenschappelijke_naam:'Clangula hyemalis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ijseend.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Long-tailed Duck</p><p>D: Eisente</p><p>F: Harelde de Miquelon</p><p><strong>Veldkenmerken</strong>: Manl. 53, <em>inclusief lange, puntige staartveren</em>; vrl. 41. Enige zee&euml;end die <em>wit op lichaam combineert met egaal donkere vleugels</em>; ook herkenbaar aan smalle, ronde kop en korte snavel. Manl. in winter bont getekend met donkerbruin en wit; kop, hals, buik en schouders wit; borst, rug en vleugels zwartachtig brui; grote, donkere vlek op zijkop; snavel zwart met roze band. Manl. in zomer grotendeels donkerbruin, met witte buik en witte vlek rondom oog. Vrl. in winter donker van boven, wit van onderen met bruine borstband, kop wit met zwarte kruin, wangvlek en snavel; geen verlengde staartveren; in zomer donkerder met koptekeningen als manl.. Juv. als vrl., maar grijzer met bruinachtige keel. Zwemt en duikt behendig in ruwe zee. De enige andere eend met lange staart is de grotere Pijlstaart, die een donkere kop heeft en een grondel-, geen duikeend is. Nestelt op eilandjes in meren, in toendra en arctisch struikgewas.<br /><strong>Geluid</strong>: luidruchtig. Manl. heeft een vrolijke, uit 4 hoge nasale tonen bestaande roep, die wel wat lijkt op in de verte roepende ganzen. Vrl. heeft een laag, blaffend geluid.<br /><strong>Voorkomen</strong>: schaarse doortrekker en wintergast van eind okt. tot eind april; voornamelijk langs de kust.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('105',{naam:'Ijsgors',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ijsgors.jpg'},
 ],
@@ -815,11 +815,11 @@ organismenMap.set('161',{naam:'Middelstejager',wetenschappelijke_naam:'',type_or
 ],
 informatieblok:[
 ],})
-organismenMap.set('162',{naam:'Middelstezaagbek',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('162',{naam:'Middelste zaagbek',wetenschappelijke_naam:'Mergus serrator',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'middelstezaagbek.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Red-breasted Merganser</p><p>D: Mittels&auml;ger</p><p>F: Harle hupp&eacute;</p><p><strong>Veldkenmerken</strong>: 58. Iets kleiner dan Wilde Eend, slank gebouwd, met zeer dunne, rode snavel en rode poten, als bij grotere Grote Zaagbek. Verschilt van de door meer opvallende, piekerige, <em>dubbele kuif</em>. Groenzwarte kop <em>door brede, witte halsband gescheiden van kastanjebruine bovenborst</em>; flanken grijs; vleugelpatroon manl. als Grote Zaagbek, maar over het witte vleugelveld lopen twee smalle, zwarte strepen. Vrl. verschilt van vrl. Grote Zaagbek door <em>bruinachtig grijze bovendelen</em>, onduidelijke witte kinvlek, meer opvallende kuif, doffere kopkleur, die <em>geleidelijk </em>overgaat in wit van onderhals. Meer kustvogel dan Grote Zaagbek. Nestelt in heide en andere vegetatie, tussen stenen e.d. op eilandjes in zeearmen en in toendra.<br /><strong>Geluid</strong>: gewoonlijk zwijgzaam; manl. heeft een raspende, tweedelige baltsroep, vrl. als van vrl. Grote Zaagbek.<br /><strong>Voorkomen</strong>: uiterst zeldzame broedvogel (3x; laatst in 1937). Algemene doortrekker en wintergast van half sept. tot eind april; vooral langs kust. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('163',{naam:'Morinelplevier',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'morinelplevier.jpg'},
 ],
@@ -835,11 +835,11 @@ organismenMap.set('165',{naam:'Nachtzwaluw',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('166',{naam:'Nonnetje',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('166',{naam:'Nonnetje',wetenschappelijke_naam:'Mergus albellus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'nonnetje.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Smew</p><p>D: Zwergs&auml;ger</p><p>F: Harle piette</p><p><strong>Veldkenmerken</strong>: 41. Kleiner, meer &#39;eendachtig&#39; en met kortere snavel dan andere zaagbekken. Manl. lijkt <em>geheel wit, met opvallende zwarte oogvlek</em>; op korte afstand is kleine, aghangende zwart-en-witte kuif zichtbaar, alsook smalle zwarte lijnen over zijborst en schouderveren; flanken lichtgrijs, rug zwart; lijkt in vlucht donkerder, met opvallend zwart-en-witte vleugels; ineclipskleed is wit vleugelveld groter dan bij vrl. Vrl. is kleiner en grijzer, met zwak gekuifde, <em>kastanjebruine bovenkop en witte wangen en keel</em>. Juv. heeft bruinachtig wit vleugelveld. Zie vrl. van Krooneend en Zwarte Zee&euml;end, die ook bruin-en-witte kop hebben. Zie ook Kuifduiker en Geoorde Fuut in winterkleed. Vliegt met gemak uit water op; vliegt in linie of V-formatie. Nestelt in holle bomen nabij water.<br /><strong>Geluid</strong>: gewoonlijk zwijgzaam. Manl. heeft een zacht fluitend geluid. Vrl. als vrl. Grote Zaagbek.<br /><strong>Voorkomen</strong>: vrij talrijke wintergast van ov. tot in mei. Verscheidene zomer waarnemingen. Vooral op grote rivieren en meren.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('167',{naam:'Noordsekwikstaart',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'noordsekwikstaart.jpg'},
 ],
@@ -1005,11 +1005,11 @@ organismenMap.set('199',{naam:'Ringmus',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('200',{naam:'Rodewouw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('200',{naam:'Rode wouw',wetenschappelijke_naam:'Milvus milvus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rodewouw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Kite</p><p>D: Roter Milan</p><p>F: Milan royal</p><p><strong>Veldkenmerken</strong>: 61. Gemakkelijk herkenbaar aan <em>lange, diep gevorkte, roodbruine staart</em>, smalle, sterk geknikte vleugels, met <em>grote, witachtige vlekken</em> op onderzijde van zwarte handvleugel, roodbruine, licht gerande bovendelen, donker gestreepte, rossige onderdelen en <em>gestreepte, witachtige kop</em>. Juv. is lichter, met bruinachtige kop. Met gemak uitgevoerde zweefvlucht lijkt op Buizerd, maar vliegbeeld is volstrekt anders, terwijl normale vlucht veel levendiger is. Voornamelijk aaseter, maar jaagt ook op dieren tot grootte van konijn en op kleine vogels. Verschilt van Zwarte Wouw door dieper gevorkte staart, rossiger vederkleed en slanker postuur. Vogel van bosachtig heuvelterrein, soms plaatselijk in open terrein vorkomend. Nestelt in bomen; soms oud kraaienest.<br /><strong>Geluid</strong>: een hoog, Buizerd-achtig miauwend <em>hie-hie-hie&egrave;h</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame doortrekker, waarvan de waarnemingen voor het hele land in de laatste tijd aanmerkelijk zijn toegenomen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('201',{naam:'Roek',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'roek.jpg'},
 ],
@@ -1090,11 +1090,11 @@ organismenMap.set('216',{naam:'Rozespreeuw',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('217',{naam:'Ruigpootbuizerd',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('217',{naam:'Ruigpootbuizerd',wetenschappelijke_naam:'Buteo lagopus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ruigpootbuizerd.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rough-legged Buzzard</p><p>D: Rauhfussbussard</p><p>F: Buse pattue</p><p><strong>Veldkenmerken</strong>: 51-61. In het algemeen van Buizerd onderscheiden door <em>langere vleugels en witte staart met brede, donkere eindband</em>; gewoonlijk veel witter op ondervleugel en donderdelen, met donkere buik en onderborst; kop lijkt licht. <em>Opvallend donkere polsvlekken</em> op lichte ondervleugel en donkere vleugelpunten zijn kenmerken. Poten witachtig bevederd op teenbasis (Buizerd heeft onbevederd, geel loopbeen). Onv. lijkt op jonge Buizerd, maar heeft enig wit op staart. Gedrag, geluid en vlucht als Buizerd, maar <em>bidt herhaaldelijk</em>, met langzame vleuegelslagen, om zich vervolgens op prooi te storten. Jaagt hoofdzakelijk op konijnen en kleine knaagdieren, soms vogels. Zie ook Wespendief en Dwergarend.Nestelt op klippen of op de grond in hoge toendra.<br /><strong>Voorkomen</strong>: schaarse doortrekker en wintergast, van eind sept. tot april. In sommige jaren talrijker.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('218',{naam:'Scharrelaar',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'scharrelaar.jpg'},
 ],
@@ -1105,11 +1105,11 @@ organismenMap.set('219',{naam:'Scholekster',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('220',{naam:'MAG WEG',wetenschappelijke_naam:'Melanitta nigra',type_organisme:'vogel',afbeeldingen:[
-{vindplaats:'aalscholver.jpg'},
+organismenMap.set('220',{naam:'Harlekijneend',wetenschappelijke_naam:'Histrionicus histrionicus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'harlekijneend_welkevogelisdit.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Cormorant</p><p>D: Kormoran</p><p>F: Grand Cormoran</p><p><strong>Veldkenmerken</strong>: 90. Een grote, zwartachtige watervogel, te verwarren met Kuifaalscholver, doch groter, met <em>witte kin en wangen</em> en, in broedkleed <em>met witte dijvlek</em>, en zonder kuif. Juv. bruinachtig van boven; verschilt van jonge Kuifaalscholver door <em>witachtige onderdelen</em> en zwaardere snavel. Zit <em>rechtop</em>, vaak met half opengeslagen vleugels. Zwemt diepliggend als zeeduiker, maar met meer gestrekte hals en schuin naar boven gerichte snavel. Vlucht vrij snel, met iets naar boven gehouden, gestrekte hals; troepjes vliegen meestal in linie of in V-formatie. Graag in gezelschap van soortgenoten. In broedkleed heeft de vorm <em>P. c. sinensis</em> (continent van Europa, behalve Noorwegen) doorgaans bijn geheel <em>witte kop en hals en groen</em>glanzend vederkleed (Britse vorm blauglanzend).<br /><strong>Geluid</strong>: in de broedkolonies een laag, gutteraal <em>rrah</em>.<br /><strong>Voorkomen</strong>: broedt in soms zeer grote kolonies, meestal in bomen, op verschillende plaatsen in ons land en vaak in gezelschap van roeken en reigers. Het merdendeel der jonge Aalscholvers trekt naar het zuiden. De volwassen vogels zwerven in het winterhalfjaar rond, ook langs de kust. De in Groot-Brittani&euml; en Noorwegen voorkomende vorm (<em>Ph. c. carbo</em>) werd 3x verzameld, doch komt vermoedelijk buiten de broedtijd meer voor.</p><p>[Eind Petersons]</p>', },],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Harlequin</p><p>D: Kragenente</p><p>F: Garrot arlequin</p><p><strong>Veldkenmerken</strong>: 43. Een kleine, zeer donkere eend met korte snavel. Manl. met donker blauwgrijs vederkleed (lijkt op afstand zwart) met <em>kastanjebruine flanken en bizar patroon van witte vlekken en strepen</em> op kop, hals en borst. Zelfde vliegbeeld als <a id="LINK_organismen_30" name="LINK_organismen_30"><span style="background-color:#dddddd">Brilduiker</span></a>, maar <em>van onderen geheel donker</em>. In eclipskleed verschil manl. van vrl. door donker leigrijze bovenzijde en ontbreken van wit op borst. Vrl. geheel donkerbruin met bruin en wit gevlekte borst, <em>twee onduidelijke witte vlekken voor oog en &eacute;&eacute;n duidelijke, ronde, witte vlek achter oog</em>; verschilt van vrl. <a id="LINK_organismen_91" name="LINK_organismen_91"><span style="background-color:#dddddd">Grote Zee&euml;end</span></a> en <a id="LINK_organismen_360" name="LINK_organismen_360"><span style="background-color:#dddddd">Brilzee&euml;end</span></a> door geringere grootte en kleine snavel. Vrl. kan gemakkelijk verward worden met onv. <a id="LINK_organismen_104" name="LINK_organismen_104"><span style="background-color:#dddddd">IJseend</span></a>, die echter steeds een veel wittere buik heeft. Voedselzoekende vogels zwemmen zeer dicht naast elkaar, zodat zij &eacute;&eacute;n geheel lijken. Levendige zwemmer, die voortdurend met de kop schokt en dikwijls de staart naar boven wipt. Duikt graag in hevige branding. Nestelt in kolonies op eilandjes in stromend water.<br /><strong>Geluid</strong>: over het algemeen zwijgzaam; manl. maakt een kalm fluitend geluid; vrl. een scherp, krassend geluid.<br /><strong>Voorkomen</strong>: standvogel op IJsland. Dwaalgast in Groot-Brittanni&euml;, Scandinavi&euml;, Polden, Duitsland en Itali&euml;.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('221',{naam:'Siberischeboompieper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'siberischeboompieper.jpg'},
 ],
@@ -1165,11 +1165,11 @@ organismenMap.set('231',{naam:'Snor',wetenschappelijke_naam:'',type_organisme:'v
 ],
 informatieblok:[
 ],})
-organismenMap.set('232',{naam:'Sperwer',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('232',{naam:'Sperwer',wetenschappelijke_naam:'Accipiter nisus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'sperwer.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Sparrow Hawk</p><p>D: Sperber</p><p>F: Epervier d&#39;Europe</p><p><strong>Veldkenmerken</strong>: 28-38. Vrl. aanmerkelijk groter dan manl. Verschilt van andere kleine roofvogels door combinatie van <em>korte, afgeronde vleugels en lange, recht afgesneden staart</em>. Adult heeft dicht dwarsgestreepte onderdelen en lange, gele poten. Manl. heeft donker leigrijze bovenzijde met rossige wangen en witachtige nekvlek, fijn roodbruin dwarsgestreepte onderdleen en grijs en donkerbruin gebandeerde staart. Vrl. heeft zwartbruine onderdelen, met witte streep boven en achter oog en witachtige, fijn donkerbruin gebandeerde onderdelen. Vrl. lijkt op Havik, maar deze is veel groter met relatief kortere staart en witte onderstaartdekveren. Juv. als bruin vrl., maar van onderen grover en onregelmatiger gevlekt. Jaagt door laag boven heggen of door bosland te kruisen en zich onverwachts op kleine vogels en dieren te storten. Vlucht bestaat uit enkele vlugge vleugelslagen, gevolgd door langere glijpauze. Zie ook Balkansperwer. Nestelt in oude nestern, meestal in sparren of andere coniferen in gemengde bossen.<br /><strong>Geluid</strong>: heeft in broedtijd een uitgebreid repertoire: een luid, vlug <em>kek-kek-kek</em>, <em>kie-auw, kjoew</em> enz.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van bosachtige gebieden, vooral in het oosten des lands. Steeds schaarser wordende doortrekker en wintergast van midden aug. tot in mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('233',{naam:'Sperwergrasmus',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'sperwergrasmus.jpg'},
 ],
@@ -1530,11 +1530,11 @@ organismenMap.set('304',{naam:'Zwartestern',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('305',{naam:'Zwartewouw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('305',{naam:'Zwarte wouw',wetenschappelijke_naam:'Milvus migrans',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartewouw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black Kite</p><p>D: Schwarzer Milan</p><p>F: Milan noir</p><p><strong>Veldkenmerken</strong>: 56. Lijkt op Rode Wouw, maar gemakkelijk te onderscheiden door <em>veel minder diep gevorkte staart</em>, kleiner formaat en <em>veel donkerder verenkleed</em>; is ook minder solitair en wordt dikwijls gezien boven water in binnenland. Onduidelijke, witte vlekken op ondervleugel bij onv. doen aan Rode Wouw denken, maar ontbreken bij ad. Houdt in glijvlucht vleugels horizontaal, niet in ondiepe &#39;V&#39; zoals Bruine Kiekendief. Wijze van voedselzoeken als Rode Wouw, maar aast ook op dode vis. Waar hij veelvuldig voorkomt, wordt vaak in troepjes geaasd. Zie ook Bruine Kiekendief. In westelijk gebied nabij meren en rivieren; in zuidelijk en oostelijk deel van verspreidingsgebied meer in drogere streken en dorpen. Nestelt, vaak in kleine kolonies, in bomen; soms oud kraaienest.<br /><strong>Geluid</strong>: erg luidruchtig in broedseizoen. Een vibrerend, meeuwachtig, gillend geluid, soms gevolgd door een gekekker.<br /><strong>Voorkomen</strong>: zeldzame doortrekker.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('306',{naam:'Zwarte zeeëend',wetenschappelijke_naam:'Melanitta nigra',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartezeeeend.jpg'},
 ],
@@ -1813,8 +1813,44 @@ organismenMap.set('359',{naam:'Koningseider',wetenschappelijke_naam:'Somateria s
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: King Eider</p><p>D: Prachteiderente</p><p>F: Eider &agrave; t&ecirc;te grise</p><p><strong>Veldkenmerken</strong>: 56. Op afstenad lijkt manl. <em>wit van voren en zwart van achteren</em> (geen andere eend maakt deze indruk). Verschilt van Eidereend door <em>zwarte rug</em> en zeer afwijkende vorm en kleuren van kop. Kruin en nek parelgrijs, gezicht met groene tint; <em>korte snavel met oranje schild</em>: grote witte vlek op voorvleugel. Vrl. verschilt van vrl. Eidereend door <em>minder plat neusprofiel</em> en veel rossiger vederkleed; sommige vrl. hebben ongetekende keel, hetgeen een contrsterend effect geeft. In broedkleed heeft vrl. grijsachtige kop en nek, waartegen de donkere keel afste; schouders roestbruin met donkere vlekken. Jong mnl. heeft lichte borst en donkerbruine kop; krijgt geleidelijk meer wit in vederkleed (vrl. Brilduiker ook met donkerbruine kop, maar is grijzer, met vierkante, witte vleugelvlekken). Nestelt langs zoetwaterplassen in toendra.<br /><strong>Geluid</strong>: als Eidereend, doch klemtoon van roep van mnl. op laatste lettergreep.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1966). Overzomert in N.-Noorwegen en IJsland. Overwinter Z. tot Poolcirkel, langs Noorse kust, F&auml;r-&Ouml;er, IJsland. Dwaalgast in Zuidelijke Oostzee, Denmarken, Groot-Brittanni&euml;, Ierland, Frankrijk, Itali&euml; en Hongarije. <em>Niet in Belgi&euml;</em>.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('360',{naam:'Brilzeeëend',wetenschappelijke_naam:'',type_organisme:'',afbeeldingen:[
+organismenMap.set('360',{naam:'Brilzeeëend',wetenschappelijke_naam:'Melanitta perspicillate',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'brrilzeeeend_bnnvara.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Surf Scoter</p><p>D: Brillenente</p><p>F: Macreuse &agrave; lunettes</p><p><strong>Veldkenmerken</strong>: 53. Manl. verschilt van andere zee&euml;enden door massieve, rood-wit-en-gele snavel, en <em>witte vlekken op voor- en achterkop</em>. Beide geslachten hebben roodachtige poten, als <a id="LINK_organismen_91" name="LINK_organismen_91"><span style="background-color:#dddddd">Grote Zee&euml;end</span></a>. Vrl. en juv. gewoonlijk twee witachtige vlekken op zijkop, als vrl. en juv. <a id="LINK_organismen_91" name="LINK_organismen_91"><span style="background-color:#dddddd">Grote Zee&euml;end</span></a>, maar <em>ontbreken van witte vleugelspiegel</em> is kenmerkend, ook voor manl.; vrl. heeft soms witachtige kruinvlek (vrl. en juv. <a id="LINK_organismen_306" name="LINK_organismen_306"><span style="background-color:#dddddd">Zwarte Zee&euml;end</span></a> hebben lichte wangen en donkere kruin).<br /><strong>Geluid</strong>: buiten broedseizoen uiterst zwijgzaam.<br /><strong>Voorkomen</strong>: deze broedvogel van Noordelijk Amerika werd 2x verzameld. Dwaalgast in Gr.-Brittanni&euml; en langs de kust van W.-Europa. <em>Niet in Belgi&euml;</em>.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('361',{naam:'IJslandse brilduiker',wetenschappelijke_naam:'Bucephala islandica',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'ijslandsebrilduiker_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Barrow&#39;s Goldeneye</p><p>D: Spatelente</p><p>F: Garrot d&#39;Islande</p><p><strong>Veldkenmerken</strong>: 53. Gemakkelijk te verwarren met Brilduiker, ofschoon iets groter en zwaarder. <em>Halvemaanvormige, witte vlek</em> voor oog (Brilduiker heeft <em>ronde</em>, witte vlek). Manl. heeft meer zwart op lichaamszijden, maar manl. Brilduiker in eclipskleed kan er ook zo uitzien, hoewel nooit zo diep zwart op kop en vleugels. Zwarte kop is <em>purper-glanzend</em> (niet groenglanzend) en heeft geheel andere vorm door het steilere voorhoofd en delage, afgeronde kruin. Veel wit op schouderveren. Vrl. lijkt veel op vrl. Brilduiker, maar is groter, met kortere en hogere snavel, <em>steiler voorhoofd</em> en enigszins &#39;gerafelde&#39; achterkop. Gedrag, geluid en nestbouw als Brilduiker.<br /><strong>Voorkomen</strong>: standvogel op IJsland. Toevallige gast in Duitsland, Spanje, Polen, Scandinavi&euml;, F&auml;r-&Ouml;er.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('362',{naam:'Witkopeend',wetenschappelijke_naam:'Oxyura leucocephale',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'witkopeend_vogelbescherming.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: White-headed Duck</p><p>D: Ruderente</p><p>F: Erismature &agrave; t&ecirc;te blanche</p><p><strong>Veldkenmerken</strong>: 46. De enige in Europa voorkomende &#39;stekelstaart&#39;-eend. Herkenbaar aan grote kop, plomp lichaam en lange, stijve, puntige staart, die dikwijls verticaal omhoog wordt gedragen, waardoor witte onderstaartdekveren zichtbaar worden. Aan basis &#39;gezwollen&#39; snavle van manl. <em>lichtend bleekblauw</em> in broedseizoen. Manl. heeft opvallend <em>witte kop</em> met smalle, zwarte kruin, zwarte hals, roestbruin lichaam. Vrl. is donkerder, met donkere bovenkop en lichte wangen, <em>die gekruist wordt door donkere lengtestreep</em>; heeft ook een gezwollen snavel. Gedrag schuw en fuutachtig. Snorrende vlucht, gewoonlijk laag over water, met karakteristiek silhouet van grote kop, gedorngen lichaam, korte, geheel donkere vleugels en lange, puntige staart (die indruk maakt alsof poten achteruit gestoken zijn). Pijlstaart en IJseend hebben lange, maar buigzame staart, kleinere kop en dunnere hals. Nestelt tussen het riet of moerasvegetatie nabij water. Vogel van met riet begroeid binnenwater en brakke lagunes.<br /><strong>Geluid</strong>: als van veel andere duikeenden: <em>kurr</em>.<br /><strong>Voorkomen</strong>: dwaalgast (ten minste 4x). <em>Niet in Belgi&euml;</em>.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('363',{naam:'Visarend',wetenschappelijke_naam:'Pandion haliaetus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'visarend_vogelbescherming.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Osprey</p><p>D: Fishadler</p><p>F: Balbuzard p&ecirc;cheur</p><p><strong>Veldkenmerken</strong>: 51-58. Verschilt van alle andere arendachtige roofvogels door contrast van <em>zwartachtige bovenzijde en sneeuwwitte onderzijde</em> met donkere borstband. Heeft enigszins gekuifde, <em>witte kop, met brede, zwarte band door oog</em>. Vleugels lang, smal en <em>duidelijk geknikt</em>, met zwarte polsvlekken en lijntekening op witachtige onderzijde. Gebandeerde staart. &#39;Bidt&#39; boven water en &#39;stootduikt&#39; op vis, met klauwen vooruit. Rust meestal op dode boomtak, paal of rots, nabij water. Steeds nabij water, meren, grote rivieren en zeekust. Nestelt meestal in hoge bomen of op rotsen.<br /><strong>Geluid</strong>: een korte, piepende, fluitende roep, soms iets aflopend.<br /><strong>Voorkomen</strong>: schaarse doortrekker van aug. tot in okt. en van begin april tot in mei. Enkele zomer- en winterwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('364',{naam:'Grijze wouw',wetenschappelijke_naam:'Elanus caeruleus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'grijzewouw_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-winged Kite</p><p>D: Gleitaar</p><p>F: Elanion blanc</p><p><strong>Veldkenmerken</strong>: 33. Een kleine, gedrongen roofvogel, met lange vleugels en vrij korte <em>gevorkte staart</em>, die soms wordt opgewipt. Kop witachtig, bovendelen licht blauwgrijs, met <em>witachtige staart en zwarte schouders</em>. Handpennen van boven grijs, maar zwart van onderen, scherp contrasterend met zuiver witte onderdelen. Ogen donkerrood. Onv. van boven grijsbruin, van onderen rossig wit, zwak bruin gestreept. Gedrag helemaal niet wouwachtig; &#39;bidt&#39; met lange, puntige vleugels als Torenvalk, vliegt nu eens rustig als een miniatuur-kiekendief en dan weer snel als een valk met scherp gebogen vleugels. Jaagt op muizen, grote insecten etc. Dikwijls actief bij schemering. Vogel van cultuurgrond met verspreide bomen, bosranden e.d. Nestelt laag in bomen.<br /><strong>Geluid</strong>: een zwak, fluitend <em>krie-&egrave;</em>.<br /><strong>Voorkomen</strong>: dwaalgast (1x 1971). Zeldzame standvogel in Portugal. Dwaalgast in W.-Europa, N. tot Duitsland, Tsjechoslow. en in Midd.-Zeegebied.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('365',{naam:'Wespendief',wetenschappelijke_naam:'Pernis apivorus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'wespendief_vogelbescherming.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Honey Buzzard</p><p>D: Wespenbussard</p><p>F: Bondr&eacute;e apivore</p><p><strong>Veldkenmerken</strong>: 51-58. Vliegbeeld verschilt van Buizerd en Ruigpootbuizerd door <em>smallere</em> vleugels, <em>langere</em> staart, kleinere (duifachtige) kop en langere hals; staartbanden staan <em>wijder uit elkaar</em> dan bij Buizerd; onderdelen en ondervleugel zijn levendiger getekend (Ruigpootbuizerd heeft witte staart met alleen brede, donkere eindband). Vederkleed zeer variabel. Bovenzijde donkerbruin, dikwijls zwak wit gevlekt; kop grijsachtig; onderzijde zwaar met donkerbruin getekend, soms geheel dbruin. Onv. heeft dikwijls roomkleurige kopvlekken; onderdelen gestreept. Vlucht als Buizerd, maar zweeft en &#39;bidt&#39; minder; in glijvlucht met wat omlaag gehouden vleugels en opgekrulde vleugeltoppen. Eet bije- en wespelarven, soms muizen, kleine vogels en vogeleieren. Nestelt meestal in oude kraaienesen.<br /><strong>Geluid</strong>: een hoog fluitend <em>kie-&egrave;</em>, heel anders dan gemiauw van Buizerd; ook een vlug <em>kikiki</em>.<br /><strong>Voorkomen</strong>: zeldzame broedvogel van bosachtige streken in het oosten des lands. Trekt door van begin aug. tot in okt. en van april tot eind mei.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('366',{naam:'Balkansperwer',wetenschappelijke_naam:'Accipiter brevipes',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'balkansperwer_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Levant Sparrow Hawk</p><p>D: Kurzfangsperber</p><p>F: Epervier &agrave; pieds courts</p><p><strong>Veldkenmerken</strong>: 33-38. Vrl. vaak moeilijk te onderscheiden van vrl. Sperwer, maar manl. is goed herkenbaar. Beide geslachten hebben <em>witte ondervleugel met zwarte punt, roodbruine</em> (niet gele) <em>ogen</em> en langere vleugels dan Sperwer. Manl. is groter dan manl. Sperwer, heeft <em>blauwgrijze nek, mantel en bovenvleugel</em>; onderdelen lijken soms geheel wit, maar meestal met rossige flanken, die contrasteren met witte ondervleugels; wangen grijs (niet rossig), zijhals rossig. Vrl. is van boven grijzer van vrl. Sperwer, met <em>bruine vlekken op keel</em>. Juv. heeft <em>grote</em>, bruine, druppelvormige vlekken op zeer witte onderdelen. Gedrag en biotoop als Sperwer, maar meer in loofbossen en in het open veld. Zie ook Havik.<br /><strong>Geluid</strong>: een schel <em>kievek</em> (heel anders dan Sperwer).</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('367',{naam:'Arendbuizerd',wetenschappelijke_naam:'Buteo rufinus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'arendbuizerd_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Long-legged Buzzard</p><p>D: Adlerbussard</p><p>F: Buse f&eacute;roce</p><p><strong>Veldkenmerken</strong>: 61-66. Iets groter en zwaarder dan Buizerd, maar daarvan zeer moeilijk te onderscheiden. Heeft zelfde omvang van kleurvariatie, van warm rossig bruin tot grofgevlekte, roomkleurige onderdelen tot de zeldzame melanistische fase met zeer donkerbruine onderdelen. Kop adult meestal licht en staart <em>zonder dwarsbanden en meestal kaneelkleurig</em>, maar Buizerd, speciaal de Oosteuropese vorm <em>B. b. vulpinus</em> (&#39;Steppenbuizerd&#39;), heeft ook vaak rossige staart zonder bandering. Lijkt <em>in vlucht van onderen opvallend witachtig</em>, behalve donkere vleugelpunten, polsvlekken en broek; anders dan bij Buizerd is <em>staart recht afgesneden</em>. Onv. niet te onderscheiden van jonge Buizerd. Vogel van open vlakten en steppen; nestelt op de grond.<br /><strong>Voorkomen</strong>: dwaalgast (2x). Broedvogel in Griekenland. Dwaalgast in W.-Europa, N. tot Denemarken; regelmatiger in Z.O.-Eur. <em>Niet in Belgi&euml;</em>.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
