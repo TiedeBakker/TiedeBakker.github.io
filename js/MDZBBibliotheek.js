@@ -1913,7 +1913,7 @@ organismenMap.set('379',{naam:'Lanner valk',wetenschappelijke_naam:'Falco biarmi
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lanner Falcon</p><p>D: Feldeggsfalke</p><p>F: Faucon lanier</p><p><strong>Veldkenmerken</strong>: 43. Lijkt een lichte Slechtvalk; op korte afstand herkenbaar aan <em>rossige of zandkleurige kruin</em>, smalle, zwarte baardstreep (niet breed en lobvormig), witachtige oorstreek en <em>zeer zwak gevlekte</em> (niet dwars gestreepte, witachtige onderdelen. Onvolwassen van boven donkerder en van onderen veel zwaarder gevlekt. Minder driest dan Slechtvalk; jaagt op kleinere vogels; lijkt slanker in minder snelle vlucht. Zie ook Saker Valk. Vogel van rotsachtig terrein, steenvlakten en semi-woestijnen. Nestelt op rotsen, soms in bomen.<br /><strong>Geluid</strong>: een schel <em>krie, krie, krie</em> in broedtijd.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('380',{naam:'Eleonora's valk',wetenschappelijke_naam:'Falco eleonora',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('380',{naam:'Eleonora\'s valk',wetenschappelijke_naam:'Falco eleonora',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'eleonorasvalk_boomvalken_nl.jpg'},
 ],
 informatieblok:[
