@@ -19,7 +19,7 @@ organismenMap.set('2',{naam:'Alk',wetenschappelijke_naam:'Alca torda',type_organ
 {vindplaats:'alk.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'<p><a id="LINK_organismen_113" name="LINK_organismen_113"><span style="background-color:#dddddd">Kievit</span></a></p>', },],})
+{'volgnummer':'1', 'informatie':'', },],})
 organismenMap.set('3',{naam:'Appelvink',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'appelvink.jpg'},
 ],
@@ -245,11 +245,11 @@ organismenMap.set('47',{naam:'Europesekanarie',wetenschappelijke_naam:'',type_or
 ],
 informatieblok:[
 ],})
-organismenMap.set('48',{naam:'Fazant',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('48',{naam:'Fazant',wetenschappelijke_naam:'Phasianus colchicus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'fazant.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pheasant</p><p>D: Fasan</p><p>F: Faisan de chasse</p><p><strong>Veldkenmerken</strong>: manl. 76-89, vrl. 53-63. De bekende jachtvogel met <em>lange, puntige staart</em>. Manl. fel gekleurd, met glanzend donkergroene kop, rode naakte huid rondom oog en korte oorpluimen. Vederkleed ten gevolge van vermenging met ingevoerde rassen zeer variabel, maar meestal met <em>witte halsring</em>. Vrl. stemmig bruingeel en zwartachtig gevlekt en gerand, met kortere staart. Rent liever snel naar dekking dan dat hij opvliegt. Vlucht krachtig (vliegt met lawaai op), maar zelden langdurig of hoog. Nestelt op de grond onder vegetatie.<br /><strong>Geluid</strong>: kraaiend manl. heeft een schrille, tweedelige roep <em>korrk-kok</em>, gewoonlijk gevolgd door kort, snorrend vleugelgeklapper.<br /><strong>Voorkomen</strong>: algemene broed- en standvogel van zeer variabele biotoop, doch met voorkeur voor nabijheid van water, graan- of grasvelden.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('49',{naam:'Fitis',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'fitis.jpg'},
 ],
@@ -320,11 +320,11 @@ organismenMap.set('62',{naam:'Goudhaan',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('63',{naam:'Goudplevier',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('63',{naam:'Goudplevier',wetenschappelijke_naam:'Pluvialis apricarius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'goudplevier.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Golden Plover</p><p>D: Goldregenpfeifer</p><p>F: Pluvier dor&eacute;</p><p><strong>Veldkenmerken</strong>: 28. In elk kleed herkenbaar aan donkere bovendelen, <em>sterk goudkleurig gevlekt</em>. Noordelijke vorm, <em>P.a. altifrons</em>, heeft in zomer <em>gitzwart gezicht en onderdelen</em>, door brede van voorhoofd tot op vlanken lopende, <em>witte zoom</em> afgezet. Zuidelijke vorm, <em>P. a. apricarius</em>, is veel minder scherp omlijnd, met slechts gedeeltelijk zwart gezicht en onderdelen, en doezelige, meer geelachtige zoom. Beide rassen in winter niet te onderscheiden; witachtig gezicht en onderdelen, op borst goudbruin gevlekt. Geen duidelijke vleugelstreep; ondervleugel <em>effen wit</em>; staart en stuit <em>geheel donker</em>. Kan verward worden met Zilverplevier, maar deze heeft opvallende, zwarte oksels, lichte vleugelstreep, witachtige stuit en staart en grijzere bovendelen. Nestelt in vochtige heide.<br /><strong>Geluid</strong>: roep (meestal in vlucht) een helder, fluitend <em>tluu&iuml;</em>; bij alarm een melancholieke <em>tlie</em>. In baltsvlucht een gevarieerde, op en neer gaande, trillende zang, met herhaald, klagend <em>toerie, tie-ti&egrave;juu</em> enz.<br /><strong>Voorkomen</strong>: zuidelijke vorm is het laatst in 1937 als broedvogel aangetroffen (nadien &eacute;&eacute;n broedgeval in 1974); noordelijke vorm is doortrekker. Beide vormen trekken in groot aantal door van half juli tot diep in winter en van eind februari tot in mei; vaak samen met Kievit. Overwintert in kleiner aantal, maar trekt dan bij invallende vorst weg.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('64',{naam:'Goudvink',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'goudvink.jpg'},
 ],
@@ -570,11 +570,11 @@ organismenMap.set('112',{naam:'Kerkuil',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('113',{naam:'Kievit',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('113',{naam:'Kievit',wetenschappelijke_naam:'Vanellus vanellus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kievit.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E:&nbsp; Lapwing</p><p>D: Kiebitz</p><p>F: Vanneau hypp&eacute;</p><p><strong>Veldkenmerken</strong>: 31. Typische vogel van boerenland. Een grote, <em>iriserend groenachtig zwart-en-witte</em> plevier, herkenbaar aan <em>lange, puntige kuif</em> en <em>brede, zwarte borstband</em>, contrasterend met witte onderdelen, alsook aan markante roep en, in vlucht, aan <em>brede, zeer afgeronde vleugels</em>. Staart wit met brede, zwarte eindband en kastanjebruine onderstaartdekveren. Vlucht dikwijls bijzonder grillig, met langzame &#39;zwoegende&#39; vleugelslag.<br /><strong>Geluid</strong>: een luid, nasaal <em>ki&egrave;-wi</em> of een langer <em>kie-r-wie</em> met varianten gedurende acrobatische baltsvlucht.<br /><strong>Voorkomen</strong>: algemene broedvogel van bouw- en grasland, duinen, heide enz. Trekt weg en door vanaf eind mei tot in winter en keert terug van half januari tot in april. Noordelijke vogels overwinteren, maar trekken bij vorst verder.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('114',{naam:'Klapekster',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'klapekster.jpg'},
 ],
@@ -610,21 +610,21 @@ organismenMap.set('120',{naam:'Kleinemantelmeeuw',wetenschappelijke_naam:'',type
 ],
 informatieblok:[
 ],})
-organismenMap.set('121',{naam:'Kleineplevier',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('121',{naam:'Kleine plevier',wetenschappelijke_naam:'Charadrius dubius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleineplevier.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Ringed Plover</p><p>D: Flussregenpfeifer</p><p>F: Petit Gravelot</p><p><strong>Veldkenmerken</strong>: 15. Lijkt op een kleine Bontbekplevier, maar verschilt door <em>ontbreken van witte vleugelstreep, vleeskleurige of gele poten</em> (niet oranje), afwijkende roep en gewoonlijk andere biotoop; ook door witte streep <em>boven</em> zwarte voorhoofdsband. Op korte afstand is <em>gele oogring</em> kenmerkend. Juv. heeft vaak onvolledige, bruine kropband, lijkt dan op Strandplevier, maar verschilt door <em>bleek vleeskleurige poten</em> en ontbreken van vleugelstreep.<br /><strong>Geluid</strong>: een hoog, fluitend <em>tie-uu</em>. Trillende zang ongeveer als Bontbekplevier, maar minder rijk en in hoofdzaak een herhaald <em>trie-a, trie-a, trie-a</em>.<br /><strong>Voorkomen</strong>: niet zeldzame broedvogel van opgespoten terreinen, schelp- en kiezelvlakten, zowel langs kust als binnenwaarts. Trekt weg en door van half augustus tot begin oktober en keert terug van midden maart tot begin juni. Overwintert zeer zelden.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('122',{naam:'Kleine rietgans',wetenschappelijke_naam:'Anser brachyrhynchus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinerietgans.jpg'},
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pink-footed Goose</p><p>D: Kurzschnabelgans</p><p>F: Oie &agrave; bec court</p><p><strong>Veldkenmerken</strong>: 61-76. Lijkt op een kleine Rietgans, maar hiervan en van andere &#39;grauwe&#39; ganzen onderscheiden door <em>licht blauwgrijze bovenzijde</em> in sterk contrast met <em>zeer donkere kop en hals, kleine, zwart-enroze snavel en roze poten</em>. Gedurende zomerrui varieert vederkleed van blauw- tot bruingrijs. Blauwgrijze voorvleugels vallen in vlucht op, doch minder dan bij grotere, lichtere Grauwe Gans, bij welke de blauwe tint ontbreekt. Juv. heeft soms blekere poten en lijkt in winter bruiner en dikwijls lichter dan adult. Gedrag en vlucht als andere &#39;grauwe&#39; ganzen. Verschilt van adulte Kolgans en Dwerggans door ontbreken van witte &#39;kol&#39; (ofschoon soms wel enig wit aan snavelbasis) en van zwarte dwarsbanden op buik; juv. zeer moeilijk te onderscheiden van juv. Kolgans, tenzij kleur van poten en rondere kop kan worden gezien, want snavelkleur is vrijwel identiek. Nestelt in kolonies op rotsuitsteeksels van heuvels en rivieroevers, naar ook op open toendra. Biotoop in winter als van Grauwe Gans, maar vaker op bouwland.<br /><strong>Geluid</strong>: de twee- of driedelige, nasaal gakkende roep lijkt op die van Rietgans, maar hoger van toon. Een muzikaal <em>ung-ungk, wink-wink-wink</em> of <em>king-wink</em>.<br /><strong>Voorkomen</strong>: tegenwoordig vrij talrijke wintergast van eind okt. tot half maart, voornamelijk in Friesland.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('123',{naam:'Kleinestrandloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('123',{naam:'Kleine strandloper',wetenschappelijke_naam:'Calidris minuta',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinestrandloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Stint</p><p>D: Zwergstranl&auml;ufer</p><p>F: B&eacute;casseau minute</p><p><strong>Veldkenmerken</strong>: 13&frac12;. Een zeer kleine strandloper, die van Bonte Strandloper verschilt door <em>rechte, korte snavel</em> en kleiner, eleganter postuur. Adult in zomer heeft rossige bovendelen, rossige gestreepte borst en witte wenkbrauwstreep en buik. In winter met effen grijze bovendelen en wittere hals en borst. Onv. is wat lichter dan adult in zomer, met minder gestreepte borst en twee opvallende <em>lichte V-&#39;s op de rug</em>. In vlucht smalle, onduidelijke, witte vleugelstreep en <em>witte zijden</em> van stuit.; buitenste staartpennen <em>grauw</em>, niet wit als bij Temminck&#39;s Strandloper. Zie ook Kleine Grijze Strandloper. Nestelt in moerassen langs de kust en op met wilgen begroeide toendra.<br /><strong>Geluid</strong>: een scherp <em>tit</em> of <em>tirri-tit-tit</em>. Zang een lange, golvende triller.<br /><strong>Voorkomen</strong>: trekt in niet groot aantal door van half juli tot eind oktober en van eind april tot eind juni. Enkele winterwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('124',{naam:'Kleinevliegenvanger',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinevliegenvanger.jpg'},
 ],
@@ -645,16 +645,16 @@ organismenMap.set('127',{naam:'Kleinstejager',wetenschappelijke_naam:'',type_org
 ],
 informatieblok:[
 ],})
-organismenMap.set('128',{naam:'Kleinstwaterhoen',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('128',{naam:'Kleinst waterhoen',wetenschappelijke_naam:'Porzana pusilla',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinstwaterhoen.jpg'},
 ],
 informatieblok:[
-],})
-organismenMap.set('129',{naam:'Kleinwaterhoen',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Baillon&#39;s Crake</p><p>D: Zwergsumpfhuhn</p><p>F: Marouette de Baillon</p><p><strong>Veldkenmerken</strong>: 18. Kleiner dan Spreeuw. Beide geslachten lijken op manl. Klein Waterhoen, maar bij mogelijkheid van goede observatie (wat zelden voorkomt)baar aan iets geringere grootte (de kleinste Europese ral), <em>meer rossige bovendelen sterk en dicht met wit gestreept, zwart en wit gebandeerde flanken, grijsachtige of vleeskleurige poten</em> en groene snavel zonder rode basis. In vlucht met witte rand van handvleugel. Manl. van beide soorten heeft leiblauwgrijze zijkop, keel en onderdelen en zwart en wit gebandeerde onderstaartdekveren. Juv. van beide soorten lijken erg op elkaar (ongeveer als vrl. Klein Waterhoen), maar onderdelen van Kleinst Waterhoen zijn sterker dwars gestreept. Gedrag en biotoop als Klein Waterhoen. Zie ook Porseleinhoen.<br /><strong>Geluid</strong>: baltsroep van manl. een snelle, herhaalde en toonloze triller; alarmroep een aanhouden, afgebeten <em>duk-duk-duk</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel van moerassige streken; is vermoedelijk nie z&oacute; zeldzaam. Overigens zeldzame doortrekker, voornamelijk in augustus en september.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('129',{naam:'Klein waterhoen',wetenschappelijke_naam:'Porzana parva',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinwaterhoen.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Crake</p><p>D: Kleines Sumpfhuhn</p><p>F: Marouette poussin</p><p><strong>Veldkenmerken</strong>: 19. Klein en Kleinst Waterhoen lijken erg op elkaar, ook wat geluid en biotoop betreft. Beide zijn <em>veel kleiner</em> dan Porseleinhoen. Manl. Klein Waterhoen verschilt van Kleinst Waterhoen door <em>licht olijfbruine bovendelen zonder witte strepen op vleugeldekveren en ontbreken van zwarte bandering op flanken</em>, maar overigens zijn onderdelen leigrijs en onderstaart gebandeerd als bij Kleinst Waterhoen. Vrl. gemakkelijk te onderscheiden door <em>isabelkleurige</em> onderdelen (niet grijs) en witte keel. Beide geslachten hebben groene snavel met <em>rode basis</em>. Poten groen (bij Kleinst Waterhoen vleeskleurig of grijsachtig). Juv. van beide soorten lijken op vrl. Klein Waterhoen, maar jong Kleinst Waterhoen is van onderen zwaarder gebandeerd. Gedrag, biotoop en vlucht als Porseleinhoen; maar voorkeur voor plassen met drijvende vegetatie. Zie ook Kleinst Waterhoen.<br /><strong>Geluid</strong>: een scherp <em>kwek, kwek, kwek</em>, dikwijls <em>geleidelijk</em> in toon dalend en versnellend tot een soort triller; roep een explosief <em>kirroek</em>.<br /><strong>Voorkomen</strong>: uiterst zeldzame broedvogel (twee zekere broedgevallen). Overigens zeldzame doortrekker; is vermoedelijk niet z&oacute; zeldzaam.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('130',{naam:'Kluut',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kluut.jpg'},
 ],
@@ -700,16 +700,16 @@ organismenMap.set('138',{naam:'Koperwiek',wetenschappelijke_naam:'',type_organis
 ],
 informatieblok:[
 ],})
-organismenMap.set('139',{naam:'Korhoen',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('139',{naam:'Korhoen',wetenschappelijke_naam:'Lyrurus tetrix',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'korhoen.jpg'},
 ],
 informatieblok:[
-],})
-organismenMap.set('140',{naam:'Kraanvogel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black Grouse</p><p>D: Birkhuhn</p><p>F: T&eacute;tras lyre</p><p><strong>Veldkenmerken</strong>: Manl. 53, vrl. 41. Haan gemakkelijk herkenbaar aan glanzen <em>blauwzwart vederkleed, liervormige staart</em>, opvallende, <em>witte onderstaart en witte vleugelstreep</em>. Hen verschilt van Moerassneeuwhoen door groter formaat en <em>minder rossige kleur</em>; van vrl. Auerhoen door geringere grootte en <em>minder sterk dwars gestreept vederkleed</em>; van beide door witte vleugelstreep en <em>gevorkte staart</em>. Beide geslachten hebben rode, naakte plek boven oog. Manl. lijkt in herfstruikleed vuil bruinachtig; van boven gevlekt met witte keel; staart krijgt eerst in volwassen kleed het liervormige model. Zit graag in bomen. Vliegt doorgaans hoger dan Schots Sneeuwhoen, met langere glijpauzes. Nestelt op de grond.<br /><strong>Geluid</strong>: manl. heeft een bedaard, niezend <em>tsjoe-sjwie</em>. &#39;Zang&#39; op bolderplaats een muzikale serie van vlugge, klokkende en sissende geluiden, vergezeld van een uitgebreid baltsceremonieel.<br /><strong>Voorkomen</strong>: schaarse broed- en standvogel van de heide in het oosten, midden en zuiden des lands.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('140',{naam:'Kraanvogel',wetenschappelijke_naam:'Grus grus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kraanvogel.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Crane</p><p>D: Kranich</p><p>F: Grue cendr&eacute;e</p><p><strong>Veldkenmerken</strong>: 114. Verschilt van ooievaars en reigers door sterk verlengde binnenste armpennen, die een <em>afhangende, zwartachtige staart</em> vormen. Hoofdkleur leigrijs, met <em>gebogen</em>, witte streep op zijden van kop en hals, contrasterend met zwarte zijkop en keel. op korte afstand <em>rode kruin</em> zichtbaar. Snavel korter dan bij ooievaars en reigers. Onv. met bruine kop en bovendelen; mist de witte kopstreep en heeft minder bossige &#39;staart&#39;. Uiterst schuw. Loopt langzaam en elegant. Richt zich bij onraad rechtop met lange, uitgestrekte hals. Zit zeer zelden in bomen. Vlucht langzaam, maar krachtig, met gestrekte hals en poten. Trekt in &#39;V&#39;-formatie of in enkele linie (ooievaars trekken gewoonlijk in vormloze troepen). In winter langs rivieroevers, op lagunes, velden en steppen. Nestelt op de grond in vochtige terreinen, licht beboste moerassen, rietvelden, enz.<br /><strong>Geluid</strong>: een schel, trompetachtig kroeh en een rustiger, gutteraal <em>kr-r-r</em>; verscheidene andere knarsende en sissende geluiden.<br /><strong>Voorkomen</strong>: trekt in vrij klein aantal door, hoofdzakelijk in het Oosten des lands, van half aug. tot in nov. en van eind febr. tot begin april. Winter- en zomerwaarnemingen zijn zeldzaam.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('141',{naam:'Krakeend',wetenschappelijke_naam:'Anas strepera',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'krakeend.jpg'},
 ],
@@ -765,16 +765,16 @@ organismenMap.set('151',{naam:'Kwak',wetenschappelijke_naam:'Nycticorax nycticor
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Night Heron</p><p>D: Nachtreiher</p><p>F: H&eacute;ron bihoreau</p><p><strong>Veldkenmerken</strong>: 60. Een gedrongen reiger met vrij korte poten. Adult met <em>zwarte rug</em>, lichte onderdelen, <em>zwarte schedelkap</em>, lange, afhangende, witte kuif, rode ogen en forse snavel. Poten geelachtig (in broedseizoen dofrood). Juv. van boven donkerbruin, geelwit gevlekt; zonder kuif; bij slechte belichting te verwarren met veel grotere Roedomp, die echter donker geaderd, goudbruin vederkleed heeft. In vlucht &#39;afgestompt&#39; silhouet. Nachtvogel, behalve in broedtijd. Brengt gewoonlijk de dag verborgen en weinig actief door, vaak in bomen, en vliegt eerst tegen vallen van avond naar voedselplaats. Nestelt in kolonies, vaak samen met verwante soorten, op in moeras groeiende bomen en struiken; soms in het riet.<br /><strong>Geluid</strong>: een rauw <em>kw&agrave;hk</em> of <em>kw&ograve;kh</em>, meestal tegen schemertijd.<br /><strong>Voorkomen</strong>: broedt sedert 1946 weer in kleine kolonie in Biesbosch; soms ook elders. Overigens zeldzame gast in zomerhalfjaar.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('152',{naam:'Kwartel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('152',{naam:'Kwartel',wetenschappelijke_naam:'Coturnix coturnix',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kwartel.jpg'},
 ],
 informatieblok:[
-],})
-organismenMap.set('153',{naam:'Kwartelkoning',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Quail</p><p>D: Wachtel</p><p>F: Caille des bl&eacute;s</p><p><strong>Veldkenmerken</strong>: 18. Lijkt op een heel kleine Patrijs. Wordt gewoonlijk het eerst herkend aan <em>kenmerkende roep</em> van manl. In hoofdzaak <em>zandkleurig</em>, van boven sterk roomgeel en zwart gestreept, van onderen lichter, met lichte en donkere, overlangse strepen op flanken. Kruin donkerbruin met roomkleurige middenstreep en lange, roomwitte wenkbrauwstreep. Manl. heeft zwartachtige keelstrepen. Vrl. heeft ongetekende, isabelkleurige keel en dicht gevlekte borst. Vlucht is langzamer, meestal over kortere afstand dan bij Patrijs. Laat zich niet gauw opjagen. Solitair, behalve op de trek. Nestelt op de grond.<br /><strong>Geluid</strong>: karakteristieke, driedelige roep van manl. heeft klemtoon op eerste lettergreep: een herhaald <em>kwik, kwik-ik</em>. Vrl. heeft een piepend, tweedelig geluid <em>kwiep...kwiep</em>. Wordt &#39;s nachts en overdag gehoord.<br /><strong>Voorkomen</strong>: zeldzame, in sommige jaren plaatselijk vrij talrijke, broedvogel van hooi- en bouwland, korenvelden e.d. Trekt door en weg van begin aug. tot in nov. en keert terug van half april tot begin juni.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('153',{naam:'Kwartelkoning',wetenschappelijke_naam:'Crex crex',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kwartelkoning.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Corncrake</p><p>D: Wachtelk&ouml;nig</p><p>F: R&acirc;le de gen&ecirc;ts</p><p><strong>Veldkenmerken</strong>: 27. Moeilijk te observeren. Verraadt aanwezigheid door opvallend, <em>raspend geluid</em> van manl. Lijkt <em>korthalzig</em>. Vederkleed <em>geelbruin</em>, van boven donker gevlekt; grijsachtig op kop en borst; flanken en onderstaart kastanjebruin dwars gestreept. <em>Kastanjebruine vleugels vallen in vlucht op</em>. Solitair, nachtelijk en erg verborgen levend, meestal in hoog gras. Verschilt van alle andere rallen (behalve Waterral) door groter formaat en meer isabelkleurige onderdelen. Nestelt tussen het hoge gras.<br /><strong>Geluid</strong>: manl. heeft in broedseizoen doordringende en aanhoudende roep, een raspend, tweedelig <em>rerrp-rerrp</em> (naam: crex crex), gewoonlijk &#39;s nachts, maar vaak ook overdag.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel, voornamelijk van hooiland. Trekt in klein aantal weg en door van eind augustus tot in oktober en keert terug van eind april tot eind mei. Enkele winterwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('154',{naam:'Lachstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'lachstern.jpg'},
 ],
@@ -795,11 +795,11 @@ organismenMap.set('157',{naam:'Matkop',wetenschappelijke_naam:'',type_organisme:
 ],
 informatieblok:[
 ],})
-organismenMap.set('158',{naam:'Meerkoet',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('158',{naam:'Meerkoet',wetenschappelijke_naam:'Fulica atra',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'meerkoet.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Coot</p><p>D: Bl&auml;sshuhn</p><p>F: Foulque macroule</p><p><strong>Veldkenmerken</strong>: 38. Een stevig gebouwde, leizwarte watervogel, met glanzende, gitzwarte kop. Verschilt van Waterhoen door grote formaat en <em>witte bles en snavel</em>; ook door ontbreken van witte flankstreek en wit op onderstaart. In vlucht een smalle, lichte zoom aan achterrand van binnenvleugel. Poten groen, met grote, gelobde tenen, die in vluht buiten staart uitsteken. Juv. bruinachtig grijs, met witte keel en bovenborst; soms verward met jonge Fuut. Ligt dieper in water dan Waterhoen en duikt herhaaldelijk. In winter in troepverband. Verschilt zwemmend op grote afstand van eenden door ronde rug en kleine kop. Vliegt moeizaam en stijt &#39;watertrappend&#39; uit het water op. Nestelt tussen het riet of in meorasvegetatie.<br /><strong>Geluid</strong>: een luid, kort, keffend <em>kwj&egrave;k</em>; ook verscheidene tweddelige geluiden <em>kt-koowk</em> enz. en een hard, explosief <em>skik</em>.<br /><strong>Voorkomen</strong>: zeer algemene broedvogel van meren, plassen, enz. met moerasvegetatie en open water. Algemene doortrekker en wintergast van begin augustus tot half april.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('159',{naam:'Merel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'merel.jpg'},
 ],
@@ -820,11 +820,11 @@ organismenMap.set('162',{naam:'Middelste zaagbek',wetenschappelijke_naam:'Mergus
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Red-breasted Merganser</p><p>D: Mittels&auml;ger</p><p>F: Harle hupp&eacute;</p><p><strong>Veldkenmerken</strong>: 58. Iets kleiner dan Wilde Eend, slank gebouwd, met zeer dunne, rode snavel en rode poten, als bij grotere Grote Zaagbek. Verschilt van de door meer opvallende, piekerige, <em>dubbele kuif</em>. Groenzwarte kop <em>door brede, witte halsband gescheiden van kastanjebruine bovenborst</em>; flanken grijs; vleugelpatroon manl. als Grote Zaagbek, maar over het witte vleugelveld lopen twee smalle, zwarte strepen. Vrl. verschilt van vrl. Grote Zaagbek door <em>bruinachtig grijze bovendelen</em>, onduidelijke witte kinvlek, meer opvallende kuif, doffere kopkleur, die <em>geleidelijk </em>overgaat in wit van onderhals. Meer kustvogel dan Grote Zaagbek. Nestelt in heide en andere vegetatie, tussen stenen e.d. op eilandjes in zeearmen en in toendra.<br /><strong>Geluid</strong>: gewoonlijk zwijgzaam; manl. heeft een raspende, tweedelige baltsroep, vrl. als van vrl. Grote Zaagbek.<br /><strong>Voorkomen</strong>: uiterst zeldzame broedvogel (3x; laatst in 1937). Algemene doortrekker en wintergast van half sept. tot eind april; vooral langs kust. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('163',{naam:'Morinelplevier',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('163',{naam:'Morinelplevier',wetenschappelijke_naam:'Charadrius morinellus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'morinelplevier.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Dotterel</p><p>D: Mornellregenpfeifer</p><p>F: Pluvier guignard</p><p><strong>Veldkenmerken</strong>: 22. Manl. iets kleiner. Zeer mak. Herkenbaar aan <em>witte band</em> tussen bruine borst en <em>oranje-kastanjebruine onderdelen</em>, en aan zwartachtige kruin met zeer brede, <em>witte wenkbrauwstrepen</em>, die elkaar V-vormig in de nek raken. Buik zwart In winter adult en juv. lichter, met onduidelijke borstband en asbruine borst. In vlucht contrasteren witte keel, borstband en onderstaart scherp met donkere borst en zwarte buik; in winter is vliegbeeld minder opvallend, maar borstband blijft kenmerkend. Staart met smalle, witte eindrand; geen vleugelstreep; poten geelachtig. Nestelt in hoge toendra en dor, bergachtig terrein. In trektijd op lage heidevelden, moerassen en met schorrekruid begroeide stranden.<br /><strong>Geluid</strong>: hoofdzakelijk een herhaald, fluitend <em>titi-ri-titi-ti</em>, bij opwinding overgaand in vlugge triller.<br /><strong>Voorkomen</strong>: sedert 1961 onregelmatige broedvogel in zeer klein aantal in Noordoostpolder en oostelijk Flevoland. Vrij schaarse doortrekker van eind juni tot eind september en van april tot begin juni.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('164',{naam:'Nachtegaal',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'nachtegaal.jpg'},
 ],
@@ -930,11 +930,11 @@ organismenMap.set('184',{naam:'Parelduiker',wetenschappelijke_naam:'Gavia arctic
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-throated Diver</p><p>D: Prachttauger</p><p>F: Plongeon arctique</p><p><strong>Veldkenmerken</strong>: 58-69. Kleiner dan <a id="LINK_organismen_103" name="LINK_organismen_103"><span style="background-color:#dddddd">IJsduiker</span></a>; nauwelijks groter dan <a id="LINK_organismen_207" name="LINK_organismen_207"><span style="background-color:#dddddd">Roodkeelduiker</span></a>. In prachtkleed grijze kop en achterhals en <em>rechte</em>, slanke, zwarte snavel; keel <em>zwart</em>; zijden van hals en borst overlangs fijn wit gestreept; vierkante witte vlekken op mantel en schouders op iedere zijde in <em>twee gescheiden groepen</em> verdeeld. Lijkt in winterkleed op een kleine <a id="LINK_organismen_103" name="LINK_organismen_103"><span style="background-color:#dddddd">IJsduiker</span></a>, maar voorhoofd is donkerder dan kruin en nek, die meestal lichter zijn dan bruinzwarte rug; IJsduiker lijkt van boven onduidelijk dwars gestreept, terwijl <a id="LINK_organismen_184" name="LINK_organismen_184"><span style="background-color:#dddddd">Parelduiker</span></a> effen zwartachtig of (onv.) &#39;geschubd&#39; lijkt; geringere grootte, <em>minder zware snavel</em> en minder &#39;hoekige&#39; kop zijn de beste kenmerken; onv. overigens niet te onderscheiden van jonge <a id="LINK_organismen_103" name="LINK_organismen_103"><span style="background-color:#dddddd">IJsduiker</span></a>. Verschilt van <a id="LINK_organismen_207" name="LINK_organismen_207"><span style="background-color:#dddddd">Roodkeelduiker</span></a> in winterkleed door donkerder uiterlijk en zwart voorhoofd i.p.v. wit &#39;gezicht&#39;; snavel is dikwijls even slank, maar <em>recht</em>, niet opgewipt, en blauwachtig met zwarte punt. Nestelt op diepere en doorgaans grotere meren dan <a id="LINK_organismen_207" name="LINK_organismen_207"><span style="background-color:#dddddd">Roodkeelduiker</span></a>.<br /><strong>Geluid</strong>: een diep, blaffen <em>kwouw</em>; een schelle, oplopende, klagende roep.<br /><strong>Voorkomen</strong>: schaarse doortrekker en wintergast van midden okt. tot eind mei, zowel langs de kust als op zoet water in binnenland.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('185',{naam:'Patrijs',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('185',{naam:'Patrijs',wetenschappelijke_naam:'Perdix perdix',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'patrijs.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Partridge</p><p>D: Rebhuhn</p><p>F: Perdrix grise</p><p><strong>Veldkenmerken</strong>: 30. Korte en dikke gedrongen vogel, met korte, afgeronde vleugels en korte, rossige staart; vliegt laag en vlug, afwisselend met snorrende vleugelslagen en glijvlucht op diep gewelfde vleugels. Gemakkelijk te verwarren met wat grotere Rode Patrijs, maar hiervan onderscheiden door <em>licht kastanjebruine kop</em>, grijze hals en onderdelen. Manl. heeft <em>opvallende, donker kastanjebruine, hoefijzervormige vlek op onderborst</em> (vrl. onduidelijk, juv. niet); bovendelen bruingeel gestreept, flanken roodbruindwarsgevlekt. Loopt in &#39;gebukte&#39; houding, drukt zich bij alarm en rent dan liever met opgerichte kop weg dan dat hij opvliegt. Veel groter en minder zandkleurig dan Kwartel. Zie ook Rode Patrijs.<br /><strong>Geluid</strong>: een doordringend, raspend <em>kr-ik</em> of <em>ker-wik</em>, vlug herhaald bij opwinding.<br /><strong>Voorkomen</strong>: vrij algemene, plaatselijk soms talrijke, broed- en standvogel van de duinen, bouwland, bosranden en heide.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('186',{naam:'Pestvogel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'pestvogel.jpg'},
 ],
@@ -955,11 +955,11 @@ organismenMap.set('189',{naam:'Poelruiter',wetenschappelijke_naam:'',type_organi
 ],
 informatieblok:[
 ],})
-organismenMap.set('190',{naam:'Porseleinhoen',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('190',{naam:'Porseleinhoen',wetenschappelijke_naam:'Porzana porzana',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'porseleinhoen.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spotted Crake</p><p>D: T&uuml;pfelsumpfhuhn</p><p>F: Marouette ponctu&eacute;e</p><p><strong>Veldkenmerken</strong>: 23. Lichaam vrijwel zo groot als van Waterral, maar snavel is veel korter. Moeilijk waar te nemen, maar geluid kenmerkend. Lijkt op een kleine Kwartelkoning, met <em>donker</em> olijfbruine bovendelen met <em>witte vlekken en strepen en donkerbruine</em> (geen kastanjebruine) vleugels. Poten groenachtig. Snavel geelachtig met rode basis. Borst grijs met witte spikkels. Richt bij alarm de staart op, waardoor opvallend <em>isabelkleurige onderstaartdekveren</em> zichtbaar worden. Solitair en voornamelijk vogel van schemering. Klein en Kleinst Waterhoen zijn veel kleiner, met gebandeerde onderstaart. Nestelt op moerassige plaatsen.<br /><strong>Geluid</strong>: een hoog, &#39;zwepend&#39;, <em>kwiet...kwiet...kwiet</em>. Mft ook monotoon hard tikkend geluid: <em>tsjik-tsjuk</em>, herinnerend aan &#39;kloktikkend&#39; geluid van Watersnip.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van moerassen en rietlandrekt weg en door van begin augustus tot diep in winter en keert terug van half maart tot begin mei. Tracht soms te overwinteren.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('191',{naam:'Purperreiger',wetenschappelijke_naam:'Ardea purpurea',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'purperreiger.jpg'},
 ],
@@ -1100,11 +1100,11 @@ organismenMap.set('218',{naam:'Scharrelaar',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('219',{naam:'Scholekster',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('219',{naam:'Scholekster',wetenschappelijke_naam:'Haematopus ostralegus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'scholekster.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Oystercatcher</p><p>D: Austernfischer</p><p>F: Hu&icirc;trier pie</p><p><strong>Veldkenmerken</strong>: 43. Een grote, <em>zwart-en-witte</em> waadvogel met l<em>ange, oranje-rode snavel</em> en forse, vleeskleurige poten. Heeft zwarte kop, borst en bovendelen, contrasterend met witte onderdeln. Brede, witte vleugelstreep, witte stuit en zwart-en-witte staart vallen in vlucht op. Heeft in winter een witte keelband. Zeerluidruchtig. Buiten broedseizoen vaak in grote troepen. Vlucht kracht, met &#39;ondiepe&#39; vleugelslag.<br /><strong>Geluid</strong>: een schel, snijdend <em>kliep</em> of <em>tepiet</em>. Alarmroep een luid <em>pik, pik, pik</em>. &#39;Zang&#39; een lange, fluitende triller, langzaam beginnend en vari&euml;rend in volume en tempo.<br /><strong>Voorkomen</strong>: algemene broedvogel van kust, duinen en daar achter gelegen weilanden; ook in Friesland en Overijssel. Trekt door en ten dele weg van eind juli tot in winter en keert terug van eind januari tot in mei. Overwintert en overzomert in groot aantal langs kust en op Wadden.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('220',{naam:'Harlekijneend',wetenschappelijke_naam:'Histrionicus histrionicus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'harlekijneend_welkevogelisdit.jpg'},
 ],
@@ -1205,11 +1205,11 @@ organismenMap.set('239',{naam:'Steenarend',wetenschappelijke_naam:'Aquila chrysa
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Golden Eagle</p><p>D: Steinadler</p><p>F: Aigle royal</p><p><strong>Veldkenmerken</strong>: 76-89. Karakteristiek zijn groot formaat, majestueuze, zeilende en zwevende vlucht, afgewisseld door een enkele vleugelslag, breed uitgespreide, naar boven gekrulde handpennen en brede, vierkantige staart. Adult geheel donker met <em>goudkleurige tint op kop, nek en schouders</em>. Onv. valt op door witte basis van slagpennen en <em>witte staart met brede, donkere eindband</em>, waarvan het wit met ouder worden vermindert. Jaagt door berghellingen af te zoeken en zich van geringe hoogte te storten op sneeuwhoen, sneeuwhaas, ed.d. Houdt in zweefvlucht vleugels naar voren en in ondiepe &#39;V&#39;. Adult verschilt in vlucht van jonge Zeearend door grotere, meer vierkante staart, minder rechthoekig vleugelmodel en ontbreken van witachtige vlekking op ondervleugel; in de zit door minder zware gestalte en, op korte afstand, door kleinere snavel en bevederd loopbeen. Variatie in kleur van onv. kan verwarring geven met andere arenden. Afgezien van grootte, sluit in vlucht ver uitstekende kop en langere staart verwarring uit met zwevende Buizerd. Bouwt groot nest langs rotswanden.<br /><strong>Geluid</strong>: een buizerdachtig kieja en een blaffend <em>tjoek tjoek</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame onregelmatige gast.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('240',{naam:'Steenloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('240',{naam:'Steenloper',wetenschappelijke_naam:'Arenaria interpres',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'steenloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Turnstone</p><p>D: Steinw&auml;lzer</p><p>F: Tournepierre &agrave; collier</p><p><strong>Veldkenmerken</strong>: 23. Een gedrongen kustvogel met <em>schildpadkleurig</em> vederkleed, <em>oranje</em> poten en forse, puntige, zwarte snavel. In zomer zijn bovendelen warm kastanjebruin en zwart, kop zwart en wit, onderdelen wit met <em>brede, zware borstband</em>. In winter van boven zwartbruin, met witte keel. Vliegbeeld zeer kenmerkend. Keert stenen en schelpen om bij voedselzoeken. Nestelt op rotsachtige grond. In winter langs rotsachtige of met schelpen bezaaide kusten, pieren, basaltglooiingen e.d.<br /><strong>Geluid</strong>: een scherp, staccato <em>tuk-u-tuk</em> en een lange vlugge triller.<br /><strong>Voorkomen</strong>: vrij algemene doortrekker van eind juli tot eind november en van begin maart tot eind mei. Overwintert en overzomert in klein aantal langs de kust.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('241',{naam:'Steenuil',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'steenuil.jpg'},
 ],
@@ -1220,11 +1220,11 @@ organismenMap.set('242',{naam:'Steltkluut',wetenschappelijke_naam:'',type_organi
 ],
 informatieblok:[
 ],})
-organismenMap.set('243',{naam:'Steppekievit',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('243',{naam:'Steppenkievit',wetenschappelijke_naam:'Vanellus gregarius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'steppekievit.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Sociable Plover</p><p>D: Steppenkiebitz</p><p>F: Pluvier sociable</p><p><strong>Veldkenmerken</strong>: Een vrij grote, langpotige plevier. Lijkt op afstand rozegrijs, maar van nabij contrasteert <em>zwarte kruin</em> met brede, <em>witte wenkbrauwstreep</em>, die V-vormig tot de nek doorloopt. In vlucht zijn <em>witte armpennen, zwarte slagpennen en witte staart met&nbsp; zwarte eindband</em> opvallend. In zomer wang en en keel warm isabel, borst en rug rozegrijs, buik donker <em>kastanjebruin</em>, contrsterend met <em>witte onderstaart</em>. In winter zijn kop- en buiktekening minder duidelijk; borst met enige donkere vlekken. Onv. meer bruinachtig dan ad. in winter, maar onderdelen isabelkleurig met sterkere vlekking. Vlucht lijkt op die van Kievit, maar vleugels zijn smaller en minder afgerond.<br /><strong>Geluid</strong>: in winter een schrille, korte fluitende roep en een raspend <em>etsj-etsj</em>.<br /><strong>Voorkomen</strong>: dwaalgast (3x). Vogel van Eur. Rusland en Azi&euml;. Dwaalgast in Zuid-Europa, W. tot Spanje, Groot Brittanni&euml;, Ierland, <em>Belgi&euml;</em>, Denemarken, Finland.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('244',{naam:'Steppenkiekendief',wetenschappelijke_naam:'Circus macrourus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'steppenkiekendief.jpg'},
 ],
@@ -1245,11 +1245,11 @@ organismenMap.set('247',{naam:'Strandleeuwerik',wetenschappelijke_naam:'',type_o
 ],
 informatieblok:[
 ],})
-organismenMap.set('248',{naam:'Strandplevier',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('248',{naam:'Strandplevier',wetenschappelijke_naam:'Charadrius alexandrius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'strandplevier.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Kentish Plover</p><p>D: Seeregenpfeifer</p><p>F: Gravelot &agrave; collier interrompu</p><p><strong>Veldkenmerken</strong>: 16. Verschilt van Bontbek- en Kleine Plevier door lichtere bovendelen, minder gedrongen postuur, <em>zwarte</em> snavel en poten, <em>smallere oogvlek</em> en <em>kleine, donkere vlek</em> op zij van bovenborst (i.p.v. volledige borstband). Smalle witte vleugelstreep doet denken aan vliegbeeld van Bontbekplevier, maar bovendelen zijn lichter en donkere staart heeft meer wit opzij. Manl. heeft smalle, witte streep boven oog en zwartachtige vlek v&oacute;&oacute;r <em>rossige kruin</em>. Vrl. is nog lichter, met bruinachtige i.p.v. zwarte borstvlek en heeft geen zwart v&oacute;&oacute;r kruin. Juv. kan worden verward met jonge Bontbek- en Kleine Plevier, die echter geen donkere, maar geelachtige of vleeskleurige poten hebben. Rent sneller dan Bontbek en Kleine Plevier.<br /><strong>Geluid</strong>: een zacht <em>wit-wit-wit</em>; een fluitend <em>puwiet</em> of <em>po-it</em>. Alarmroep kittup. Zang een lange triller, langzaam beginnend en dan versnellend.<br /><strong>Voorkomen</strong>: vrij schaarse broedvogel van onze zandige zeekusten (ook IJsselmeer). Trekt door en weg van eind juli tot in oktober en keert terug van eind maart tot eind mei. Enkele waarnemingen in winter.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('249',{naam:'Tafeleend',wetenschappelijke_naam:'Aythya ferina',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'tafeleend.jpg'},
 ],
@@ -1360,21 +1360,21 @@ organismenMap.set('270',{naam:'Vuurgoudhaan',wetenschappelijke_naam:'',type_orga
 ],
 informatieblok:[
 ],})
-organismenMap.set('271',{naam:'Waterhoen',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('271',{naam:'Waterhoen',wetenschappelijke_naam:'Gallinula chloropus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'waterhoen.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Moorhen</p><p>D: Teichhuhn</p><p>F: Poule d&#39;eau</p><p><strong>Veldkenmerken</strong>: 33. Een stevig gebouwde, zwartachtige vogel van waterkanten. Verschilt van Meerkoet door geringere grootte, <em>rode bles en snavel</em> (met gele punt), <em>brede, onregelmatige, witte flankstreep</em> en opvallende, <em>witte onderstaartdekveren</em> met zwarte middenstreep. Poten groen, met rode hielband. Juv. bruiner, met groenachtigbruine snavel en bles. Schokt bij opwinding met de staart. Zwemt levendig met schokkende kop. Duikt nu en dan. Stijgt moeizaam en &#39;watertrappend&#39; uit water op. Vluct gewoonlijk laag, met bengelende poten. Zoekt in winter vaak in troepjes voedsel. Nestelt tussen het riet of in strukgewas nabij water; soms in bomen.<br /><strong>Geluid</strong>: een scherp, doordingend <em>kr-r-rk</em> of <em>kittik</em> e.d.<br /><strong>Voorkomen</strong>: algemene broedvogel van met riet begroeide sloten, kanalen, vijvers e.d. Trekt gedeeltelijk weg en door van eind juli tot ver in oktober en keert terug van begin maart tot eind april. Overwintert in vrij groot aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('272',{naam:'Waterpieper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'waterpieper.jpg'},
 ],
 informatieblok:[
 ],})
-organismenMap.set('273',{naam:'Waterral',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('273',{naam:'Waterral',wetenschappelijke_naam:'Rallus aquaticus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'waterral.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Water Rail</p><p>D: Wasserralle</p><p>F: R&acirc;le d&#39;eau</p><p><strong>Veldkenmerken</strong>: 28. Moeilijk waar te nemen; wordt gewoonlijk herkend aan <em>opvallend geluid</em>. Verschilt van alle andere rallen door <em>lange, rode snavel</em>. Bovendelen donkerbruin, zwaar met zwart gestreept; gezicht, keel en borst leigrijs; <em>flanken opvallen zwart en wit gebandeerd</em>; onderstaart witachtig; poten rozebruin. Juv. heeft onregelmatig gevlekte onderdelen. Nerveus en teruggetrokken gedrag als Kwartelkoning. Nestelt in het riet of zegge boven ondiep water.<br /><strong>Geluid</strong>: een scherp aanhoudend <em>kip,,,kip,,,kip</em>; een in kracht afnemende serie kroe&iuml;e, kroeie, kroeie en een verscheidenheid van kreunende, knorrende, gillende en snorrende geluiden. Dikwijls &#39;s nachts.<br /><strong>Voorkomen</strong>: weinig algemene broedvogel van moerassige streken. Trekt door en weg van begin aug. tot in november en keert terug van half maart tot begin mei. Overwintert in gering aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('274',{naam:'Waterrietzanger',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'waterrietzanger.jpg'},
 ],
@@ -1475,11 +1475,11 @@ organismenMap.set('293',{naam:'Zilvermeeuw',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('294',{naam:'Zilverplevier',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('294',{naam:'Zilverplevier',wetenschappelijke_naam:'Pluvialis squatarola',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zilverplevier.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Grey Plover</p><p>D: Kiebitzregenpfeifer</p><p>F: Pluvier argent&eacute;</p><p><strong>Veldkenmerken</strong>: 28. In broedkleed <em>zwart van onderen en witachtig van boven</em>. Alleen te verwarren met Goudplevier, maar in elk kleed herkenbaar aan zwaarder postuur, forsere snavel, grotere ogen, <em>opvallende, zwarte oksels</em>, contrasterend met witachtige ondervleugels, en aan <em>witachtige vleugelstreep, staart en stuit</em> (Goudplevier heeft <em>witte</em> oksels, geen vleugelstreep en geheel donkere staart). Adult in zomer heeft bovendelen<em> witachtig</em> (niet goudkleurig) gevlekt; in winter zijn bovendelen meer effen bruingrijs en zijn onderdelen lichter dan bij Goudplevier. Nestelt in arctische toendra. In trektijd op wadden, slikken en buitendijks grasland.<br /><strong>Geluid</strong>: gewone roep een klagend, ineenlopend <em>tlie-u-ie</em>, met tweede toon lager. Luidruchtiger dan Goudplevier.<br /><strong>Voorkomen</strong>: vrij algemene doortrekker, vnl. langs de kust, van half juli tot in november en van half maart tot begin juni. Overwintert in klein aantal. Overzomert ook, vooral op de Wadden.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('295',{naam:'Zomertaling',wetenschappelijke_naam:'Anas querquedula',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zomertaling.jpg'},
 ],
@@ -1913,7 +1913,7 @@ organismenMap.set('379',{naam:'Lanner valk',wetenschappelijke_naam:'Falco biarmi
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lanner Falcon</p><p>D: Feldeggsfalke</p><p>F: Faucon lanier</p><p><strong>Veldkenmerken</strong>: 43. Lijkt een lichte Slechtvalk; op korte afstand herkenbaar aan <em>rossige of zandkleurige kruin</em>, smalle, zwarte baardstreep (niet breed en lobvormig), witachtige oorstreek en <em>zeer zwak gevlekte</em> (niet dwars gestreepte, witachtige onderdelen. Onvolwassen van boven donkerder en van onderen veel zwaarder gevlekt. Minder driest dan Slechtvalk; jaagt op kleinere vogels; lijkt slanker in minder snelle vlucht. Zie ook Saker Valk. Vogel van rotsachtig terrein, steenvlakten en semi-woestijnen. Nestelt op rotsen, soms in bomen.<br /><strong>Geluid</strong>: een schel <em>krie, krie, krie</em> in broedtijd.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('380',{naam:'Eleonora\'s valk',wetenschappelijke_naam:'Falco eleonora',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('380',{naam:'Eleonora's valk',wetenschappelijke_naam:'Falco eleonora',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'eleonorasvalk_boomvalken_nl.jpg'},
 ],
 informatieblok:[
@@ -1923,4 +1923,99 @@ organismenMap.set('381',{naam:'Kleine torenvalk',wetenschappelijke_naam:'Falco n
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lesser Kestrel</p><p>D: R&ouml;telfalke</p><p>F: Faucon cr&eacute;cerellette</p><p><strong>Veldkenmerken</strong>: 31. Lijkt een kleine, levendig gekleurde Torenvalk; verschilt hiervan door <em>meer onbevreesd en luidruchtiger gedrag</em> en neiging tot <em>troepvorming</em>. Manl. heeft <em>ongevlekte</em>, helder kastanjerode bovendelen en blauwere kop en staart; vrl. en onv. meer als Torenvalk. Van onderen gezien lijken vleugels en staart erg licht, met zwarte rand; van boven gezien, op armpennen een grote leiblauwe vlek; op korte afstand zijn <em>witte</em> klauwen kenmerkend (Torenvalk heeft zwarte klauwen). Vlucht soepeler dan van Torenvalk, met vooral aan de basis slankere staart; &#39;bidt&#39; zelden en &#39;glijdt&#39; herhaaldelijk. Jaagt hoofdzakelijk op vliegende insekten. Leeft nabij oude gebouwen, bergengten e.d. Nestelt in kolonies in muur- of dakgaten en rotsspleten.<br /><strong>Geluid</strong>: veel luidruchtiger en meer gevarieerd dan Torenvalk. Doorgaans een mekkerend <em>tsj&egrave;t-tsj&egrave;-tsj&egrave;</em> en een klagend, omhooglopend <em>wieh</em>.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('382',{naam:'Moerassneeuwhoen',wetenschappelijke_naam:'Lagopus lagopus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'moerassneeuwhoen_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Red Grouse</p><p>D: Moorschneehuhn</p><p>F: Lagop&egrave;de des saules</p><p><strong>Veldkenmerken</strong>: 38-41. Een robuust, rossigbruin hoen, met korte vleugels en zwartachtige staart. Vlucht snel, met snorrende vleugeslagen, afgewisseld door glijvlucht op laaghangende vleugels; kijkt in vlucht achterom wanneer hij wordt opgejaagd. Moerassneeuwhoen <em>L. l. lagopus</em> (N.-Eur) en &#39;Schots Sneeuwhoen&#39; <em>L. l. scoticus</em> (Britse Eilanden) worden tegenwoordig als &eacute;&eacute;n soort beschouwd. Moerassneeuwhoen en Alpensneeuwhoen henne beide <em>witte vleugels</em> en zijn vaak niet van elkaar te onderscheiden, behalve door <em>geluid en biotoop</em>. Beide zeer variabel, maar Moerassneeuwhoen heeft donkerder rossig broedkleed; op korte afstand valt <em>zwaardere snavel</em> op. In herfst wordt Moerassneeuwhoen gevlekt donkerbruin en wit.; Aplensneeuwhoen grijs van boven. In winter kan een geheel wit hoen met zwarte staart en ongetekende witte kop of vrl. Moerassneeuwhoen of vrl. Alpensneeuwhoen zijn; wanneer het een <em>zwarte vlek</em> door teugel en oog heeft, is het een manl. Alpensneeuwhoen.<br />&#39;Schots Sneeuwhoen&#39; is donker rossigbruin met <em>donkerder bruine vleugels</em>. Zomerkleed lichter dan winterkleed; vrl. lichter en kleiner dan manl. Ierse vorm is lichter dan Britse vorm. Verschilt van vrl. Korhoen door kleiner formaat, rossiger kleur en ongevorkte staart; van Alpensneeuwhoen in zomer door donkere vleugels en buik. Vogel van met wilgen en berken begroeide vochtige heide, op lager niveau dan Alpensneeuwhoen. Schots Sneeuwhoen prefereert heide en laagveengronden, waar kraaiheide en veenbessen groeien, en daalt in herfst af naar lager terrein en stoppelvelden. Nestelt onder dicht struikgewas.<br /><strong>Geluid</strong>: Moerassneeuwhoen een vlug, kraaiend <em>kowk-ok-ok-ok</em>, vaak voorafgegaan door een rustiger <em>oow...oow</em>. Schots Sneeuwhoen heeft gelijksoortige roep: tijdens balts een scherp <em>ko-bek, bek-bek-bek</em>.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('383',{naam:'Alpensneeuwhoen',wetenschappelijke_naam:'Lagopus mutus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'alpensneeuwhoen_birdphoto.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ptarmigan</p><p>D: Alpenschneehuhn</p><p>F: Lagop&egrave;de des Alpes</p><p><strong>Veldkenmerken</strong>: 36. Een hoen van hoge berghellingen, in elk kleed herkenbaar aan <em>witte vleugels</em> en witte buik. Poten wit bevederd; naakte huid boven oog rood. Manl. heeft in broedkleed sterk gevlekte, zwartbruine bovendelen, borst en flanken; vrl. taankleuriger. In herfst is manl. van boven grijs, dicht met zwart en wit getekend, en van onderen in hoofdzaak wit; vrl. is geelachtig grijs en lijkt donkerder dan manl. In winter zijn beide geslachten <em>zuiver wit, met zwarte staart</em> (in zit vrijwel verborgen onder witte staartdekveren), maar manl. heeft een <em>zwarte streep van snavel door oog</em> (duidelijk verschilpunt met Moerassneeuwhoen). Op korte afstand is snavel opmerkelijk veel slanker dan bij Moerassneeuwhoen; beide soorten zijn zeer variabel en hebben drie duidelijk verschillende kleden. Vogel van hoge, dorre berghellingen (hoger dan Moerassneeuwhoen). Nestelt onder rotsuitsteeksels of in dichte vegetatie.<br /><strong>Geluid</strong>: een laag, krassend geluid; bij alarm een herhaald, knarsend geluid balts manl. een korte, kraaiende &#39;zang&#39;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('384',{naam:'Hazelhoen',wetenschappelijke_naam:'Tetrastes bonasia',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'hazelhoen_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Hazel Grouse</p><p>D: Haselhuhn</p><p>F: Gelinotte des bois</p><p><strong>Veldkenmerken</strong>: 36. Een bosvogel, ongeveer zo groot als een Patrijs. Typische hoendergestalte, maar met <em>vrij lange staart</em> en iets <em>gekuifde</em> kruin. Bovendelen grijsachtig tot roestbruin (meer grijs in noordelijk, meer rossig in zuidelijk deel van verspreidingsgebied), sterk met zwart en bruin gevlekt en dwars gestreept. Brede, witte banden langs zijhals en over schouders. Onderdelen witachtig, dicht met bruin getekend, vooral op flanken. Manl. heeft <em>opvallende, zwarte keel, met witte zomen afgezet</em>. Vrl. heeft witachtige keel. In vlucht vertonen beide geslachten <em>opvallende zwarte eindband op grijze staart</em>. Zit graag in bomen en zoekt voedsel op zonnige graspaden. Haan is monogaam en verdedigt een uitgestrekt territorium. Vogel van heuvelachtig gemengd bosland en struikgewas, vooral tussen espen en berken; plaatselijk ook in beboste vlakten. Nestelt op de grond onder vegetatie.<br /><strong>Geluid</strong>: roep van haan in baltstijd een hoog, v&eacute;rdragend fluitend <em>tsissi-tseri-tsi, tsi tsui</em> of <em>tihit tititi</em>.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1895)</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('385',{naam:'Auerhoen',wetenschappelijke_naam:'Tetrao urogallus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'auerhoen_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Capercaillie</p><p>D: Auerhun</p><p>F: Grand T&eacute;tras</p><p><strong>Veldkenmerken</strong>: manl. 86, vrl. 61. Een reusachtige, hoenderachtige vogel. Manl. verschilt van alle andere hoenders door <em>zeer groot formaat, donkere kleur en afgeronde staart</em>. Vederkleed grijs, met warmbruin vleugeldek. Glanzend blauwgroene borst, ruige &#39;baard&#39;, witachtige snavel en scharlaken naakte plek boven oog; onderdelen en staart sterk met wit getekend. Witte schoudervlek opvallend in balts. Vrl. kan verward worden met vrl. Korhoen of Schots Sneeuwhoen, maar is groter, met <em>afgeronde</em> staart en <em>rossige borstvlek</em> op lichtere onderdelen. In vlucht in alle kleden zonder lichte vleugelstreep. Gewoonlijk in zomer op grond in dennenwouden, maar in winter in bomen. Vliegt doorgaans over korte afstanden, met vlugge vleugelslag, afgewisseld door glijvlucht; vliegt met groot lawaai uit dekking op. Vogel van met coniferen begroeide heuvels. Nestelt op de grond in onderbegroeiing. Hen hybridiseert soms met Korhaan.<br /><strong>Geluid</strong>: haan heeft op baltsplaats een gutterale, klokkende roep: hen een fazantachtig <em>kok-kok</em> en een eendachtig <em>kwa, kwa, kwa</em>, &#39;Zang&#39; van haan begint met een kalm, ritmisch, steeds sneller uitgebracht <em>tik-up, tik-up, tik-up</em> en eindigt met een plotseling <em>pop</em> (trekken van een kurk), gevolgd door een serie sissende, schrapende en fluisterende geluiden. Zang begeleidt uitgebreid baltsritueel, dat v&oacute;&oacute;r het krieken van de dag aanvangt en zowel op &#39;slaapboom&#39; als op de grond wordt uitgevoerd.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('386',{naam:'Europese steenpatrijs',wetenschappelijke_naam:'Alectoris graeca',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'europesesteenpatrijs_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rock Partridge</p><p>D: Steinhuhn</p><p>F: Perdrix bartavelle</p><p><strong>Veldkenmerken</strong>: 35. Op grote afstand niet te onderscheiden van Aziatische Steenpatrijs en Rode Patrijs. <em>Geluid</em> is beste kenmerk. Witte keelvlek is wat groter en wordt omzoomd door <em>scherp afgetekende</em> zwarte kropband, die in het midden van de kop niet geleidelijk overgaat in het wint van keel. Voorhoofd is asgrijs i.p.v. zwart; bovendelen <em>grijsbruin</em> i.p.v. warmbruin. Vogel van rots- en steenachtige berghellingen tussen boom- en sneeuwgrens; in winter op lager terrein. Nestelt tussen rotsen op de grond.<br /><strong>Geluid</strong>: gewone roep een boomkleverachtig <em>wit-wit-wit</em>; bij alarm een explosief <em>pitsjie-ie</em>; &#39;&#39;zang&#39; (voorjaar en herfst) een staccato-achtig <em>tsjertsjie-rit-tsji</em>, sterk gevarieerd.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('387',{naam:'Aziatische steenpatrijs',wetenschappelijke_naam:'Alectoris chukar',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'aziatischesteenpatrijs.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Chukar</p><p><strong>Veldkenmerken</strong>: 35. Lijkt sprekend op de Europese Steenpatrijs; het best te onderscheiden door <em>roep</em>. Teugels zijn <em>wit</em> (zwart bij Europese Steenpatrijs); het zwarte &#39;masker&#39; is <em>smaller</em> en gebroken; keel meer isabelkleurig, minder grijsachtig; het midden van de krop <em>gevlekt</em> en niet scherp afgetekend tegen zwarte borstband. Flankstrepen breder en in kleiner aantal; bovendelen bruiner. Biotoop als van Europese Steenpatrijs, maar ook in meer droge streken.<br /><strong>Geluid</strong>: een klokkende en kakelende roep als van kip.<br /><strong>Voorkomen</strong>: broedvogel van O.-Griekenland, O.-Bulgarije en Ege&iuml;sche eilanden.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('388',{naam:'Barbarijse patrijs',wetenschappelijke_naam:'Alectoris barbara',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'barbarijsepatrijs_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Barbary Partridge</p><p>D: Felsenhuhn</p><p>F: Perdrix gambra</p><p><strong>Veldkenmerken</strong>: 33. Lijkt op grote afstand lichter en meer roze dan Rode Patrijs en is op korte afstand gemakkelijk herkenbaar aan brede, <em>kastanjebruine</em>, witachtig gespikkelde kropband en <em>blauwgrijs &#39;gezicht&#39;, keel en bovenborst</em>. Vlammende rozerode oogring. Brede rossige streep achter oog; bovendelen rozebruin, met leiblauwe, breed bloedrood gezoomde schouders. Onderdelen als Rode Patrijs; flanken zwart en wit gebandeerd. Poten roodachtig. Vogel van met struikgewas begroeide heuvels en woestijnachtige terreinen.<br /><strong>Geluid</strong>: luidruchtig vroeg in de morgen en bij schemering. Een vlug <em>kakelik</em> en een langzamer <em>tsjuk, tsjuk, tsjuk, tsjuker, tsjuker</em>.<br /><strong>Voorkomen</strong>: standvogel op Gibraltar en Sardini&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('389',{naam:'Rode patrijs',wetenschappelijke_naam:'Alectoris rufa',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'rodepatrijs_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: red-legged Partridge</p><p>D: Rothuhn</p><p>F: Perdrix rouge</p><p><strong>Veldkenmerken</strong>: 34. Op grote afstand gemakkelijk te verwarren met Patrijs, maar op korte afstand herkenbaar aan <em>zwart omzoomde witte keel, lange, witte streep boven oog</em>, lavendelgrijze flanken met roodbruine, zwarte en witte dwarsbanden, kastanjebruine kruin en rode snavel en poten. Juv. lijkt erg op jonge Patrijs. Geluid is sterk afwijkend; loopt sneller dan Patrijs; vliegt in minder compacte kluchten. Zie ook de beide Steenpatrijzen en Barbarijse Patrijs. Houdt van droge terreinen. Nestelt onder heggen, in korenvelden enz.<br /><strong>Geluid</strong>: gewone roep van manl. <em>tsjuk, tsjuker</em> of een langzaam, scherp <em>tsjr&egrave;k, tsjr&egrave;k</em>; roep bij opvliegen <em>kuk-kuk</em>.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1904).</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('390',{naam:'Vechtkwartel',wetenschappelijke_naam:'Turnix sylvatica',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'vechtkwartel_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Andalusian Hemipode</p><p>D: Laufh&uuml;hnchen</p><p>F: Turnix d&#39; Andalousie</p><p><strong>Veldkenmerken</strong>: 15. Een kleine, kwartelachtige vogel, in vlucht gemakkelijk te verwarren met Kwartel. Kruin donker met lichte middenstreep; zijden van kop en keel roomkleurig met kleine, donkere spikkels. Voornaamste verschilpunt met Kwartel is <em>helder oranjebruine vlek op borst</em> en opvallende, <em>zwarte vlekken</em> op de flanken. Oogring een oog bleekblauw. Geslachten gelijk. Buitengewoon schuw. Laat zich niet gauw opjagen. Rent snel en zigzaggend. Solitair. Vogel van met dwergpalmen begroeide, zandige vlakten, woeste gronden met kreupelhout, stoppelvelden e.d. Nestelt onder dichte vegetatie.<br /><strong>Geluid</strong>: een zeer kenmerkend, in kracht toenemend <em>krroeh</em>, wel wat gelijkend op verwijderd loeien van vee; wordt hoofdzakelijk bij aanbreken van dag en &#39;s avonds gehoord. Blaast zich als een bal op, wanneer hij roept.<br /><strong>Voorkomen</strong>: broedde zeer plaatselijk in Spanje en Z.-Portugal, maar is thans vermoedelijk als broedvogel verdwenen.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('391',{naam:'Jufferkraan',wetenschappelijke_naam:'Anthropoides virgo',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'jufferkraan_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Demoiselle Crane</p><p>D: Junfernkranich</p><p>F: Demoiselle de Numidie</p><p><strong>Veldkenmerken</strong>: 97. Gemakkelijk te onderscheiden van Kraanvogel door veel geringere grootte (staat 30 cm lager) en door <em>grote, kuifachtige, witte pluim achter oog.</em> Vederkleed merendeels askleurig blauwgrijs, met zwarte teugelstreek, voor- en zijhals, verlengde borstveren en slagpennen. Zwart getipte binnenste armpennen sterk verlengd en over de staart heen hangend, doch zonder het pluimachtige effect als bij Kraanvogel. Vlucht als Kraanvogel, met gestrekte hals en poten; op grote hoogte niet te onderscheiden, tenzij beide soorten bij elkaar en geringere grootte en schellere roep waarneembaar zijn. Nestelt op droge grond.<br /><strong>Geluid</strong>: een luid, muzikaal, trompetachtig geluid, duidelijk hoger van toon dan Kraanvogel.<br /><strong>Voorkomen</strong>: broedvogel van open vlakten en hoge plateaus. Broedde vroeger in Roemeni&euml;. Dwaalgast in Z.-Europa, noordelijk tot Duitsland, Denemarken en Zweden.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('392',{naam:'Purperkoet',wetenschappelijke_naam:'Porphyrio porphyrio',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'purperkoet_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Purper Gallinule</p><p>D: Purpurhuhn</p><p>F: Poule sultane</p><p><strong>Veldkenmerken</strong>: 48. Veel groter dan Meerkoet en Waterhoen en met <em>langere poten</em>. Bovendelen warm donker purperblauw met turkooise gloed op keel en borst; onderstaartdekveren <strong>zuiver wit</strong>. Zeer hoge snavel; voorhoofdbles, poten en ogen <em>helderrood</em>. Juv. is donkerblauw-leikleurig, met grijze keel en kopzijden. Klimt tussen het riet; zelden in open terrein; zwemt slechts af en toe. Gemakkelijk in vlucht te onderscheiden door lange, bengelelende, rode poten. Meerkoet is effen zwartachtig, met witte bles en grijze poten; Waterhoen is veel kleiner, heeft rode bles, groene poten en een witte flankstreep. Nestelt tussen het riet.<br /><strong>Geluid</strong>: een geheimzinnig, gillend geluid.<br /><strong>Voorkomen</strong>: broedt in moerassige streken en rietvelden van Zuid-Spanje en Sardini&euml;. Dwaalgast in N.-Frankrijk, Belgi&euml;, Noorwegen, Tsjechoslowakije en Oostenrijk.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('393',{naam:'Knobbelmeerkoet',wetenschappelijke_naam:'Fulca cristata',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'knobbelmeerkoet_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Crested Coot</p><p>D: Kammbl&auml;sshuhn</p><p>F: Foulque &agrave; cr&ecirc;te</p><p><strong>Veldkenmerken</strong>: 41. Lijkt erg op meerkoet, maar herkenbaar aan <em>twee rode knobbels</em>, uitstekend boven blauwwitte bles, en aan <em>afwijkend geluid</em>. Geen wit op armpennen in vlucht. Poten blauwgrijs. Gedrag, vlucht en biotoop als Meerkoet, maar schuwer en meer in nabijheid van dekking.<br /><strong>Geluid</strong>: gewone roep een luid, bijna menselijk <em>hoe, hoe</em>.<br /><strong>Voorkomen</strong>: standvogel in Zuid-Spanje, in winter ook in Portugal. Dwaalgast in Frankrijk, Sardini&euml; en Itali&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('394',{naam:'Grote trap',wetenschappelijke_naam:'Otis tarda',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'grotetrap_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Bustard</p><p>D: Grosstrappe</p><p>F: Outarde barbue</p><p><strong>Veldkenmerken</strong>: 102. Vrl. veel kleiner. Gemakkelijk te onderscheiden door <em>zeer grote plompe gestalte</em> en <em>lange, dikke hals en poten</em>. Kop en hals lichtgrijs (manl. heeft lange knevel van witte borstelharen), bovendelen licht rossig met zwarte dwarsstrepen, onderdelen wit met warm, kastanjebruine borstband; vrl. minder fors, zonder borstband. Vleugels lijken in vlucht <em>hoofdzakelijk wit</em>, met lange, zwarte &#39;vingers&#39;; poten en hals zijn gestrekt; vleugelslagen langzaam en regelmatig, maar krachtig. Loopt bedaard, met opgerichte kop. Buitengewoon schuw. Polygaam. Gewoonlijk in kleine troepen, waarin vrl. domineren; in broedtijd blijven manl. in troepvernad. Verschilt van andere trappen door veel groter formaat en ontbreken van zwart op hals. Nestelt op de grond in open, boomloze vlakten, grassteppen, uitgestrekte koren- en ma&iuml;svelden, enz.<br /><strong>Geluid</strong>: heeft in broedtijd soms een bars, blaffend geluid.<br /><strong>Voorkomen</strong>: onregelmatige, steeds zeldzamer wordende wintergast, vooral bij strenge vorst, soms in koppels.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('395',{naam:'Kleine trap',wetenschappelijke_naam:'Otis tetrax',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'kleinetrap_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Bustard</p><p>D: Zwergtrappe</p><p>F: Outarde canepeti&egrave;re</p><p><strong>Veldkenmerken</strong>: 43. Nog niet half zo groot als Grote Trap. Buitengewone schuwheid maakt observatie moeilijk. Manl. in broedkleed herkenbaar aan <em>brede, zwart-en-witte hals</em>; bovendelen en kruin zandkleurig met fijne golftekening; zijkop blauwgrijs; onderdelen wit. Vrl. is van boven lichter, zwart gestreept en dwars geblekt; van onderen witachtig met dwars gevlekte borst en flanken; geen halsband. Gedrag als Grote Trap, maar loopt snel en verbergt zich door zich plat neer te drukken. Vlucht zeer snel en <em>zwenkend</em>, met vlugge, fluitende vleugelslagen als van Sneeuwhoen. <em>Lijkt hoofdzakelijk wit in vlucht,</em> met grote, zwarte vleugelpunten; vliegt veel hoger dan Grote Trap. Gewoonlijk in troepjes, maar in herfst soms in grote troepen. Zie ook Kraagtrap. Vogel van grasvlakten, koren- en klavervelden e.d.<br /><strong>Geluid</strong>: een toonloos, maar v&eacute;rdragend <em>trrp-trrp</em>; in vlucht een kort <em>dahk</em>.<br /><strong>Voorkomen</strong>: dwaalgast (16x; laatst 1959).</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('396',{naam:'Kraagtrap',wetenschappelijke_naam:'Chlamydotis undulata',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'kraagtrap_wikipedia.JPG'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Houbara Bustard</p><p>D: Kragentrappe</p><p>F: Outarde houbara</p><p><strong>Veldkenmerken</strong>: 63. In grootte tussen Grote en Kleine Trap, met model van een vrl. kalkoen. Beide geslachten in elk kleed herkenbaar aan <em>korte, zwart-en-witte kuif en zeer opvallende, langs zijhals afhangende bos van zwarte en witte veren</em>; grote ogen. Bovendelen isabelkleurig, fijn zwart gegolfd en gevlekt; onderdelen wit met grijsachtige keel en gebandeerde flaken. In vlucht met zandkleurige mantel en vleugeldek, zwarte slagpennen met grote witte plek aan basis van handpennen; langzame vleugelslag; vleugels lang en betrekkelijk smal. Vogel van steenachtige of zandige steppen.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1850). Dwaalgast in Gr.-Brittanni&euml; en meeste landen van continentaal Europa.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('397',{naam:'Killdeerplevier',wetenschappelijke_naam:'Charadrius vociferus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'killdeerplevier_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Killdeer</p><p>D: Keilschwanzregenpfeifer</p><p>F: Gravelot &agrave; double collier</p><p><strong>Veldkenmerken</strong>: 25. Lijkt oppervlakkig op een Bontbek, maar is veel groter en heeft<em> twee borstbanden</em>. Lange rossige staart heeft zwarte eindband met witte punten. In vlucht vallen <em>rossig goudkleurige stuit, lange wigvormige staart</em> en duidelijk witte vleugelstreep op. Snavel slank en zwart; poten vleeskleurig. Vogel van akkerland en weiden; in winter ook langs de kust.<br /><strong>Geluid</strong>: gewoonlijk luidruchtig; een luid indringend en herhaald <em>kildie of kildiea</em>, ook een klagend, oplopend <em>die-iek</em>.<br /><strong>Voorkomen</strong>: dwaalgast van Noord-Amerika naar Groot-Brittanni&euml;, Ierland, Frankrijk, F&auml;r-&Ouml;er, IJsland.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('398',{naam:'Woestijnplevier',wetenschappelijke_naam:'Charadrius leschenaultii',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'woestijnplevier_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Greater Sand Plover</p><p>D: W&uuml;stenregenpfeifer</p><p>F: Gravelot mongol</p><p><strong>Veldkenmerken</strong>: 22. Vaalbruin van boven, wit van onderen, met <em>zware, sternachtige, zwarte snavel</em> en donker olijfkleurige poten. Manl. in broedkleed met <em>brede, roestkleurige borstband, zwarte oorstreek</em> en <em>smalle zwarte band over wit voorhoofd</em>; kruin en nek licht kaneelkleurig (geen witte halsband). Vrl. heeft lichtere, onduidelijke borstband en grijs i.p.v. zwart op kop. In winter geslachten gelijk, maar manl. behoudt spoor van zwart aan kop en heeft brede, witte wenkbrauwstreep. Onv. heeft lichtgerande bovendelen en roestkleurig gezoomde borst. Vogel van zandvlakten enslikken langs de kust.<br /><strong>Geluid</strong>: een muzikaal, fluitend <em>piep</em>. Minder luidruchtig dan de meeste plevieren.<br /><strong>Voorkomen</strong>: dwaalgast van Midden-Azi&euml; naar Noorwegen, Zweden, Duitsland, Polen, Griekenland en Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('399',{naam:'Kleine (Amerikaanse) goudplevier',wetenschappelijke_naam:'Pluvialis dominica',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'amerikaansegoudplevier_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: American Golden Plover</p><p><strong>Veldkenmerken</strong>: 25. Kleiner en slanker gebouwd dan Goudplevier, met <em>langere</em> poten, relatief grotere kop en smallere vleugels, die voorbij de staart uitsteken. In elk kleed herkenbaar aan <em>donker isabelkleurige ondervleugel en grijze oksels</em> (Goudplevier heeft witte ondervleugel). Ad. in zomer heeft meer zwart op boven- en onderdelen; flanken meestal zonder witte zoom. Onv. lijkt enigszins op onv. Morinelplevier; heeft witter gezicht en wenkbrauwstreep en meer isabelkleurige onderdelen dan onv. Goudplevier.<br /><strong>Geluid</strong>: een rustig, muzikaal puu, een nadrukkelijk <em>klie-iet</em> en andere roepen, die op Goudplevier lijken.<br /><strong>Voorkomen</strong>: dwaalgast (12x). Dwaalgast in Groot-Brittanni&euml; en West-Europa. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('400',{naam:'Sporenkievit',wetenschappelijke_naam:'Vanellus spinosus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'sporenkievit_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spur-winged Plover</p><p>D: Sporenkiebitz</p><p>F: Vanneau &eacute;peronn&eacute;</p><p><strong>Veldkenmerken</strong>: 27. Zeer opvallend <em>zwart en wit</em> getekend. Met kleine kuif, gitzwarte kruin, zwarte kin, keel, borst en onderdelen. Zijkop, hals en onderstaart wit. Bovendelen zandkleurig bruin met afhangende schouderveren. Vleugels en staart markant zwart en wit getekend, met kleine &#39;spoor&#39; aan vleugelboeg. Gedrag als Kievit. Vogel van open terrein en moerassen.<br /><strong>Geluid</strong>: een luidruchtig <em>dzek-dzek-dzek</em>.<br /><strong>Voorkomen</strong>: een Noordafrikaanse en Aziatische soort, die in N.O.-Griekenland broedt (waarschijnlijk ook Bulgarije). Dwaalgast op Malta.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
