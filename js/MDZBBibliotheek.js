@@ -90,11 +90,11 @@ organismenMap.set('16',{naam:'Bontekraai',wetenschappelijke_naam:'',type_organis
 ],
 informatieblok:[
 ],})
-organismenMap.set('17',{naam:'Bontestrandloper',wetenschappelijke_naam:'Calidris alpina',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('17',{naam:'Bonte strandloper',wetenschappelijke_naam:'Calidris alpina',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontestrandloper.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'Leeg informatieblok', },],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Dunlin</p><p>D: Alpenstrandl&auml;ufer</p><p>F: B&eacute;casseau variable</p><p><strong>Veldkenmerken</strong>: 18. Meest voorkomende Europese strandloper. In zomer herkenbaar aan <em>grote, zwarte vlek op onderborst</em>; bovendelen en kruin kastanjebruin, zwart gestreept; bovenborst wit, fijn gestreept. Snavel vrij lang, iets naar beneden gebogen. In winter gestreept bruinachtig grijs van boven, wit van onderen, met fijn gestreepte, grijsachtige borst. Witte vleugelstreep en <em>witte zijden van stuit en staart</em> vrij opvallend in vlucht. Drieteenstrandloper heeft witter vederkleed, donkere schoudervlek en duidelijker vleugelstreep; bekstrandloper in winter, hoewel sierlijker, met langere potenen wittere onderdelen, het best te herkennenaan opvallende witte stuit. Loopt met &#39;opgetrokken schouders&#39; voedsel te zoeken. Nestelt in moerassige terreinen.<br /><strong>Geluid</strong>: een kort, hoog en nasaal <em>trie</em>. Zang snorrend en trillend.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel. Trekt in zeer groot aantal door van begin augustus tot in winter en van eind januari tot eind mei, vnl. langs kust. Overwintert en overzomert in grote troepen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('18',{naam:'Bontevliegenvanger',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontevliegenvanger.jpg'},
 ],
