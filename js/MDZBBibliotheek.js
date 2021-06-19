@@ -90,11 +90,11 @@ organismenMap.set('16',{naam:'Bontekraai',wetenschappelijke_naam:'',type_organis
 ],
 informatieblok:[
 ],})
-organismenMap.set('17',{naam:'Bontestrandloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('17',{naam:'Bontestrandloper',wetenschappelijke_naam:'Calidris alpina',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontestrandloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'Leeg informatieblok', },],})
 organismenMap.set('18',{naam:'Bontevliegenvanger',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontevliegenvanger.jpg'},
 ],
@@ -300,11 +300,11 @@ organismenMap.set('58',{naam:'Geoorde fuut',wetenschappelijke_naam:'Podiceps nig
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-necked Grebe</p><p>D: Schwarzhalstaucher</p><p>F: Gr&egrave;be &aacute; cou noir</p><p><strong>Veldkenmerken</strong>: 30. Verschilt in prachtkleed van Kuifduiker door zwarte hals. Kop zwart met goudgele, waaiervormige sierveren achter oor. Kuifduiker heeft platte kop; Geoorde Fuut <em>hoog voorhoofd en kruin</em>. In vlucht opvallende witte vleugelstreep. In winter van boven donker en van onderen licht als bij Kuifduiker, maar minder contrastrijk; zwart van bovenkop gaat tot <em>beneden oog</em>; slanke, enigszins opgewipte snavel en minder wit op halszijden. Juv. vaak met minder opgewipte snavel en dan moeilijk te onderscheiden van jonge Kuifduiker. Nestelt als Fuut, maar vaak in kleine, verspreide groepen.<br /><strong>Geluid</strong>: een bedaard <em>poe-iep</em>; ook een luid en vlug gekekker.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van meren, vennen en plassen. Trekt in vrij gering aantal door van begin aug. tot in okt. en van half febr. tot begin mei. Verscheidene winterwaarnemingen; ook langs kust.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('59',{naam:'Gestreeptestrandloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('59',{naam:'(Amerikaanse) Gestreepte strandloper',wetenschappelijke_naam:'Calidris melanotos',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'gestreeptestrandloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pectoral Sandpiper</p><p>D: Graubruststrandl&auml;ufer</p><p>F: B&eacute;casseau tachet&eacute;</p><p><strong>Veldkenmerken</strong>: 19. Iets groter dan Bonte Strandloper, kleiner dan Kanoetstrandloper. Kruin, hals en bovendelen zwart en rossigbruin gestreept, met <em>snipachtige strepen over rug</em>. Warmbruine kopkap en oorstreek in contrast met lichte wenkbrauwstreep en kin. Hals en borst dicht gestreept, <em>abrupt eindigend en afstekend tegen zuiver witte onderborst</em>. Bij alarm hals langer dan bij andere strandlopers (meer als kleine Kemphen). <em>Poten okerkleurig</em>. Vlucht grillig, zonder waarneembare vleugelstreep en met zeer donkere middelste staartveren. Op trek op slikken en moerassen, soms langs zeekust.<br /><strong>Geluid</strong>: een schel <em>kri&euml;k, kri&euml;k</em>, wanneer hij wordt opgejaagd.<br /><strong>Voorkomen</strong>: dwaalgast (9x). Broedvogel van Noord-Amerika die in herfst Britse Eilanden bezoekt. Dwaalgast Belgi&euml;, Griekenland, Zweden.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('60',{naam:'Gierzwaluw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'gierzwaluw.jpg'},
 ],
@@ -910,11 +910,11 @@ organismenMap.set('180',{naam:'Paapje',wetenschappelijke_naam:'',type_organisme:
 ],
 informatieblok:[
 ],})
-organismenMap.set('181',{naam:'Paarsestrandloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('181',{naam:'Paarse strandloper',wetenschappelijke_naam:'Calidris maritima',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'paarsestrandloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Purple Sandpiper</p><p>D: Meerstrandl&auml;ufer</p><p>F: B&eacute;casseau violet</p><p><strong>Veldkenmerken</strong>: 21. In grootte tussen Kanoet- en Bonte Strandloper. Gedrongen vogel. Herkenbaar in winter aan <em>zeer donkere kop, borst en bovendelen</em>, contrasterend met witte buik en gevlekte flanken; in zomer lijken bovendelen door rossig vederkleed meer geschakeerd. Zeer mak. In elk kleed witte keel en lichte oogring en <em>gele poten en snavelbasis</em>. In vlucht met duidelijke, witte vleugelstreep en witte ondervleugel. Kustvogel van stenen hoofden, basaltglooiingen, golfbrekers e.d. Dikwijls in gezelschap van Steenloper. Nestelt in heuvelachtige toendra.<br /><strong>Geluid</strong>: een fluitend <em>wit-wit</em> of een kort <em>trit, trit</em>.<br /><strong>Voorkomen</strong>: plaatseliojk vrij schaarse wintergast van september tot in april.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('182',{naam:'Pallasboszanger',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'pallasboszanger.jpg'},
 ],
@@ -1270,11 +1270,11 @@ organismenMap.set('252',{naam:'Tapuit',wetenschappelijke_naam:'',type_organisme:
 ],
 informatieblok:[
 ],})
-organismenMap.set('253',{naam:'Temmincksstrandloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('253',{naam:'Temmincks strandloper',wetenschappelijke_naam:'Calidris temminckii',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'temmincksstrandloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Temminck&#39;s Stint</p><p>D: Temminckstrandl&auml;ufer</p><p>F: B&eacute;casseau de Temminck</p><p><strong>Veldkenmerken</strong>: 13&frac12;. Verschilt van Kleine Strandloper door meer effen en <em>grijzere bovendelen en borst</em>, andere roep en ander gedrag. In vlucht met onduidelijke vleugelstreep en <em>witte buitenste staartveren</em> (bij Kleine Strandloper grauw). Op korte afstand <em>groenachtige of geelbruinachtige poten</em> kenmerkend (zwart bij Kleine Strandloper). Vliegt, indien opgejaagd, <em>als een snip</em> bijna loodrecht omhoog. Herinnert in houding aan Oeverloper, maar is veel kleiner. Nestelt tussen lage vegetatie langs oever van meren en rivieren.<br /><strong>Geluid</strong>: een kort, vaak aaneengeregen, krekelachti trillend <em>tirr</em> en een helder lang aangehouden getingel in baltsvlucht en op grond.<br /><strong>Voorkomen</strong>: schaarse doortrekker van half juli tot begin oktober en van eind april tot begin juni; zeer zelden langs de zeekust.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('254',{naam:'Terekruiter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'terekruiter.jpg'},
 ],
@@ -2018,4 +2018,14 @@ organismenMap.set('400',{naam:'Sporenkievit',wetenschappelijke_naam:'Vanellus sp
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spur-winged Plover</p><p>D: Sporenkiebitz</p><p>F: Vanneau &eacute;peronn&eacute;</p><p><strong>Veldkenmerken</strong>: 27. Zeer opvallend <em>zwart en wit</em> getekend. Met kleine kuif, gitzwarte kruin, zwarte kin, keel, borst en onderdelen. Zijkop, hals en onderstaart wit. Bovendelen zandkleurig bruin met afhangende schouderveren. Vleugels en staart markant zwart en wit getekend, met kleine &#39;spoor&#39; aan vleugelboeg. Gedrag als Kievit. Vogel van open terrein en moerassen.<br /><strong>Geluid</strong>: een luidruchtig <em>dzek-dzek-dzek</em>.<br /><strong>Voorkomen</strong>: een Noordafrikaanse en Aziatische soort, die in N.O.-Griekenland broedt (waarschijnlijk ook Bulgarije). Dwaalgast op Malta.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('401',{naam:'Bonapartes strandloper',wetenschappelijke_naam:'Calidris fuscicollis',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'bonapartesstrandloper_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: White-rumped Sandpiper</p><p>D: Weissb&uuml;rzelstranl&auml;ufer</p><p>F: B&eacute;casseau de Baird</p><p><strong>Veldkenmerken</strong>: 17. Een kleine, gestreepte strandloper, iets kleiner en slanker dan Bonte Strandloper, met <em>brede, witte staartbasis</em>, die contrasteert met overigens donkere staart. Bovendelen in voorjaar rossig met donkere vlekken; grijzer in herfst. Onv. lijkt op adult in herfst, maar heeft rossige en lichte vederranden. Vertoont in vlucht een smalle, onduidelijke, witachtige vleugelstreep. Verschilt van Krombekstrandloper door kleiner formaat, kortere en <em>rechte snavel</em> en kleinere witte stuitvlek. Vogel van slikken en stranden.<br /><strong>Geluid</strong>: een dun, muisachtig <em>dziet</em>, wel wat lijkend op roep van Graspieper.<br /><strong>Voorkomen</strong>: dwaalgast (2x). Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('402',{naam:'Bairds strandloper',wetenschappelijke_naam:'Calidris bairdii',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'bairdsstrandloper_dutchavifauna.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Baird&#39;s Sandpiper</p><p>D: Baird-Strandl&auml;ufer</p><p>F: B&eacute;casseau de Baird</p><p><strong>Veldkenmerken</strong>: 17&frac12;. Zo groot als Bonte Strandloper, met <em>lange vleugels, die voorbij de staart uitsteken</em>. Adult in zomer doet aan Drieteenstrandloper denken, maar mist markante vleugelstreep. Onv. heeft donker &#39;geschubde&#39; bovendelen en witte onderdelen met isabelkleurige borstvlekken. Geen wit op zijstaart; snavel zwak gebogen; poten zwartachtig.<br /><strong>Geluid</strong>: roep <em>tsjurrut</em> lijkt op die van de Krombekstrandloper.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1973). Dwaalgast van Noord-Amerika naar Groot-Brittanni&euml;, Ierland, Zweden, Denemarken, Finland, Frankrijk.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
