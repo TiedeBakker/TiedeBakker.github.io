@@ -65,11 +65,11 @@ organismenMap.set('11',{naam:'Blauwe reiger',wetenschappelijke_naam:'Ardea ciner
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p><strong>Veldkenmerken</strong>: 90. Verschilt van andere reigers door <em>groot formaat, grijze bovenzijde, witte kop en hals met brede, zwarte streep van oog naar zwarte, sierlijk afhangende kuif</em>. Lange dolkvormige snavel geelachtig, poten bruinachtig; in vroege voorjaar snavel en poten roodachtig. Staat lang onbeweeglijk in of nabij water, met gestrekte hals of met kop tussen schouders; zet zich ook op bomen neer. Machtige vlucht, met langzame, &#39;diepe&#39; vleugeslagen; vliegbeeld opvallend, met ingetrokken hals en gestrekte poten. Vogel van vochtige weiden, rivieren, meren, zeekusten. Nestelt in kolonies, meestal in hoge bomen.<br /><strong>Geluid</strong>: een diep, rauw <em>grr&egrave;nk</em> (anderen horen <em>raatsj</em>). In broedtijd diverse krassende en &#39;kokhalzende&#39; geluiden en snavelgeklapper.<br /><strong>Voorkomen</strong>: vrij algemene koloniebroeder, voornamelijk in bomen. Algemene doortrekker van half juli tot diep in winter en van begin maart tot in mei. Overwintert in kleiner aantal.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('12',{naam:'Blonderuiter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('12',{naam:'Blonde ruiter',wetenschappelijke_naam:'Tryngites subruficollis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'blonderuiter.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Buff-breasted Sandpiper</p><p>D: Grasl&auml;ufer</p><p>F: B&eacute;casseau rousset</p><p><strong>Veldkenmerken</strong>: 20. Een slanke waadvogel, die doet denken aan onv. Kemphaan, maar is kleiner. Heeft opmerkelijk <em>kleine, ronde kop, lange hals</em> en <em>gele poten</em>. Bovendelen als bij Kemphaan maar zonder wit aan staartbasis en zonder lichte vleugelstreep. Zijkop en onderdelen <em>warm rossig geel</em>, dikwijls in witachtige tint overgaand op de buik. Ondervleugel <em>wit</em>, nabij de punt zwart en wit gemarmerd. Zeer mak. Prefereert droog. kort grasland.<br /><strong>Geluid</strong>: een laag trillend <em>pr-r-r-riet</em> en een klikkenk <em>tik</em>.<br /><strong>Voorkomen</strong>: dwaalgast (3x; 1955 en 1960). Dwaalgast van Noord-Amerika, vnl. op Britse Eilanden; ook Helgoland, Denemarken, Frankrijk. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('13',{naam:'Boerenzwaluw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'boerenzwaluw.jpg'},
 ],
@@ -130,11 +130,11 @@ organismenMap.set('24',{naam:'Bosrietzanger',wetenschappelijke_naam:'',type_orga
 ],
 informatieblok:[
 ],})
-organismenMap.set('25',{naam:'Bosruiter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('25',{naam:'Bosruiter',wetenschappelijke_naam:'Tringa glareola',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bosruiter.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Wood Sandpiper</p><p>D: Bruchwasserl&auml;ufer</p><p>F: Chevalier sylvain</p><p><strong>Veldkenmerken</strong>: 20. Een sierlijk gebouwde waadvogel. In zomer herkenbaar aan donkerbruine bovendelen, <em>dicht met wit gevlekt</em>; kop, hals en borst fijn gestreept; duidelijk witachtige wenkbrauwstreep. In vlucht contrasteren <em>witte stuit en lichte ondervleugels</em> minder met donkere bovendelen dan bij Witgatje. Geen vleugelstreep. In winter onduidelijk en minder gespikkeld; lijkt dan op Witgatje, doch deze is groter en zwarter, met veel meer wit op stuit <em>en staart</em> en met <em>donkere ondervleugels</em>. Poten lang en geel of geelachtig groen. Zoetwatervogel. Nestelt op de grond in moerassige terreinen.<br /><strong>Geluid</strong>: gewoonlijk luidruchtig. Troepjes maken een hoog, vloeiend en trillend geluid. Bij opvliegen een schel <em>tjief-ief-ief</em>. Ook een oplopend, vloeiend <em>tluuie</em>. In zangvlucht een muzikaal <em>tliea-tliea-tliea</em>.<br /><strong>Voorkomen</strong>: voormalige broedvogel; laatste broedgeval 1936. Vrij algemene doortrekker van half juli tot half september en van half maart tot in mei. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('26',{naam:'Bosuil',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bosuil.jpg'},
 ],
@@ -150,11 +150,11 @@ organismenMap.set('28',{naam:'Brandgans',wetenschappelijke_naam:'Branta leucopsi
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Barnacle Goose</p><p>D: Weiswangengans</p><p>F: Bernache nonnette</p><p><strong>Veldkenmerken</strong>: 58-69. Gemakkelijk herkenbaar aan <em>zwart en wit vlederkleed en opvallend roomwitte zijkop en voorhoofd</em>; zwart van hals reikt tot op de borst; lavendel-grijze bovendelen met duidelijk wit gerande, zwarte dwarsbanden; onderdelen grijsachtig, stuit wit, staart zwart. Poten en kleine snavel zwart. Vliegt gewoonlijk in dicht en ongeordend troepverband. Foerageert ook &#39;s nachts; steeds in troepverband. Verschilt van Rotgans door grotere lengte, wit &#39;gezicht&#39; en meer aan land gebonden gewoonten; van Canadese Gans door geringere grootte, wit gezicht, zwarte borst en grijze (niet bruine) bovendelen. In winter zelden ver in het binnenland; bij voorkeur zoutwatermoerassen, grasland nabij riviermonden, slikken e.d. Nestelt in kolonies op richels van steile, arctische klippen, soms op open toendra.<br /><strong>Geluid</strong>: geroep van verwijderde troepen klinkt als het gekef van schoothondjes; gewoonlijk een vlug herhaald, blaffend <em>knuk</em>.<br /><strong>Voorkomen</strong>: plaatselijk soms talrijke wintergast van begin dec. tot in maart.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('29',{naam:'Breedbekstrandloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('29',{naam:'Breedbekstrandloper',wetenschappelijke_naam:'Limicola falcinellus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'breedbekstrandloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Broad-billed Sandpiper</p><p>D: Sumpfl&auml;ufer</p><p>F: B&eacute;casseau falcinelli</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Kleiner dan Bonte Strandloper, met opvallend korte poten en lange snavel met zware basis en &#39;geknikte&#39; punt. Herkenbaar in zomerkleed aan <em>zeer donkere bovendelen</em>, met duidelijke, snipachtige, <em>roomkleurige strepen op rug</em>; donkere kruin steekt af tegen <em>lichte wenkbrauwstreep</em>, die zich achter oog in twee&euml;n vertakt, waardoor kop een <em>gestreept uiterlijk krijgt</em>; in zit vallen soms <em>koperkleurige randen van armpennen</em> op; gestreepte borst in contrast met witte onderdelen. Lijkt in vlucht erg donker, met zeer onduidelijke vleugelstreep. In winter grijsachtig van boven, met gestreepte borst, erg gelijkend op Bonte Strandloper, maar heeft <em>witte wenkbrauwstreep</em> en <em>donkere vlek</em> op vleugelbocht, bijna zo opvallend als bij Drieteenstrandloper. Vrijsolitair en minder actief dan andere strandlopers. Heeft snipachtige houding en gang. Nestelt op natte venen en in moerassen. Op trek doorgaans in moerassen, op slikken, vloeivelden; minder langs zeekust.<br /><strong>Geluid</strong>: een rollend tsjirrriek; in vlucht een kort <em>tik</em>.</p><p><strong>Voorkomen</strong>: zeldzame, onregelmatige gast.[Eind Petersons]</p>', },],})
 organismenMap.set('30',{naam:'Brilduiker',wetenschappelijke_naam:'Bucephala clangula',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'brilduiker.jpg'},
 ],
@@ -200,11 +200,11 @@ organismenMap.set('38',{naam:'Drieteenmeeuw',wetenschappelijke_naam:'',type_orga
 ],
 informatieblok:[
 ],})
-organismenMap.set('39',{naam:'Drieteenstrandloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('39',{naam:'Drieteenstrandloper',wetenschappelijke_naam:'Calidris alba',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'drieteenstrandloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Sanderling</p><p>D: Sanderling</p><p>F: B&eacute;casseau sanderling</p><p><strong>Veldkenmerken</strong>: 20. Een kleine, buitengewoon actieve vogel, die als een mechanisch speelgoedbeestje de teruglopende golven narent. In vlucht met opvallende, <em>lange, witte streep op donkere vleugel</em>. Donkere staart met witte zijden. In zomer bovendelen, kop en borst licht kastanjebruin, donker gespikkeld, contrasterend met zuiver witte buik (zie ook Kleine Strandloper en Bairds Strandloper). In winter de <em>meest witte strandloper</em>; bovendelen lichtgrijs met donkere schoudervlek; kop en onderdelen wit; verschilt van veel slankere franjepoten door ontbreken van donkere oogvlek en ander gedrag. Poten en snavel zwart. In winter te onderscheiden van donkerder Bonte Strandloper door iets groter formaat, veel <em>duidelijker vleugelstreep en forsere, kortere en rechte snavel</em>; in zomer ook door lichtere bovendelen, met isabelkleurige borst en kop. Nestelt op steenachtige, arctische toendra.<br /><strong>Geluid</strong>: een kort <em>twik</em> of <em>kwit</em>.<br /><strong>Voorkomen</strong>: vrij schaarse doortrekker en wintergast van eind juli tot eind mei, voornamelijk langs kust. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('40',{naam:'Duinpieper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'duinpieper.jpg'},
 ],
@@ -395,11 +395,11 @@ organismenMap.set('77',{naam:'Groenling',wetenschappelijke_naam:'',type_organism
 ],
 informatieblok:[
 ],})
-organismenMap.set('78',{naam:'Groenpootruiter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('78',{naam:'Groenpootruiter',wetenschappelijke_naam:'Tringa nebularia',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'groenpootruiter.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Greenshank</p><p>D: Gr&uuml;nschenkel</p><p>F: Chevalier aboyeur</p><p><strong>Veldkenmerken</strong>: 30. Verschilt van Tureluur door meer witte kop en onderdelen, <em>ontbreken van witte vleugelstreep</em> en langere, <em>groene poten</em>, die in vlucht duidelijk buiten staart uitsteken. Ook door wat groter postuur, iets opgewipte, donkere snavel en meer wit op rug, stuit en staart (witte &#39;wig&#39;). In winter zijn bovendelen lichter en grijzer. Zie ook Zwarte Ruiter, Kleine Geelpootruiter en Poelruiter. Nestelt in moerassige heide of hoogveen.<br /><strong>Geluid</strong>: een helder klinkend <em>tjuu-tjuu-tjuu</em> (naar de oo-klank toe), lager en minder schel dan Tureluur; herhaald, alarmerend <em>tijip</em>. Zang warm <em>tjoe-ie</em>.<br /><strong>Voorkomen</strong>: Trekt in vrij groot aantal door van begin juli tot begin november en van half april tot begin juni.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('79',{naam:'Grotebarmsijs',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotebarmsijs.jpg'},
 ],
@@ -470,11 +470,11 @@ organismenMap.set('92',{naam:'Grote zilverreiger',wetenschappelijke_naam:'Egrett
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great White Heron</p><p>D: Silberreiher</p><p>F: Grande Aigrette</p><p><strong>Veldkenmerken</strong>: 89. Veel groter dan Kleine Zilverreiger (die ook sneeuwwitvederkleed heeft), van slankere gestalte en <em>zonder duidelijke kuif</em>. Hals is zeer lang, dun en hoekig; snavel varieert van geheel geel tot zwart met gele basis. In broedseizoen vormen sterk verlengde schouderveren tot voorbij staart afhangende sluiermantel. Poten en <em>tenen zwart</em> (tenen van Kleine Zilverreiger zijn geel). Ralreiger en Koereiger, die in de vlucht op afstand wit lijken, zijn veel kleiner en meer gedrongen. Nestelt in kolonies in dichte rietvelden.<br /><strong>Geluid</strong>: zo nu en dan een krassend geluid.<br /><strong>Voorkomen</strong>: dwaalgast (ten minste 14 x).</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('93',{naam:'Grutto',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('93',{naam:'Grutto',wetenschappelijke_naam:'Limosa limosa',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grutto.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-tailed Godwit</p><p>D: Uferschneppe</p><p>F: Barge &agrave; queue noire</p><p><strong>Veldkenmerken</strong>: 41. Een grote, rechtopstaande waadvogel. Verschilt van Rosse Grutto door l<em>angere, rechte snavel, veel langere poten</em>, die in vlucht verder buiten staart uitsteken, <em>witte staart met zwarte eindband</em> en <em>brede, witte vleugelstreep</em>. In zomer kop en borst kastanjebruin, flanken en buik wit met donkere dwarsstrepen; in winter meer als Rosse Grutto, behalve vliegbeeld. Juv. met isabelkleurige hals en borst.<br /><strong>Geluid</strong>: in vlucht een helde, herhaald <em>rieta-rieta-rieta</em>; op broedplaats <em>gr-wieto</em> (grutto) en een nasaal <em>kwie-it</em>.<br /><strong>Voorkomen</strong>: een algemene broedvogel van de weiden, binnenduinen en natte heid. Trekt weg van eind juni tot in september en keert terug van half februari tot in april. Overwintert in klein aantal langs de kust.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('94',{naam:'Havik',wetenschappelijke_naam:'Accipiter gentilis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'havik.jpg'},
 ],
@@ -545,11 +545,11 @@ organismenMap.set('107',{naam:'Jan van Gent',wetenschappelijke_naam:'Sula bassan
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Gannet</p><p>D: Basst&ouml;lpel</p><p>F: Fou de Bassan</p><p><strong>Veldkenmerken</strong>: 90. Een witte zeevogel ter grootte van een gans, met <em>grote, zwarte punten aan de lange, smalle vleugels</em>. Bijna tweemaal zo groot als Zilvermeeuw, <em>met veel langere hals en langere, puntige, naar benedengerichte snavel</em> en <em>puntige staart</em> (niet waaiervormig). Juv. donker, sterk wit gespikkeld, of bruinzwart en wit gevlekt (afhankelijk van leeftijd), doch steeds herkenbaar aan karakteristiek gedrag en &#39;sigaarvormig&#39; lichaam. Vlucht gewoonlijk laag met korte glijpauzes; majestueuze zweefvlucht bij voedselzoeken. Stort zich in duikvlucht loodrecht naar beneden op visprooi, soms van hoogte van 30 m of meer (meeuwen laten zich ook wel in zee vallen, maar doen dit lang niet zo spectaculair). Nestelt in dichte kolonies op richels van steile zeekliffen en boven op rotseilandjes.<br /><strong>Geluid</strong>: een blaffend <em>arrah</em>.<br /><strong>Voorkomen</strong>: vrij regelmatige gast langs de kust, meestal in voor- en najaar, doch ook wel in zomer- en wintermaanden. Een enkele maal in binnenland.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('108',{naam:'Kanoet',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('108',{naam:'Kanoet (of Kanoetstrandloper)',wetenschappelijke_naam:'Calidris canutus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kanoet.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Knot</p><p>D: Knutt</p><p>F: B&eacute;casseau maub&egrave;che</p><p><strong>Veldkenmerken</strong>: 25. <em>Opmerkelijk gedrongen en met korte hals, snavel en poten</em>. In zomer bovendelen sterk kastanjebruin en zwart gevlekt; kop en onderdelen <em>roodbruin</em> (Krombekstrandloper heeft zelfde tekening, maar is kleiner, met langere poten en langere, gebogen snavel). In winter onuitgesproken geschubd asgrijs van boven, wit van onderen. In vlucht herkenbaar aan grootte, l<em>ichte stuit en staart </em>en lichte vleugelstreep (veel kleinere Bonte Strandloper en Drieteenstandloper midden op stuit donker, met duidelijke vleugelstreep). Dikwijls in <em>dicht samengedrongen troepen</em>. Broedvogel van arctische streken.<br /><strong>Geluid</strong>: een laag <em>knut</em>; in de vlucht een fluitend <em>twit-twit</em>.<br /><strong>Voorkomen</strong>: trekt in groot aantal door van eind juli tot diep in winter en van begin maart tot begin mei; voornamelijk langs kust. Overwintert en overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('109',{naam:'Kauw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kauw.jpg'},
 ],
@@ -560,11 +560,11 @@ organismenMap.set('110',{naam:'Keep',wetenschappelijke_naam:'',type_organisme:'v
 ],
 informatieblok:[
 ],})
-organismenMap.set('111',{naam:'Kemphaan',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('111',{naam:'Kemphaan',wetenschappelijke_naam:'Philomachus pugnax',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kemphaan.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ruff</p><p>D: Kampfl&auml;ufer</p><p>F: Chevalier combattant</p><p><strong>Veldkenmerken</strong>: 29. vrl. 23. Manl. in broedkleed onmiskenbaar, met <strong>enorme halskraag en oorpluimen</strong> in variaties van zwart, wit, bruin, enz.; lijkt daardoor in vlucht zeer dikhalzig. Vrl. (Kemphen) en manl. in winter met duidelijk donker en zandkleurig &#39;geschubde&#39; bovendelen, isabelkleurige borst en zonder siertooi. Adult in overgang van en naar broedkleed bruin van boven, sterk donker gevlekt, in contrast met lichte kin en witte buik. Lijkt in winter op Tureluur, maar heeft kortere snavel, geschubde bovendelen, <em>donkere staart met opvallende, ovale, witte vlek aan iedere zijde</em>, geen witte vleugelstreep en meer opgerichte houding. Kleur van poten varieert van grijsbruin tot groen en oranje. Juv. lijkt op vrl. maar met meer getekende bovendelen en licht rossige borst. In voorjaar houden manl. schijngevechten op baltsplaats. Nestelt in weiland of (noordelijk) toendra.<br /><strong>Geluid</strong>: zwijgzaam; opbaltsplaats soms een diep gutteraal klokkend geluid.<br /><strong>Voorkomen</strong>: vrij algemene broedvogel van weilanden, vochtige duinpannen en natte heide. Trekt weg van begin juli tot in september en keert terug van half februari tot in mei. Overwintert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('112',{naam:'Kerkuil',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kerkuil.jpg'},
 ],
@@ -574,7 +574,7 @@ organismenMap.set('113',{naam:'Kievit',wetenschappelijke_naam:'Vanellus vanellus
 {vindplaats:'kievit.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E:&nbsp; Lapwing</p><p>D: Kiebitz</p><p>F: Vanneau hypp&eacute;</p><p><strong>Veldkenmerken</strong>: 31. Typische vogel van boerenland. Een grote, <em>iriserend groenachtig zwart-en-witte</em> plevier, herkenbaar aan <em>lange, puntige kuif</em> en <em>brede, zwarte borstband</em>, contrasterend met witte onderdelen, alsook aan markante roep en, in vlucht, aan <em>brede, zeer afgeronde vleugels</em>. Staart wit met brede, zwarte eindband en kastanjebruine onderstaartdekveren. Vlucht dikwijls bijzonder grillig, met langzame &#39;zwoegende&#39; vleugelslag.<br /><strong>Geluid</strong>: een luid, nasaal <em>ki&egrave;-wi</em> of een langer <em>kie-r-wie</em> met varianten gedurende acrobatische baltsvlucht.<br /><strong>Voorkomen</strong>: algemene broedvogel van bouw- en grasland, duinen, heide enz. Trekt weg en door vanaf eind mei tot in winter en keert terug van half januari tot in april. Noordelijke vogels overwinteren, maar trekken bij vorst verder.</p><p>[Eind Petersons]</p>', },],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E:&nbsp; Lapwing</p><p>D: Kiebitz</p><p>F: Vanneau hypp&eacute;</p><p><strong>Veldkenmerken</strong>: 31. Typische vogel van boerenland. Een grote, <em>iriserend groenachtig zwart-en-witte</em> plevier, herkenbaar aan <em>lange, puntige kuif</em> en <em>brede, zwarte borstband</em>, contrasterend met witte onderdelen, alsook aan markante roep en, in vlucht, aan <em>brede, zeer afgeronde vleugels</em>. Staart wit met brede, zwarte eindband en kastanjebruine onderstaartdekveren. Vlucht dikwijls bijzonder grillig, met langzame &#39;zwoegende&#39; vleugelslag.<br /><strong>Geluid</strong>: een luid, nasaal <em>ki&egrave;-wi</em> of een langer <em>kie-r-wie</em> met varianten gedurende acrobatische baltsvlucht.<br /><strong>Voorkomen</strong>: algemene broedvogel van bouw- en grasland, duinen, heide enz. Trekt weg en door vanaf eind mei tot in winter en keert terug van half januari tot in april. Noordelijke vogels overwinteren, maar trekken bij vorst verder.</p><p>[Eind Petersons]</p>', },{'volgnummer':'1', 'informatie':'Geen informatie', },],})
 organismenMap.set('114',{naam:'Klapekster',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'klapekster.jpg'},
 ],
@@ -724,7 +724,7 @@ organismenMap.set('143',{naam:'Krombekstrandloper',wetenschappelijke_naam:'Calid
 {vindplaats:'krombekstrandloper.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'Leeg informatieblok', },],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Curlew Sandpiper</p><p>D: Sichelstranl&auml;ufer</p><p>F: B&eacute;casseau cocorli</p><p><strong>Veldkenmerken</strong>: 19. In zomerkleed hoofdzakelijk kastanjebruin als grotere Kanoetstrandloper; kruin en bovendelen sterk met zwart getekend; zijden van kop, hals en onderdelen <em>warm roodbruin</em>; stuit wit met donkere dwarsstrepen. Lijkt in winter erg op Bonte Strandloper; het best herkenbaar aan <em>witte stuit</em> (Bonte Strandloper heeft stuit in midden zwart), langere poten, sierlijker gestalte, minder gevlekte borst (bij onv. met rossige tint), duidelijker wenkbrauwstreep, andere roep en <em>slankere, langere, omlaag gebogen snavel</em> (snavelvorm niet altijd kenmerkend, want soms heeft Bonte Strandloper dezelfde snavel).<br /><strong>Geluid</strong>: een opmerkelijk, vloeiend <em>tsjirrip</em>.<br /><strong>Voorkomen</strong>: trekt in niet groot aantal door van half juli tot eind oktober en van april tot eind mei, vnl. langs kust. Broedvogel van arctisch Siberi&euml;. Overzomert in Itali&euml;. Op trek door geheel Europa; in winter af en toe noordelijk tot Britse Eilanden.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('144',{naam:'Krooneend',wetenschappelijke_naam:'Netta rufina',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'krooneend.jpg'},
 ],
@@ -875,11 +875,11 @@ organismenMap.set('173',{naam:'Oehoe',wetenschappelijke_naam:'',type_organisme:'
 ],
 informatieblok:[
 ],})
-organismenMap.set('174',{naam:'Oeverloper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('174',{naam:'Oeverloper',wetenschappelijke_naam:'Tringa hypoleucos',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'oeverloper.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Common Sandpiper</p><p>D: Flussuferl&auml;ufer</p><p>F: Chevalier guignette</p><p><strong>Veldkenmerken</strong>: 20. Herkenbaar aan <em>donker olijfbruine bovendelen</em> (in zomer zwak zwart gevlekt), donkerbruine stuit en staart met witte zijden, witte onderdelen, op hals en borst fijn gestreept. Heeft karakteristieke vlucht laag boven water, met afwisselend vlugge &#39;ondiepe&#39; vleugelslagen en <em>zeilen op neerhangende vleugels</em>; opvallende, witte vleugelstreep. Ook herkenbaar aan <em>voortdurend wippen met kop en staart</em> en aan schelle roep. Bijna steeds langs oeverkanten. Bosruiter en Witgatje frequenteren vaak dezelfde biotoop, maar hebben <em>witte</em> stuit. Zie ook Temmincks Strandloper. Nestelt langs oevers van stromen en meren.<br /><strong>Geluid</strong>: bij opvliegen een schel, fluitend <em>hie-die-die</em>. Zang een hoog en vlug <em>titti-wieti, titti-wieti</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel (5x vastgesteld). Trekt in een groot aantal door van begin juli tot in half oktober en van begin april tot in half juni; ook aan zout en brak water. Enkele winterwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('175',{naam:'Oeverpieper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'oeverpieper.jpg'},
 ],
@@ -950,11 +950,11 @@ organismenMap.set('188',{naam:'Pimpelmees',wetenschappelijke_naam:'',type_organi
 ],
 informatieblok:[
 ],})
-organismenMap.set('189',{naam:'Poelruiter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('189',{naam:'Poelruiter',wetenschappelijke_naam:'Tringa stagnatilis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'poelruiter.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Marsh Sandpiper</p><p>D: Teichwasserl&auml;ufer</p><p>F: Chevalier stagnatile</p><p><strong>Veldkenmerken</strong>: 23. Een slanke waadvogel met lange poten, die in winterkleed doet denken aan Groenpootruiter, maar daarvan verschilt door kleiner formaat, <em>zeer fijne en rechte, naaldvormige snavel, wit voorhoofd</em>, relatief langee, veel dunnere, groenachtige poten. In zomer is mantel opvallend <em>zwart gevlekt</em>. Vliegbeeld als Groenpootruiter maar <em>poten steken verder buiten staart uit</em>. Roep geheel verschillend. In beweging veel gracieuzer dan Groenpootruiter. Zoetwatervogel. Nestelt op met gras begroeide oevers van meren en in moerassige steppen.<br /><strong>Geluid</strong>: gevarieerd; een niet luid <em>tsjik, tsjik, kloeiet, tjuu, tiea</em>, en een trillend <em>dji-dji-dji-dji</em>.<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige gast.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('190',{naam:'Porseleinhoen',wetenschappelijke_naam:'Porzana porzana',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'porseleinhoen.jpg'},
 ],
@@ -1070,11 +1070,11 @@ organismenMap.set('212',{naam:'Rossefranjepoot',wetenschappelijke_naam:'',type_o
 ],
 informatieblok:[
 ],})
-organismenMap.set('213',{naam:'Rossegrutto',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('213',{naam:'Rosse grutto',wetenschappelijke_naam:'Limosa lapponica',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rossegrutto.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bar-tailed Godwit</p><p>D: Pfuhlschneppe</p><p>F: Barge rousse</p><p><strong>Veldkenmerken</strong>: 38. Iets kleiner dan Grutto en herkenbaar aan <em>iets opgewipte snavel</em>, ontbreken van witte vleugelstreep, <em>dicht dwarsgestreepte staart</em>, dofwitte stuit en aanzienlijk kortere poten, die in vlucht nauwelijks buiten staart uitsteken. In zomer manl. warm roodbruin, cvooral op kop, hals en borst; vrl. veel doffer. In winter lijken beide opvallend licht, met gevlekte, grijze bovendelen en witachtige onderdelen; op afstand kleur als Wulp. Juv. met sterker gestreepte, isabelkleurige borst. Nestelt op de grond in hoogvenen en moerassen, nabij of boven de boomgrens. In trektijd en winter vaak in dichte troepen langs waterlijn.<br /><strong>Geluid</strong>: buiten broedseizoen doorgaans zwijgzaam. In vlucht soms een scherp <em>kurruk</em>; alarmroep een schel <em>krik</em>.<br /><strong>Voorkomen</strong>: trekt in een groot aantal door van begin juli tot in winter en van half april tot in juni, voornamelijk langs de kust en vaak in enorme troepen. Overwintert en overzomert in een niet gering aantal op de Wadden.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('214',{naam:'Rotgans',wetenschappelijke_naam:'Branta bernicla',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rotgans.jpg'},
 ],
@@ -1275,11 +1275,11 @@ organismenMap.set('253',{naam:'Temmincks strandloper',wetenschappelijke_naam:'Ca
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Temminck&#39;s Stint</p><p>D: Temminckstrandl&auml;ufer</p><p>F: B&eacute;casseau de Temminck</p><p><strong>Veldkenmerken</strong>: 13&frac12;. Verschilt van Kleine Strandloper door meer effen en <em>grijzere bovendelen en borst</em>, andere roep en ander gedrag. In vlucht met onduidelijke vleugelstreep en <em>witte buitenste staartveren</em> (bij Kleine Strandloper grauw). Op korte afstand <em>groenachtige of geelbruinachtige poten</em> kenmerkend (zwart bij Kleine Strandloper). Vliegt, indien opgejaagd, <em>als een snip</em> bijna loodrecht omhoog. Herinnert in houding aan Oeverloper, maar is veel kleiner. Nestelt tussen lage vegetatie langs oever van meren en rivieren.<br /><strong>Geluid</strong>: een kort, vaak aaneengeregen, krekelachti trillend <em>tirr</em> en een helder lang aangehouden getingel in baltsvlucht en op grond.<br /><strong>Voorkomen</strong>: schaarse doortrekker van half juli tot begin oktober en van eind april tot begin juni; zeer zelden langs de zeekust.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('254',{naam:'Terekruiter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('254',{naam:'Terek ruiter',wetenschappelijke_naam:'Tringa terek',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'terekruiter.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Terek Sandpiper</p><p>D: Terekwasserl&auml;ufer</p><p>F: Bargette de T&eacute;rek</p><p><strong>Veldkenmerken</strong>: 23. Herkenbaar aan <em>lange, donkere en duidelijk opgewipte snavel en oranjegele</em> poten. In winter bovendelen grijsachtig; in zomer bruiner, met twee brede, onregelmatige zwarte strepen op mantel, die op de rug naar elkaar toelopen. Onderdelen wit, op hals en borst zwak gestreept. In vlucht vallen de lichte stuit en de <em>witte vleugelachterrand</em> op. Kop en staart wippen als bij Oeverloper, die echter kleiner is en kortere poten heeft. Nestelt tussen onderbegroeiing van wilgen. Komt voor langs rivieroevers, kwelder, wadden.<br /><strong>Geluid</strong>: vrij luidruchtig. Een fluitend <em>duuduuduuduu</em> of <em>twieta, wit-wit-wit</em>. In het broedseizoen verscheidene melodieuze geluiden, sommige als Regenwulp.<br /><strong>Voorkomen</strong>: dwaalgast (5x). Broedvogel van Noord-Rusland en Siberi&euml;. Broedt in enkele paren in Finland. Dwaalgast in Groot-Brittanni&euml; en de meeste West-Europese landen ten zuiden van de Oostzee. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('255',{naam:'Tjiftjaf',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'tjiftjaf.jpg'},
 ],
@@ -1305,11 +1305,11 @@ organismenMap.set('259',{naam:'Tuinfluiter',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('260',{naam:'Tureluur',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('260',{naam:'Tureluur',wetenschappelijke_naam:'Tringa totanus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'tureluur.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Redshank</p><p>D: Rotschenkel</p><p>F: Chevalier gambette</p><p><strong>Veldkenmerken</strong>: 28. Herkenbaar in vlucht aan <em>witte rug en stuit</em> en opvallende <em>witte achterrand van vleugels</em>; in zit aan <em>oranjerode poten</em>. Snavel lang, roodachtig met zwarte punt. Bovendelen sterk met zwart en grijs getekend. Staart zwart en wit gebandeerd.Onderdelen dicht hgestreept en gevlekt. Juv. meer geelbruin van boven, met <em>oranjegele poten</em>. Wantrouwend en luidruchtig; wipt met kop en staart bij onraad. Zie ook Zwarte Ruiter. Nestelt in graspollen.<br /><strong>Geluid</strong>: indien opgejaagd, een stroom van hoge geluiden. Gewone roep een muzikaal, omlaag lopend <em>tluu-luu-luu</em>. Alarmroep een onafgesbroken, keffend <em>tjuuk</em>. Zang met telkens herhaald, muzikaal <em>tewi&egrave;o</em>.<br /><strong>Voorkomen</strong>: algemene broedvogel van vochtige weide, duinen en heide. Trekt weg en door van half juni tot in oktober en keert terug van begin maart tot begin juni. Overwintert in klein aantal op wadden en slikken.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('261',{naam:'Turksetortel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'turksetortel.jpg'},
 ],
@@ -1420,11 +1420,11 @@ organismenMap.set('282',{naam:'Witbandkruisbek',wetenschappelijke_naam:'',type_o
 ],
 informatieblok:[
 ],})
-organismenMap.set('283',{naam:'Witgatje',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('283',{naam:'Witgatje',wetenschappelijke_naam:'Tringa ochropus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'witgatje.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Green Sandpiper</p><p>D: Waldwasserl&auml;ufer</p><p>F: Chevalier culblanc</p><p><strong>Veldkenmerken</strong>: 23. Forser en groter dan Bosruiter of Oeverloper. In vlucht gemakkelijk herkenbaar aan <em>bijna zwarte ondervleugels</em> (bij Bosruiter licht) <em>en bovendelen</em>, in sterk contrast met <em>helder witte stuit</em>, staart (behalve aan het eind) en onderdelen. Hals en borst grijsachtig bruin. Geen vleugelstreep. Staarteinde zwart gebandeerd. In zomer bovendelen licht gespikkeld, maar niet zo duidelijk als bij Bosruiter; in winter flauw gespikkeld. Poten groenachtig; steken in vlucht niet buiten staart uit. Schuw en solitair. Wipt met kop en staart. Vlucht snel, met rukkende, snipachtige vleugelslag. Nestelt in vochtig bosland, vaak in bomen in oude nesten.<br /><strong>Geluid</strong>: bij opvliegen en helder klinkend <em>tluuiet-wiet-wiet</em>. Zang een mengelmoes van een hoog, fluitend en trillend <em>titti-loe&iuml;e, titti-loe&iuml;e</em> enz.<br /><strong>Voorkomen</strong>: vrij algemene doortrekker van begin juli tot in september en van half maart tot half mei; in winter in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('284',{naam:'Withalsvliegenvanger',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'withalsvliegenvanger.jpg'},
 ],
@@ -1515,11 +1515,11 @@ organismenMap.set('301',{naam:'Zwarteroodstaart',wetenschappelijke_naam:'',type_
 ],
 informatieblok:[
 ],})
-organismenMap.set('302',{naam:'Zwarteruiter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('302',{naam:'Zwarte ruiter',wetenschappelijke_naam:'Tringa erythopus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwarteruiter.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spotted Redshank</p><p>D: Dunkler Wasserl&auml;ufer</p><p>F: Chevalier arlequin</p><p><strong>Veldkenmerken</strong>: 31. Verschilt in zomer van alle andere waadvogels door <em>roetzwart vederkleed</em>, van boven wit gespikkeld, en op afstand van onderen donkerder lijkend dan van boven. In vlucht <em>witte sigaar</em> over rug en stuit; gebandeerde (donker lijkende) staart. Lijkt in winter meer op Tureluur, maar verschilt door <em>ontbreken van vleugelband</em>, langere en dunnere snavel, langere poten (in lucht duidelijk buiten staart uitstekend), kort, wit wenkbrauwstreepje en <em>lichtere, asgrijze, wit gevlekte</em> bovendelen. Poten in zomer donkerrood, in winter oranje. Roep is kenmerkend. Staat duidelijk hoger op poten dan Tureluur en is beweeglijker bij voedselzoeken. Zie ook Groenpootruiter. Nestelt in open gedeelten van noordelijke wouden.<br /><strong>Geluid</strong>: een luid <em>tsjewiet</em> of <em>tjowiet</em> en een alarmerend <em>tsjik-tsjik</em>.<br /><strong>Voorkomen</strong>: trekt in niet groot aantal door, zowel langs de kust als in binnenland, van eind juni tot in winter en van begin maart tot in juni. Overwintert en overzomert in gering aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('303',{naam:'Zwartespecht',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartespecht.jpg'},
 ],
@@ -2028,4 +2028,28 @@ organismenMap.set('402',{naam:'Bairds strandloper',wetenschappelijke_naam:'Calid
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Baird&#39;s Sandpiper</p><p>D: Baird-Strandl&auml;ufer</p><p>F: B&eacute;casseau de Baird</p><p><strong>Veldkenmerken</strong>: 17&frac12;. Zo groot als Bonte Strandloper, met <em>lange vleugels, die voorbij de staart uitsteken</em>. Adult in zomer doet aan Drieteenstrandloper denken, maar mist markante vleugelstreep. Onv. heeft donker &#39;geschubde&#39; bovendelen en witte onderdelen met isabelkleurige borstvlekken. Geen wit op zijstaart; snavel zwak gebogen; poten zwartachtig.<br /><strong>Geluid</strong>: roep <em>tsjurrut</em> lijkt op die van de Krombekstrandloper.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1973). Dwaalgast van Noord-Amerika naar Groot-Brittanni&euml;, Ierland, Zweden, Denemarken, Finland, Frankrijk.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('403',{naam:'Leeg',wetenschappelijke_naam:'',type_organisme:'',afbeeldingen:[
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'', },],})
+organismenMap.set('404',{naam:'Noordelijke grijze snip',wetenschappelijke_naam:'Limnodromus scolopaceus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'grotegrijzesnip_dutchbirding.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Long-billed Dowitcher</p><p>D: Schlamml&auml;ufer</p><p>F: Limnodrome gris</p><p><strong>Veldkenmerken</strong>: 29. Een gedrongen, korststaartige waadvogel met snipachtig postuur. In elk kleed herkenbaar aan zeer lange, rechte, <em>snipachtige snavel en witte staart, stuut en rugwig</em>. Kan verward worden met Groenpootruiter, maar poten veel korter en vleugels met witte achterrand. In zomer borst kaneelkleurig rood, <em>in winter lichtgrijs</em>. Bij voedselzoeken wordt snavel zeer snel en loodrecht in modder gepord (als naaimachinenaald). Vogel van <em>zoetwater</em>-slikken en -moerassen. Uiterst moeilijk te onderschieden van tweelingsoort, Zuidelijke Grijze Snip (<em>L. griseus</em>), maar is wat groter, heeft meestal <em>langere snavel, gebandeerde onderstaart</em> (niet gevlekt), niet tot het staarteinde reikende vleugelpunten en <em>andere roep</em>. Zuidelijke Grijze Snip is meer vogel van open, slikachtige kusten.<br /><strong>Geluid</strong>: een lang, schril <em>kieiek</em>, dat bij opjagen overgaat in een triller. Zuidelijke Grijze Snip roept <em>kuk-kuk-kuk</em>.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1971). Regelmatige herfstgast van Noord-Amerika naar Britse Eilanden; dwaalgast Griekenland, Zweden.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('405',{naam:'Grote geelpootruiter',wetenschappelijke_naam:'Tringa melanoleuca',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'grotegeelpootruiter_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Greater Yellowlegs</p><p>D: Grosser Gelbschenkel</p><p>F: Grand Chevalier &agrave; pattes jaunes</p><p><strong>Veldkenmerken</strong>: 33-38. Ongeveer een derde groter dan Kleine Geelpootruiter. Beste kenmerk is relatief <em>langere en forsere snavel</em>, die meestal iets <em>opgewipt</em> is (als bij Groenpootruiter) en ook langer en forser is dan die van Tureluur. Lijkt erg op Groenpootruiter, maar is van boven meer gevlekt en heeft een witachtige, zwak gespikkelde stuit en <em>geen witte &#39;rugwig&#39;</em>. Poten fors en heldergeel; snavel Zwart met olijfkleurige basis. Onv. in winter van onderen en op stuit meer wit. Vogel van moerassen en slikken langs de kust.<br /><strong>Geluid</strong>: een 3- of 4-lettergrepig <em>joe-joe-joe</em>, erg lijkend op Groenpootruiter, maar luider, hoger en helderder dan Kleine Geelpootruiter.<br /><strong>Voorkomen</strong>: dwaalgast van Noord-Amerika naar Groot-Brittanni&euml;, Ierland en IJsland.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('406',{naam:'Kleine geelpootruiter',wetenschappelijke_naam:'Tringa flavipes',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'kleinegeelpootruiter_birdimage.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lesser Yellowlegs</p><p>G: Gelbschenkel</p><p>F: Petit Chevalier &agrave; pattes jaunes</p><p><strong>Veldkenmerken</strong>: 25. Iets kleiner dan Tureluur. Heeft de sierlijke gestalt van Bosruiter, maar is groter, met langere en slankere snavel en lange, <em>heldergele</em> poten.Geen wit op vleugels. Witte stuit loopt niet wigvormig in rug uit, zoals bij Tureluur en Groenpootruiter. Witte wenkbrauwstreep loopt door tot op het voorhoofd. Vogel van slikken en moerassige terreinen.<br /><strong>Geluid</strong>: een zacht, fluitend geluid <em>kjoe</em> of <em>kjoe-kjoe</em> (soms driedelige roep).<br /><strong>Voorkomen</strong>: dwaalgast (4x). Dwaalgast van Noord-Amerika, voornamelijk op Britse Eilanden; ook Denemarken.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('407',{naam:'Amerikaanse oeverloper',wetenschappelijke_naam:'Tringa macularia',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'amerikaanseoeverloper_dutchavifauna.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spotted Sandpiper</p><p>D: Amerikanischer Uferl&auml;ufer</p><p>F: Chevalier grivel&eacute;</p><p><strong>Veldkenmerken</strong>: 19. Lijkt sprekend op Oeverloper, maar heeft in zomer <em>grote, zwarte vlekken</em> op borst (geen strepen) en <em>gele snavel</em> met zwarte punt. In winter wat grijzer dan Oeverloper en alleen te onderscheiden door <em>roep</em>. Onv. is op vleugeldekveren sterker wit gebandeerd, heeft donkerder binnenste armpennen en geelachtige poten.<br /><strong>Geluid</strong>: roep van Oeverloper, maar minder schel; ook in vlucht <em>piet-wiet</em>.<br /><strong>Voorkomen</strong>: (1x; 1975). Dwaalgast van Noord-Amerika naar Groot Brittanni&euml;, Ierland, Belgi&euml; en Duitsland.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
