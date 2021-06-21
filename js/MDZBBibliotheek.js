@@ -80,11 +80,11 @@ organismenMap.set('14',{naam:'Bokje',wetenschappelijke_naam:'',type_organisme:'v
 ],
 informatieblok:[
 ],})
-organismenMap.set('15',{naam:'Bontbekplevier',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('15',{naam:'Bontbekplevier',wetenschappelijke_naam:'Charadrius hiaticulata',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontbekplevier.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ringed Plover</p><p>D: Sandregenpfeifer</p><p>F: Grand Gravelot</p><p><strong>Veldkenmerken</strong>: 19. Een gedrongen, levendige, kleine plevier, met een <em>brede, zwarte band over witte borst en oranje poten</em>. Bovendelen grauwbruin, <em>witte halsband</em>, zwarte vlek achter het oog en zwart bandje boven <em>wit voorhoofd</em>. Snavel oranje met zwarte punt. Witte vleugelstreep opvallend in vlucht. Vleugelstreep, kleur van poten en roep zijn beste verschilpunten met kleine pelvier. Juv. is geschubd bruin van boven, zonder zwart op zijn kop; heeft bruinachtige borstband, die dikwijls in het midden niet doorloopt en lijkt dan op Strandplevier, maar verschilt van deze door geelachtige (niet zwarte poten en <em>witte</em> staartzoom (niet alleen witte zijden van staart). Actief; rent met korte onderbrekingen om wat op te pikken. Vlucht snel met regelmatige vleugelslag; troepen geven vliegdemonstraties op geringe hoogte.<br /><strong>Geluid</strong>: een melodieus <em>toe-li&egrave;</em> of <em>koe-i&egrave;p</em>. Zang begint langzaam en eindigt in een herhaald trillend <em>kwietuu-wieoe</em>.<br /><strong>Voorkomen</strong>: weinig talrijke broedvogel van onze zeekusten en langs IJsselmeer. Trekt weg en door van half juli tot in november en keert terug van begin februari tot eind mei. Overwintert en overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('16',{naam:'Bontekraai',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontekraai.jpg'},
 ],
@@ -505,11 +505,11 @@ organismenMap.set('99',{naam:'Houtduif',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('100',{naam:'Houtsnip',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('100',{naam:'Houtsnip',wetenschappelijke_naam:'Scolopax rusticola',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'houtsnip.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Woodcock</p><p>D: Waldschnepfe</p><p>F: B&eacute;casse des bois</p><p><strong>Veldkenmerken</strong>: 34. Een nogal solitair levende bosvogel. Schutkleur (als van dode bladeren) en teruggetrokken leefwijze maken observatie moeilijk. Verschilt van Watersnip door grotere, forsere gestalte, dikkere snavel, <em>rondere en bredere vleugels, fijn dwarsgestreepte</em>, isabelkleurige onderdelen en <em>zwarte dwarsstrepen</em> op bovenkop en achterhals. Ver naar achter geplaatste, grote orgen; ronde kop. <em>Vleugels afgerond</em> (puntig bij Watersnip). Brengt de dag door in dichte dekking, vliegt op met kenmerkend, suizend vleugelgeluid (roept niet) om vlug weer in dekking neer te strijken. Vlucht gewoonlijk snel en vleermuisachtig. Lijkt in vlucht &#39;dik&#39; en zonder hals, met schuin neerwaarts gehouden snavel. Vogel van de schemering. Nestelt gewoonlijk aan de voet van bomen.<br /><strong>Geluid</strong>: zwijgzaam, behalve tijdens baltsvlucht (bij aanbreken van de dag of &#39;s avonds); manl. dan een zacht, krassend <em>orrrt-orrrt</em> en een hoog , niezend <em>tsiwip</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van bosachtige streken (vooral Veluwe). Trekt weg en door in vrij groot aantal van eind september tot in december en keert terug van eind februari tot begin mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('101',{naam:'Huismus',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'huismus.jpg'},
 ],
@@ -980,11 +980,11 @@ organismenMap.set('194',{naam:'Ransuil',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('195',{naam:'Regenwulp',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('195',{naam:'Regenwulp',wetenschappelijke_naam:'Numenius phaeopus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'regenwulp.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e] Courlis corlieu</p><p>E: Whimbrel</p><p>D: Regenbrachvogel</p><p>F: Courlis corlieu</p><p><strong>Veldkenmerken</strong>: 41. Verschilt van Wulp door geringere grootte, relatief kortere, meer &#39;geknikte&#39; dan gebogen snavel en <em>overlangs gestreepte kruin</em> (twee, door lichte middenstreep gescheiden donkere banden). Roep is geheel anders. Vluggere vleugelslag. Zie ook Dunbekwulp. Hudsons Regenwulp, <em>N. ph. hudsonicus</em> (Noordamerikaanse vorm, dwaalgast IJsland, Schotland, Ierland, Spanje), heeft geen witte stuit. Nestelt op de grond in heide, hoogvenen en toendra.<br /><strong>Geluid</strong>: een fluitend <em>bie-bie-bie-bie-bie-bie-bie</em>. Zang lijkt op Wulp.<br /><strong>Voorkomen</strong>: vrij algemene doortrekker van eind juni tot in oktober en van half april tot eind mei. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('196',{naam:'Reuzenstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'reuzenstern.jpg'},
 ],
@@ -1380,11 +1380,11 @@ organismenMap.set('274',{naam:'Waterrietzanger',wetenschappelijke_naam:'',type_o
 ],
 informatieblok:[
 ],})
-organismenMap.set('275',{naam:'Watersnip',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('275',{naam:'Watersnip',wetenschappelijke_naam:'Gallinago gallinago',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'watersnip.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Snipe</p><p>D: Bekassine</p><p>F: B&eacute;cassine des marais</p><p><strong>Veldkenmerken</strong>: 27. Een zich gedekt houdende, bruine moerasvogel met lange, rechte snavel. Moeilijk van nabij waar te nemen, maar herkenbaar aan karakteristieke <em>zig-zag-vlucht</em> en <em>hese, &#39;raspende&#39; roep bij opvliegen</em>. Veel groter dan Bokje (dat kortere snavel heeft), bijna zo groot als Poelsnip, kleiner dan Houtsnip. Rug zwart en rossig, sterk <em>isabelkleurige gestreept</em>. Staart met <em>weinig wit</em> op buitenpennen (adult Poelsnip met <em>opvallende witte staarthoeken</em>, Bokje zonder wit op buitenstaart; jonge Poelsnip ook zonder en in het veld moeilijk te onderscheiden van Watersnip, behalve door gedrag). Lichte strepen op kop <em>overlangs</em> (bij Houtsnip <em>dwars</em>). Zeer lange, slanke snavel, in vlucht omlaag gericht. Vliegt vaak in troepjes. Nestelt in gras- of zeggepollen.<br /><strong>Geluid</strong>: indien opgejaagd, een droog, raspend <em>retsj</em> of <em>sk&egrave;&egrave;p</em>. Zang een regelmatig, monotoon herhaald <em>tsjik-ke</em>. Maakt in broedtijd in schuine duikvlucht een vibrerend, &#39;blatend&#39; geluid door trillen van gespreide buitenstaartveren; lijkt op snel herhaald <em>hoehoehoehoehoe</em>.<br /><strong>Voorkomen</strong>: een vrij algemene broedvogel van moerassen, natte duinpannen en heide. Trekt in een groot aantal door en weg van begin juli tot in de winter en van begin maart tot begin mei. Overwintert in een vrij klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('276',{naam:'Waterspreeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'waterspreeuw.jpg'},
 ],
@@ -1450,11 +1450,11 @@ organismenMap.set('288',{naam:'Woudaap',wetenschappelijke_naam:'Ixobrychus minut
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Bittern</p><p>D: Zwergrohrdommel</p><p>F: Butor blongios</p><p><strong>Veldkenmerken</strong>: 36. Verschilt van andere kleine reigers door <em>zeer klein formaat</em>, donkere kruin en bovenzijde en zeer opvallende, <em>isabelwitte vleugeldekveren en onderzijde</em>. Kruin en rug van mann. groenzwart. Vrl. van boven gestreept donkerbruin, van onderen gestreept isabelkleurig, met minder opvallend lichte vleugeldekveren. Snavel geelachtig (rood aan basis in broedtijd). Poten groen. Juv. van boven en onderen gestreept. Vliegt gewoonlijk erg laag, met vlugge vleugelsagen en zweefpauzes. In vlucht <em>contrasteren lichte vleugeldekveren sterk met donkere slagpennen en rug</em>. Schuw en in hoofdzaak nachtvogel, behalve in broedseizoen. Nestelt nabij water, soms in verspreide groepen.<br /><strong>Geluid</strong>: diverse korte, krassende geluiden. &#39;Gezang&#39; (ook &#39;s nachts) een steeds herhaald (soms urenlang) <em>wouw, wouw</em>.<br /><strong>Voorkomen</strong>: Weinig algemene broedvogel van moerassige streken en rietvelden. Trekt van aug. tot okt. weg en arriveert eind april.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('289',{naam:'Wulp',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('289',{naam:'Wulp',wetenschappelijke_naam:'Numenius arquata',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'wulp.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Curlew</p><p>D: Grosser Brachvogel</p><p>F: Courlis cendr&eacute;</p><p><strong>Veldkenmerken</strong>: 53-58. Grootste Europese steltloper. Gemakkelijk herkenbaar aan<em> zeer lange, omlaaggebogen snavel</em> en opvallende roep. Vederkleed grijsachtig of isabelkleurig bruin met sterke donkere vlekking, met - vooral in vlucht - opvallend <em>witte stuit en rugwig</em>. Vlucht krachtig en meeuwachtig, met afgemeten vleugelslag; troepen vliegen doorgaans hoog, in linie of in V-formatie. Regenwulp is kleiner, met kortere snavel en gestreepte kruin. Zie ook Dunbekwulp.<br /><strong>Geluid</strong>: een helder klinkend <em>koer-lie</em>, <em>krwie</em> of <em>kroe-ie</em>. Luide, langzaam voorgedragen, bijzonder vloeiende zang met lange, jodelende trillers.<br /><strong>Voorkomen</strong>: vrij algemene broedvogel van heide, duinen en moerassig land. Trekt in groot aantal weg en door van begin juli tot in oktober en keert terug van half februari tot eind mei. Overwintert en overzomert in niet gering aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('290',{naam:'Zanglijster',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zanglijster.jpg'},
 ],
@@ -2052,4 +2052,14 @@ organismenMap.set('407',{naam:'Amerikaanse oeverloper',wetenschappelijke_naam:'T
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spotted Sandpiper</p><p>D: Amerikanischer Uferl&auml;ufer</p><p>F: Chevalier grivel&eacute;</p><p><strong>Veldkenmerken</strong>: 19. Lijkt sprekend op Oeverloper, maar heeft in zomer <em>grote, zwarte vlekken</em> op borst (geen strepen) en <em>gele snavel</em> met zwarte punt. In winter wat grijzer dan Oeverloper en alleen te onderscheiden door <em>roep</em>. Onv. is op vleugeldekveren sterker wit gebandeerd, heeft donkerder binnenste armpennen en geelachtige poten.<br /><strong>Geluid</strong>: roep van Oeverloper, maar minder schel; ook in vlucht <em>piet-wiet</em>.<br /><strong>Voorkomen</strong>: (1x; 1975). Dwaalgast van Noord-Amerika naar Groot Brittanni&euml;, Ierland, Belgi&euml; en Duitsland.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('408',{naam:'Dunbekwulp',wetenschappelijke_naam:'Numenius tenuirostris',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'dunbekwulp.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Slender-billed Curlew</p><p>D: D&uuml;nnschnabelbrachvogel</p><p>F: Courlis &agrave; bec gr&ecirc;le</p><p><strong>Veldkenmerken</strong>: kleiner en slanker dan Wulp, met een wat langere snavel dan Regenwulp. Lijkt op Regenwulp, maar is lichter gekleurd met meer <em>geschubde</em> bovendelen (niet gestreept) en <em>opvallende vlekken</em> op borst en flanken (hartvormig, maar op afstand rond lijkend). <em>Kruin fijn gestreept</em>, als een donkere &#39;kap&#39; afgetekend tegen witte wenkbrauwstreep. In vlucht herkenbaar aan combinatie van <em>sneeuwwitte onderdelen en stuitwig</em>, lichte staart en contrast tussen donkere handpennen en lichte, gebandeerde armpennen. Nestelt in moerassige steppen.<br /><strong>Geluid</strong>: als van Wulp, maar hoger en korter; alarm een scherp <em>kjoewie</em>.<br /><strong>Voorkomen</strong>: dwaalgast (7x). Broedvogel van West-Siberi&euml;, die op trek in Balkan en Itali&euml; voorkomt. Overigens dwaalgast in Westelijk Middellandse-Zeegebied, noordelijk tot Duitsland, Groot-Brittanni&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('409',{naam:'Bartrams ruiter',wetenschappelijke_naam:'Bartramia longicauda',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'bartramsruiter_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bartram&#39;s Sandpiper</p><p>D: Bartrams Uferl&auml;ufer</p><p>F: Bartramie &agrave; longue queue</p><p><strong>Veldkenmerken</strong>: 28. Een grote, gestreepte, geelbruine waadvogel, bijn zo groot als Kemphanen, met een slanke en sierlijke gestalte. In hoofdzaak bruinachtig; <em>vrij korte snavel</em> (korter dan kop), vrij kleine kop, dunne hals, lange vleugels en <em>relatief lange, taankleurige staart</em>. Houdt bleugels omhoog alvorens op te vliegen. Ondervleugel sterk dwars gestreept. Zie ook Gestreepte Strandloper. Vogel van uitgestrekte velden, afgebrande gronden e.d. (geen zeekusten).<br /><strong>Geluid</strong>: in vlucht een melodieus, fluitend <em>kip-ip-ip-ip</em>.<br /><strong>Voorkomen</strong>: deze Noordamerikaanse prairievogel werd eens (v&oacute;&oacute;r 1820!) verzameld. E&eacute;n waarschijnlijke waarneming in 1953. Dwaalgast voornamelijk op Britse Eilanden; ook in Denemarken, Duitsland, Itali&euml; en Malta. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
