@@ -75,11 +75,11 @@ organismenMap.set('13',{naam:'Boerenzwaluw',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('14',{naam:'Bokje',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('14',{naam:'Bokje',wetenschappelijke_naam:'Lymnocryptes minimus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bokje.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Jack Snipe</p><p>D: Zwergschnepfe</p><p>F: B&eacute;caussine sourde</p><p><strong>Veldkenmerken</strong>: 19. Kleinste snip. Moeilijk in zit waar te nemen, maar in vlucht van Watersnip te onderscheiden door <em>kleiner formaat, relatief kortere snavel en langzamere, rechlijnige vlucht</em> (hoewel soms wel eens wat &#39;wijkend&#39;). Vliegt op laatste ogenblik uit dekking en valt weer gauw in i.p.v. in wilde zigzag-vlucht omhoog en weg te vliegen. <em>Vliegt gewoonlijk zwijgzaam op</em>. Verschilt op korte afstand van Watersnip doordat hij geen lichte kruinstreep, geen wit op de staart en geen bandering op de flanken vertoont; de lichte rugstrepen contrsteren opvallend met donker p[urperen bovendelen. Bijna steeds solitait. Nestelt op vochtig terrein.<br /><strong>Geluid</strong>: zwijgzaam, maar heeft merkwaardige, gedempte, roffelende roep tijdens baltsvlucht: <em>lepok-lepok-lepok</em>.<br /><strong>Voorkomen</strong>: niet talrijke doortrekker van begin augistus tot in winter en van eind februari tot in mei. Overwintert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('15',{naam:'Bontbekplevier',wetenschappelijke_naam:'Charadrius hiaticulata',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontbekplevier.jpg'},
 ],
@@ -345,11 +345,11 @@ organismenMap.set('67',{naam:'Graszanger',wetenschappelijke_naam:'',type_organis
 ],
 informatieblok:[
 ],})
-organismenMap.set('68',{naam:'Grauwefranjepoot',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('68',{naam:'Grauwe franjepoot',wetenschappelijke_naam:'Phalaropus lobatus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grauwefranjepoot.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Red-necked Phalarope</p><p>D: Odinsh&uuml;nchen</p><p>F: Phalarope &agrave; bec &eacute;troit</p><p><strong>Veldkenmerken</strong>: 18. Kenmerkend gedrag als van iets grotere Rosse Franjepoot, maar in broedkleed herkenbaar aan <em>witte keel</em> en onderdelen, met <em>helder oranje langs zijhals</em>. Heeft in winter <em>donkerder</em>, meer gestreepte bovendelen, <em>duidelijker witte vleugelstreep op donkerder vleugel</em> en naaldfijne snavel. Snavel, poten en tenen zwartachtig, <em>nooit geel</em>. Onv. als ad. in winter, maar met donkerder kruin en bovendelen. Verschilt van Drieteenstrandloper in winterkleed door karakteristieke, <em>zwarte oogvlek</em>, fijnere snavel en voorkeur voor zwemmen. Nestelt in moerassige streken en langs oevers van meren.<br /><strong>Geluid</strong>: op de trek als van Rosse Franjepoot, maar iets lager.<br /><strong>Voorkomen</strong>: vrij schaarse doortrekker van half augustus tot in november en in mei en juni, voornamelijk langs zout en brak water. Enkele zomerwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('69',{naam:'Grauwe gans',wetenschappelijke_naam:'Anser anser',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grauwegans.jpg'},
 ],
@@ -380,11 +380,11 @@ organismenMap.set('74',{naam:'Grauwevliegenvanger',wetenschappelijke_naam:'',typ
 ],
 informatieblok:[
 ],})
-organismenMap.set('75',{naam:'Griel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('75',{naam:'Griel',wetenschappelijke_naam:'Burhinus oedicnemus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'griel.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Stone Curlew</p><p>D: triel</p><p>F: &OElig;dicn&egrave;me criard</p><p><strong>Veldkenmerken</strong>: 41. Een grote, vrij lompe vogel, herkenbaar aan ronde kop, met <em>grote, gele ogen</em>. Heeft korte, forse, geel-en-zwarte snavel, lange, zware, geelachtige poten en lichtbruin en wit gestreept, <em>schutkleurig</em> vederkleed. Opvallend vliegbeeld, met <em>twee brede, witachtige vleugelstrepen</em> (waarvan &eacute;&eacute;n vrij duidelijk in zit). Sluipt met kop omlaag en opgetrokken schouders. Rust op gehele loopbeen en drukt kop en lichaam plat op de grond bij onraad. Vlucht doorgaans laag met klame vleugelslag en soms lange glijpauze. Nestelt op steenachtige, zandige en kalkachtige open grond met spaarzame begroeiing.<br /><strong>Geluid</strong>: een klagend, Wulp-achtig <em>koe-rie</em> of een hoog, schel <em>kie-rrr-ie</em> (middentoon lager), vooral na zonsondergang.<br /><strong>Voorkomen</strong>: voormalige, zeldzame broedvogel; als zodanig sedert 1985 uitgestrorven. Zeldzame doortrekker.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('76',{naam:'Groenespecht',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'groenespecht.jpg'},
 ],
@@ -420,11 +420,11 @@ organismenMap.set('82',{naam:'Grotegelekwikstaart',wetenschappelijke_naam:'',typ
 ],
 informatieblok:[
 ],})
-organismenMap.set('83',{naam:'Grotejager',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('83',{naam:'Grote jager',wetenschappelijke_naam:'Stercorarius skua',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotejager.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Skua</p><p>D: Grosse Raubm&ouml;we</p><p>F: Grand Labbe</p><p><strong>Veldkenmerken</strong>: 58. Groter en meer gedrongen dan Zilvermeeuw. Vrijwel geheel donker, van onderen meer roestkleurig. Verschilt in vlucht van andere jagers en van onv. meeuwen door zwaardere bouw, <em>korte staart</em>, forse, zwarte haaksnavel en <em>zeer opvallende, witte vlek aan basis van handpennen</em>. Vleugels breed en afgerond, niet puntig als bij andere jagers. Poten zwart. Juv. met minder wit op vleugels. Normale vlucht meeuwachtig, maar krachtig en valkachtig bij achtervolging van vogels, die hij soms doodt. Buiten broedseizoen solitair; vogel van volle zee en zeekusten. Nestelt in verspreide kolonies op hoog, begroeid terrein nabij zee.<br /><strong>Geluid</strong>: bij achtervolging een gutteraal <em>tuk-tuk</em>; ook een rauw, nasaal <em>skierr</em> en een diep, blaffend <em>uk-uk-uk</em>.<br /><strong>Voorkomen</strong>: zeldzame gast in het winterhalfjaar van half augustus tot half maart, in hoofdzaak langs kust, maar soms in binnenland. Broedvogel op IJsland, F&auml;r-&Ouml;er, Shetland- en Orkney-eilanden; ook N. Schotland. Dwaalgast in Scandinavi&euml;, Finland, N.- en Midden-Europa en Middellandse-Zeegebied. O. tot Hongarije. Op de trek langs kust van W.-Europa tot Z.-Spanje.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('84',{naam:'Grotekarekiet',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotekarekiet.jpg'},
 ],
@@ -595,11 +595,11 @@ organismenMap.set('117',{naam:'Kleinebontespecht',wetenschappelijke_naam:'',type
 ],
 informatieblok:[
 ],})
-organismenMap.set('118',{naam:'Kleinejager',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('118',{naam:'Kleine jager',wetenschappelijke_naam:'Stercorarius parasiticus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinejager.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Arctic Skua</p><p>D: Schmarozerraubm&ouml;we</p><p>F: Labbe parasite</p><p><strong>Veldkenmerken</strong>: 46, inclusief verlengde staart. Kleiner en slanker dan Middelste Jager, groter en zwaarder dan Kleinste Jager. Herkenbaar aan verlengde, maar <em>rechte en puntige</em> middelste staartveren; bij Middelste Jager zijn deze stomp en gedraaid, bij Kleinste Jager veel langer en smaller. Snavel slanker dan die van Middelste Jager. Lichte fase heeft donkere kruin, donkerbruine bovendelen, geelwitte wangen en hals, witte onderdelen, meestal met donkere borstband. Intermediaire fase is van onderen bleekbruin, met meer of minder geelwit op zijkop. Donkere fase is effen zwartbruin. Onv. van lichte fase dicht dwars gestreept en gevlekt op boven- en onderdelen. Zie ook Middelste Jager. Normale vlucht kalm en gracieus, maar valkachtig en onstuimig bij achtervolging. Broedt in kolonies op toendra en hoogveen; overigens vogel van volle zee, die op trek soms in groot aantal langs kust voorkomt.<br /><strong>Geluid</strong>: hoger dan dat van Grote Jager; ook een nasaal, krijsend <em>ie-err</em>.<br /><strong>Voorkomen</strong>: vrij algemene doortrekker van begin augustus tot half november; voornamelijk langs kust. Enkele winter-, voorjaars-, en zomerwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('119',{naam:'Kleinekarekiet',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinekarekiet.jpg'},
 ],
@@ -640,11 +640,11 @@ organismenMap.set('126',{naam:'Kleine zwaan',wetenschappelijke_naam:'Cygnus bewi
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bewick&#39;s Swan</p><p>D: Zwergschwan</p><p>F: Cygne de Bewick</p><p><strong>Veldkenmerken</strong>: 122. <em>Aanzienlijk kleiner</em> en met kortere hals dan WildeZwaan en Knobbelzwaan. Lijkt op Wilde Zwaan, maar verschilt door <em>kleinere afgeronde, gele snavelbasis</em> en veel rustiger roep. Juv. als juv. Wilde Zwaan, behalve wat grootte betreft. Gedrag en biotoop als Wilde Zwaan, maar vliegt minder in regelmatige formatie. Dikwijls in grote troepen. Geen dreighouding met gebolde vleugels als Knobbelzwaan. Geen &#39;zingende&#39; vleugelslag.<br /><strong>Geluid</strong>: minder luidruchtig dan Wilde Zwaan. Voedselzoekende troepen maken een muzikaal, gansachtig babbelend geluid. In de vlucht een luider, gansachtig geroep, maar zonder trompetachtig timbre van Wilde Zwaan.<br /><strong>Voorkomen</strong>: vrij talrijke wintergast (soms zeer talrijk op IJsselmeer, Zwarte Meer en Veluwemeer) van midden okt. tot in april.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('127',{naam:'Kleinstejager',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('127',{naam:'Kleinste jager',wetenschappelijke_naam:'Stercorarius longicaudus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinstejager.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Long-tailed Skua</p><p>D: Kleine Raubm&ouml;we</p><p>F: Labbe &agrave; longe queue</p><p><strong>Veldkenmerken</strong>: 53, inclusief zeer sterk verlengde staart (13-20 cm). Verschilt van lichte fase van Kleine Jager door kleiner formaat en gewoonlijk <em>veel langere, smallere en zeer buigzame, middelste staartveren</em> (zijn dikwijls afgebroken). Is op borst veel witter dan Kleine Jager, mist donkere borstband en heeft <em>meer afstekende kopkap, contrasterend met brede, witte halsband</em> en lichte rug; wangen helder geel; snavel zwart (niet bruin); poten <em>grijs </em>(niet zwart); heeft ook minder wit op vleugels. Zeer zelden geheel donkerbruine fase. Onv. gewoonlijk niet te onderscheiden van jonge Kleine Jager, maar grijzer en zonder of met bijna geen wit op vleugel. Zwemt met opgerichte hals en opgewipte staart. Broedt in wijd verspreide kolonies op hoge toendra en steenachtig hoogland.<br /><strong>Geluid</strong>: zwijgzaam. op broedplaats soms een schel <em>kliej&egrave;h</em>.<br /><strong>Voorkomen</strong>: zeldzame doortrekker, bijna uitsluitend van eind augustus tot in oktober langs kust en in binnenland.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('128',{naam:'Kleinst waterhoen',wetenschappelijke_naam:'Porzana pusilla',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinstwaterhoen.jpg'},
 ],
@@ -655,11 +655,11 @@ organismenMap.set('129',{naam:'Klein waterhoen',wetenschappelijke_naam:'Porzana 
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Crake</p><p>D: Kleines Sumpfhuhn</p><p>F: Marouette poussin</p><p><strong>Veldkenmerken</strong>: 19. Klein en Kleinst Waterhoen lijken erg op elkaar, ook wat geluid en biotoop betreft. Beide zijn <em>veel kleiner</em> dan Porseleinhoen. Manl. Klein Waterhoen verschilt van Kleinst Waterhoen door <em>licht olijfbruine bovendelen zonder witte strepen op vleugeldekveren en ontbreken van zwarte bandering op flanken</em>, maar overigens zijn onderdelen leigrijs en onderstaart gebandeerd als bij Kleinst Waterhoen. Vrl. gemakkelijk te onderscheiden door <em>isabelkleurige</em> onderdelen (niet grijs) en witte keel. Beide geslachten hebben groene snavel met <em>rode basis</em>. Poten groen (bij Kleinst Waterhoen vleeskleurig of grijsachtig). Juv. van beide soorten lijken op vrl. Klein Waterhoen, maar jong Kleinst Waterhoen is van onderen zwaarder gebandeerd. Gedrag, biotoop en vlucht als Porseleinhoen; maar voorkeur voor plassen met drijvende vegetatie. Zie ook Kleinst Waterhoen.<br /><strong>Geluid</strong>: een scherp <em>kwek, kwek, kwek</em>, dikwijls <em>geleidelijk</em> in toon dalend en versnellend tot een soort triller; roep een explosief <em>kirroek</em>.<br /><strong>Voorkomen</strong>: uiterst zeldzame broedvogel (twee zekere broedgevallen). Overigens zeldzame doortrekker; is vermoedelijk niet z&oacute; zeldzaam.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('130',{naam:'Kluut',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('130',{naam:'Kluut',wetenschappelijke_naam:'Recurvirostra avosetta',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kluut.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Avocet</p><p>D: S&auml;belschn&auml;bler</p><p>F: Avocette</p><p><strong>Veldkenmerken</strong>: 43. Onmiskenbaar. Herkenbaar aan lange, slanke, <em>omhoog gebogen snavel, zwart en wit vederkleed</em> en <em>lange, loodblauwe poten</em>. Bij onv. is het zwart van adult meer donkerbruin en het wit isabelkleurig getint. In vlucht steken poten duidelijk buiten staart uit. Loopt met vrije vlugge, sierlijke passen. Zoekt met maaiende kopbeweging voedsel in ondiep water; zwemt soms. Nestelt in kolonies, meestal op zandplaten, lage vochtige weiden e.d. nabij (meestal brak) water.<br /><strong>Geluid</strong>: een hoog, fluitachtig <em>kliep</em> of <em>kluut</em>.<br /><strong>Voorkomen</strong>: plaatselijk vrij algemene broedvogel langs zee- en IJsselmeerkust. Trekt weg van begin juli tot eind oktober en keert terug van eind februari tot half mei. Overwintert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('131',{naam:'Kneu',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kneu.jpg'},
 ],
@@ -810,11 +810,11 @@ organismenMap.set('160',{naam:'Middelstebontespecht',wetenschappelijke_naam:'',t
 ],
 informatieblok:[
 ],})
-organismenMap.set('161',{naam:'Middelstejager',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('161',{naam:'Middelste jager',wetenschappelijke_naam:'Stercorarius pomarinus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'middelstejager.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pomarine Skua</p><p>D: Mittlere Raubm&ouml;we</p><p>F: Labbe pomarin</p><p><strong>Veldkenmerken</strong>: 51, inclusief verlengde staart. Kleiner dan Grote Jager, groter dan Kleine en Kleinste. Adult herkenbaar aan verlengde, maar <em>stompe en gedraaide</em>, middelste staartveren. Lichte fase met zwartachtige kopkap, geelwitte wangen en halsband, witte onderdelen, gebandeerde flanken en gewoonlijk donkere borstband. Minder voorkomende, donkere fase is vrijwel geheel donkerbruin. Beide fasen lichte vlek op en onder vleugels, maar niet zo wit als bij Grote Jager. Onv. van boven geheel gevlekt donkerbruin, van onderen isabelkleurig, sterk dwars gestreept, en zonder verlengde staart; in het veld niet te onderscheiden van jonge Kleine en Kleinste Jager, behalve door groter formaat, zwaardere bouw en bredere, rondere vleugels. Broedt in kleine, wijd verspreide kolonies op natte toendra. Buiten broedtijd nabij zeekust, doch ook op volle zee.<br /><strong>Geluid</strong>: een rauw, vlug <em>witsjoe</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame gast in herfst en winter. Dwaalgast in Midden-Europa en Middellandse-Zeegebied. op trek langs kusten van West-Europa en Oostzee.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('162',{naam:'Middelste zaagbek',wetenschappelijke_naam:'Mergus serrator',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'middelstezaagbek.jpg'},
 ],
@@ -1065,11 +1065,11 @@ organismenMap.set('211',{naam:'Roodpootvalk',wetenschappelijke_naam:'Falco vespe
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Red-footed Falcon</p><p>D: Rotfussfalke</p><p>F: Faucon kobez</p><p><strong>Veldkenmerken</strong>: 31. Een kleine valk met lange, bijna tot punt van korte staart reikende vleugels en <em>helder roodoranje snavel, oogvlekken en poten</em>. Manl. effen zwartachtig grijs met roodbruine onderstaart. Vrl. heeft <em>rossige kruin</em>, rossige onderdelen, korte, donkere baardstreep, dwars gestreepte, grijze bovendelen en staart. Juv. lijkt op bruinachtige jonge Boomvalk, met lichtere, dichter dwars gestreepte bovendelen en staart, <em>licht voorhoofd, witte zijkop</em> met droppelvormige zwarte oogvlek en minder zwaar gestreepte, roomkleurige onderdelen. &#39;Bidt&#39; als Torenvalk, maar met steiler gehouden lichaam. Laagt tot laat in de schemering op vliegende insekten; pakt spinkhanen, kleine knaagdieren enz. van de grond. Zie ook Boomvalk, Smelleken, Torenvalk. Vogel van kreupelhout met begroeide, open vlakten, bosranden en bij boerderijen. Nestelt in kolonies in oude roeke- of eksternesten.<br /><strong>Geluid</strong>: een schel <em>ki-ki-ki</em>, hoger dan van Torenvalk.<br /><strong>Voorkomen</strong>: onregelmatige gast in trektijd.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('212',{naam:'Rossefranjepoot',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('212',{naam:'Rosse franjepoot',wetenschappelijke_naam:'Phalaropus fulicarius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rossefranjepoot.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Grey Phalarope</p><p>D: Thorsh&uuml;nchen</p><p>F: Phalarope &agrave; bec large</p><p><strong>Veldkenmerken</strong>: 20. Sierlijke, strandloperachtige en <em>opvallend makke vogel, die veel zwemt</em>. Maakt bij voedselzoeken op laag water &#39;tollende&#39; bewegingen. Vrl. groter en feller gekeurd dan manl. In zomer onderdelen donker kastanjebruin (op afstand zwart lijkend), <em>wit gezicht, donkere kruin en gele snavel</em>; bovenzijde met duidelijke, snipachtige strepen; in vlucht opvallende, witte vleugelstreep. In winter licht blauwgrijs van boven met witte kop en onderdelen; lijkt dan op Drieteenstrandloper, maar heeft <em>donkere oogvlek</em>, langer gerekt lichaam en geheel ander gedrag. In winter te onderscheiden van Grauwe Franjepoot door iets groter formaat, lichtere en minder gestreepte bovenzijde, en op korte afstand door forsere en kortere snavel; in vlucht door minder contrasterend wit op grijze vleugels. Snavel in winter zwart, soms met geelachtige basis; poten hoornkleurig, grijs of zwart; gele teenlobben zijn kenmerkend. Nestelt in toendra langs poelen en lagunes.<br /><strong>Geluid</strong>:een schel <em>wit</em> of <em>prip</em>, als van Drieteenstrandloper.<br /><strong>Voorkomen</strong>: zeldzame doortrekker in winterhalfjaar, voornamelijk in november en december vooral op zout water.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('213',{naam:'Rosse grutto',wetenschappelijke_naam:'Limosa lapponica',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rossegrutto.jpg'},
 ],
@@ -1215,11 +1215,11 @@ organismenMap.set('241',{naam:'Steenuil',wetenschappelijke_naam:'',type_organism
 ],
 informatieblok:[
 ],})
-organismenMap.set('242',{naam:'Steltkluut',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('242',{naam:'Steltkluut',wetenschappelijke_naam:'Himantopus himantopus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'steltkluut.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-winged Stilt</p><p>D: Stelzenl&auml;ufer</p><p>F: Echasse blanche</p><p><strong>Veldkenmerken</strong>: 38. Onmiskenbaar. In vlucht steken <em>abnormaal lange, roze poten</em> ruim 15 cm buiten staart uit. Zwarte bovendelen in contrast met glanzend witte onderdelen. Manl. in zomer met zwart achterhoofd; vrl. heeft witte kop en hals (soms zwart gevlekt) en donkerbruine mantel en vleugels. Juv. en adult in winter donker getekend op kop en hals. <em>Zwarte onderzijde</em> van smalle, puntige en driehoekige vleugels in vlucht opvallend. Waadt met lange, bedachtzame passen vaak in diep water. Nerveus en zeer luidruchtig. Vogel van natte moerassen, lagunes, ondergelopen land. Nestelt in kolonies en bouwt nest in ondiep water of op een pol en in het slijk.<br /><strong>Geluid</strong>: een zeer schel, keffend <em>kjiek, kjiek, kjiek</em>; bij alarm een herhaald Grutto-achtig <em>k&egrave;&egrave;t</em>.<br /><strong>Voorkomen</strong>: zeldzame en onregelmatige broedvogel, voor het eerst sedert 1931. Breidt zich kennelijk invasie-achtig naar het noorden uit. Vrij regelmatige gast in het zomerhalfjaar.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('243',{naam:'Steppenkievit',wetenschappelijke_naam:'Vanellus gregarius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'steppekievit.jpg'},
 ],
@@ -2062,4 +2062,66 @@ organismenMap.set('409',{naam:'Bartrams ruiter',wetenschappelijke_naam:'Bartrami
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bartram&#39;s Sandpiper</p><p>D: Bartrams Uferl&auml;ufer</p><p>F: Bartramie &agrave; longue queue</p><p><strong>Veldkenmerken</strong>: 28. Een grote, gestreepte, geelbruine waadvogel, bijn zo groot als Kemphanen, met een slanke en sierlijke gestalte. In hoofdzaak bruinachtig; <em>vrij korte snavel</em> (korter dan kop), vrij kleine kop, dunne hals, lange vleugels en <em>relatief lange, taankleurige staart</em>. Houdt bleugels omhoog alvorens op te vliegen. Ondervleugel sterk dwars gestreept. Zie ook Gestreepte Strandloper. Vogel van uitgestrekte velden, afgebrande gronden e.d. (geen zeekusten).<br /><strong>Geluid</strong>: in vlucht een melodieus, fluitend <em>kip-ip-ip-ip</em>.<br /><strong>Voorkomen</strong>: deze Noordamerikaanse prairievogel werd eens (v&oacute;&oacute;r 1820!) verzameld. E&eacute;n waarschijnlijke waarneming in 1953. Dwaalgast voornamelijk op Britse Eilanden; ook in Denemarken, Duitsland, Itali&euml; en Malta. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('410',{naam:'Poelsnip',wetenschappelijke_naam:'Gallinago media',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'poelsnip_dutchavifauna.jpeg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Snipe</p><p>D: Doppelschnepfe</p><p>F: B&eacute;cassine double</p><p><strong>Veldkenmerken</strong>: 28. Alleen op korte afstand in zit te onderscheiden van Watersnip door zwaardere borst, <em>donkerder en meer dwarsgestreept vederkleed</em> en korte snavel met zwaardere basis. Adult in vlucht te onderscheiden door gedrag. Vlucht langzamer en zwaarder en niet zigzaggend; <em>vliegt meestal zwijgend op</em>, met meer horizontaal gehouden snavel. Nestelt in moerassig terrein.<br /><strong>Geluid</strong>: af en toe een kort, krassend geluid. Manl. op baltsplaats hebben opmerkelijke &#39;koorzang&#39;.<br /><strong>Voorkomen</strong>: zeldzame doortrekker van half juli tot in oktober en van begin april tot eind mei.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('411',{naam:'Grote franjepoot',wetenschappelijke_naam:'Phalaropus tricolor',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'grotefranjepoot_dutchavifauna.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Wilson&#39;s Phalarope</p><p>D: Wilsons Wassertreter</p><p>F: Phalarope de Wilson</p><p><strong>Veldkenmerken</strong>: 23. Een vrij grote franjepoot met donkere vleugels, <em>zonder vleugelstreep en met witte stuit</em>. Vrl. in broedkleed heeft <em>brede zwarte band</em> vanaf oog langs kastanjebruine zijhalsl kruin, nek en rug lichtgrijs; onderdelen wit met roodachtig waas op voorhals; Manl. is doffer gekleurd, met donkere kruin en rug. In winter geslachten gelijk, licht grijsbruin van boven, met glanzend witte borst en flanken, witte zijkop en hals en soms met donkere oogvlek. Zwarte <em>snavel langer</em> dan bij andere franjepoten en uiterst dun; poten in zomer zwart, in winter vaak geelachtig. In vlucht met witte stuit en staart als Kleine Geelpootruiter, maar gemakkelijk daarvan te onderscheiden door gedrag, ongevlekt vederkleed en kortere poten. Zeer actief; rent met slingerende gang op het slik, waarbij snavel telkens uitschiet om iets op te pikken. Zwemt minder dan andere franjepoten.<br /><strong>Geluid</strong>: een nasaal, grommend <em>aang</em> en in vlucht een kort <em>tsjuu</em>.<br /><strong>Voorkomen</strong>: dwaalgast (5x). Dwaalgast van Noord-Amerika naar Groot-Brittanni&euml; en Ierland.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('412',{naam:'Renvogel',wetenschappelijke_naam:'Cursorius cursor',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'renvogel_wikipedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Cream-coloured Courser</p><p>D: Rennvogel</p><p>F: Courvite isabelle</p><p><strong>Veldkenmerken</strong>: 23; maakt in vlucht grotere indruk. Een slanke, <em>zeer licht zandkleurige</em> vogel, met <em>lange, roomkleurige poten</em>, scherpe, puntige, omlaag gebogen snavel, <em>zeer opvallende, zwarte handpennen</em> en <em>zwarte ondervleugels</em>. Brede, <em>zwart-en-witte</em> wenkbrauwstreep van oog tot nek. Plevierachtig gedrag; rent vlug, maar krampachtig en drukt zich bij onraad. Vlucht snel, met regelmatige slag van opvallend <em>zwarte vleugels</em>. Gemakkelijk te onderscheiden van vorkstaartplevieren door veel lichtere kleur, langere, witachtige poten, opvallende wenkbrauwstreep en korte, afgeronde staart.<br /><strong>Geluid</strong>: een blaffend <em>praak, praak</em>.<br /><strong>Voorkomen</strong>: dwaalgast (3x). Woestijnvogel van Noord-Afrika. Dwaalgast in meeste Europese landen, N. tot Groot-Brittanni&euml;, Scandinavi&euml;, Finland.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('413',{naam:'Bremvlinder',wetenschappelijke_naam:'Colias myrmidone',type_organisme:'dagvlinder',afbeeldingen:[
+{vindplaats:'bremvlinder.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Veldgids dagvlinders]</p><p>F: Le Danibien</p><p>D: Orangeroter Heufalter</p><p>E: Danube Clouded Yellow</p><p><strong>Kenmerken</strong>: De bovenkant van de vleugels is oranje en donkerder dan bij de oranje luzernevlinder. Bij het mannetje is de donkere achterrand aan de bovenkant niet door lichte aders onderbroken, zoals bij de oranje luzernevlinder. De vrouwtjes hebben een oranjegele basiskleur en een brede zwarte rand, waarin zich gele vlekken bevinden. Op de bovenkant van de achtervleugel bevinden zich tenminste drie gele vlekken in de band, enkele vallen erbuiten en zitten op de oranje basiskleur.</p><p><strong>Vliegtijd</strong>: Mei en juli tot augustus in twee generaties.</p><p><strong>Voorkomen</strong>: Lokaal. Vroeger op droge, warme graslanden in Zuidoost-Duitsland, inmiddels verdwenen. Niet in de Benelux.</p><p><strong>Waardplant</strong>: <em>Cytus ratisbonensis</em>.</p><p><strong>Rode Lijst</strong>: EU vulnerable (kwetsbaar).</p><p>[Eind Veldgids dagvlinders]</p>', },],})
+organismenMap.set('414',{naam:'Gele luzernevlinder',wetenschappelijke_naam:'Colias hyale',type_organisme:'dagvlinder',afbeeldingen:[
+{vindplaats:'oranjeluzernevlinder.jpg'},
+{vindplaats:'Geen link aangegeven'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Veldgids dagvlinders]</p><p>F: Le Soufr&eacute;</p><p>D: Gemeiner Heufalter</p><p>E: Pale Clouded Yellow</p><p><strong>Kenmerken</strong>: De voorvleugel heeft een spitse vleugelpunt met een donkere tekening die omvangrijker is dan&nbsp; bij de zuidelijke luzernevlinder. De zwarte wortelbestuiving is waaiervormig uitgebreid. De oranje celvlek op de bovenkant van de achtervleugel is vrij licht en niet opvallend, terwijl hij bij de zuidelijke luzernevlinder door de iets donkerdere kleur wel goed opvalt. De grondkleur van de mannetjes is licht groenachtig geel.</p><p><strong>Vliegtijd</strong>: Midden mei tot begin juni en midden juli tot begin oktober.</p><p><strong>Voorkomen</strong>: Graslanden, bermen, klaver- en luzernevelden. In het zuiden van Europa is dit een standvlinder, in het noorden eentrekvlinder, die in sommige jaren overal kan opduiken.</p><p><strong>Waardplant</strong>: Vlinderbloemigen, zoals luzerne, wikke en klaver.</p><p><strong>Rode Lijst</strong>: NL trekvlinder, VL trekvlinder, WL trekvlinder.</p><p><strong>LET OP</strong>: De gele en de zuidelijke luzernevlinder lijken bijzonde veel op elkaar.</p><p>[Eind Veldgids dagvlinders]</p>', },],})
+organismenMap.set('415',{naam:'Zuidelijke luzernevlinder',wetenschappelijke_naam:'Colias alfacariensis',type_organisme:'dagvlinder',afbeeldingen:[
+{vindplaats:'zuidelijkelucernevlinder_vlinderstichting.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Veldgids dagvlinders]</p><p>F: Le Fluor&eacute;</p><p>D: Hufeisenkleeheufalter</p><p>E: Berger&#39;s Clouded Yellow</p><p><strong>Kenmerken</strong>: De voorvleugelpunt is meer afgerond en de donkere tekening minder omvangrijk dan bij de gele luzernevlinder. De zwarte wortelbestuiving is mninder uitgebreid dan bij de gele luzernevlinder. Zij reikt maar net tot in de grote cel. De oranje celvlek op de onderkant van de achtervleugel is helder oranje, zodat hij meteen opvalt. De mannetjes zijn helder citroengeel.<br />In tegenstelling tot de gele en oranje luzernevlinder vertoont de zuidelijke luzernevlinder g&eacute;&eacute;n trekgedrag.</p><p><strong>Vliegtijd</strong>: Mei tot juni en augustus tot september.</p><p><strong>Voorkomen</strong>: Lokaal. Kalkgraslanden in Ardennen en Eifel.</p><p><strong>Waardplant</strong>: Paardehoefklaver, kroonkruid.</p><p><strong>Rode Lijst</strong>: NL dwaalgast (9 waarnemingen tussen 1931 en 1971), VL dwaalgast (twee meldingen uit 1944 en 1945), WL kwetsbaar.</p><p><strong>Let op!</strong><br />De gele en de zuidelijke luzernevlinder lijken bijzonder veel op elkaar. Bovendien zitten ze meestal met gesloten vleugels, zodat een deel van de onderscheidende kenmerken niet&nbsp; zichtbaar is. Een zekere determinatie is dan ook niet altijd mogelijk. De zuidelijke luzernevlinder wordt vrijwel alleen op kalkgraslanden met paardehoefklaver gezien. De gele luzernevlinder heeft weliswaar een voorkeur voor klaver- en luzernevelden, maar op trek kan hij vrijwel overal opduiken. Tevens kunnen de vrouwtjes verwisseld worden met de witte form <em>helice</em> van de vrouwtjes van de oranje luzernevlinder.</p><p>[Eind Veldgids dagvlinders]</p>', },],})
+organismenMap.set('416',{naam:'Citroenvlinder',wetenschappelijke_naam:'Goepteryx rhamni',type_organisme:'dagvlinder',afbeeldingen:[
+{vindplaats:'citroenvlinder_vlinderstichting.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Veldgids dagvlinders]</p><p>F: Le Citron</p><p>D: Zitronenfalter</p><p>E: Brimstone</p><p><strong>Kenmerken</strong>: Onmiskenbaar, zie foto&#39;s. Het vrouwtje is bleke geel dan het mannetje en kan in vlucht worden aangezien voor een groot koolwitje. Ze heeft integenstelling tot die soort g&eacute;&eacute;n zwarte tekning.</p><p><strong>Vliegtijd</strong>: Begin april tot begin juni en begin juli tot begin oktober. De citroenvlinder overwintert als vlinder, zodat vooral de mannetjes op zonnige dagen al vanaf februari gezien kunnen worden.</p><p><strong>Voorkomen</strong>: Algemeen. Komt vooral voor langs bosranden en struwelen, in parken en tuinen.</p><p><strong>Waardplant</strong>: Vuilboom, wegedoorn.</p><p><strong>Rode Lijst</strong>: Overal thans niet bedreigd.</p><p>[Eind Veldgids dagvlinders]</p>', },],})
+organismenMap.set('417',{naam:'Kleine vuurvlinder',wetenschappelijke_naam:'Lycaena phlaeas',type_organisme:'dagvlinder',afbeeldingen:[
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Veldgids dagvlinders]</p><p>F: Le Bronz&eacute;</p><p>D: Kleiner Feuerfalter</p><p>E: Small Copper</p><p><strong>Kenmerken</strong>: De bovenkant is altijd oranje met ongeordende, vrij grote zwarte vlekken, zonder violette glans. De onderkant van de achtervleugel is grijsbruin met kleine vlekjes zonder lichte rand. De oranje achterrandvlekken zijn niet scherp zwart afgezet en kunnen nog wel eens zeer onduidelijk zijn. Het meest onderscheidende kenmerk ten opzichte van de andere vuurvlindersoorten is de zeer eenvoudig getekende onderkant van de achtervleugel.<br />De zwarte vlekken op de onderkant van de voorvleugel zijn bij het vrouwtje groter dan bij het mannetje. De onderkant van de achtervleugel is grijsbruin met kleine zwarte vlekjes. Alleen op de achtervleugel bevinden zich oranje achterrandvlekken, die diffuus en niet zwart afgezet zijn. Soms ontbreken de oranje achterrandvlekken. Ook komen vrouwtjes voor met kleine blauwe vlekken op de bovenkant van de achtervleugels.</p><p><strong>Vliegtijd</strong>: Midden mei tot midden juni en begin juli tot begin oktober.</p><p><strong>Voorkomen</strong>: Algemeen., meestal niet in hoge aantallen. Droge graslanden en heiden.</p><p><strong>Waardplant</strong>: Schapenzuring, veldzuring.</p><p><strong>Rode Lijst</strong>: Overal thans niet bedreigd.</p><p>[Eind Veldgids dagvlinders]</p>', },],})
+organismenMap.set('418',{naam:'Blauwe vuurvlinder',wetenschappelijke_naam:'Lycaena helle',type_organisme:'dagvlinder',afbeeldingen:[
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Veldgids dagvlinders]</p><p>F: Cuivr&eacute;&nbsp;de la Bistorte</p><p>D: Blauschillernder&nbsp;Feuerfalter</p><p>E: Violet&nbsp;Copper</p><p><strong>Kenmerken</strong>: Blauwe vuurvlinders zijn kleiner en contrastrijker dan kleine vuurvlinders. De mannetjes hebben vaak een blauwviolette glans op de bovenkant van de vleugels. Bij devrouwtjes zijn de zwarte vlekken op de bovenkant van de voorvleugel in regelmatige rijen geordend. De donkere buitenrand&nbsp; is heel smal en bij verse vrouwtjes bevinden zich vlak voor deze buitenrand vaak blauwviolette schubben. De vrouwtjes van de blauwe vuurvlinder kunnen alleen met die van de kleine vuurvlinder verwisseld worden. De zwarte vlekken op de onderkant van de voorvleugel zijn echter kleiner en in regelmatige rijen geordend. Op de voor- en achtervleugel bevindt zich aan de buitenrand een band van aan elkaar aansluitende oranje vlekken. Aan de binnenkant van deze oranje bevinden zich kleine zwarte vlekken met witte halve manen.</p><p><strong>Vliegtijd</strong>: Begin mei tot midden juli.</p><p><strong>Voorkomen</strong>: Lokaal op enkele vliegplaatsen, waaronder in Zuid-Belgi&euml; en Eifel. Soms in lage aantallen. Natte beekdalen</p><p><strong>Waardplant</strong>: Adderwortel.</p><p><strong>Rode Lijst</strong>: WL: kwetsbaar, EU: vulnerable (kwetsbaar).</p><p>[Eind Veldgids dagvlinders]</p>', },],})
+organismenMap.set('419',{naam:'Grote vuurvlinder',wetenschappelijke_naam:'Lycaena dispar',type_organisme:'dagvlinder',afbeeldingen:[
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Veldgids dagvlinders]</p><p>F: Le Grand Cuivr&eacute;&nbsp;dela Bistorte</p><p>D: Gro&szlig;er&nbsp;Feuerfalter</p><p>E: Large&nbsp;Copper</p><p><strong>Kenmerken</strong>: De bovenkant van de vleugels is bij het mannetje glanzend oranje met op de voorvleugel twee zwarte vlekjes. Bij het vrouwtje is de bovenkant van de voorvleugel oranje met zwarte vlekken, de bovenkant van de achtervleugel bruin met een oranje submarginale band. De grondkleur van de onderkant van de achtervleugel is lichtblauw. Geen enkele andere vuurvlinder heeft een lichtblauwe vleugelonderkant.</p><p><strong>Vliegtijd</strong>: Eind juni tot begin augustus.</p><p><strong>Voorkomen</strong>: Lokaal, in lage aantallen. Moerasgebieden. In Nederland vliegt de bijzonder grote ondersoort&nbsp;<em>&quot;batava</em>&quot; in Noordwest-Overijssel en Zuidoost Friesland. In Zuid-Belgi&euml; en Luxemburg komt de kleinste ondersoort &quot;<em>carueli</em>&quot; voor. De ondersoort &quot;<em>rutila</em>&quot; komt in Duitsland voor</p><p><strong>Waardplant</strong>: Waterzuring (ssp. <em>batava</em>) en andere zuringsoorten (ssp. <em>rutila</em> en <em>carueli</em>).</p><p><strong>Ei</strong>: De eitjes van de grote vuurvlinder zijn rond en plat. Ze hebben zes of zeven stervormig geordende richels. Eitjes worden bij de ondersoort batava bij voorkeur afgezet op de bovenzijde van bladeren van ge&euml;xponeerde waterzuringplanten in ijle veenmosrietlanden.</p><p><strong>Rups</strong>: De slakachtige rupsen van de grote vuurvlinder zijn lichtgroen en kort behaard. Ze eten eerst van het bladweefsel aan de onderkant van de bladeren en veroorzaken daardoor zogenaamde &#39;vensters&#39;. Later wordt&nbsp;vooral van de bovenzijde gevreten. De rupsen hebben een voorkeur voor jonge gave bladeren. Ze overwinteren tussen verdorde bladeren of in de mos- en strooisellaag aan de voet van de waardplant.<br />De rupsen van de grote vuurvlinder kunnen worden verwisseld met vrij algemene bladwespenlarven. Deze larven hebben echter geen beharing, zes langere poten en overwegend zwarte monddelen. Bij de rups van de grote vuurvlinder is zo weinig zwart op de monddelen aanwezig, dat dit in het veld vrijwel niet te zien is.</p><p><strong>Rode Lijst</strong>: NL (ssp. <em>batava</em>) ernstig bedreigd, WL (ssp. <em>carueli</em>) thans niet bedreigd.</p><p>[Eind Veldgids dagvlinders]</p>', },],})
+organismenMap.set('420',{naam:'Morgenrood',wetenschappelijke_naam:'Lycaena virgaureae',type_organisme:'dagvlinder',afbeeldingen:[
+],
+informatieblok:[
+],})
+organismenMap.set('421',{naam:'Vorkstaartplevier',wetenschappelijke_naam:'Glareola pratincola',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'vorkstaartplevier_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pratincole</p><p>D: Brachschwalbe</p><p>F: Glar&eacute;ole &agrave; collier</p><p><strong>Veldkenmerken</strong>: 23. Een in zit of vlucht &#39;ongewoon&#39; uitziende vogel. Heeft lange, puntige, donkere vleugels en <em>diepgevorkte, zwarte staart met witte basis</em>, zwarte poten en korte, iets omlaag gebogen snavel. Bovendelen olijfbruin, onderdelen isabelkleurig met witte buik en <em>zwartgezoomde, roomkleurige keelvlek</em>. in winter keelvlek onduidelijk afgezet. Juv. met brede borstband van donkerbruine strepen. Vlugge, sternachtige vlucht. Bij opvliegen of neerstrijken zijn <em>kastanjebruine oksels</em> zichtbaar, maar meestal lijken zijn in vlucht zwart. Buitenvleugel donkerder dan binnevleugel, die <em>lichte achterrand</em> vertoont. Zie ook Steppenvorkstaartplevier en Renvogel. Jaagt in grote, luidruchtige troepen op vliegende insekten. Koloniebroedvogel van moerassige streken.<br /><strong>Geluid</strong>: in vlucht een schel, sternachtig <em>kjik</em> of een ratelend <em>kitti-kirrik-kitik-tik</em>.<br /><strong>Voorkomen</strong>: dwaalgast (3x).</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('422',{naam:'Steppenvorkstaartplevier',wetenschappelijke_naam:'Glareola nordmanni',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'steppenvorkstaartplevier.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-winged Pratincole</p><p>D: Schwarzfl&uuml;gelige Brachschwalbe</p><p>F: Glar&eacute;ole &agrave; ailes noires</p><p><strong>Veldkenmerken</strong>: 25. Zeer moeilijk te onderscheiden van Vorkstaartplevier, omdat <em>zwarte oksels</em> alleen bij opvliegen of neerstrijken met zekerheid zijn te zien. Bovendelen en vleugels vrijwel geheel effen donker, <em>zonder lichte achterrand van binnenvleugel</em> als bij Vorkstaartplevier. Intermediaire vormen komen voor en mogelijk is hier sprake van &eacute;&eacute;n soort. Geluid, vlucht, biotoop en gedrag als van Vorkstaartplevier. Zie ook Renvogel.<br /><strong>Voorkomen</strong>: dwaalgast (7x). Op doortrek in Z.O.-Europa. Dwaalgast in Groot-Brittanni&euml;, Ierland, Noorwegen. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
