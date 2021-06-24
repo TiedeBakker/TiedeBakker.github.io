@@ -195,11 +195,11 @@ organismenMap.set('37',{naam:'Draaihals',wetenschappelijke_naam:'',type_organism
 ],
 informatieblok:[
 ],})
-organismenMap.set('38',{naam:'Drieteenmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('38',{naam:'Drieteenmeeuw',wetenschappelijke_naam:'Rissa tridactyla',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'drieteenmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Kittiwake</p><p>D: Dreizehen</p><p>F: Mouette tridactyle</p><p><strong>Veldkenmerken</strong>: 41. Vogel van open zee. Zo groot als Stormmeeuw. Herkenbaar aan <em>driehoekige, zwarte vleugelpunten, donkere poten en gele snavel</em>. Donker oog. Mantel en vleugels iets donkerder dan van Stormmeeuw, overigens zuiver wit. Juveniel verschilt van jonge Stormmeeuw door grijze mantel, witte kop en onderdelen, <em>zwarte nekband en brede, zwarte band langs gesloten vleugel</em>; in vlucht vormt <em>zwarte band schuin over binnenvleugel</em> samen met donkere handpennen opvallend <em>zig-zag patroon</em>; zwak gevorkte staart met zwarte eindband; jonge Drieteenmeeuw heeft zelfde vliegbeeld, maar is veel kleiner, met recht afgesneden staart en zonder donkere nekband; zie ook Vorkstaartmeeuw. Gewoonlijk vrij ver uit kust. Broedt in dichte kolonies op rotseilanden en klipkusten.</p><p><strong>Geluid</strong>: luidruchtig op broedplaats. Een luid <strong>kitti-week of</strong> k<strong>aka-wiek</strong>, oplopend in toonhoogte. Voorkomen: vrij schaarse doortrekker en wintergast van half augustus tot eind mei, voornamelijk langs zeekust.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('39',{naam:'Drieteenstrandloper',wetenschappelijke_naam:'Calidris alba',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'drieteenstrandloper.jpg'},
 ],
@@ -215,11 +215,11 @@ organismenMap.set('41',{naam:'Dwerggans',wetenschappelijke_naam:'Anser erythropu
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lesser White-fronted Goose</p><p>D: Zwerggans</p><p>F: Oie naine</p><p><strong>Veldkenmerken</strong>: 53-66. Lijkt een kleine Kolgans, maar herkenbaar aan <em>veel kleinere, helderroze snavel</em>, tot op kruin <em>doorlopend wit voorhoofd</em> en, in zit, aan <em>voorbij staart reikende vleugelpunten</em>. Lijkt gewoonlijk donkerder dan Kolgans. Op korte afstand is de <em>gele oogring</em> beste kenmerk. Juv. heeft geen zwarte dwarsbanden op buik en wit voorhoofd, maar wel gele oogleden. Gedrag en vlucht als van Kolgans, maar vleugelslag is sneller. Nestelt in zuidelijk verspreidingsgebied op grote hoogte rondom bergmeren; in uiterste noorden van Noorwegen op zeeniveau. Biotoop als van Kolgans.<br /><strong>Geluid</strong>: nog hoger dan bij Kolgans; meestal <em>kjuu-juu</em> of <em>kjuu-juu-juu</em> (gent); <em>kauw-ieauw</em> (gans).<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige wintergast.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('42',{naam:'Dwergmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('42',{naam:'Dwergmeeuw',wetenschappelijke_naam:'Larus minutus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'dwergmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Gull</p><p>D: Zwergm&ouml;we</p><p>F: Mouette pygm&eacute;e</p><p><strong>Veldkenmerken</strong>: 28. De kleinste meeuw. Lijkt in zit een klein Kokmeeuwtje. Herkenbaar, behalve grootte, door <em>gitzwarte</em> (niet donkerbruine) kop en achterhals (geen kap) en <em>afwezigheid van zwart</em> op bovenzijde van nogal <em>afgeronde vleugels</em>. Verschilt van Kokmeeuw in vlucht door <em>zwartachtige vleugelonderzijde</em>. Snavel in zomer donkerrood, donker in winter. Poten rood. In winter met kopvlekken als Kokmeeuw, maar verschillen in grootte en vleugels afdoende. Onv. heeft witte ondervleugels, staart met zwarte eindband en donkere band schuin over binnevleugel, die samen met zwarte handpennen in vlucht een <em>opvallend zig-zag-patroon</em> vormt (jonge Drieteenmeeuw heeft dit ook, maar heeft donkere nekvlek en iets gevorkte, niet afgeronde staart); in zit <em>brede, horizontale, donkere vleugelstreep</em>. Juv. lijkt van boven bijna <em>helemaal donker</em>, met een brede, lichte vlek langs midden van gesloten vleugel. Gedrag als Kokmeeuw, maar pakt in vlucht op sternachtige wijze voedsel uit het water. Zie ook Vorkstaartmeeuw. Nestelt in verspreide kolonies, vaak samen met sterns of andere meeuwen, doorgaans nabij moerassen in binneland.<br /><strong>Geluid</strong>: een nogal laag <em>kek-kek-kek</em> en een herhaald <em>kee-kie</em>.<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige broedvogel. Trekt in klein aantal door van half augustus tot diep in winter en van eind april tot in juni. Overzomert (trekpauze?) in vrij groot aantal in juli en augustus aan Z.O.-kust van IJsselmeergebied.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('43',{naam:'Dwergstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'dwergstern.jpg'},
 ],
@@ -440,11 +440,11 @@ organismenMap.set('86',{naam:'Grotelijster',wetenschappelijke_naam:'',type_organ
 ],
 informatieblok:[
 ],})
-organismenMap.set('87',{naam:'Grotemantelmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('87',{naam:'Grote mantelmeeuw',wetenschappelijke_naam:'Larus marinus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotemantelmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Black-backed Gull</p><p>D: Mantelm&ouml;we</p><p>F: Go&eacute;lant marin</p><p><strong>Veldkenmerken</strong>: 74. Duidelijk groter dan Zilvermeeuw en Kleine Mantelmeeuw. Verschilt van laatste bovendien door <em>witroze poten</em> en dieper geluid. Adult <em>zwart</em> van boven, niet leigrijs als Britse vorm van Kleine Mantelmeeuw (maar Scandinavische vorm is ook zwartachtig). Snavel massiever dan bij Kleine Mantelmeeuw. Juv. is duidelijker met zwart getekend dan jonge Zilvermeeuw, met lichtere kop en onderdelen; in tweede en derde jaar worden onderdelen geleidelijk witter, mantel en vleugels donkerder. Felle rover. Broedt, soms in kolonies en samen met Kleine Mantelmeeuw, op rotsige kusteilanden, heide, soms op kliffen en eilandjes in meren.<br /><strong>Geluid</strong>: gewone roep een rauw, laag <em>oowk</em>.<br /><strong>Voorkomen</strong>: algemene wintergast langs kust; overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('88',{naam:'Grotepieper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotepieper.jpg'},
 ],
@@ -605,11 +605,11 @@ organismenMap.set('119',{naam:'Kleinekarekiet',wetenschappelijke_naam:'',type_or
 ],
 informatieblok:[
 ],})
-organismenMap.set('120',{naam:'Kleinemantelmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('120',{naam:'Kleine mantelmeeuw',wetenschappelijke_naam:'Larus fuscus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinemantelmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lesser Black-backed Gull</p><p>D: Heringsm&ouml;we</p><p>F: Go&eacute;land brun</p><p><strong>Veldkenmerken</strong>: 53. Zo groot als Zilvermeeuw; veel kleiner en slanker dan Grote Mantelmeeuw. Verschilt van laatste door <em>gele</em> poten (maar sommige wintervogels hebben vleeskleurige of bleke poten). Britse vorm heeft <em>leigrijze</em>, Scandinavische vorm <em>leizwarte tot roetzwarte</em> bovendelen. Juv. en eerstejaars gevlekt zwartbruin, met zwartachtige snavel en bruin-vleeskleurige poten, doorgaans niet te onderscheiden van jonge Zilvermeeuw, behalve in vlucht door meer witte staart met brede, donkere eindband. Oudere onvolwassen vogel heeft donkerder rug, wittere kop en onderdelen, gelere poten en snavel. Broedt in duinen, op rotsachtige kusten en op binnenlandsn hoogveen en heide.<br /><strong>Geluid</strong>: als Zilvermeeuw, maar dieper van toon.<br /><strong>Voorkomen</strong>: de Britse vorm, <em>L. f. graellsii</em>, broedt in klein aantal in ons land op Waddeneilanden, Wassenaar en Schouwen. Scandinavische vorm (<em>L. f. intermedius</em>) trekt in vrij groot aantal door van midden augustus tot in oktober en van begin april tot begin mei; voornamelijk langs de kust. Winter- en zomerwaarnemingen niet zeldzaam. De roetzwarte Baltische vorm (<em>Larus fuscus fuscus</em>) is langs onze kust zeldzaam.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('121',{naam:'Kleine plevier',wetenschappelijke_naam:'Charadrius dubius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleineplevier.jpg'},
 ],
@@ -680,11 +680,11 @@ organismenMap.set('134',{naam:'Koereiger',wetenschappelijke_naam:'Ardeola ibis',
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Cattle Egret</p><p>D: Kuhreiher</p><p>F: H&eacute;ron garde-boeuf</p><p><strong>Veldkenmerken</strong>: 50. Lijkt op afstand wit. Iets kleiner, veel gedrongener en met dikkere hals dan Kleine Zilverreiger, in wiens nabijheid hij vaak nestelt. Op korte afstand herkenbaar aan <em>lange, isabelkleurige sierveren aan kruin, keel en mantel</em>; in winter lichter. In broedtijd snavel geel met rode basis, poten roodachtig; in winter snavel geelachtig, poten geelachtig of donker. Ogen roodachtig. Heeft opvallend <em>zware kaken</em>. Juv. mist sierveren, heeft gele snavel en groenbruine poten. Vlucht en gedrag als Kleine Zilverreiger, doorgaans voedselzoekend tussen grazend vee. Gemakkelijk te verwarren met Ralreiger, die langere snavel met donkere punt en donkerder bovendelen heeft. Minder aan water gebonden dan de meeste reigers. Nestet in kolonies, dikwijls samen met andere reigers, in rietvelden, struikgewas of bomen, al of niet nabij water.<br /><strong>Geluid</strong>: diverse krassende geluiden in broedseizoen.</p><p><strong>Voorkomen</strong>: dwaalgast (11 x). Standvogel in Z.-Spanje, Z.-Portugal en Z.-Frankrijk. Dwaalgast in overig Middellandse-Zeegebied, Groot Brittanni&euml;, IJsland, <em>Belgi&euml;</em>, Denemarken, Hongarije en Balkan.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('135',{naam:'Kokmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('135',{naam:'Kokmeeuw',wetenschappelijke_naam:'Larus ridibundus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kokmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-headed Gull</p><p>D: Lachm&ouml;we</p><p>F: Mouette rieuse</p><p><strong>Veldkenmerken</strong>: 38. Een vrij kleine, beweeglijke meeuw, dikwijls in binnenland. Herkenbaar in vlucht aan <em>witte vleugelboeg</em>. Onderzijde van handpennen <em>donkergrauw</em>. Slanke, scharlaken snavel en poten. In zomer kop chocoladebruin; in winter wit met bruinachtige vlekjes nabij oog. Onv. gevlekt bruinachtig op bovendelen en kruin; staart wit met zwarte eindband; witte vleugelboeg; ondervleugel wit, bij handpennen naar gelang van leeftijd donkerder wordend; snavel geelachtig met donkere punt; poten donker geelachtig. Vlucht behendiger dan van grote meeuwen; volgt vaak de ploeg. Stormmeeuw is wat groter en verschilt door groenachtige snavel en poten en ander vliegbeeld. Zie ook Zwartkopmeeuw, Dunbek-, Dwerg- en Vorkstaartmeeuw.<br /><strong>Geluid</strong>: in broedseizoen luidruchtig. Meestal een rauw <em>kwarr</em>, een kort <em>kwup</em> enz.<br /><strong>Voorkomen</strong>: plaatselijk algemene koloniebroedvogel, zowel langs kust als in binnenland. Zeer algemene doortrekker en wintergast.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('136',{naam:'Kolgans',wetenschappelijke_naam:'Anser albifrons',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kolgans.jpg'},
 ],
@@ -1230,11 +1230,11 @@ organismenMap.set('244',{naam:'Steppenkiekendief',wetenschappelijke_naam:'Circus
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pallid Harrier</p><p>D: Steppenweihe</p><p>F: Busard p&acirc;le</p><p><strong>Veldkenmerken</strong>: 43-48. <em>opvallend wit</em> op kop en onderdelen, met lichtblauwgrijze staart en vleugels en contrasterende, zwarte handpennen, die een <em>wigvormige zwarte vleugeltop</em> vormen. Verschilt van manl. Blauwe Kiekendief door grijze i.p.v. zuiver witte stuit; <em>witte</em> i.p.v. grijze borst en zijkop, <em>minder zwart op vleugels</em> (Blauwe Kiekendief heeft grote driehoekige vleugeltop) en <em>ontbreken van zwarte vleugelachterrand</em>); van manl. Grauwe Kiekendief door bleker grijze bovendelen, <em>ontbreken van zwarte vleugelstrepen</em>, en <em>ongestreepte, witte onderdelen en broek</em>. Vrl. en juv. praktisch niet in het veld te onderscheiden van Grauwe Kiekendief, maar juv. verschilt van jonge Blauwe Kiekendief door zeer donkere en brede achterrand van armvleugel. Gedrag als van Grauwe Kiekendief, maar komt ook in droge steppen, open vlakten en heuvelachtig terrein met enkele bomen voor.<br /><strong>Geluid</strong>: kekkerende roep, vrl. heeft een karakteristiek <em>prieh-pri-pri</em>.<br /><strong>Voorkomen</strong>: dwaalgast (13x).</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('245',{naam:'Stormmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('245',{naam:'Stormmeeuw',wetenschappelijke_naam:'Larus canus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'stormmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Common Gull</p><p>D: Sturmm&ouml;we</p><p>F: Go&eacute;land cendr&eacute;</p><p><strong>Veldkenmerken</strong>: 41. heeft als Zilvermeeuw lichtgrijze bovendelen en zwart-en-witte vleugelpunten, maar is veel kleiner, met minder forse, <em>groengele snavel en poten</em>. Poten van Zilvermeeuw zijn licht vleeskleurig (geel bij Mediterrane en Oostscandinavische vormen) en diens zwaardere snavel is geel met rode &#39;nok&#39;; rug is lichter. In winter kop sterk grauw gevlekt dan Zilvermeeuw. Onv. verschilt van tweedejaars Zilvermeeuw door <em>smallere, zwarte eindband op witte staart</em>. Juv. grotendeels grijsbruin met zwartachtige snavel en vleesbruine poten. Verschilt in vlucht van Drieteenmeeuw (even groot) en Kokmeeuw (kleiner) door duidelijke <em>witte vlekken op zwarte vleugeltoppen</em>.<br /><strong>Geluid</strong>: veel hoger en scheller dan Zilvermeeuw.<br /><strong>Voorkomen</strong>: broedt in klein aantal in onze duinen. Algemene doortrekker en wintergast.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('246',{naam:'Stormvogeltje',wetenschappelijke_naam:'Hydrobates pelagicus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'stormvogeltje.jpg'},
 ],
@@ -1350,11 +1350,11 @@ organismenMap.set('268',{naam:'Visdief',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('269',{naam:'Vorkstaartmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('269',{naam:'Vorkstaartmeeuw',wetenschappelijke_naam:'Xema sabini',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'vorkstaartmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Sabine&#39;s Gull</p><p>D: Schwalbenm&ouml;we</p><p>F: Mouette de Sabine</p><p><strong>Veldkenmerken</strong>: 33. Enige Europese meeuw met duidelijk gevorkte staart (bij jonge Drieteenmeeuw zeer zwak . <em>Zwarte buitenste handpennen en grote witte &#39;driehoek&#39; daarachter </em>in contrast met grijze vleugeldekveren geven markant vliegbeeld. In zomer kop leigrijs tot aan smalle, zwarte halsband; kop in winter vuilwit. Snavel vrij kort, zwart met gele punt. Poten grijs. Juv. van boven grijsbrui, zelfde vliegbeeld, maar staart emt zwarte eindband. Pakt in vlucht voedsel uit water. Soms verward met onv. Dwerg- of Drieteenmeeuw, maar verschilt door meer gevorkte staart en ontbreken <em>zwarte band op binnenvleugel</em>.<br /><strong>Geluid</strong>: een raspende, sternachtige roep.<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige gast, die in de laatste jaren steeds meer wordt waargenomen. Broedvogel van arctische toendra, die in herfst na storm wel afdwaalt naar IJsland, F&auml;r-&Ouml;er, Groot-Brittanni&euml; en kust van West-Europa. Dwaalgast in Zwitserland en Baltische landen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('270',{naam:'Vuurgoudhaan',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'vuurgoudhaan.jpg'},
 ],
@@ -1470,11 +1470,11 @@ organismenMap.set('292',{naam:'Zeekoet',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('293',{naam:'Zilvermeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('293',{naam:'Zilvermeeuw',wetenschappelijke_naam:'Larus argentatus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zilvermeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Herring Gull</p><p>D: Silberm&ouml;we</p><p>F: Go&eacute;land argent&eacute;</p><p><strong>Veldkenmerken</strong>: 56. Lijkt op Stormmeeuw, met zelfde <em>zwart-en-witte vleugelpunten</em>, maar veel groter, lichter van boven, met zwaardere, gele snavel (met rode &#39;nok&#39;) en <em>vleeskleurige poten</em> (maar mediterrane vorm, <em>L. a. michahellis</em>, en Oostscandinavische vorm <em>L. a. cachinnans</em>, en donkere, Noordrussische en Westsiberische vorm, <em>L. a. heuglini</em>, hebben gele poten). Verschilt van Kleine Mantelmeeuw door <em>lichtgrijze</em> bovendelen en, bij nominaatvorm, door vleeskleurige (niet gele) poten; Burgemeesters hebben geen zwart op vleugel. Juv. geheel gevlekt bruin met donkerder handpennen en staart en bruinzwarte snavel, nauwelijks te onderscheiden van juv. Kleine Mantelmeeuw, die echter in vlucht een wittere staart met brede donkere eindband vertoont. Tweedejaars heeft <em>grijzere</em> mantel en wittere staart met donkere eindband.<br /><strong>Geluid</strong>: herhaald, doordringend <em>klieauw</em>; alarmroep in broedtijd droog <em>ak-ak-ak</em>; ook verscheidene miauwende, blaffende en lachende geluiden.<br /><strong>Voorkomen</strong>: plaatselijk algemene kolonie-broedvogel van de duinen. Over het algemeen standvogel. Noordelijke vogels overwinteren bij ons. In de laatste jaren worden geregel &#39;Geelpootzilvermeeuwen&#39; waargenomen van het cachin- nans- of heuglini-type. E&eacute;n vondst van michahellis.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('294',{naam:'Zilverplevier',wetenschappelijke_naam:'Pluvialis squatarola',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zilverplevier.jpg'},
 ],
@@ -1550,11 +1550,11 @@ organismenMap.set('308',{naam:'Zwartkop',wetenschappelijke_naam:'',type_organism
 ],
 informatieblok:[
 ],})
-organismenMap.set('309',{naam:'Zwartkopmeeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('309',{naam:'Zwartkopmeeuw',wetenschappelijke_naam:'Larus melanocephalus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartkopmeeuw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Mediterranean Gull</p><p>D: Schwarzkopfm&ouml;we</p><p>F: Mouette m&eacute;lanoc&eacute;phale</p><p><strong>Veldkenmerken</strong>: 39. Groter en forser dan Kokmeeuw, maar adult in elk kleed herkenbaar aan <em>witte handpennen zonder zwarte punt en veel zwaardere snavel</em> met &#39;afhangende&#39; punt. Poten en snavel helderrood. Kop in zomer <em>gitzwart</em> (niet bruin) tot op de nek, met opvallende, gebroken, witte oogring. In winter kop als bij Kokmeeuw. Onv. gemakkelijk te verwarren met onv. Stormmeeuw, maar zwarte eindband van staart is <em>veel smaller</em> en vleugels hebben <em>witachtig veld</em>, dat doorloopt tot op de binnenste slagpennen; <em>snavel en poten zeer donker</em>. Subadult heeft zwart op buitense handpennen. Biotoop als van Kokmeeuw, maar minder in binnenland. Broedt op eilandjes in lagunes en meren.<br /><strong>Geluid</strong>: een nasaal <em>kiauw</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel (sedert 1959); was in 1935 gepaard met een Kokmeeu. Zeldzame onregelmatige gast, die in de laatste jaren steeds meer wordt waargenomen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('310',{naam:'Elzenhaantje',wetenschappelijke_naam:'',type_organisme:'kever',afbeeldingen:[
 {vindplaats:'Nieuwe map\aalscholver.jpg'},
 ],
@@ -2124,4 +2124,39 @@ organismenMap.set('422',{naam:'Steppenvorkstaartplevier',wetenschappelijke_naam:
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-winged Pratincole</p><p>D: Schwarzfl&uuml;gelige Brachschwalbe</p><p>F: Glar&eacute;ole &agrave; ailes noires</p><p><strong>Veldkenmerken</strong>: 25. Zeer moeilijk te onderscheiden van Vorkstaartplevier, omdat <em>zwarte oksels</em> alleen bij opvliegen of neerstrijken met zekerheid zijn te zien. Bovendelen en vleugels vrijwel geheel effen donker, <em>zonder lichte achterrand van binnenvleugel</em> als bij Vorkstaartplevier. Intermediaire vormen komen voor en mogelijk is hier sprake van &eacute;&eacute;n soort. Geluid, vlucht, biotoop en gedrag als van Vorkstaartplevier. Zie ook Renvogel.<br /><strong>Voorkomen</strong>: dwaalgast (7x). Op doortrek in Z.O.-Europa. Dwaalgast in Groot-Brittanni&euml;, Ierland, Noorwegen. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('423',{naam:'Kleine kokmeeuw',wetenschappelijke_naam:'Larus philadelphia',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'kleinekokmeeuw_dutchbirding.jpeg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bonaparte&#39;s Gull</p><p>D: Bonaparte-M&ouml;we</p><p>F: Mouette de Bonaparte</p><p><strong>Veldkenmerken</strong>: 32. Heeft evenals Kokmeeuw in vlucht <em>witte vleugelboeg</em>, maar verschilt door kleiner formaat, <em>dunnere, zwarte snavel</em> en, in zomer, door <em>donker leikleurige</em> (niet chocoladebruine) kopkap. In winter is koptekening als bij Kokmeeuw. Beste veldkenmerk in alle kleden is <em>witte ondervleugel</em> (bij Kokmeeuw slagpennen donker). Adult heeft oranje (geen rode) poten; juv. donkere poten. Juv. lijkt sterk op jonge Kokmeeuw, maar heeft in vlucht opvallende <em>zwarte achterrand</em> van binnenvleugel. Vlucht opvallend <em>beweeglijk en sternachtig</em>.<br /><strong>Geluid</strong>: vrij zwijgzaam; soms een raspende roep.<br /><strong>Voorkomen</strong>: dwaalgast (2x; 1960 en 1975). Broedvogel van Noord-Amerika; dwaalgast Groot-Brittanni&euml;, Ierland, IJsland, Frankrijk, Helgoland.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('424',{naam:'Dunbekmeeuw',wetenschappelijke_naam:'Larus genei',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'dunbekmeeuw_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Slender-billed Gull</p><p>D: D&uuml;nnschn&auml;blige M&ouml;we</p><p>F: Go&eacute;land railleur</p><p><strong>Veldkenmerken</strong>: 43. Iets groter dan Kokmeeuw, met opmerkelijk <em>slankere, donkerrode snavel</em> en rode poten (in winter geelachtig). In broedkleed kop en hals <em>zuiver wit</em>. Onderdelen met zwakke roze gloed. Vleugelpatroon lijkt op dat van Kokmeeuw. In winter verdwijnt roze gloed op onderdelen. Juv. zonder roze tint en met zwarte eindband op staart; lijkt erg op jonge Kokmeeuw, maar verschilt door vuilgele poten en <em>geelachtige snavel met zwarte punt</em>. Zie ook Audouins Meeuw. Vogel van kustwateren en riviermonden. Nestelt in groepjes of kolonies, soms tussen sterns, op droge zandbanken, eilanden in lagunes, in moerassen, langs rivieroevers.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('425',{naam:'Kleine burgemeester',wetenschappelijke_naam:'Larus glaucoides',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'kleineburgemeester_vogelbescherming.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Iceland Gull</p><p>D: Polarm&ouml;we</p><p>F: Go&eacute;land &agrave; ailes blanches</p><p><strong>Veldkenmerken</strong>: 56-66. Lijkt erg op Grote Burgemeester, maar verschilt door kleiner formaat en <em>minder zware snavel</em> (ook dan Zilvermeeuw); lijkt in lichaamsbouw op Stormmeeuw. Adult in broedtijd heeft <em>roodachtige oogring</em> (Grote Burgemeester geel). Onv. als Grote Burgemeester, maar kleine snavel is in eerste winterkleed voor <em>minstens de helft zwart </em>(bij Grote Burgemeester alleen zwarte punt). Vleugels lijken opmerkelijk lang in vlucht, die sneller en veerkrachtiger is dan van Burgemeester; in zit steken vleugelpunten duidelijk voorbij de staart uit. Zie ook kleinere Ivoormeeuw.<br /><strong>Geluid</strong>: als van Zilvermeeuw, maar scherper.<br /><strong>Voorkomen</strong>: dwaalgast (17x). Broedvogel van hoge Noorden en wintergast in N.-Scandinavi&euml;, IJsland en op Schotse eilanden. Dwaalgast Z. tot Itali&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('426',{naam:'Grote burgemeester',wetenschappelijke_naam:'Larus hyperboreus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'groteburgemeester_vogelbescherming.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Glaucous Gull</p><p>D: Eism&ouml;we</p><p>F: Go&eacute;land bourgmestre</p><p><strong>Veldkenmerken</strong>: 66-81. Grote en Kleine Burgemeester hebben beide opvallend wit vederkleed, met zeer lichtgrijze mantel, <em>zuivere witte handpennen</em>, vleeskleurige poten en gele snavel met rode &#39;nok&#39;. Grote Burgemeester is gewoonlijk <em>groter</em> (dikwijls groter dan Grote Mantelmeeuw) en heeft <em>zwaardere snavel</em>. In broedtijd <em>citroengele</em> oogring (Kleine Burgemeester rode oogring). Eerstejaars licht roomkleurig bruin (beige); snavel zeer licht met donkere punt; vleugelpunten lichter dan overige vleugel; <em>staart zonder donkere zoom</em>. Tweedejaars lijkt geheel wit, maar mantel wordt eerst in vierde jaar als adult. Broedt in kolonies op en langs zeekliffen, in Poolzee op eilanden en boven zee uistekende, steile rotsen.<br /><strong>Geluid</strong>: lijkt op Zilvermeeuw, maar gewoonlijk scheller.<br /><strong>Voorkomen</strong>: vrij zeldzame wintergast, vanaf oktober tot maart, zelden later, en voornamelijk langs zeekust. Meestal onv. exemplaren.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('427',{naam:'Audouins meeuw',wetenschappelijke_naam:'Larus audouinii',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'adouinsmeeuw_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Audouin&#39;s Gull</p><p>D: Korallenm&ouml;we</p><p>F: Go&eacute;land d&#39;Audouin</p><p><strong>Veldkenmerken</strong>: 49. Bijna zo groot als Zilvermeeuw, maar slanker; vleugels lijken langer en <em>smaller</em>. Zware snavel <em>koraalrood met zwarte band en gele punt</em>; rode oogring; poten donkerplijfkleurig. Ondervleugel en buik van adult grijsachtig, zodat kop erg wit lijkt. Adult in vlucht met <em>zwarte buitenste handpennen</em> (met zeer weinig wit aan punt), die wigvormig contrasteren met lichtgrijze binnenvleugel. Onv. heeft deze zwarte wig tot aan vleugelbocht en heeft lichtgrijze kruin, donkere vlek achter oog en bruinachtige bovendelen. Fourageert in branding of open zee handiger dan Zilvermeeuw. Plaatselijk rondom eilanden, soms langs rotskusten van vasteland. Broedt in kolonies tussen rotsen op kleine eilanden in Middellandse Zee.<br /><strong>Geluid</strong>: een zwak, maar scherp <em>gie-erk</em> of een kalm <em>krik-krik</em>.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('428',{naam:'Ross&apos; meeuw',wetenschappelijke_naam:'Rhodostethia rosea',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'rossmeeuw_dutchavifauna.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ross&#39; Gull</p><p>D: Rosenm&ouml;we</p><p>F: Mouette de Ross</p><p><strong>Veldkenmerken</strong>: 32. Adult in broedkleed onmiskenbaar, bleekgrijs van boven, overigens geheel wit met roze gloed, <em>smalle, zwarte halsring en kleine, fijne zwarte snavel</em>. Poten rood; staart wigvormig. Vleugels lang en <em>zonder zwart</em> (behalve buitenvlag van eerste slagpen), in zit voorbij de staart uitstekend. In winter kop met grijze tint en donkere vlekking rondom oog; vederkleed meestal met weinig roze gloed. Onv. met grijze kruin en rug; voorhoofd wit, zijkop gevlekt; staart met donkere eindband; vrij donkere borstband; vliegbeeld is even contrastrijk als dat van jonge Vorkstaartmeeuw, maar verschilt daarvan (behalve door <em>wigvormige </em>staart) door zwarte punten van binnenste slagpennen en <em>donkere vleugelboeg</em>. Broedt in arctische toendra.<br /><strong>Geluid</strong>: gevarieerd; hoger en melodieuzer dan meeste andere meeuwen.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1958). Dwaalgast van N.O.-Siberi&euml; naar Groot-Brittanni&euml;, Frankrijk, IJsland, F&auml;r-&Ouml;er, Noorwegen, Denemarken, Sardini&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('429',{naam:'Ivoormeeuw',wetenschappelijke_naam:'Pagophila eburnea',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'ivoormeeuw_dutchbirding.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ivory Gull</p><p>D: Elfenbeinm&ouml;we</p><p>F: Go&eacute;land s&eacute;nateur</p><p><strong>Veldkenmerken</strong>: 44. Gemakkelijk herkenbaar aan opvallend <em>geheel wit vederkleed</em>, korte, <em>zwarte</em> poten en, in zit, aan plompe, dicht bevederde, <em>duifachtige gestalte</em>. Kop klein en rond; snavel vrij kort, geelachtig met grijze basis en roodachtige punt. Oogrind rood, oog groot en zwart. Onvolwassen met onregelmatige, grijze vlekken op gezicht en kin en grijze snavel; bovendelen (en soms onderdelen) hier en daar met <em>zwarte spikkels</em>; handpennen met zwarte punt, staart met smalle, zwarte eindband. Vrij lange vleugels; vlucht veerkrachtig, bijn sternachtig. Zelden op water. Veel grotere Burgemeesters hebben ook witte vleugels zonder zwart, maar hebben vleeskleurige poten. Verwarring mogelijk met albino Storm- of Drieteenmeeuw. Broedt in kolonies in min of meer door ijs ingesloten, rotsige kusten.<br /><strong>Geluid</strong>: sternachtig, scherpe en schelle geluiden, <em>kierr, krie,</em> enz.<br /><strong>Voorkomen</strong>: dwaalgast (2x). Broedvogel van streken om Noordpool. Soms in IJsland, F&auml;r-&Ouml;er, Noord-Scandinavi&euml;. Dwaalgast Z. tot Groot-Brittanni&euml;, Noord-Frankrijk, Itali&euml;.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
