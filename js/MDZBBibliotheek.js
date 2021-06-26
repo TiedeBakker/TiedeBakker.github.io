@@ -19,7 +19,7 @@ organismenMap.set('2',{naam:'Alk',wetenschappelijke_naam:'Alca torda',type_organ
 {vindplaats:'alk.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'', },],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Razorbill</p><p>D: Tordalk</p><p>F: Petit Pingouin</p><p><strong>Veldkenmerken</strong>: 41. Van boven zwart, van onderen wit. Verschilt van Zeekoet door vrij zware kop, korte, dikke hals en <em>zijdelings afgeplatte snavel</em>, &#39;gehalveerd&#39; door <em>witte dwarslijn</em>. Lijkt zwemmend korter en dikker dan Zeekoet en houdt puntige staart gewoonlijk <em>opgericht</em>. Beide soorten hebben witte dwarsband over gesloten vleugel en in vlucht opvallend witte vleugelachterrand. Keel en zijkop van adult wit in winter. Juv. heeft kleinere snavel zonder witte dwarsstreep; jonge Zeekoet heeft langere, puntiger snavel en achter het oog een zwarte streep. Kolonievogel van rotsachtige kusten, vaak samen met Zeekoet. Meesttijds op kustwateren en volle zee.<br /><strong>Geluid</strong>: een zacht, snorrend en fluitend geluid en een langgerekt, knorrig gegrom op broedplaats.<br /><strong>Voorkomen</strong>: vrij schaarse doortrekker en wintergast langs de kust van eind augustus tot begin mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('3',{naam:'Appelvink',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'appelvink.jpg'},
 ],
@@ -220,11 +220,11 @@ organismenMap.set('42',{naam:'Dwergmeeuw',wetenschappelijke_naam:'Larus minutus'
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Gull</p><p>D: Zwergm&ouml;we</p><p>F: Mouette pygm&eacute;e</p><p><strong>Veldkenmerken</strong>: 28. De kleinste meeuw. Lijkt in zit een klein Kokmeeuwtje. Herkenbaar, behalve grootte, door <em>gitzwarte</em> (niet donkerbruine) kop en achterhals (geen kap) en <em>afwezigheid van zwart</em> op bovenzijde van nogal <em>afgeronde vleugels</em>. Verschilt van Kokmeeuw in vlucht door <em>zwartachtige vleugelonderzijde</em>. Snavel in zomer donkerrood, donker in winter. Poten rood. In winter met kopvlekken als Kokmeeuw, maar verschillen in grootte en vleugels afdoende. Onv. heeft witte ondervleugels, staart met zwarte eindband en donkere band schuin over binnevleugel, die samen met zwarte handpennen in vlucht een <em>opvallend zig-zag-patroon</em> vormt (jonge Drieteenmeeuw heeft dit ook, maar heeft donkere nekvlek en iets gevorkte, niet afgeronde staart); in zit <em>brede, horizontale, donkere vleugelstreep</em>. Juv. lijkt van boven bijna <em>helemaal donker</em>, met een brede, lichte vlek langs midden van gesloten vleugel. Gedrag als Kokmeeuw, maar pakt in vlucht op sternachtige wijze voedsel uit het water. Zie ook Vorkstaartmeeuw. Nestelt in verspreide kolonies, vaak samen met sterns of andere meeuwen, doorgaans nabij moerassen in binneland.<br /><strong>Geluid</strong>: een nogal laag <em>kek-kek-kek</em> en een herhaald <em>kee-kie</em>.<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige broedvogel. Trekt in klein aantal door van half augustus tot diep in winter en van eind april tot in juni. Overzomert (trekpauze?) in vrij groot aantal in juli en augustus aan Z.O.-kust van IJsselmeergebied.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('43',{naam:'Dwergstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('43',{naam:'Dwergstern',wetenschappelijke_naam:'Sterna albifrons',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'dwergstern.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Tern</p><p>D: Zwergseeschwalbe</p><p>F: Sterne naine</p><p><strong>Veldkenmerken</strong>: 24. Gemakkelijk te onderscheiden van andere sterns door <em>zeer klein formaat, gele snavel</em> met zwarte punt, <em>gele poten en wit voorhoofd</em>, dat in zomer contrasteert met zwarte kruin en zwarte oogstreep. In winter kruin asgrijs met zwart achterhoofd. Onv. lijkt op adult in winter, maar heeft donkerder snavel en poten. Korte staart. In vlucht zijn vleugels smaller, vleugelslag vlugger en bidpauzes v&oacute;&oacute;r het duiken langer dan bij andere sterns.<br /><strong>Geluid</strong>: een hoog, raspend <em>krie-ik</em>, een scherp, herhaald <em>kit</em> en een vlug <em>kirri-kirri-kirri</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van zand- en schelpvlakten langs Noordzee- en IJsselmeerkust. Trekt door en weg van half juli tot in oktober en keert terug van half april tot in juni.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('44',{naam:'Eider / Eidereend',wetenschappelijke_naam:'Somateria mollissima',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'eider.jpg'},
 ],
@@ -450,11 +450,11 @@ organismenMap.set('88',{naam:'Grotepieper',wetenschappelijke_naam:'',type_organi
 ],
 informatieblok:[
 ],})
-organismenMap.set('89',{naam:'Grotestern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('89',{naam:'Grote stern',wetenschappelijke_naam:'Sterna sandvicensis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotestern.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Sandwich Tern</p><p>D: Brandseeschwalbe</p><p>F: Sterne caugek</p><p><strong>Veldkenmerken</strong>: 41. Herkenbaar aan vrij groot formaat, lange vleugels, korte, witte staart en <em>lange, slanke, zwarte snavel met gele punt</em> (geel bij juv. nauwelijks te zien). Poten zwart. Veel groter en witter dan langstaartige Visdief of Noordse Stern. Lachstern is even groot, maar heeft veel kortere en forsere, geheel zwarte snavel en minder diep gevorkte, <em>grijze staart</em>. Onv. maakt zeer witte indruk, heeft korte, gevorkte staart en soms geheel zwarte snavel, hetgeen verwarring met Lachstern mogelijk maakt. Onderdelen vaak met roze tint als Dougalls Stern, doch deze heeft zeer lange staart en helderrode poten. <em>Verlengde achterhoofdsveren</em> worden bij opwinding als een kuif overeind gezet; in winter is kruin in hoofdzaak wit, met gestreepte , zwarte kuif; vaak reeds in winterkleed aan het eind van broedseizoen. Vlucht meeuwachtiger dan van de kleinere sternsoorten.<br /><strong>Geluid</strong>: luidruchtig. Een schel, raspend <em>kirrik</em> (hoger dan overeenkomstige roep van Lachstern) of <em>kirr-kit</em>, oplopend in toon.<br /><strong>Voorkomen</strong>: in de laatste jaren steeds schaarser wordende koloniebroedvogel van de kuststreek. Trekt weg en door van half juli tot in oktober en keert terug van eind maart tot begin juni.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('90',{naam:'Grote zaagbek',wetenschappelijke_naam:'Mergus merganser',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotezaagbek.jpg'},
 ],
@@ -580,11 +580,11 @@ organismenMap.set('114',{naam:'Klapekster',wetenschappelijke_naam:'',type_organi
 ],
 informatieblok:[
 ],})
-organismenMap.set('115',{naam:'Kleinealk',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('115',{naam:'Kleine alk',wetenschappelijke_naam:'Plautus alle',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinealk.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Auk</p><p>D: Krabbentaucher</p><p>F: Mergule nain</p><p><strong>Veldkenmerken</strong>: 20. Kleinste zeevogel. Niet veel groter dan Spreeuw. Gemakkelijk herkenbaar aan <em>mollige, halsloze gestalte</em> en <em>zeer korte snavel</em>. In zomer kop en bovenborst zwartachtig bruin en bovendelen zwart; smalle, witte vleugelband, witte onderdelen. In winter oorstreek, keel en bovenborst vuilwit. Vogel van volle zee, die af en toe tijdens zware stormen schipbreuk leidt aan de kust.<br /><strong>Geluid</strong>: luidruchtig op broedplaats; een hoog en schel gekekker.<br /><strong>Voorkomen</strong>: vrij zeldzame, onregelmatige wintergast van begin november tot in maart, voornamelijk langs de kust; in sommige jaren talrijker. Koloniebroedvogel van hoog noordelijke klippen, die ten dele op Noordzee en N.-Atlantische Oceaan overwintert. Onregelmatig in Het Kanaal; dwaalgast in Finland en Z. tot middellandse Zee, O. tot Itali&euml;.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('116',{naam:'Kleinebarmsijs',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinebarmsijs.jpg'},
 ],
@@ -775,11 +775,11 @@ organismenMap.set('153',{naam:'Kwartelkoning',wetenschappelijke_naam:'Crex crex'
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Corncrake</p><p>D: Wachtelk&ouml;nig</p><p>F: R&acirc;le de gen&ecirc;ts</p><p><strong>Veldkenmerken</strong>: 27. Moeilijk te observeren. Verraadt aanwezigheid door opvallend, <em>raspend geluid</em> van manl. Lijkt <em>korthalzig</em>. Vederkleed <em>geelbruin</em>, van boven donker gevlekt; grijsachtig op kop en borst; flanken en onderstaart kastanjebruin dwars gestreept. <em>Kastanjebruine vleugels vallen in vlucht op</em>. Solitair, nachtelijk en erg verborgen levend, meestal in hoog gras. Verschilt van alle andere rallen (behalve Waterral) door groter formaat en meer isabelkleurige onderdelen. Nestelt tussen het hoge gras.<br /><strong>Geluid</strong>: manl. heeft in broedseizoen doordringende en aanhoudende roep, een raspend, tweedelig <em>rerrp-rerrp</em> (naam: crex crex), gewoonlijk &#39;s nachts, maar vaak ook overdag.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel, voornamelijk van hooiland. Trekt in klein aantal weg en door van eind augustus tot in oktober en keert terug van eind april tot eind mei. Enkele winterwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('154',{naam:'Lachstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('154',{naam:'Lachstern',wetenschappelijke_naam:'Gelochelidon nilotica',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'lachstern.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Gull-billed Tern</p><p>D: Lachseeschwalbe</p><p>F: Sterne hansel</p><p><strong>Veldkenmerken</strong>: 38. Lijkt op Grote Stern, maar herkenbaar aan <em>forsere, kortere, geheel zwarte snavel</em> en minder gevorkte, <em>grijze staart</em>; invlucht met bredere vleugels en zwaarder lichaam. Poten zwart, langer dan bij andere sterns. Zwarte kopkap ontbreekt in winter; kop dan witter dan bij Grote Stern. Juv. heeft isabelkleurige kruin met donkere oogvlek. Gedrag als van andere sterns, maar heeft gewoonte boven land op insekten en jonge vogels te jagen; plonst zelden in water. Vogel van zoute moerassen, zandige kusten en binnenlandse wateren. Broedt meestal in kolonies.<br /><strong>Geluid</strong>: een sterk nasaal <em>h&egrave;-h&egrave;-h&egrave;, kwurruk</em>, of <em>keew&egrave;k</em>, geheel verschillend van Grote Stern.<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige broedvogel. Trekt in klein aantal door van eind juni tot eind september en van eind april tot half mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('155',{naam:'Lepelaar',wetenschappelijke_naam:'Platalea Leucorodia',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'lepelaar.jpg'},
 ],
@@ -855,11 +855,11 @@ organismenMap.set('169',{naam:'Noordse pijlstormvogel',wetenschappelijke_naam:'P
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Manx Shearwater</p><p>D: Schwarzschnabel-Sturmtaucher</p><p>F: Puffin des Anglais</p><p><strong>Veldkenmerken</strong>: 35. Verschilt van andere pijlstormvogels door <em>scherp contrast van zwarte bovendelen en zuiver witte onderdelen</em>. Slanke snavel. Meestal te zien in verspreide groepen, glijdend op stijf gehouden vleugels met zo nu en dan een korte vleugelslag. Volgt kantelend contour der golven, zodat vogel beurtelings zwart of wit lijkt. Volgt geen schepen. Zwemt graag, dikwijls &#39;s avonds, in troepjes nabij broedplaats. Voorgaande beschrijving toepasselijk op Atlantische (<em>P .p puffinus</em>) en Oostmediterrane vorm (<em>P. p. yelkouan</em>). Westmediterrane vorm (<em>P. p. mauretanicus</em>) is bruiner en minder contrastrijk; exemplaren met donkere onderdelen kunnen verward worden met Grauwe Pijlstormvogel, lichtere ex. met Kuhls Pijlstormvogel, maar Noordse is veel kleiner en slanker dan beide. Nestelt in holen in dichte kolonies.<br /><strong>Geluid</strong>: verschillende kirrende en kraaiachtige geluiden op broedplaats.<br /><strong>Voorkomen</strong>: schaarse doortrekker, voornamelijk in sept. en okt., waarvan 3 vondsten bestrekking hebben op <em>P. p. mauretanicus</em>.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('170',{naam:'Noordsestern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('170',{naam:'Noorse stern',wetenschappelijke_naam:'Sterna paradisaea',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'noordsestern.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Arctic Tern</p><p>D: K&uuml;stenseeschwalbe</p><p>F: Sterne arctique</p><p><strong>Veldkenmerken</strong>: 38. Verschilt van Visdief door <em>geheel bloedrode snavel</em> (geheel donker in winter; punt kan in voorjaar nog zwart zijn); in zit door <em>kortere poten</em>; in vlucht door ontbreken van donkere &#39;vingertekening&#39; op handvleugel. Onderdelen en hals gewoonlijk grijzer dan Visdief en Dougalls Stern, dikwijls met <em>witte streep beneden zwarte kopkap</em>. Staartpunten reiken in zit gewoonlijk <em>iets</em> verder dan vleugelpunten, maar nooit zover als bij Dougalls. Zie Visdief voor verdere verschilpunten. Biotoop als van Visdief, maar meer aan zee gebonden.<br /><strong>Geluid</strong>: hoger en fijner dan van Visdief; een hoog <em>kie-kie</em> van oplopende toonhoogte, <em>kier, kierelie</em> en een lager nasaal <em>&egrave;hrr</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel, voornamelijk van de Waddeneilanden. Trekt weg en door van eind juni tot eind oktober en keert terug van april tot eind mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('171',{naam:'Noordse stormvogel',wetenschappelijke_naam:'Fulmaris glacialis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'noordsestormvogel.jpg'},
 ],
@@ -920,11 +920,11 @@ organismenMap.set('182',{naam:'Pallasboszanger',wetenschappelijke_naam:'',type_o
 ],
 informatieblok:[
 ],})
-organismenMap.set('183',{naam:'Papegaaiduiker',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('183',{naam:'Papegaaiduiker',wetenschappelijke_naam:'Fratercula arctica',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'papegaaiduiker.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Puffin</p><p>D: Papageitaucher</p><p>F: Macareux moine</p><p><strong>Veldkenmerken</strong>: 30. In zomer herkenbaar aan zeer grote, <em>dreihoekige, rood-blauw-en-gele, zijdelings afgeplatte snavel</em>, korte en dikke gestalte met grote kop, zwart en wit vederkleed, zwarte halsband en <em>helder oranje poten</em>, die in de vlucht achteruit worden gestoken. In winter is snavel wat kleiner, maar altijd nog opvallend hoog en afgeplat; wangen grijzer. Juv. met veel kleinere, donkere snavel, maar met het typische Papegaaiduikergezicht. In vlucht valt grote kop op. Is de enige alk, die op zijn tenen loopt; staat rechtop, maar rust horizontaal. Vogel van kustwateren, meestal niet ver van broedplaatsen. Broedt in kolonies in konijne- of pijlstormvogelholen of in zelf in de humus gegraven gangen, op kliffen of met gras begroeide eilandjes.<br /><strong>Geluid</strong>: gewoonlijk zwijgzaam; op broedplaats een grommend <em>ouw</em> of <em>arr</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame, onregelmatige wintergast langs de kust. Enkele zomerwaarnemingen.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('184',{naam:'Parelduiker',wetenschappelijke_naam:'Gavia arctica',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'parelduiker.jpg'},
 ],
@@ -985,11 +985,11 @@ organismenMap.set('195',{naam:'Regenwulp',wetenschappelijke_naam:'Numenius phaeo
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e] Courlis corlieu</p><p>E: Whimbrel</p><p>D: Regenbrachvogel</p><p>F: Courlis corlieu</p><p><strong>Veldkenmerken</strong>: 41. Verschilt van Wulp door geringere grootte, relatief kortere, meer &#39;geknikte&#39; dan gebogen snavel en <em>overlangs gestreepte kruin</em> (twee, door lichte middenstreep gescheiden donkere banden). Roep is geheel anders. Vluggere vleugelslag. Zie ook Dunbekwulp. Hudsons Regenwulp, <em>N. ph. hudsonicus</em> (Noordamerikaanse vorm, dwaalgast IJsland, Schotland, Ierland, Spanje), heeft geen witte stuit. Nestelt op de grond in heide, hoogvenen en toendra.<br /><strong>Geluid</strong>: een fluitend <em>bie-bie-bie-bie-bie-bie-bie</em>. Zang lijkt op Wulp.<br /><strong>Voorkomen</strong>: vrij algemene doortrekker van eind juni tot in oktober en van half april tot eind mei. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('196',{naam:'Reuzenstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('196',{naam:'Reuzenstern',wetenschappelijke_naam:'Hydroprogne caspia',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'reuzenstern.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Caspian Tern</p><p>D: Raabseeschwalbe</p><p>F: Sterne caspienne</p><p><strong>Veldkenmerken</strong>: 53. Bijna zo groot als Zilvermeeuw. Herkenbaar aan grote, zwarte kopkap, gevorkte staart en <em>zware, helder oranjerode snavel</em>. Kopkap reikt tot even onder het oog, is in winter grauw, het donkerst rondom oog. Juv. als ad. in winter, met bruin gevlekte bovendelen. Meeuwachtige vlucht, minder beweeglijk dan andere sterns, maar gemakkelijk te herkennen aan geweldige snavel; <em>donkere onderzijde van handpennen</em> in vlucht opvallend. Zie ook Koningsstern. Broedvogel van zandige kusten. Voornamelijk langs kusten, maar ook op meren en grote rivieren. Broedt solitair of in kolonie op zandige kusten of eilanden.<br /><strong>Geluid</strong>: een luid, diep, kraaiachtig <em>kraah</em> of <em>kaah</em>; op broedplaats een eendachtig <em>&egrave;&egrave;hk</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame gast in het zomerhalfjaar, vooral in augustus en september.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('197',{naam:'Rietgors',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rietgors.jpg'},
 ],
@@ -1345,11 +1345,11 @@ organismenMap.set('267',{naam:'Vink',wetenschappelijke_naam:'',type_organisme:'v
 ],
 informatieblok:[
 ],})
-organismenMap.set('268',{naam:'Visdief',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('268',{naam:'Visdief',wetenschappelijke_naam:'Sterna hirundo',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'visdief.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Common Tern</p><p>D: Flussseeschwalbe</p><p>F: Sterne pierregarin</p><p><strong>Veldkenmerken</strong>: 36. Gemakkelijk te verwarren met Noordse en Dougalls Stern.In zomer herkenbaar aan <em>oranjerode snavel met zwarte punt</em> (Noordse heeft geheel bloedrode snavel, Dougallsbijna geheel zwarte) en in vlucht aan <em>donkere &#39;vingertekening&#39;</em> op bovenzijde van handvleugel. In winter snavel donker met rode basis (bij de twee andere sterns geheel donker). Alle drie hebben in de zomer rode poten, maar Noordse heeft kortere poten; in winter poten roodachtig (Noordse donker, Dougalls oranjerood). Staartpunten reiken in zit <em>niet voorbij vleugelpunten&nbsp;</em> (bij Noordse Stern een weinig, bij Dougalls aanzienlijk). Alle drie in winter- en onv. kleed met onvolledige zwarte kopkap en wit voorhoofd, maar Visdief heeft <em>duidelijk donkerder schoudervlek</em>. In onderaanzicht van vlucht zijn <em>alle</em> handpennen van Noordse Stern semi-transparant; bij Visdief alleen binnenste 4 handpennen, waardoor daar een <em>lichte plek</em> ontstaat.<br /><strong>Geluid</strong>: luidruchtig en gevarieerd. Een lang, raspend <em>krie&iuml;e-&egrave;rr</em> (aflopend in toon), <em>kirri-kirri</em> en een snel herhaald <em>kikikikikik</em>.<br /><strong>Voorkomen</strong>: plaatselijk algemene koloniebroedvogel van zeekust en kust IJsselmeer; ook wel in binnenland. Trekt door en weg van half juli tot in oktober en keert terug van eind maart tot in mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('269',{naam:'Vorkstaartmeeuw',wetenschappelijke_naam:'Xema sabini',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'vorkstaartmeeuw.jpg'},
 ],
@@ -1435,16 +1435,16 @@ organismenMap.set('285',{naam:'Wittekwikstaart',wetenschappelijke_naam:'',type_o
 ],
 informatieblok:[
 ],})
-organismenMap.set('286',{naam:'Witvleugelstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('286',{naam:'Witvleugelstern',wetenschappelijke_naam:'Chlidonias leucopterus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'witvleugelstern.jpg'},
 ],
 informatieblok:[
-],})
-organismenMap.set('287',{naam:'Witwangstern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: White-winged Black Tern</p><p>D: Weissfl&uuml;gelseeschwalbe</p><p>F: Guifette leucopt&egrave;re</p><p><strong>Veldkenmerken</strong>: 23. Onmiskenbaar in broedkleed: <em>gitzwart met witte &#39;schouders&#39;, stuit en staart</em>; in vlucht met brede <em>witte voorvleugel en zwarte ondervleugeldekveren</em> (Zwarte Stern heeft grijze staart en lichtgrijze ondervleugel). Poten rood; snavel in zomer rood, in winter donker, korter en dikker dan bij Zwarte Stern. Adult in winter verschilt van Zwarte Stern door <em>ontbreken van donkere schoudervlek</em>, minder zwart op kop, forsere bouw en rustiger vlucht; verschilt van Witwangstern door <em>volledig witte halsband</em>, lichtere stuit en vierkanter staart. Onv. verschilt van jonge Zwarte Stern door contrast van donkerbruin &#39;zadel&#39; en lichtgrijze vleugels; van jonge Witwangstern door <em>effen</em> donker &#39;zadel&#39; en zuiver witte stuit. Gedrag, geluid en biotoop als van Zwarte Stern.<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige gast, voornamelijk in de maanden mei-augustus.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('287',{naam:'Witwangstern',wetenschappelijke_naam:'Chlidonias hybrida',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'witwangstern.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Whiskered Tern</p><p>D: Weissbartseeschwalbe</p><p>F: Guifette moustac</p><p><strong>Veldkenmerken</strong>: 25. Verschilt in zomer van Zwarte en Witvleugelstern door <em>witte wangen en halszijden</em>, contrasterend met zwarte kruin en <em>donkergrijze onderdelen</em>; in vlucht door <em>witte ondervleugel en onderstaart</em>. Lijkt veel lichter dan andere moerassterns. Snavel en poten in zomer donkerrood, donker in winter, zo lang als de kop en zwaarder dan van andere moerassterns. Adult in winter verschilt van Zwarte Stern door lichtere bovendelen, <em>ontbreken van donkere schoudervlek en minder zwart op kruin</em>; verschilt van Witvleugelstern door <em>grijsachtige</em> (niet witte) nek, langere snavel en effen bovendelen. Onv. verschilt van jonge Zwarte Stern door contrast van <em>isabel geschubd</em> &#39;zadel&#39; met lichte vleugels en ontbreken van schoudervlek, van jonge Witvleugelstern door <em>lichtgrijze stuit</em> (niet wit) en langere snavel. Gedrag, vlucht en biotoop als van Zwarte Stern.<br /><strong>Geluid</strong>: een nasaal <em>&egrave;&egrave;&egrave;rk</em>; alarm een raspend <em>kirrk</em>.<br /><strong>Voorkomen</strong>: heeft in 1938, 1945, 1951, 1958 en 1965 in enkele paren in ons land gebroed. Overigens zeldzame, onregelmatige gast.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('288',{naam:'Woudaap',wetenschappelijke_naam:'Ixobrychus minutus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'woudaap.jpg'},
 ],
@@ -1465,11 +1465,11 @@ organismenMap.set('291',{naam:'Zeearend',wetenschappelijke_naam:'Haliaeëtus alb
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: White-tailed Eagle</p><p>D: Seeadler</p><p>F: Pygargue &agrave; queue blanche</p><p><strong>Veldkenmerken</strong>: 68-91. Een kolossale arend, met zeer lange, brede en stompe vleugels en zware, vooruitstekende kop. Adult herkenbaar aan <em>korte, wigvorminge, witte staart</em>, lichtbruinachtige kop en zware, gele snavel. Onv. heeft zwart-bruine kop, staart en snavel, maar gemakkelijk te onderscheiden van adulte Steenarend door veel korter en wigvormige staart (niet breed en vierkant). Loopbeen onbevederd. Vliegbeeld van zwevende vogel gierachtig, met &#39;rechthoekige&#39;, gevingerde vleugels. Vangt laag boven water vliegend aan opperclakte zwemmende vis en plonst hierbij soms half onder; jaagt op vrij grote zoogdieren en vogels; is ook aaseter. Vogel van rotsige kusten of afgelegen binnenwateren. Nestelt op rotsrichels of in bomen, soms op de grond.<br /><strong>Geluid</strong>: een knarsend <em>krie, krie, krie</em> en een lager, blaffend <em>kra</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame wintergast, van eind aug. tot in maart.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('292',{naam:'Zeekoet',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('292',{naam:'Zeekoet',wetenschappelijke_naam:'Uria aalge',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zeekoet.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'[Petersons vogelgids 13e]E: GuillemotD: TrottellummeGF: Guillemot de TroïlVeldkenmerken: 42. Verschilt van Alk door slankere, puntige snavel en dunnere hals. Bovendelen van noordelijke vorm, U. a. aalge, gewoonlijk even zwart als bij de Alk, hoewel kop bruiner isl maar zuidelijke vorm, U. a. albionis, is in de zomer donker chocoladebruin, in de winter grijsbruin. Vrij veelvuldig voorkomende 'gebrilde' variëteit (geen aparte soort) heeft witte oogring en oorstreep. In de winter zijkop en keel wit, als de Alk in de winter, maar met een opvallende, zwarte streep achter oog. gedrag als Alk, maar in vlucht lijkt de hals langer den dunner en de staart korter. Zie ook Dikbekzeekoet. Broedt in dichte kolonies op richels van steile zeekliffen en op de toppen van geïsoleerde, boven de zee uitstekende rotsen, vaak samen met de Alk en de Drieteenmeeuw.Geluid: zeer luidruchtig in broedtijd; een lang, rauw arrrr of arra.Voorkomen: noordelijke vorm is vrij algemene wintergast van november tot januari. Zuidelijke vorm is vrij algemene doortrekker en wintergast van half september tot in mei; overzomert in klein aantal.[Eind Petersons]', },],})
 organismenMap.set('293',{naam:'Zilvermeeuw',wetenschappelijke_naam:'Larus argentatus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zilvermeeuw.jpg'},
 ],
@@ -1525,11 +1525,11 @@ organismenMap.set('303',{naam:'Zwartespecht',wetenschappelijke_naam:'',type_orga
 ],
 informatieblok:[
 ],})
-organismenMap.set('304',{naam:'Zwartestern',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('304',{naam:'Zwarte stern',wetenschappelijke_naam:'Chlidonias niger',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartestern.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black Tern</p><p>D: Trauerseeschwalbe</p><p>F: Guifette noire</p><p><strong>Veldkenmerken</strong>: 24. De enige stern met <em>geheel donker</em> broedkleed, behalve opvallende, <em>witte onderstaart</em>. Rug en vleugels leigrijs. Onv. en ad. in winter met wit voorhoofd, hals en onderdelen; op zijborst een <em>onregelmatige, donkere vlek</em> voor de vleugelbocht. Lijkt in ruitijd erg gevlekt. Snavel zwart, poten roodbruin. Onv. als adult in winter, maar met donkerder &#39;zadel&#39;. Zie Witwang- en Witvleugelstern in winter voor verschillen. Vliegt heen en weer over water om insekten op te pikken, maar plonst er zelden in. Broedt in kleine kolonies op ondiep water van moerassen en lagunes op waterplanten; soms in vochtige weiden.<br /><strong>Geluid</strong>: nogal zwijgzaam. Gewoonlijk <em>kit</em> of een vrij schel <em>kriek</em>.<br /><strong>Voorkomen</strong>: vrij algemene koloniebroedvogel van moerassige streken, plassen, enz. Trekt weg en door van half juni tot in oktober en keert terug van begin april tot eind mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('305',{naam:'Zwarte wouw',wetenschappelijke_naam:'Milvus migrans',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartewouw.jpg'},
 ],
@@ -1540,11 +1540,11 @@ organismenMap.set('306',{naam:'Zwarte zeeëend',wetenschappelijke_naam:'Melanitt
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Common Scoter</p><p>D: Trauerente</p><p>F: Macreuse noire</p><p><strong>Veldkenmerken</strong>: 48. Manl. is <em>enige geheel zwarte eend</em>; zwarte snavel van boven met oranje vlek en aan basis met grote knobbel. Vrl. en juv. donkerbruin met <em>witachtige wangen en keel</em>, afstekend tegen donkere kruin en onduidelijk donker gevlekte, bruinwitte onderdelen; verschilt van vrl. <a id="LINK_organismen_144" name="LINK_organismen_144"><span style="background-color:#dddddd">Krooneend</span></a> (die ook lichte wangen heeft, maar geen zee&euml;end is) door donkerder uiterlijk, zwaardere snavel en <em>ontbreken van vleugelstreep</em>; van manl. <a id="LINK_organismen_360" name="LINK_organismen_360"><span style="background-color:#dddddd">Bril-</span></a> en <a id="LINK_organismen_91" name="LINK_organismen_91"><span style="background-color:#dddddd">Grote Zee&euml;end</span></a> door ander koppatroon en door zwarte (niet rode) poten. Amerikaanse vorm (<em>M. n. americana</em>) heeft gewelfde, bijna geheel gele bovensnavel. Zwemt uitstekend, vaak met opgerichte, puntige staart. Vliegt gewoonlijk in onregelmatige linies of groepsgewijs. Nestelt langs meren op hoge heide of toendra.<br /><strong>Geluid</strong>: manl. heeft verscheidene melodieuze, kirrende geluiden en een vlugge, &#39;giechelende&#39; roep. Vrl. een scherp grommend geluid.<br /><strong>Voorkomen</strong>: zeer algemene doortrekker en wintergast van aug. tot in juni, bijna uitsluitend langs de kust. Overzomert in vrij groot aantal. Amerikaanse vorm werd 2x bij ons waargenomen.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('307',{naam:'Zwartezeekoet',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('307',{naam:'Zwarte zeekoet',wetenschappelijke_naam:'Uria grylle',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartezeekoet.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black Guillemot</p><p>D: Gryllteiste</p><p>F: Guillemot &agrave; mirroir</p><p><strong>Veldkenmerken</strong>: 34. Veel kleiner dan Zeekoet. In zomer <em>geheel zwart met groot, wit vleugelveld en helderrode poten</em>. In winter onderdelen wit, bovendelen wit gevlekt. Juv. van boven donkerder dan adult in winter, wit en bruin gevlekt; wit vleugelveld is zwart gevlekt. Gedrag als van Zeekoet, maar wordt meestal slechts in klein aantal bij elkaar gezien. Kan op afstand zwemmend verward worden met Grote Zee&euml;end, die echter veel groter is, met kleine, witte spiegel op gesloten vleugel en in vlucht met wit op achtervleugel (niet op v&oacute;&oacute;rvleugel). Zie ook futen in winterkleed. Blijft dichter bij de kust dan andere zeekoeten. Broedt alleen of in kleine, verspreide groepen in holten of onder keien op rotsachtige kusten, kliprichels, eilandjes.<br /><strong>Geluid</strong>: zeer kenmerkend; een zwakke, fluitende roep, soms overgaand in een soort triller, waarbij rode mondholte zichtbaar wordt.<br /><strong>Voorkomen</strong>: dwaalgast (12x).</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('308',{naam:'Zwartkop',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartkop.jpg'},
 ],
@@ -2159,4 +2159,34 @@ organismenMap.set('429',{naam:'Ivoormeeuw',wetenschappelijke_naam:'Pagophila ebu
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ivory Gull</p><p>D: Elfenbeinm&ouml;we</p><p>F: Go&eacute;land s&eacute;nateur</p><p><strong>Veldkenmerken</strong>: 44. Gemakkelijk herkenbaar aan opvallend <em>geheel wit vederkleed</em>, korte, <em>zwarte</em> poten en, in zit, aan plompe, dicht bevederde, <em>duifachtige gestalte</em>. Kop klein en rond; snavel vrij kort, geelachtig met grijze basis en roodachtige punt. Oogrind rood, oog groot en zwart. Onvolwassen met onregelmatige, grijze vlekken op gezicht en kin en grijze snavel; bovendelen (en soms onderdelen) hier en daar met <em>zwarte spikkels</em>; handpennen met zwarte punt, staart met smalle, zwarte eindband. Vrij lange vleugels; vlucht veerkrachtig, bijn sternachtig. Zelden op water. Veel grotere Burgemeesters hebben ook witte vleugels zonder zwart, maar hebben vleeskleurige poten. Verwarring mogelijk met albino Storm- of Drieteenmeeuw. Broedt in kolonies in min of meer door ijs ingesloten, rotsige kusten.<br /><strong>Geluid</strong>: sternachtig, scherpe en schelle geluiden, <em>kierr, krie,</em> enz.<br /><strong>Voorkomen</strong>: dwaalgast (2x). Broedvogel van streken om Noordpool. Soms in IJsland, F&auml;r-&Ouml;er, Noord-Scandinavi&euml;. Dwaalgast Z. tot Groot-Brittanni&euml;, Noord-Frankrijk, Itali&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('430',{naam:'Dougalls stern',wetenschappelijke_naam:'Sterna dougallii',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'dougallsstern_dutchbirding.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Roseate Tern</p><p>D: Rosenseeschwalbe</p><p>F: Sterne de Dougall</p><p><strong>Veldkenmerken</strong>: 38. In gemengde troepen met Visdief en Noordse Stern herkenbaar aan <em>zeer afwijkende roep, witter</em> en slanker uiterlijk en <em>veel langere staart</em>. Snavel <em>zwart</em> met rode basis in zomer, geheel zwart in winter; poten rood. Roze gloed op borst in voorjaar. In zit reikt staart <em>ver voorbij</em> vleugelpunten; bij Visdief en Noordse Stern niet of zelden. Juv. verschilt van jonge Visdief en Noordse Stern door duidelijker tekening op kruin en bovendelen. Gedragg als Visdief, maar vlucht is levendiger en met minder diepe vleugelslag. Uitsluitend op en langs zee. Broedt in kolonies met Visdief en Noordse Stern op eilandjes, soms op stranden.<br /><strong>Geluid</strong>: een lang, raspend <em>&egrave;&egrave;&egrave;hk</em>, een zacht, zeer karakteristiek <em>tsju-ik</em> en een lang, nijdig en snel <em>k&egrave;k&egrave;k&egrave;k&egrave;k</em> als van Visdief en Noorse Stern.<br /><strong>Voorkomen</strong>: dwaalgast (3x). Broedt in klein aantal in Groot-Brittanni&euml; en langs Ierse en Bretonse kust; overigens dwaalgast langs W.-Europese kust, N. tot Denemarken en O. tot Itali&euml;, ook Zwitserland en Oostenrijk.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('431',{naam:'Bonte stern',wetenschappelijke_naam:'Onychoprion fuscatus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'bontestern_wikipedia.JPG'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Scooty Tern</p><p>D: Russseeschwalbe</p><p>F: Sterne fuligeneuse</p><p><strong>Veldkenmerken</strong>: 41. Enige Europese stern, die <em>zwart van boven en wit van onderen</em> is in elk seizoen. Kruin, rug, vleugels en staart zwart; onderdelen, wangen en voorhoofdsvlek wit; snavel is lang en zwart; poten zwart. De veel kleinere Zwarte Stern is van boven grijs, nooit zwart, en heeft zwak gevorkte, grijze staart. Bonte Stern heeft zeer diep gevorkte, zwarte staart met witte buitenste pennen. Onv, is van boven roestbruin met witte vlekken op rug, van onderen grijsbruin. Zie ook Brilstern.<br /><strong>Geluid</strong>: een nasaal <em>ker-wekkie-wek</em>.<br /><strong>Voorkomen</strong>: oceaanvogel; broedvogel van eilanden in warme oceanen. Dwaalgast in Engeland, Wales, Frankrijk, Duitsland en Itali&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('432',{naam:'Dikbekzeekoet',wetenschappelijke_naam:'Uria lomvia',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'dikbekzeekoet_tierdoku_com.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Brunnich&#39;s Guillemot</p><p>D: Dickschnabellumme</p><p>F: Guillemot de Br&uuml;nnich</p><p><strong>Veldkenmerken</strong>: 42. Lijkt erg op Zeekoet, maar in elk kleed herkenbaar aan <em>duidelijk kortere en dikkere snavel</em> (maar niet zo hoog als bij Alk) en, op korte afstand, aan <em>smalle, lichte lijn langs snavelbasis</em>. In winter loopt zwart van kruin <em>tot onder het oog</em>; geen zwarte oorstreep. Jonge Alk verschilt door stompere en meer afgeronde snavel. Vlucht, gedrag en geluid als van Zeekoet.<br /><strong>Voorkomen</strong>: dwaalgast (5x). Broedvogel van IJsland en Noor-Noorwegen; soms F&auml;r-&Ouml;er. Dwaalgast langs kust Z. tot Britse eilanden, Noord-Frankrijk; ook Oostenrijk, Tsjechoslowakije. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('433',{naam:'Zwartbuikzandhoen',wetenschappelijke_naam:'Pterocles orientalis',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'zwartbuikzandhoen_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-bellied Sandgrouse</p><p>D: Sandflughuhn</p><p>F: Ganga unibanda</p><p><strong>Veldkenmerken</strong>: 36. Groter dan Witbuikzandhoen, ongeveer zo groot als Steppenhoen. Verschilt van beide door <em>minder verlengde staart</em> en opvallend <em>zwarte buik</em>. Manl. heeft zandgrijze kop, grijsachtige, met oranje gespikkelde bovendelen, oranje vleugeldekveren en armpennen, roodbruine keel met zwarte vlek daaronder en rozegrijze borst met smalle, zwarte dwarsband. Vrl. is zandkleurig, op kop en bovendelen dicht gevlekt; keel met een donkere vlek, borst warm okerkleurig, dicht met zwart gevlekt en zwarte dwarsband. Vogel van semi-woestijnen en golvend, steenachtig terrein. Nestelt op de grond.<br /><strong>Geluid</strong>: gewone roep een diep <em>tsjurr-rur-rur</em>.<br /><strong>Voorkomen</strong>: Standvogel in Spanje en Portugal. Dwaalgast in Itali&euml;, Malta, Duitsland en Belgi&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('434',{naam:'Witbuikzandhoen',wetenschappelijke_naam:'Pterocles alchata',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'witbuikzandhoen.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pin-tailed Sandgrouse</p><p>D: Spiessflughuhn</p><p>F: Ganga cata</p><p><strong>Veldkenmerken</strong>: 32. Lijkt in zit wat op een kleine, bleke patrijs, maar herkenbaar aan <em>lange, spits toelopende middelste staartpennen</em>; in vlucht ook aan lange, zeer puntige vleugels en &#39;halsloos&#39; silhouet. Kleiner dan Zwartbuikzandhoen en Steppenhoen. Verschilt van beide (vooral in vlucht) door <em>witte buik en witte ondervleugel</em> met zwarte punt. Manl. donker grijsbruin van boven, sterk citroengeel gevlekt; roodbruine vleugeldekveren, grijze kruin, oranjegeel gezicht, <em>zwarte kin en keel, brede roodbruine borstband</em>. Vrl. geelachtig van boven, fijn zwart en lila dwars gestreept; keel en onderdelen wit, met 2 of 3 smalle, zwarte banden over borst. Manl. in winter als vrl., maar zonder lila dwarsstrepen. Snelle vlucht herinnert aan Goudplevier. Gewoonlijk in veel grotere troepen dan Zwartbuikzandhoen. Vogel van droge, stoffige vlakten, hoge steenplateaus en randen van maremmen. Nestelt op de grond.<br /><strong>Geluid</strong>: een luid krasserig <em>katar, katar</em>, gewoonlijk in vlucht.<br /><strong>Voorkomen</strong>: standvogel in Zuid-Frankrijk, Spanje en Portugal. Dwaalgast in Itali&euml;, Sicili&euml; en Malta.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('435',{naam:'Steppenhoen',wetenschappelijke_naam:'Syrrhaptes paradoxus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'steppehoen_dutchbirding.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pallas&#39;s Sandgrouse</p><p>D: Steppenhuhn</p><p>F: Syrrhapte paradoxal</p><p><strong>Veldkenmerken</strong>: 36-41. Herkenbaar aan lange, spits toelopende middelste staartveren (langer dan Witbuikzandhoen), ontbreken van wit op vleugel en opvallende, <em>zwarte buikvlek</em> (kleiner dan bij Zwartbuikzandhoen). Manl. met oranje kop en keel, met gebogen, grijze streep van oog langs zijhals; dwars gestreepte, zandkleurige bovendelen en lichtgrijze borst en handpennen. Vrl. heeft gele keel afgezet met zwart bandje en heeft zwarte vlekken op kruin en hals, die niet oranje zijn. Zie Zwartbuikzandhoen en Witbuikzandhoen. Vogel van zandige en woestijnachtige gebieden; tijdens invasie in Europa meestal langs zandige kusten, stoppelvelden e.d.<br /><strong>Geluid</strong>: troepen zijn erg luidruchtig. Doorgaans <em>kerki</em> of <em>kerkerki</em>.<br /><strong>Voorkomen</strong>: dwaalgast (10x). Heeft in de vorige eeuw 3x, na invasie, in ons land gebroed. Vogel van steppen van Midden-Azi&euml;, die in sommige jaren uitzwermt over Europa.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
