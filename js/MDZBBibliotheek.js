@@ -135,11 +135,11 @@ organismenMap.set('25',{naam:'Bosruiter',wetenschappelijke_naam:'Tringa glareola
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Wood Sandpiper</p><p>D: Bruchwasserl&auml;ufer</p><p>F: Chevalier sylvain</p><p><strong>Veldkenmerken</strong>: 20. Een sierlijk gebouwde waadvogel. In zomer herkenbaar aan donkerbruine bovendelen, <em>dicht met wit gevlekt</em>; kop, hals en borst fijn gestreept; duidelijk witachtige wenkbrauwstreep. In vlucht contrasteren <em>witte stuit en lichte ondervleugels</em> minder met donkere bovendelen dan bij Witgatje. Geen vleugelstreep. In winter onduidelijk en minder gespikkeld; lijkt dan op Witgatje, doch deze is groter en zwarter, met veel meer wit op stuit <em>en staart</em> en met <em>donkere ondervleugels</em>. Poten lang en geel of geelachtig groen. Zoetwatervogel. Nestelt op de grond in moerassige terreinen.<br /><strong>Geluid</strong>: gewoonlijk luidruchtig. Troepjes maken een hoog, vloeiend en trillend geluid. Bij opvliegen een schel <em>tjief-ief-ief</em>. Ook een oplopend, vloeiend <em>tluuie</em>. In zangvlucht een muzikaal <em>tliea-tliea-tliea</em>.<br /><strong>Voorkomen</strong>: voormalige broedvogel; laatste broedgeval 1936. Vrij algemene doortrekker van half juli tot half september en van half maart tot in mei. Overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('26',{naam:'Bosuil',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('26',{naam:'Bosuil',wetenschappelijke_naam:'Strix aluco',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bosuil.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Tawny Owl</p><p>D: Waldkauz</p><p>F: Chouette hulotte</p><p><strong>Veldkenmerken</strong>: 38. <em>Gevlekt en gestreept, grote ronde kop, zwarte ogen, geen oorpluimen</em>. Bovendelen vari&euml;ren van warmbruin tot taankleurig of grijsachtig, met witte schoudervlekken. Onderdelen geelbruin met grote, donkere strepen. Sluier grijsbruin. Uitsluitend nachtvogel. Jaagt op muizen, vogels, insekten, enz. Verschilt van Velduil door zwaardere bouw, zwarte ogen en ontbreken van oorpluimen; van Kerkuil door groter formaat en veel donkerder kleur, vooral van kop en onderdelen. In vlucht vallen grote kop, brede, afgeronde vleugels en relatief korte staart op. broedt in holle bomen, oude nesten, soms in gebouwen en konijneholen.<br /><strong>Geluid</strong>: een schel <em>kewik</em>. Zang een diep, muzikaal <em>hoe-hoe-hoe</em>, na een onderbreking gevolgd door een lang, beverig <em>oe-oe-oe-oe</em>.<br /><strong>Voorkomen</strong>: vrij schaarse broed- en standvogel van loofbomen, parken, boomgaarden e.d. Van trek is niets bekend.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('27',{naam:'Braamsluiper',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'braamsluiper.jpg'},
 ],
@@ -830,11 +830,11 @@ organismenMap.set('164',{naam:'Nachtegaal',wetenschappelijke_naam:'',type_organi
 ],
 informatieblok:[
 ],})
-organismenMap.set('165',{naam:'Nachtzwaluw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('165',{naam:'Nachtzwaluw',wetenschappelijke_naam:'Caprimulgus europaeus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'nachtzwaluw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Nightjar</p><p>D: Ziegenmelker</p><p>F: Engoulevent d&#39;Europe</p><p><strong>Veldkenmerken</strong>: 27. Het best herkenbaar aan opmerkelijke, nachtelijke, <em>snorrende</em> zang. Vederkleed grijsbruin, dicht met donkerbruin en isabel gespikkeld en dwars gestreept, waardoor perfecte camouflage ontstaat. Grote kop is afgeplat, met zeer kleine snavel en zeer grote mondholte. Vleugels en staart lang. Manl. met witte vlekken bij vleugelpunten en witte punten aan buitenste staartpennen. Overdag onbeweeglijk gedrukt overlangs op boomtak of op de grond. Jaagt &#39;s nachts in vlucht op nachtvlinders. Klapt in broedseizoen hoorbaar met de vleugels. Legt eieren op grond zonder nest. Zie ook Moorse en Egyptische Nachtzwaluw.<br /><strong>Geluid</strong>: in vlucht een zacht, nasaal <em>koe-&egrave;k</em>; alarmroep een hoog <em>kwik, kwik, kwik</em>. Nachtelijke zang een luid, vlug in toon rijzend en dalend, lang aangehouden snorrend en ratelend <em>errr-urrr-errr-urrr</em>, dat soms eindigt met enkele klokkende geluiden.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van droge, beboste streken. Trekt weg en door van half augustus tot half oktober en keert terug van eind april tot eind mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('166',{naam:'Nonnetje',wetenschappelijke_naam:'Mergus albellus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'nonnetje.jpg'},
 ],
@@ -1175,11 +1175,11 @@ organismenMap.set('233',{naam:'Sperwergrasmus',wetenschappelijke_naam:'',type_or
 ],
 informatieblok:[
 ],})
-organismenMap.set('234',{naam:'Sperweruil',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('234',{naam:'Sperweruil',wetenschappelijke_naam:'Surnia ulula',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'sperweruil.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Hawk Owl</p><p>D: Sperbereule</p><p>F: Chouette &eacute;pervi&egrave;re</p><p><strong>Veldkenmerken</strong>: 36-41. Verschilt van andere uilen door lange staart en vrij korte, puntige vleugels, havikachtig vliegbeeld en <em>dicht dwarsgestreepte</em> onderdelen. Witachtig gezicht, <em>breed zwart omzoomd</em>. Kruin en bovendelen zwartbruin, wit dwarsgestreept. Jaagt in hoofdzaak overdag. Zit in het oog vallend op boomtop of telegraafpaal, vaak in <em>voorovergebogen houding</em> en schokt dan met de staart. Vlucht doorgaans laag en Sperwerachtig; bereikt zitplaats in opwaartse boogvlucht. Zonder vrees voor mensen. Vogel van naaldbomen en open struikgewas van berken. Nestelt in boomtoppen, holle bomen en oude haviksnesten.<br /><strong>Geluid</strong>: een snel herhaald <em>kikikiki</em>, meer Havik- dan uilachtig.<br /><strong>Voorkomen</strong>: dwaalgast (2x; 1920 en 1975).</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('235',{naam:'Spotvogel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'spotvogel.jpg'},
 ],
@@ -2224,4 +2224,24 @@ organismenMap.set('442',{naam:'Dwerguil',wetenschappelijke_naam:'Glaucidium pass
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pygmy Owl</p><p>D: Sperlingkauz</p><p>F: Chouette chev&ecirc;chette</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Kleinste Europese uil; kleiner dan Spreeuw. Herkenbaar aan <em>zeer klein formaat</em> en kleine kop. Bovendelen donkerbruin, licht gevlekt; onderdelen grijswit, donker gevlekt; witachtige sluier met kleine, gele ogen en korte witte &#39;wenkbrauwen&#39;. Wipt en schokt herhaaldelijk met bruin en wit gebandeerde staart. Moedige en actieve vogel. Gedeeltelijk dagvogel. Jaagt op kleine vogels in de vlucht. Steenuil is veel groter en lichter gekleurd, met afgeplatte bovenkop. Zie ook Ruigpootuil. Vogel van afgezonderde, oude naaldwouden in bergachtige streken. Nestelt in holle bomen en spechtegaten.<br /><strong>Geluid</strong>: zeer luidruchtig. Een fluitend <em>kieoe, kitsjik</em> enz. Zang een eentonig herhaald, Goudvink-achtig <em>dju...dju...dju</em>.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('443',{naam:'Oeraluil',wetenschappelijke_naam:'Strix uralensis',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'oeraluil_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ural Owl</p><p>D: Habichtskauz</p><p>F: Chouette de l&#39;Oural</p><p><strong>Veldkenmerken</strong>: 61. Lijkt een zeer grote, bleke, langstaartige Bosuil. Hoofdkleur grijsachtig wit, breed donkerbruin gestreept; vleugels en vrij lange afgeronde staart duidelijk gebandeerd. Kop rond zonder oorpluimen. Sluier grijswit <em>zonder lijntekening. Ogen zwartbruin</em>. Gedrag als Bosuil. Laplanduil is groter, met gele ogen en sterk &#39;gelinieerde&#39; sluier. Bosuil is veel kleiner en donkerder, met grotere ogen. Vogel van gemengde bossen en kreupelhout. Nestelt in holle boom, soms in oude roofvogelnesten.<br /><strong>Geluid</strong>: een vrij hoog, blaffend <em>wauw-wauw-wauw</em>, met onregelmatige tussenpozen; ook een scherp <em>kauw&egrave;k</em>.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('444',{naam:'Laplanduil',wetenschappelijke_naam:'Strix nebulosa',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'laplanduil_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Grey Owl</p><p>D: Bartkauz</p><p>F: Chouette lapone</p><p><strong>Veldkenmerken</strong>: 68. Vrijwel zo groot als Oehoe, maar herkenbaar aan <em>grijze kleur, zeer ronde kop zonder oorpluimen</em> en lange staart. Vederkleed stoffig grijs, onregelmatig wit en donker getekend op bovendelen en breed gestreept van onderen. Sluier zeer groot en met concentrische lijntekening; <em>donkere kinvlek; ogen opmerkelijk klein en geel</em>. Oeraluil is wat kleiner en bruiner, met <em>donkere</em> ogen en zonder gelinieerde sluier. Vogel van dichte, noordelijke dennenwouden. Nestelt in oude nesten van grote roofvogels.<br /><strong>Geluid</strong>: een diep, dreunend <em>hoe-hoe-hoeh</em>, dat met regelmatige tussenpozen wordt herhaald.<br /><strong>Voorkomen</strong>: broedvogel in arctisch Noorwegen, Zweden en Finland; heeft in Polen gebroed. Verspreidt zich in invasiejaar Z. over grootste deel van Scandinavi&euml;, Finland, Estland, soms Oost-Pruisen.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('445',{naam:'Moorse nachtzwaluw',wetenschappelijke_naam:'Caprimulgus ruficollis',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'moorsenachtzwaluw_jimjoosten.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Red-necked Nightjar</p><p>D: Rothalsziegenmelker</p><p>F: Engoulevent &agrave; collier roux</p><p><strong>Veldkenmerken</strong>: 32. Lijkt erg op Nachtzwaluw, maar herkenbaar aan iets groter formaat, zwaardere kop, <em>rossige gele halsband en grote, witte keelvlek</em>. Lijkt in vlucht rossiger en zwaarder gebouwd dan Nachtzwaluw. Beide geslachten met witte vlekken op handpennen en buitenstaart. Vogel van woestijnachtige gebieden en met pijnbomen begroeide heuvels. Nestelwijze als van Nachtzwaluw.<br /><strong>Geluid</strong>: zang een verdragende herhaling van <em>kuttuk, kuttuk</em>.<br /><strong>Voorkomen</strong>: broedvogel in Zuid-Spanje en Portugal. Heeft in Z.-Frankrijk gebroed. Dwaalgast in Sicili&euml;, Malte en Groot-Brittanni&euml;.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('446',{naam:'Egyptische nachtzwaluw',wetenschappelijke_naam:'Caprimulgus aegyptius',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'egyptischenachtzwaluw_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Egyptian Nightjar</p><p>D: &Auml;gyptischer Ziegenmelker</p><p>F: Engoulevent d&#39;Egypte</p><p><strong>Veldkenmerken</strong>: 25. Lijkt erg op Nachtzwaluw, maar is veel bleker en zandkleuriger; lijkt in vlucht <em>effe</em>n gekleurd, hoewel vederkleed fijn getekend is. Beide geslachten missen duidelijke witte vlekken op slagpennen en staart, maar vlaggen van binnenste slagpennen zijn witachtig.<br /><strong>Geluid</strong>: als van Nachtzwaluw.<br /><strong>Voorkomen</strong>: woestijnvogel, die wel eens op Malta en Sicili&euml; voorkomt. Dwaalgast op Helgoland en in Engeland.</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
