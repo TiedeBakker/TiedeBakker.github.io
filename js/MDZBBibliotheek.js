@@ -40,11 +40,11 @@ organismenMap.set('6',{naam:'Bergeend',wetenschappelijke_naam:'Tadorna tadorna',
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Shelduck</p><p>D: Brandente</p><p>F: Tadorne de Belon</p><p><strong>Veldkenmerken</strong>: 61. Een grote, nogal <em>gansachtige</em> eend, die op grote afstand zwart en wit lijkt. Herkenbaar aan groenzwarte kop en hals, wit lichaam met <em>brede, roodbruine band rondom benedenborst</em> en donkere streep over midden van de onderdelen. Schouder en halspennen zwart; groene vleugelspiegel. Roze poten; snavel rood, bij manl. met grote knobbel. Juv. van boven asbruin, mist roodbruine borstband en heeft witachtige wangen en keel, roze snavel, grijze poten. Gansachtige vlucht met langzamer vleugelslag dan meeste eenden. Kan op water verward worden met manl. Slobeend (die ook witte bovenborst en donkere kop heeft), maar laatste is kleiner, ligt lager op het water en heeft donkere, spatelvormige snavel. Nestelt in konijnepijpen e.d. tussen duinvegetatie.<br /><strong>Geluid</strong>: zwijgzaam buiten broedseizoen. Manl. een vlug, nasaal <em>ak-ak-ak</em>, een dieper en luider <em>ark ark</em> en een fluitend <em>wie-oo</em>. Vrl. een nasaal <em>oe-w&egrave;k</em>.<br /><strong>Voorkomen</strong>: algemene broedvogel van onze eilanden langs de kust; in kleiner aantal langs de kust van het IJsselmeer. Langs kust algemene doortrekker van half juli tot in dec. en van febr. tot in mei. Overwintert in niet gering aantal; trekt bij flinke vorst meestal weg.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('7',{naam:'Bijeneter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('7',{naam:'Bijeneter',wetenschappelijke_naam:'Merops apiaster',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bijeneter.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bee-Eater</p><p>D: Bienenfresser</p><p>F: Gu&ecirc;pier d&#39;Europe</p><p><strong>Veldkenmerken</strong>: 28. Onmiskenbaar. <em>Exotische kleuren</em>, lange, gebogen snavel en verlengde middelste staartveren vallen zelfs op grote afstand op. Beide geslachten hebben <em>roodbruin-en-gele bovendelen</em>, blauwgroene vleugels en staart, <em>blauwgroene onderdelen</em> met helder <em>gele keel</em>. Juv. zonder verlengde staartveren. Leeft in troepverband; zit dikwijls op telegraafdraden. Vlucht sierlijk, afgewisseld met cirkelende glijvlucht op horizontaal gehouden vleugels. Vogel van open en ruig terrein met enkele bomen. Broedt in kolonies in holen, welke in wanden van afgravingen, oeverkanten e.d. worden gegraven; soms in de grond.<br /><strong>Geluid</strong>: zeer opmerkelijk. Gewone roep een vloeiend, maar vrij krakend <em>pruu&iuml;p</em>; bij alarm <em>kruuh</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel (1964 &eacute;&eacute;n nest; 1965 drie nesten). Overigens dwaalgast (16x).</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('8',{naam:'Bladkoning',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bladkoning.jpg'},
 ],
@@ -190,11 +190,11 @@ organismenMap.set('36',{naam:'Dodaars',wetenschappelijke_naam:'Tachybaptus ruffi
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Grebe</p><p>D: Zwergtaucher</p><p>F: Gr&egrave;be castagneux</p><p><strong>Veldkenmerken</strong>:&nbsp; 26. Kleinste fuut. Heeft &#39;stomp&#39; achterlijf, korte hals en korte, vrij forse snavel. In prachtkleed van boven donkerbruin, van onderen lichter, met <em>kastanjebruine wangen en keel</em>. Groengele snavelbasis geeft indruk van <em>duidelijk lichte vlek</em> op donkere kop. In winter veel lichter, met witte keel en lichtbruine hals. Juv. met onregelmatige, witte vlekken op zijden van kop. Vliegt laag en vlug en heeft zeer weinig wit op vleugels. Schuwer dan andere futen, maar vliegt meer. Nestelt als Fuut.<br /><strong>Geluid</strong>: een luide, hoge, &#39;hinnikende&#39; triller, vaak lang aangehouden en met verschil in toonhoogte; ook een kort <em>wit, wit</em>.<br /><strong>Voorkomen</strong>: vrij algemene broedvogel van kleine meren, plassen, brede sloten e.d. Algemene doortrekker en gedeeltelijk wintergast van begin aug. tot eind april, ook langs de kust.</p><p>[Eind Petersons]</p><p>&nbsp;</p>', },],})
-organismenMap.set('37',{naam:'Draaihals',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('37',{naam:'Draaihals',wetenschappelijke_naam:'Jynx torquilla',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'draaihals.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Wryneck</p><p>D: Wendehals</p><p>F: Tocol fourmilier</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Lijkt, hoewel gelieerd met pechten, meer zangvogelachtig. Lijkt op afstand geheel grijsbruin met lichtere onderdelen; op kort afstand is <em>boomschorstekening</em> zichtbaar. Bovendelen en vrij lange, afgeronde staart fijn en dicht met grijs, bruin en isabel getekend. Onderdelen cr&egrave;mekleurig, dicht met grijsbruin geschakeerd. Poten als van spechten: twee tenen naar voren, twee naar achteren gericht. Oprichtbare kruinveren. Wordt meer gehoord dan gezien. Zoekt voedsel op de grond, hippend met opgerichte staart; gen boomstammen als spechten. Nestelt in bestaande holten, spechtegaten en nestkastjes. Biotoop als van Kleine Bonte Specht.<br /><strong>Geluid</strong>: een nasaal, herhaald <em>kji-kji-kji-kji</em>, luider en minder schel dan roep van Kleine Bonte Specht.<br /><strong>Voorkomen</strong>: zeldzame broedvogel. Trekt door van half augustus tot begin oktober en van eind maart tot in mei; zelden in het westen des lands.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('38',{naam:'Drieteenmeeuw',wetenschappelijke_naam:'Rissa tridactyla',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'drieteenmeeuw.jpg'},
 ],
@@ -305,11 +305,11 @@ organismenMap.set('59',{naam:'(Amerikaanse) Gestreepte strandloper',wetenschappe
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pectoral Sandpiper</p><p>D: Graubruststrandl&auml;ufer</p><p>F: B&eacute;casseau tachet&eacute;</p><p><strong>Veldkenmerken</strong>: 19. Iets groter dan Bonte Strandloper, kleiner dan Kanoetstrandloper. Kruin, hals en bovendelen zwart en rossigbruin gestreept, met <em>snipachtige strepen over rug</em>. Warmbruine kopkap en oorstreek in contrast met lichte wenkbrauwstreep en kin. Hals en borst dicht gestreept, <em>abrupt eindigend en afstekend tegen zuiver witte onderborst</em>. Bij alarm hals langer dan bij andere strandlopers (meer als kleine Kemphen). <em>Poten okerkleurig</em>. Vlucht grillig, zonder waarneembare vleugelstreep en met zeer donkere middelste staartveren. Op trek op slikken en moerassen, soms langs zeekust.<br /><strong>Geluid</strong>: een schel <em>kri&euml;k, kri&euml;k</em>, wanneer hij wordt opgejaagd.<br /><strong>Voorkomen</strong>: dwaalgast (9x). Broedvogel van Noord-Amerika die in herfst Britse Eilanden bezoekt. Dwaalgast Belgi&euml;, Griekenland, Zweden.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('60',{naam:'Gierzwaluw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('60',{naam:'Gierzwaluw',wetenschappelijke_naam:'Apus apus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'gierzwaluw.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Swift</p><p>D: Mauersegler</p><p>F: Martinet noir</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Verschilt van de zwaluwenfamilie door <em>roetzwart vederkleed</em>, met witachtige kin (zelden waarneembaar); <em>lange, sikkelvormige vleugels</em> en korte, gevorkte staart. Leeft in troepverband en uitsluitend in de lucht. Vlucht zeer snel en kenmerkend, met buitengewoon snelslaande, stijfgehouden vleugels. In broedseizoen luidruchtig en jaagt dan krijsend in grote troepen langs de daken. Zie ook Alpen- en Vale Gierzwaluw. Nestelt onder dakranden, soms in rotsachtige klippen. In N.-Europa in bomen.<br /><strong>Geluid</strong>: een schel, aangehouden en doordringend gierend <em>srieh</em> of <em>skrieehl</em> ook een vlug gestjilp op nest of rustplaats.<br /><strong>Voorkomen</strong>: algemene broedvogel van steden en dorpen. Trekt weg en door van juli tot in september en keert terug van half april tot half juni.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('61',{naam:'Glanskop',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'glanskop.jpg'},
 ],
@@ -385,11 +385,11 @@ organismenMap.set('75',{naam:'Griel',wetenschappelijke_naam:'Burhinus oedicnemus
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Stone Curlew</p><p>D: triel</p><p>F: &OElig;dicn&egrave;me criard</p><p><strong>Veldkenmerken</strong>: 41. Een grote, vrij lompe vogel, herkenbaar aan ronde kop, met <em>grote, gele ogen</em>. Heeft korte, forse, geel-en-zwarte snavel, lange, zware, geelachtige poten en lichtbruin en wit gestreept, <em>schutkleurig</em> vederkleed. Opvallend vliegbeeld, met <em>twee brede, witachtige vleugelstrepen</em> (waarvan &eacute;&eacute;n vrij duidelijk in zit). Sluipt met kop omlaag en opgetrokken schouders. Rust op gehele loopbeen en drukt kop en lichaam plat op de grond bij onraad. Vlucht doorgaans laag met klame vleugelslag en soms lange glijpauze. Nestelt op steenachtige, zandige en kalkachtige open grond met spaarzame begroeiing.<br /><strong>Geluid</strong>: een klagend, Wulp-achtig <em>koe-rie</em> of een hoog, schel <em>kie-rrr-ie</em> (middentoon lager), vooral na zonsondergang.<br /><strong>Voorkomen</strong>: voormalige, zeldzame broedvogel; als zodanig sedert 1985 uitgestrorven. Zeldzame doortrekker.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('76',{naam:'Groenespecht',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('76',{naam:'Groene specht',wetenschappelijke_naam:'Picus viridis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'groenespecht.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Green Woodpecker</p><p>D: Gr&uuml;nspecht</p><p>F: Pic vert</p><p><strong>Veldkenmerken</strong>: 32. Een grote specht met <em>groene bovendelen</em>, licht grijsgroene onderdelen, scharlaken kruin en <em>opvallend geelachtige stuit</em> en onderrug. Kopzijden en brede staartstreep zwart; manl. heeft midden van brede baardstreep rood. Juv. is lichter, duidelijk gevlekt en dwars gestreept. Zoekt dikwijls voedsel op de grond, vooral in mierennesten. Hipt log in opgerichte houding. Vlucht diep golvend, met aangelegde vleugels na iedere &#39;sprong&#39;. Zie ook Grijskopspecht.<br /><strong>Geluid</strong>: een zeer luid klinkend, lachend <em>kluu-kluu-kluu-kluu</em> (bij snelle herhaling naar dei ie-klank toe). Roffelt zelden.<br /><strong>Voorkomen</strong>: algemene broedvogel van loof- en gemengde bossen. Standvogel, die buiten broedtijd rondzwerft.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('77',{naam:'Groenling',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'groenling.jpg'},
 ],
@@ -405,11 +405,11 @@ organismenMap.set('79',{naam:'Grotebarmsijs',wetenschappelijke_naam:'',type_orga
 ],
 informatieblok:[
 ],})
-organismenMap.set('80',{naam:'Grotebontespecht',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('80',{naam:'Grote bonte specht',wetenschappelijke_naam:'Dendrocopus major',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotebontespecht.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Spotted Woodpecker</p><p>D: Buntspecht</p><p>F: Pic &eacute;peiche</p><p><strong>Veldkenmerken</strong>: 23. Belangrijk kleiner dan Groene Specht, maar veel groter dan Kleine Bonte Specht; verschilt van laatste door zwarte rug en <em>grote, witte schoudervlekken en vuurrode onderstaart</em> (bovendelen van Kleine Bonte Specht lijken wit gebandeerd). <em>Ongebroken</em> zwarte streep dwars over de witte wangen. Onderdelen ongestreept wit, <em>met scherp afstekende rode onderstaartdekveren</em>. Manl. (niet vrl.) heeft rode nekvlek, maar juv, van beide geslachten hebben geheel <em>rode kruin</em>. Zelden op de grond. Zie ook Witrug-, Middelste Bonte en Syrische Bonte Specht. Komt ook in dennenbossen voor.<br /><strong>Geluid</strong>: een zeer luid, schril <em>kjiek</em> of <em>kik</em>, bij opwinding een Merel-achtig <em>kiekiekiek</em> of een snel <em>kr&egrave;-kr&egrave;-kr&egrave;</em>. Beide geslachten roffelen zer snel op resonerende dode boomtakken.<br /><strong>Voorkomen</strong>: vrij algemene broed- en standvogel van bosrijke streken, parken, tuinen e.d. Noordelijke en Middeneuropese vorm overwintert in sommige jaren vrij talrijk bij ons.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('81',{naam:'Grote Canadese gans',wetenschappelijke_naam:'Branta canadensis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotecanadesegans.jpg'},
 ],
@@ -495,11 +495,11 @@ organismenMap.set('97',{naam:'Holenduif',wetenschappelijke_naam:'Columba oenas',
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: STock Dove</p><p>D: Hohltaube</p><p>F: Pigeon columbin</p><p><strong>Veldkenmerken</strong>: 33. Duidelijk <em>kleiner en donkerder</em> dan Houtduif en <em>zonder wit op vleugels en hals</em>. Bovendelen blauwer grijs. Glanzend groene vlek op zijhals. Twee korte, <em>gebroken, zwarte vleugelstrepen</em>. Juv. zonder groen op zijhals. Gedrag als Houtduif, maar vlucht sneller. Rotsduif heeft opvallend witachtige stuit en twee zeer brede, zwarte vleugelstrepen. Nestelt in boomholten, konijnepijpen e.d.<br /><strong>Geluid</strong>: eentoniger dan Houtduif, met klemtoon op eerste lettergreep: <em>o&egrave;-roe, roe</em>, enz.<br /><strong>Voorkomen</strong>: algemene broedvogel van open bosland en duinen. Trekt ten dele weg en door van eind september tot half november en keert terug van februari tot in mei.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('98',{naam:'Hop',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('98',{naam:'Hop',wetenschappelijke_naam:'Upupa epops',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'hop.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Hoopoe</p><p>D: Weidehopf</p><p>F: Huppe fasci&eacute;e</p><p><strong>Veldkenmerken</strong>: 28. Onmiskenbaar. Beide geslachten hebben <em>rozebruin</em> vederkleed, <em>zwart en wit gebandeerde vleugels en staart</em>, lange zwart gepunte, <em>opzetbare kuif</em> en lange, gebogen snavel. Zoekt voedsel in hoofdzaak op open grond. Vlucht traag en golvend, met opmerkelijk langzame, vlinderachtige vleugelslag. Nestelt in boomholten e.d.<br /><strong>Geluid</strong>: een laag, v&eacute;rdragend <em>hoep-oep-oep</em>; ook verscheidene miauwende geluiden en een zacht, snel herhaald <em>tsjerr</em> bij alarm.<br /><strong>Voorkomen</strong>: een zeer zeldzame broedvogel van open bosland; na 30 jaar voor het eerst weer sedert 1943. Zeldzame doortrekker van half augustus tot eind oktober en in het voorjaar in april en mei.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('99',{naam:'Houtduif',wetenschappelijke_naam:'Columba palumbus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'houtduif.jpg'},
 ],
@@ -535,11 +535,11 @@ organismenMap.set('105',{naam:'Ijsgors',wetenschappelijke_naam:'',type_organisme
 ],
 informatieblok:[
 ],})
-organismenMap.set('106',{naam:'Ijsvogel',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('106',{naam:'IJsvogel',wetenschappelijke_naam:'Alcedo atthis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ijsvogel.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Kingfisher</p><p>D: Eisvogel</p><p>F: Martin-p&ecirc;cheur</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Onmiskenbaar. <em>Prachtig metaalglanzend blauwgroene bovendelen</em>, witte keel en halsvlek,<em> roodbruine wangen en onderdelen, lange, dolkvormige snavel</em>. Grote kop, stomp lichaam, korte vleugels en staart, kleine rode poten. Zit op een tak boven water, met kop eom dan in het water te duiken naar vis of insekten; &#39;bidt&#39; soms alvorens te duiken. Vlucht laag, rechtlijnig en zeer snel. Solitair. Nestelt in meestal zelf gegraven gangen in steile oeverkanten e.d.<br /><strong>Geluid</strong>: een hoog, fluitend <em>tjie</em> of <em>tjie-kie</em>, bij alarm vlug herhaald. Niet veel voorkomende zang een korte triller, met hetzelfde timbre als dat van normale roep.<br /><strong>Voorkomen</strong>: zeldzame broedvogel van langzaam stromend water. Trekverplaatsingen van begin juli tot diep in winter.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('107',{naam:'Jan van Gent',wetenschappelijke_naam:'Sula bassana',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'janvangent.jpg'},
 ],
@@ -590,11 +590,11 @@ organismenMap.set('116',{naam:'Kleinebarmsijs',wetenschappelijke_naam:'',type_or
 ],
 informatieblok:[
 ],})
-organismenMap.set('117',{naam:'Kleinebontespecht',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('117',{naam:'Kleine bonte specht',wetenschappelijke_naam:'Dendrocopos minor',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinebontespecht.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lesser Spotted Woodpecker</p><p>D: Kleinspecht</p><p>F: Pic &eacute;peichette</p><p><strong>Veldkenmerken</strong>: 14&frac12;. kleinste Europese specht. Verschilt van alle andere &#39;bonte&#39; spechten door <em>zeer klein formaat, wit en zwart gebandeerde</em> bovendelen en <em>ontbreken van rood aan onderstaart</em>. Voorhoofd, wangen en onderdelen witachtig, met enkele strepen op flanken. Manl. heeft dofrode, vrl. witachtige kruin.; juv. heeft wat rood op kruin en bruinere onderdelen. meestentijds in bovenste boomtakken; <em>fladdert vaak tussen de twijgen</em>.<br /><strong>Geluid</strong>: een herhaald, hoog <em>kie-kie-kie</em>; lijkt op roep van Draaihals, maar zwakkeren inder v&eacute;rdragend. Soms een vrij zwak <em>tsjik</em>, dat lijkt op roep van Grote Bonte Specht. Roffelt minder krachtig dan Grote Bonte Specht.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van bossen, parken e.d. Doortrekker van half juli tot in winter en van eind februari tot eind april.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('118',{naam:'Kleine jager',wetenschappelijke_naam:'Stercorarius parasiticus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kleinejager.jpg'},
 ],
@@ -805,11 +805,11 @@ organismenMap.set('159',{naam:'Merel',wetenschappelijke_naam:'',type_organisme:'
 ],
 informatieblok:[
 ],})
-organismenMap.set('160',{naam:'Middelstebontespecht',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('160',{naam:'Middelste bonte specht',wetenschappelijke_naam:'Dendrocopus medius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'middelstebontespecht.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Middle Spotted Woodpecker</p><p>D: Mittelspecht</p><p>F: Pic mar</p><p><strong>Veldkenmerken</strong>: 21&frac12;. Kan verward worden met Grote en Syrische Bonte Specht, die ook <em>witte schoudervlekken</em> hebben. Verschilt door kleiner formaat, iets gekuifde, lichtrode kruin <em>zonder zwarte omranding</em>; opvallende <em>witte zijkop</em> zonder zwarte dwarsstreep over wangen en met alleen een zwarte, van zijhals naar borst lopende vlek; witte onderdelen, op flanken sterk gestreept, gaan <em>geleidelijk</em> over in roze buik (i.p.v. scherp contrast met vuurrode onderstaart bij Grote Bonte Specht). Vleugels zwart en wit gebandeerd met <em>smalle</em> witte schoudervlek. Vrl. is doffer, met bleker rode kruin. Biotoop als van Grote Bonte Specht, maar meestal hoog in de bomen.<br /><strong>Geluid</strong>: een luid <em>kiek</em> (als van Grote Bonte Specht) en een opvallend <em>ptik-tjek-tjek-tjek-tjek</em>. Zang een herhaald, intens klagend <em>wj&egrave;&egrave;h</em>. Roffelt zelden.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel (sedert 1952 negen broedgevallen). Overigens zeldzame onregelmatige gast.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('161',{naam:'Middelste jager',wetenschappelijke_naam:'Stercorarius pomarinus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'middelstejager.jpg'},
 ],
@@ -1095,11 +1095,11 @@ organismenMap.set('217',{naam:'Ruigpootbuizerd',wetenschappelijke_naam:'Buteo la
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rough-legged Buzzard</p><p>D: Rauhfussbussard</p><p>F: Buse pattue</p><p><strong>Veldkenmerken</strong>: 51-61. In het algemeen van Buizerd onderscheiden door <em>langere vleugels en witte staart met brede, donkere eindband</em>; gewoonlijk veel witter op ondervleugel en donderdelen, met donkere buik en onderborst; kop lijkt licht. <em>Opvallend donkere polsvlekken</em> op lichte ondervleugel en donkere vleugelpunten zijn kenmerken. Poten witachtig bevederd op teenbasis (Buizerd heeft onbevederd, geel loopbeen). Onv. lijkt op jonge Buizerd, maar heeft enig wit op staart. Gedrag, geluid en vlucht als Buizerd, maar <em>bidt herhaaldelijk</em>, met langzame vleuegelslagen, om zich vervolgens op prooi te storten. Jaagt hoofdzakelijk op konijnen en kleine knaagdieren, soms vogels. Zie ook Wespendief en Dwergarend.Nestelt op klippen of op de grond in hoge toendra.<br /><strong>Voorkomen</strong>: schaarse doortrekker en wintergast, van eind sept. tot april. In sommige jaren talrijker.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('218',{naam:'Scharrelaar',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('218',{naam:'Scharrelaar',wetenschappelijke_naam:'Coracias garrulus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'scharrelaar.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Roller</p><p>D: Blauracke</p><p>F: Rollier d&#39;Europe</p><p><strong>Veldkenmerken</strong>: 31. Een forse, gaaiachtige vogel met krachtige snavel. Vederkleed <em>licht azuurblauw</em>, met <em>roodbruine rug, levendig blauwe vleugels</em>, in vlucht zwart omrand, groenblauwe staart met bruine middelste pennen. Gedrag nogal klauwierachtig; schiet vanuit ge&euml;xponeerde uitkijkpost op passerende insekten. Vlucht klauwachtig, af en toe glijdend; &#39;tuimelt&#39; tijdens baltsvlucht van grote hoogte naar beneden (feuille morte). Vogel van bosachtig terrein, die in holle bomen, holten van rotsen, oeverkanten en oude muren broedt.<br /><strong>Geluid</strong>: een luid, diep, kraaiachtig <em>kr-r-r-r-ak</em> of <em>krak-ak</em>, alsmede een hees, ratelend geluid.<br /><strong>Voorkomen</strong>: zeldzame, onregelmatige gast.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('219',{naam:'Scholekster',wetenschappelijke_naam:'Haematopus ostralegus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'scholekster.jpg'},
 ],
@@ -1520,11 +1520,11 @@ organismenMap.set('302',{naam:'Zwarte ruiter',wetenschappelijke_naam:'Tringa ery
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spotted Redshank</p><p>D: Dunkler Wasserl&auml;ufer</p><p>F: Chevalier arlequin</p><p><strong>Veldkenmerken</strong>: 31. Verschilt in zomer van alle andere waadvogels door <em>roetzwart vederkleed</em>, van boven wit gespikkeld, en op afstand van onderen donkerder lijkend dan van boven. In vlucht <em>witte sigaar</em> over rug en stuit; gebandeerde (donker lijkende) staart. Lijkt in winter meer op Tureluur, maar verschilt door <em>ontbreken van vleugelband</em>, langere en dunnere snavel, langere poten (in lucht duidelijk buiten staart uitstekend), kort, wit wenkbrauwstreepje en <em>lichtere, asgrijze, wit gevlekte</em> bovendelen. Poten in zomer donkerrood, in winter oranje. Roep is kenmerkend. Staat duidelijk hoger op poten dan Tureluur en is beweeglijker bij voedselzoeken. Zie ook Groenpootruiter. Nestelt in open gedeelten van noordelijke wouden.<br /><strong>Geluid</strong>: een luid <em>tsjewiet</em> of <em>tjowiet</em> en een alarmerend <em>tsjik-tsjik</em>.<br /><strong>Voorkomen</strong>: trekt in niet groot aantal door, zowel langs de kust als in binnenland, van eind juni tot in winter en van begin maart tot in juni. Overwintert en overzomert in gering aantal.</p><p>[Eind Petersons]</p>', },],})
-organismenMap.set('303',{naam:'Zwartespecht',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('303',{naam:'Zwarte specht',wetenschappelijke_naam:'Dryocopus martius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartespecht.jpg'},
 ],
 informatieblok:[
-],})
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black Woodpecker</p><p>D: Schwarzspecht</p><p>F: Pic noir</p><p><strong>Veldkenmerken</strong>: 46. Grootste Europese specht (zo groot als een Roek) met <em>geheel zwart vederkleed</em>. Manl. met iets gekuifde, vuurrode kruin; vrl. alleen rode achterhoofdsvlek. ogen bleekgeel. Snavel licht. Vlucht gaaiachtig en weinig golvend. Maar zeer grote, ovale nestgaten.<br /><strong>Geluid</strong>: in zit een luid <em>hie&egrave;h</em> en in vlucht een hoog, raspend <em>krru-krru-krru-krru</em>. Zang gewoonlijk in vlucht, een helder, doordringend <em>kwuuk-kwuuk-kwuuk</em>, herinnerend aan Groene Specht, maar langzamer en korter. Roffelt soms, maar dan zeer luid.<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van hoog, gemengd en naaldhout in het oosten en zuiden des lands. Zwerft in winterhalfjaar wel rond.</p><p>[Eind Petersons]</p>', },],})
 organismenMap.set('304',{naam:'Zwarte stern',wetenschappelijke_naam:'Chlidonias niger',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartestern.jpg'},
 ],
@@ -2244,4 +2244,49 @@ organismenMap.set('446',{naam:'Egyptische nachtzwaluw',wetenschappelijke_naam:'C
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Egyptian Nightjar</p><p>D: &Auml;gyptischer Ziegenmelker</p><p>F: Engoulevent d&#39;Egypte</p><p><strong>Veldkenmerken</strong>: 25. Lijkt erg op Nachtzwaluw, maar is veel bleker en zandkleuriger; lijkt in vlucht <em>effe</em>n gekleurd, hoewel vederkleed fijn getekend is. Beide geslachten missen duidelijke witte vlekken op slagpennen en staart, maar vlaggen van binnenste slagpennen zijn witachtig.<br /><strong>Geluid</strong>: als van Nachtzwaluw.<br /><strong>Voorkomen</strong>: woestijnvogel, die wel eens op Malta en Sicili&euml; voorkomt. Dwaalgast op Helgoland en in Engeland.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('447',{naam:'Witstuitgierzwaluw',wetenschappelijke_naam:'Apus cafer',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'witstuitgierzwaluw_biodiversityexplorer.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: White-rumped Swift</p><p>D: Weissb&uuml;rzelsegler</p><p>F: Martinet &agrave; Croupion blanc</p><p><strong>Veldkenmerken</strong>: 14. Verschilt van Kleine Witstuitgierzwaluw door iets groter formaat, <em>veel smallere witte stuivlek en diep gevorkte staart</em>. Stuitvlek bij juv. dikwijls moeilijk te zien. Vederkleed overigens zwartachtig, lichter op onderbuik en met duidelijk afgetekende witachtige keelvlek. Gewoonlijk in gezelschap van Roodstuitzwaluw, in wiens oude nesten wordt gebroed.<br /><strong>Geluid</strong>: een gutterale, kwetterende roep.<br /><strong>Voorkomen</strong>: broedvogel van Marokko, die sedert 1966 in Z.-Spanje broedt.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('448',{naam:'Vale gierzwaluw',wetenschappelijke_naam:'Apus pallidus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'valegierzwaluw_dutchbirding.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pallid Swift</p><p>D: Fahlsegler</p><p>F: Martinet p&acirc;le</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Kan na oefening in de vlucht van Gierzwaluw worden onderscheiden door iets bredere kop en minder vlak vliegsilhouet. Heeft <em>lichter vaalbruin vederkleed</em> en aanmerkelijk <em>meer wit</em> op keel en krop; flanken zwak licht gevlekt; bovenzijde van handpennen Vleugelslag minder snel dan van Gierzwaluw. Gedrag, geluid en biotoop als Gierzwaluw, waarmee hij vaak in gezelschap is.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('449',{naam:'Alpengierzwaluw',wetenschappelijke_naam:'Apus melba',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'alpengierzwaluw_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Alpine Swift</p><p>D: Alpensegler</p><p>F: martinet alpin</p><p><strong>Veldkenmerken</strong>: 22; vlucht 54. <em>Veel groter</em>, lichter en bruiner dan Gierzwaluw, met <em>witte onderdelen</em> en <em>bruine borstband</em>. Zeer kenmerkend geluid. Gedrag en vlucht als Gierzwaluw, maar zweeft vaak met omlaag gehouden vleugels. In troepverband. Zie ook Stekelstaartgierzwaluw. Vogel van hoge bergachtige streken, plaatselijk ook langs zeekliffen en tussen oude gebouwen. Bouwt komvormige, gemetselde nesten in rotsspleten en onder dakranden. Nestelt meestal in kolonies.<br /><strong>Geluid</strong>: heeft in vlucht een luide in toon &oacute;p- en aflopende, trillende roep; meestal in koor nabij broedplaats; ook een hoog en scherp <em>skrieh</em>.<br /><strong>Voorkomen</strong>: dwaalgast (3x; 1824, 1973 en 1974).</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('450',{naam:'Grijskopspecht',wetenschappelijke_naam:'Picus canus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'grijskopspecht_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Grey-headed Woodpecker</p><p>D: Grauspecht</p><p>F: Pic cendr&eacute;</p><p><strong>Veldkenmerken</strong>: 25&frac12;. Gemakkelijk te verwarren met iets grotere Groene Specht, maar verschilt door <em>grijze kop en hals</em> met smalle zwarte oogstreep en <em>smalle zwarte baardstreep</em>. Manl. heeft vuurrood voorhoeefd (niet kruin). Vrl. zonder rood. Juv. bruiner en met gebandeerde flanken; jong manl. met weinig rood op voorhoofd. Gedrag als Groene Specht. Biotoop als Groene Specht, maar ook in gemengde bergwouden tot aan boomgrens.<br /><strong>Geluid</strong>: &#39;lacht&#39; als Groene Specht, maar minder schel en geleidelijk lager en langzamer wordend. Roffelt in voorjaar aanhoudend.<br /><strong>Voorkomen</strong>: dwaalgast (3x, sedert 1960)</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('451',{naam:'Syrische bonte specht',wetenschappelijke_naam:'Dendrocopus syriacus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'syrischebontespecht_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Syrian Woodpecker</p><p>D: Blutspecht</p><p>F: Pic syriaque</p><p><strong>Veldkenmerken</strong>: Lijkt erg op Grote Bonte Specht (grote witte schoudervlek en zwarte kruin), maar <em>zonder zwarte wangstreep</em> waardoor zijkop witte indruk maakt. Staart heeft minder wit dan bij Grote Bonte Specht, maar vleugels vertonen <em>meer wit</em>. Onderstaart bleker dan van Grote Bonte Specht. Juveniel heeft rode kruin als Middelste Bonte Specht, maar verschilt door <em>roodachtige halsband</em> en tot de snavel doorlopende zwarte baardstreep. Biotoop als Grote Bonte Specht, maar meer in gecultiveerde terreinen.<br /><strong>Geluid</strong>: zachter dan Grote Bonte Specht; een rustig <em>tjuk</em> of <em>kirroek</em> (lijkt wat op roep van Waterhoen); zang een herhaald <em>kjik</em>, luider en lager dan van Draaihals.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('452',{naam:'Witrugspecht',wetenschappelijke_naam:'Dendrocopus leucotos',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'witrugspecht_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: White-backed Woodpecker</p><p>D: Weissr&uuml;ckenspecht</p><p>F: Pic &agrave; doc blanc</p><p><strong>Veldkenmerken</strong>: 25&frac12;. Groter en slanker dan Grote Bonte Specht, met lichtere kop. Verschilt door combinatie van <em>geheel zwarte bovenrug en schouders en witte of gebandeerde benedenrug en stuit</em>. Manl. heeft witachtig voorhoofd en scharlaken kruin tot aan nek. Onderdelen geelachtig wit, sterk zwart gestreept, <em>geleidelijk</em> overgaand in het rozerood van buik en onderstaart. Vleugels zwart en wit gebandeerd, <em>zonder witte schoudervlek</em>. Vrl. met zwarte kruin. Juv. met spoor van rood op kruin en onderstaart. drieteenspecht is de enige andere specht met witte stuit, maar is veel kleiner en is wit van nek tot stuit. Vogel van heuvelachtig, beboste streken met veel oude, vermolmde bomen.<br /><strong>Geluid</strong>: als van Grote Bonte Specht, maar minder schel; zwijgzaam.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('453',{naam:'Drieteenspecht',wetenschappelijke_naam:'Picoides tridactylus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'drieteenspecht_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Three-toed Woodpecker</p><p>D: Dreizehnspecht</p><p>F: Pic tridactyle</p><p><strong>Veldkenmerken</strong>: 22. Ongeveer zo groot als Grote Bonte Specht met grote kop. Poten met slechts drie tenen. Herkenbaar aan <em>ontbreken van rood</em>, bijna geheel zwarte vleugels, brede, <em>witachtige streep over rug van nek tot en met stuit</em>, en zwarte wangen. Manl. heeft midden van kruin geel, vrl. heeft zwarte kruin met witachtig voorhoofd. Onderdelen wit, <em>op flanken zwart gebandeerd</em>. Juv. grijzer met witte, zwart gevlekte rug. Witrugspecht heeft ook witte stuit, maar zwarte bovenrug, rozerode onderstaart en witte vleugeldwarsbanden. Vogel van bebost gebergte, bij voorkeur nabij kaalslag.<br /><strong>Geluid</strong>: vrij zwijgzaam; roep als Grote Bonte Specht, maar zwakker. Soms een kekkerend <em>kek-ek-ek-ek</em>. Roffelt weinig en langzaam.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('454',{naam:'Duponts leeuwerik',wetenschappelijke_naam:'Chersophilus duponti',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'dupontsleeuwerik_wikimedia.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Dupont&#39;s Lark</p><p>D: Dupont-Lerche</p><p>F: Sirli de Dupont</p><p><strong>Veldkenmerken</strong>: 19. Een uiterst teruggetrokken vogel, herkenbaar aan rossig uiterlijk, <em>lange, slanke, gebogen snavel</em> en ontbreken van wit aan vleugels; buitenste staartveren wit; opvallende, lichte wenkbrauwstreep. Vliegt zelden, behalve bij baltsvlucht op grote hoogte; rent na neerdalen <em>opmerkelijk snel</em> weg naar dichte dekking; slanke en opgerichte houding. Vogel van begroeide, woestijachtige streken; nimmer op onbegroeide, open terreinen.<br /><strong>Voorkomen</strong>: dwaalgast in Middellandse-Zeegebied, westwaarts vanaf Malta.</p><p>[Eind Petersons]</p>', },],})
+organismenMap.set('455',{naam:'Kortteenleeuwerik',wetenschappelijke_naam:'Calandrella brachydactyla',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'kortteenleeuwerik_welkevogelisdit.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Short-toed Lark</p><p>D: Kurzzehnenlerche</p><p>F: Alouette calandrelle</p><p><strong>Veldkenmerken</strong>: 14. Bleker en veel kleiner dan Veldleeuwerik. Isabelkleurig van boven met brede, donkere strepen en duidelijke lichte vleugelstreep; van onderen <em>ongestreept</em> roomwit met meestal <em>kleine, donkere vlek(soms slechts streepjes)</em> op zijhals. Geen kuif, maar rossige kruin geeft indruk van &#39;kopkap&#39;. <em>Korte</em> geelachtige, vinkachtige snavel. Juv. is op bovenborst enigszins gevlekt. Vlucht laag en golvend. Zie ook Kleine Kortteenleeuwerik. Vogel van zandige of steenachtige steppen en velden.<br /><strong>Geluid</strong>: een kort, droog tjilpend, musachtig <em>tsjirptsjirrp</em>; angstroep <em>tie-oe</em>. Zang voornamelijk in hoge, steil rijzende en dalende vlucht, een eenvoudige steeds herhaalde frase van ongeveer acht hoge tonen.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1973).</p><p>[Eind Petersons]</p>', },],})
 MDZB_Object_Data.set('organismen',organismenMap);
