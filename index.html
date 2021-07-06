@@ -2564,6 +2564,13 @@
             if (ditItem.informatie.length == 0) {
                 infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">Geen informatie beschikbaar<p style="text-align:center;"></br>---------------------</p></div></div>');
             }
+            // VOOR GELUIDEN EERST TESTEN
+            if (ditItem.geluiden.length > 0) {
+                alert("Geluiden");
+                var snd = new Audio("geluiden/zangkievit1.mp3");
+                snd.play();
+
+            }
             for (x = 0; x < infoSwiper.slides.length; x++) {
                 var maxLinks = $(infoSwiper.slides[x]).find("a[id^='LINK_']").length
                 for (y = maxLinks-1; y >=0 ; y--) { // downto omdat aantal links verandert
