@@ -26,11 +26,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('3',{naam:'Appelvink',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('3',{naam:'Appelvink',wetenschappelijke_naam:'Coccothraustus coccothraustus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'appelvink.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Hawfinch</p><p>D: Kernbeisser</p><p>F: Gros-bec</p><p><strong>Veldkenmerken</strong>: 18. <em>Geweldige snavel</em>, &#39;stierenek&#39;, <em>korte staart</em> met witte eindrand, blauwzwarte vleugels met <em>grote, witte schoudervlekken</em>. Geelbruine kop, warmbruine rug, licht roze onderdelen, zwarte keel en teugel. Snavel in voorjaar loodblauw, in winter licht hoornkleurig. Vrl. lichter, minder rozzig op kruin. Juveniel van onderen bruin dwars gestreept, met gele keelvlek. Vlucht snel en gewoonlijk hoog, maar sterk golvend over korte afstand. Vliegbeeld (grote kop, korte staart) is onmiskenbaar. Loopt rechtop met waggelende gang en hipt met krachtige sprongen. In winter vaak in troepen op de grond voedsel zoekend, samen met ander vinken. Vrij schuwe vogel, die steeds waakzaam is. Nestelt in boomtop, op horizontale tak of tegen boomstam.<br /><strong>Geluid</strong>: een luid, explosief <em>ptik</em> of <em>ptik...ptik-it</em>, een dun <em>tzie&iuml;p</em> enz. Zang wordt weinig gehoord: een hokkend <em>tiek, tiek, tur-wie-wie</em> met variaties. Zingt doorgaans vanuit boomtop.<br /><strong>Voorkomen</strong>: vrij schaarse broedvogel van het oosten en zuiden des lands. Zwerft in winter rond, soms in troepjes.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -378,11 +378,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('47',{naam:'Europesekanarie',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('47',{naam:'Europese kanarie',wetenschappelijke_naam:'Serinus serinus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'europesekanarie.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Serin</p><p>D: Girlitz</p><p>F: Serin cini</p><p><strong>Veldkenmerken</strong>: 11&frac12;. Een zeer kleine, gestreepte, geelachtige vink. Herkenbaar aan <em>zeer korte en dikke snavel</em> en helder <em>gele stuit</em>. Manl. heeft <em>helder geel voorhoofd</em>, wenkbrauwstreep, keel en borst. Vrl. meer gestreept, van onderen grijzer, van boven bruiner; verschilt van vrl. Sijs door <em>kortere, zwaardere snavel</em>, ontbreken van geel in staart, meer geproportioneerde wenkbrauwstreep en zwaarder gestreepte onderdelen. Juveniel sterk gestreept met bruin en zonder geel op stuit. Vlucht snel en golvend; stijgt in baltsvlucht loodrecht omhoog en daalt cirkelend. Vaak in troepen. Nestelt in bomen, wijgaarden en kleine struiken.<br /><strong>Geluid</strong>: een parelend <em>ierrr</em>, een vlug <em>si-twi-twi-twi</em> en een scherp, Winterkoningachtig <em>tsjit-tsjit-tsjit</em>; angstroep een vloeiend <em>tsoeiet</em>. Zang, vanuit boomtop of vanaf telegraafdraad, een vlug, bijna sissend geklingel, af en toe met Kanarie-achtige trillers (lijkt wat op zang van Grauwe Gors).<br /><strong>Voorkomen</strong>: vrij zeldzame broedvogel van het Oosten en Zuiden des lands (sedert 1922); dringt naar het Noorden en Westen op. Trekt weg en door van eind september tot in december en keert terug van half maart tot half mei. Verscheidene winterwaarnemingen.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -418,11 +418,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('52',{naam:'Frater',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('52',{naam:'Frater',wetenschappelijke_naam:'Carduelis flavirostris',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'frater.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Twite</p><p>D: Bergh&auml;nfling</p><p>F: Linotte &agrave; bec jaune</p><p><strong>Veldkenmerken</strong>: 13&frac12;. Nogal Kneu-achtig in uiterlijk en bewegingen. Van boven dof isabelkleurig, zwart en bruin gestreept, en van onderen lichter. <em>Keel en krop warm isabel</em>. Manl. heeft opvallende <em>roze stuit</em>, vrl. zwart gestreepte, isabelkleurige stuit. Snavel in zomer grijsgeel, in winter lichtgeel. Verschilt van vrl. en juveniele Kneu door minder wit in vleugels en staart; donkerder bovendelen, bijna kaneelkleurige keel en wat langere staart en, in winter, ook door <em>gele snavel</em>; van Barmsijs door meer isabel vederkleed, ontbreken van zwarte kin en rode kap en door langere staart. Nestelt op heide en hooggelegen braakland. Zwerft in winter rond in troepjes over kustgebieden, velden, moerassen, enz.<br /><strong>Geluid</strong>: een nasaal <em>tsjwiet</em>; in vlucht een voortdurend kwetterend <em>kr&egrave;kj&egrave;kj&egrave;</em>. Zang Kneu-achtig, maar langzamer.<br /><strong>Voorkomen</strong>: weinig talrijke doortrekker en wintergast van eind september tot half april; vooral langs de kust.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -514,11 +514,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('64',{naam:'Goudvink',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('64',{naam:'Goudvink',wetenschappelijke_naam:'Pyrrhula pyrrhula',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'goudvink.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bullfinch</p><p>D: Gimpel</p><p>F: Bouvreuil pivoine</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Manl. terstond herkenbaar aan <em>helder rozerode onderdelen</em>, opvallend <em>witte stuit</em>, blauwgrijze bovendelen, <em>zwarte kap en kin</em> en <em>zeer zware, zwarte snavel</em>. Heeft zwarte vleugels en staart en <em>witte vleugelvlek</em>. Vrl. heeft dezelfde tekening, maar is van onderen rozebruin en van boven grijsbruin. Golvende vlucht. Verborgen levend. Noordeuropese vorm, <em>P. p. pyrrhula</em>, is duidelijk groter en levendiger gekleurd dan onze broedvogels, <em>P. p. europoea</em>. Zie Keep, die ook witte stuit heeft. Nestelt vooral in &#39;evergreens&#39;.<br /><strong>Geluid</strong>: een zacht, fluitend en melancholiek <em>dju</em>. Zang een zeer onbetekenend en onderdrukt mengsel van kwelende en krassende tonen. o.a. <em>tiek tiek, tioe</em>.<br /><strong>Voorkomen</strong>: vrij zeldzame (In noorden en westen zeer zeldzame) broedvogel van parken, kwekerijen, tuinen, boomgaarden e.d. Grotendeels standvogel. Noordse vorm is vrij zeldzame wintergast.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -618,11 +618,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('77',{naam:'Groenling',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('77',{naam:'Groenling',wetenschappelijke_naam:'Chloris chloris',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'groenling.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Greenfinch</p><p>D: Gr&uuml;nling</p><p>F Verdier</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Olijfgroen, met <em>geelgroene stuit</em> en opvallend veel <em>geel op vleugels en staart</em>. Zware, witachtige snavel. Poten vleeskleurig. Vrl. doffer en grijzer, met minder geel. Juveniel bruiner en gestreept. Vlucht golvend. Nestelt in heggen, struiken en lage bomen, vooral &#39;evergreens&#39;.<br /><strong>Geluid</strong>: een luide, vlugge triller; ook een herhaald, kort <em>tsjup</em> of <em>tju</em> en een helder, fluitend <em>djuwie</em>. In broedseizoen een langgerekt, bl&egrave;rend en nasaal <em>tsjwieeh</em>. Zang, vanuit boomtop of in vleermuisachtige vlucht, een Kanarie-achtig gekwetter, vermengd met roepen.<br /><strong>Voorkomen</strong>: algemene broedvogel van parken, tuinen e.d.; meer zwerf- dan trekvogel. Trekt door van half september tot in december en van begin maart tot ver in april.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -682,11 +682,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('85',{naam:'Grotekruisbek',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('85',{naam:'Grote kruisbek',wetenschappelijke_naam:'Loxia pityopsittacus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'grotekruisbek.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Parrot Crossbill</p><p>D: Kiefernkreuzschnabel</p><p>F: Beccrois&eacute; perroquet</p><p><strong>Veldkenmerken</strong>: 17&frac12;. Iets groter dan Kruisbek, <em>maar zwaardere en rondere snavel</em> geeft &#39;topzwaarder&#39; uiterlijk. Kleur en gedrag als van Kruisbek, maar zelden in grote troepen en gewoonlijk niet in gezelschap van andere kruisbeksoorten. Geluid en biotoop als van Kruisbek, maar prefereert pijnbomen. Kan gemakkelijk worden verward met Schotse vorm van Kruisbek.<br /><strong>Voorkomen</strong>: dwaalgast (8x). Broedvogel van Zuid-Finland en Scandinavi&euml; (vanaf 67 N.B.). Komt in winter naar Denemarken, Duitsland, Oostenrijk. Dwaalgast Groot-Brittanni&euml;, Belgi&euml;, Itali&euml;, Joegoslavi&euml; en IJsland.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -810,11 +810,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('101',{naam:'Huismus',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('101',{naam:'Huismus',wetenschappelijke_naam:'Passer domesticus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'huismus.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: House Sparrow</p><p>D: Haussperling</p><p>F: Moineau domestique</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Wellicht de meest bekende vogel. Manl. herkenbaar aan <em>donkergrijze kruin, kastanjebruine nek, zwarte keel</em> en witachtige wangen. Vrl. en juveniel hebben geen zwarte keel en zijn van boven dofbruin en van onderen vuilwit, geen bijzondere tekening. De &#39;Italiaanse Mus&#39;, <em>P. d. italiae</em>, die tegenwoordig als een ondersoort van de Huismus wordt beschouwd, heeft <em>warm kastanjebruine kruin</em> en <em>wittere wangen</em> en onderdelen. Zie ook Ringmus en Spaanse Mus. Nestelt in holten en gaten van gebouwen, klimop, hooibergen e.d.<br /><strong>Geluid</strong>: praatziek. Een luid <em>tsjipe, tjissiep, tjilp, trrt&egrave;t&egrave;t</em> en verscheidene andere tjilpende en kwetterende geluiden.<br /><strong>Voorkomen</strong>: zeer algemene standvogel, die in trektijden in klein aantal doortrekt.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -842,11 +842,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('105',{naam:'Ijsgors',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('105',{naam:'IJsgors',wetenschappelijke_naam:'Calcarius lapponicus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ijsgors.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Lapland Bunting</p><p>D: Spornammer</p><p>F: Bruant lapon</p><p><strong>Veldkenmerken</strong>: 15. Manl. in voorjaar heeft <em>zwarte kop, keel, krop en flanken</em> met opvallende, gebogen <em>witte band</em> van oog achter oorstreek en wangen naar beneden, en <em>helder kastanjebruine nek</em>. Bovendelen gestreept donkerbruin; onderdeln witachtig, met gestreepte flanken; witte buitenstaart. Vrl. mist de zwarte tekening en heeft gestreepte kruin en witachtige keel. In herfst en winter onuitgesproken gekleurd: gestreept isabelbruin, met smalle, witachtige, dubbele vleugelstreep, kastanjebruin op vleugeldekveren, enkele donkere flankstreppen en een vari&euml;rende hoeveelheid roodbruin op nek (bij manl.); dikwijls op de krop een donkere plek van strepen. Verschilt van vrl. Rietgors door forsere bouw, kortere staart met minder wit, <em>lichte kruinstreep</em>, donkere, rechthoekige vlek achter oorstreek en gewoonte om te rennen. Overwintert op stoppelvelden langs de kust en op stranden. Nestelt in boomloze, dorre streken, open toendra en met mos begroeide heide.<br /><strong>Geluid</strong>: een muzikaal <em>tieu, tikki-tik-tiu, terrek, tekterrek</em> enz. Zang (invlucht) heftig, maar muzikaal; lijkt wel wat op een korte versie van zang van Veldleeuwerik.<br /><strong>Voorkomen</strong>: schaarse doortrekker en wintergast van eind september tot half april, voornamelijk langs de kust.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -882,11 +882,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('110',{naam:'Keep',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('110',{naam:'Keep',wetenschappelijke_naam:'Fringilla montifringilla',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'keep.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Bambling</p><p>D: Bergfink</p><p>F: Pinson du Nord</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Verschilt van Vink door opvallende, <em>witte stuit</em> en minder wit op vleugels en staart. Manl. heeft grote, <em>oranje schoudervlek</em> en oranje borst; kop en mantel in zomer diep <em>zwart</em>, in winter bruinachtig. Vrl. te verwarren met vrl. Vink, maar heeft lichter, meer isabelkleurig vederkleed, <em>witte stuit</em> en donkere kruinstrepen. Vlucht grilliger dan van Vink. In winter vaak in troepen samen met Vink. Goudvink heeft ook witte stuit, maar is een veel zwaarder gebouwde vogel met zeer zware snavel. Nestelt bij voorkeur in berken en coniferen aan bosranden.<br /><strong>Geluid</strong>: een metaalachtig en nasaal <em>k&egrave;&egrave;hp</em>; ook een kort <em>tjuk</em>. Zang een raspend eentonig herhaald, Groenling-achtig <em>dzwie&iuml;e</em>, vemengd met enkele zwakke, onwelluidende tonen.<br /><strong>Voorkomen</strong>: een zeer zeldzame broedvogel (3x sedert 1965). Vrij algemene doortrekker van half september tot half november en van half februari tot begin mei. Overwintert soms in groot aantal.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1050,11 +1050,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('131',{naam:'Kneu',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('131',{naam:'Kneu',wetenschappelijke_naam:'Carduelis cannabina',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kneu.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Linnet</p><p>D: H&auml;nfling</p><p>F: Linotte m&eacute;lodieuse</p><p><strong>Veldkenmerken</strong>: 13&frac12;. Manl. heeft kastanjebruine mantel; donkerbruine vleugels en gevorkte staart met <em>witte vederranden</em>; kop <em>grijsachtig</em>; onderdelen isabelkleurig, bruinzwart gestreept; borst <em>roodachtig grauw</em>. In broedseizoen heeft manl. <em>karmijnrode kruin en borst</em>, witachtige keel met bruine streepjes. Vrl. zonder rood en meer gestreept. Vlucht golvend. Meestal in troepverband. Verschilt in winter van Frater en Barmsijs door gestreepte kin en keel, opvallend witte staartzijden (bij Frater onduidelijk) en donkere snavel. Nestelt, vaak in troepjes, in lage struiken, heggen, heide, helm e.d. In winter op braakliggend land, begroeide stranden e.d.<br /><strong>Geluid</strong>: gewone roep <em>tsoe-iet</em>; in de vlucht een vlug <em>knut-nut-nut</em>, dat minder metaalachtig klinkt dan dat van Frater of Barmsijs. Zang een gevarieerd en muzikaal gekwetter, vermengd met heldere en nasale tonen; vanuit struiktop, soms in koor.<br /><strong>Voorkomen</strong>: algemene broedvogel. Trekt weg en door van half september tot diep in november en keert terug van eind februari tot eind april Overwintert op geschikte plaatsen in vrij groot aantal.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1102,7 +1102,7 @@ organismenMap.set('137',{naam:'Koolmees',wetenschappelijke_naam:'Parus major',ty
 {vindplaats:'koolmees.jpg'},
 ],
 informatieblok:[
-{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: great Tit</p><p>D: Kohlmeise</p><p>F: M&eacute;sange charbonni&egrave;re</p><p><strong>Veldkenmerken</strong>: 14. De grootste gewone mees. Kop en hals glanzend blauwzwart, met witte wangen; <em>gele</em> onderdelen, met <em>zwarte band overlangs</em> in het midden (bij vrl. smaller en minder intens zwart). Groenachtig blauwgrijze bovendelen. Juveniel heeft bruinachtige kruin en geelachtige wangen. Acrobatische boomvogel. Nestelt in boomholten, nestkastjes, enz.<br /><strong>Geluid</strong>: zeer gevarieerd: een Vink-achtig <em>tsink, tsink</em>, een nasaal Glanskop-achtig <em>ts&egrave;r-ts&egrave;r</em>, een scheldend Pimpelmees-achtig <em>tsji-tsji-tsji</em> enz. Zang bestaat uit twee of drie variaties op het bekende , &#39;zagende&#39; <em>tietsju-tietsju-tietsju</em>; bootst soms andere vogels na.<br /><strong>Voorkomen</strong>: algemene broed- en standvogel.</p><p>[Eind Petersons]</p>', },],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Great Tit</p><p>D: Kohlmeise</p><p>F: M&eacute;sange charbonni&egrave;re</p><p><strong>Veldkenmerken</strong>: 14. De grootste gewone mees. Kop en hals glanzend blauwzwart, met witte wangen; <em>gele</em> onderdelen, met <em>zwarte band overlangs</em> in het midden (bij vrl. smaller en minder intens zwart). Groenachtig blauwgrijze bovendelen. Juveniel heeft bruinachtige kruin en geelachtige wangen. Acrobatische boomvogel. Nestelt in boomholten, nestkastjes, enz.<br /><strong>Geluid</strong>: zeer gevarieerd: een Vink-achtig <em>tsink, tsink</em>, een nasaal Glanskop-achtig <em>ts&egrave;r-ts&egrave;r</em>, een scheldend Pimpelmees-achtig <em>tsji-tsji-tsji</em> enz. Zang bestaat uit twee of drie variaties op het bekende , &#39;zagende&#39; <em>tietsju-tietsju-tietsju</em>; bootst soms andere vogels na.<br /><strong>Voorkomen</strong>: algemene broed- en standvogel.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1162,11 +1162,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('145',{naam:'Kruisbek',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('145',{naam:'Kruisbek',wetenschappelijke_naam:'Loxia curvirostra',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kruisbek.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Crossbill</p><p>D: Fichtenkreuzschnabel</p><p>F: Beccrois&eacute; des sapins</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Een vogel van naaldhout. Herkenbaar aan <em>gekruiste snavel, papegaaiachtige wijze</em> van voedselzoeken en <em>korte, gevorkte staart</em>. <em>Manl. steenrood</em>, op stuit lichter, met donkere vleugels en staart. Jong manl. oranjebruin. <em>Vrl. olijfkleurig</em> met geelachtige stuit en onderdelen. Juveniel grijsgroen, van onderen <em>sterk gestreept</em>. Steeds in troepen en mak. In snelle, golvende vlucht vallen zware kop en korte staart sterk op. Verschilt van Witbandkruisbek door ontbreken van wit op vleugel. Schotse vorm, <em>L. c. scotica</em>, heeft zwaardere snavel en wordt als een ondersoort van Grote Kruisbek beschouwd. Zie ook Roodmus en Haakbek. Nestelt in naaldbomen.<br /><strong>Geluid</strong>: een luid, nadrukkelijk <em>kiep-kiep-kiep</em>. Zang lijkt wel wat op die van Groenling, maar is een regelmatiger mengsel van korte trillers en krassende en kwelende geluiden, vooral <em>ti-tsjie, ti-tsjii</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel. Invasiegast, in sommige jaren in groot aantal. Verschijnt meestal reeds in juni en blijft dan tot in de winter.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1434,11 +1434,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('179',{naam:'Ortolaan',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('179',{naam:'Ortolaan',wetenschappelijke_naam:'Emberiza hortulana',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ortolaan.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Ortolan Bunting</p><p>D: Prtolan</p><p>F: Bruant ortolan</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Verschilt van andere gorzen door combinatie van <em>roze-isabelkleurige onderdelen en gele keel</em>. Manl. heeft <em>licht olijfgroene kop en krop</em> en lichtgele keel met olijfkleurige baardstreep. Op korte afstand smalle gele oogring en roze snavel. Bovendelen bruin, zwart gestreept. Vrl. is lichter, minder groen, met kleine, donkere kropstreepjes. Juveniel donkerder, bruiner en met gestreepte onderdelen, maar met karakteristieke <em>oogring en roze snavel</em>. Zie ook Bruinkeelortolaan en Grijze Gors. Nestelt op of vlak boven grond in korenvelden en onkruid.<br /><strong>Geluid</strong>: een luid <em>tsie-ip</em> en een fluitend <em>tsiu</em>. Zang herinnert aan die van Geelgors, maar is langzamer en zeer variabel; gewoonlijk 6-7 gelijke, heldere tonen (waarvan de laatste twee of drie wat lager), soms gevolgd door een muzikaal tierelantijntje.<br /><strong>Voorkomen</strong>: Plaatselijk vrij schaarse broedvogel van het Oosten des lands; ontbreekt als zodanig in het Westen. Trekt weg en door van half augustus tot diep in oktober en keert terug van half april tot ver in mei; op trek in klein aantal ook in het Westen.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1538,11 +1538,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('192',{naam:'Putter',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('192',{naam:'Putter',wetenschappelijke_naam:'Carduelis carduelis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'putter.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Goldfinch</p><p>D: Stieglitz</p><p>F: Chardonneret</p><p><strong>Veldkenmerken</strong>: 12. Geslcahten gelijk. Opvallend <em>zwart en geel gekleurde vleugels</em>; zwart-en-witte staart; <em>scharlakenrode, zwart-en-witte kop</em>; bruine rug. Juveniel met grijs-isabelkleurige kop en bovendelen, bruin gestreept en gevlekt. Vlucht golvend en &#39;dansend&#39;. Graag in troepverband, nestelt in bomen, ver van de stam, soms in heggen en struiken.<br /><strong>Geluid</strong>: onmiskenbaar; een vloeiend <em>swit-wit-wit-wit</em> of <em>stiegeliet</em>, telkens herhaald. Zang een Kanarie-achtig gekwetter, vermengd met roepen.<br /><strong>Voorkomen</strong>: vrij zeldzame, plaatselijk talrijker broedvogel van tuinen, parken, boomgaarde, bosranden e.d. Trekt weg en door van eind augustus tot in deember en keert terug van begin maart tot ver in mei. Overwintert in klein aantal.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1578,11 +1578,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('197',{naam:'Rietgors',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('197',{naam:'Rietgors',wetenschappelijke_naam:'Emberiza schoeniclus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rietgors.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Reed Bunting</p><p>D: Rohrammer</p><p>F: Bruant des roseaux</p><p><strong>Veldkenmerken</strong>: 15. Manl. heeft <em>zwarte kop en keel</em>, <em>met witte halsband</em> (in winter verdoezeld door bruine vlekking); donkerbruine bovendelen met zwarte strepen en grijsachtige stuit; opvallende, witte buitenstaart; grijswitte onderdelen met zwart gestreepte flanken. Vrl. heeft bruine kop met licht isabelkleurige wenkbrauwstreep en opvallende, <em>zwart-en-witachtige baardstrepen</em>; stuit bruinachtig; isabelkleurige onderdelen met zwarte strepen op borst en flanken. Knipt opvallend veel met de staart. Nestelt op of even boven de grond in weelderige vegetatie.<br /><strong>Geluid</strong>: een luid <em>tsieh</em>, een metaalachtig <em>tjink</em> en een alarmerend <em>tsjit</em>. Zang stuntelig, begint langzaam, maar eindigt haastig; <em>tsija-tsiek-tsiek-tississisk</em>; meestal vanuit rietstengel of struik.<br /><strong>Voorkomen</strong>: algemene broedvogel van moerassige streken. Trekt weg en door van half septemvber tot diep in winter en keert terug van eind februari tot begin mei. Overwintert in niet gering aantal.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1682,11 +1682,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('210',{naam:'Roodmus',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('210',{naam:'Roodmus',wetenschappelijke_naam:'Carpodacus erythrinus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'roodmus.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Scarlet Rosfinch</p><p>D: Karmingimpel</p><p>F: Roslin cramoisi</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Manl. met schitterend <em>karmijnrode kop, borst en stuit</em>, zware, Goudvinkachtige, bruine snavel, donkerbruine vleugels met twee onduidelijke dwarsbanden, witte buik. Vrl. en juveniel met weinig uitgesproken tekening; van boven geelachtig bruin met grijzere kop, van onderen isabelkleurig met fijne bruine streping; het best herkenbaar aan gedrongen postuur, grote zwarte ogen in grote, ronde kop, lichte vleugelstrepen en gevorkte staart. Vlucht golvend. Verschilt van Haakbek door veel kleiner formaat en onduidelijke vleugelstrepen; van Kruisbekken door langere staart en ongekruiste snavel. Vogel van struik- en kreupelgewas en onderbegroeiing nabij water; nestelt in laag moerassige vegetatie, plaatselijk in droge eikenwouden.<br /><strong>Geluid</strong>: een Kanarie-achtig <em>niej&egrave;&egrave;h</em>; zang een helder <em>tjewiet-tjewiedjoe</em>.<br /><strong>Voorkomen</strong>: dwaalgast (7x).</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1778,11 +1778,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('222',{naam:'Sijs',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('222',{naam:'Sijs',wetenschappelijke_naam:'Carduelis spinus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'sijs.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Siskin</p><p>D: Zeisig</p><p>F: Tarin des aulnes</p><p><strong>Veldkenmerken</strong>: 12. Manl. <em>geelgroen</em>, van onderen lichter, met <em>zwarte kruin en kin</em>; <em>gele stuit</em>, vleugelstreep, staartzijden en streep achter oog; rug en flanken bruin gestreept. Vrl. grijzer, met minder geel, zonder zwart op kop en met sterker gestreepte, witachtige onderdelen. Beweegt zich handig op mezenmanier tussen de boomtakken en hangt soms onderste boven. Vlucht Vinkachtig, maar erg beweeglijk. In winter in troepen samen met Barmsijzen. Zie ook Europese Kanarie, Citroensijs en Barmsijs. Vogel van dennenboseen, berke- en elzestruikgewas en heggen. Nestelt hoog in coniferen, meestal o het einde van een tak.<br /><strong>Geluid</strong>: kwettert voortdurend. Roep een hoog en helder <em>tszie-zi</em> en een gerekt <em>tsoe&iuml;et</em>. Zang een lang, vlug en muzikaal gekwetter, dikwijls eidigend in lange, Groenling-achtige, nasale toon.<br /><em>Voorkomen</em>: zeer zeldzame broedvogel, die als zodanig waarschijnlijk over het hoofd wordt gezien. Trekt in wisselend aantal door van half september tot diep in winter en eind januari tot ver in april. Soms in zomer invasies van jonge vogels.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1834,11 +1834,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('229',{naam:'Sneeuwgors',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('229',{naam:'Sneeuwgors',wetenschappelijke_naam:'Plectrophenax nivalis',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'sneeuwgors.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Snow Bunting</p><p>D: Schneeammer</p><p>F: Bruant des neiges</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Gemakkelijk herkenbaar aan <em>brede, witte vleugel- en staartvlekken</em>. Manl. in voorjaar heeft zwarte rug, handpennen en middelste staartpennen; <em>overigens sneeuwwit</em>. Vrl. heeft grijsbruine kop, met isabelkleurige streep van het oog tot rondom de oorstreek; rug grijsbruin, zwart gevlekt. In winter heeft manl. zandkleurige kop, bruinere rug en roomwitte onderdelen met taankleurige vlekken op borstzijden; vrl. is bruiner, maar in vlucht zijn witte vleugelvlekken opvallend. Onvolwassen heeft <em>bruinere vleugels</em>, rossige kop en borstband en roomwitte onderdelen. Vlucht dansend en gewoonlijk hoog. Leeft introepverband; grote troepen in de vlucht lijken voorbijdrijvende sneeuwvlokken. Zie ook Sneeuwvink. Nestelt tussen stenen en in rotsspleten.<br /><strong>Geluid</strong>: een luid <em>tswiet</em>, een klagend <em>ti&egrave;&uuml;</em> (als van IJsgors) en een snel <em>tirrirrirrip.</em> Zang een hoog, zeer vlug, maar muzikaal <em>turi-turi-turi-tetitu&iuml;e</em> van bijna leeuwerikachtige kwaliteit; zingt tijdens afdaling van cirkelende baltsvlucht en ook in de zit.<br /><strong>Voorkomen</strong>: niet zeldzame doortrekker en wintergast van eind september tot eind maart, voornamelijk langs de kust. Overwintert vaak in grote troepen.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -2138,11 +2138,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('267',{naam:'Vink',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('267',{naam:'Vink',wetenschappelijke_naam:'Fringilla coelebs',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'vink.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Chaffinch</p><p>D: Buchfink</p><p>F: Pinsondes arbres</p><p><strong>Veldkenmerken</strong>: 15. Meestvoorkomende vink. Herkenbaar aan opvallende, <em>dubbele, witte vleugelband</em> en, in vlucht, aan <em>witte buitenstaart</em>. Manl. van onderen <em>wijnrood</em>, met kastanjebruine mantel, groenachtige stuit en <em>leiblauwe kruin en nek</em>. Vrl. licht olijfbruin van boven en lichter van onderen. Golvende vlucht. Buiten broedseizoen in troepverband, vaak met andere vinken; geslachten dikwijls in afzonderlijke troepen. Verschilt van Keep door groenachtige (niet witte) stuit. Nestelt gewoonlijk vrij laag, in boom of struik.<br /><strong>Geluid</strong>: een luid, herhaald <em>twink, wiet</em> en <em>tsjit</em>; in de vlucht een onderdrukt <em>juup</em>. Zang een korte, heftige cascade van een tiental tonen, eindigende in een zwierig <em>tjoe-ie-o</em>; varieert plaatselijk sterk.<br /><strong>Voorkomen</strong>: algemene broedvogel van gevarieerd terrein; grotendeels standvogel. Trekt in zeer groot aantal door van half september tot begin december en van half februari tot in mei.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -2258,11 +2258,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('282',{naam:'Witbandkruisbek',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('282',{naam:'Witbandkruisbek',wetenschappelijke_naam:'Loxia leucoptera',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'witbandkruisbek.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Two-barred Crossbill</p><p>D: Blindenkreuzschnabel</p><p>F: Beccrois&eacute; bifasci&eacute;</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Kleiner dan Kruisbek. Zelfs in de vlucht herkenbaar aan duidelijke, <em>dubbele, witte vleugelband</em>; maakt bij slechte belichting indruk van een Vink. Manl. helderder rood dan Kruisbek; vrl. lichter geel en meer gestreept. Juveniel heeft minder duidelijke vleugelbanden, overigens als juveniel Kruisbek. Zie ook Haakbek. Biotoop als Kruisbek, maar prefereert larikswouden.<br /><strong>Geluid</strong>: een vloeiend <em>piet</em> en een droog <em>kief-kief</em>. Zang een opeenvolging van luide trillers van verschillende hoogte.<br /><strong>Voorkomen</strong>: dwaalgast (5x). Zeldzame broedvogel van Noord-Finland en Noord-Zweden. Overwintert in Baltische landen, soms afdwalend naar het westen van Europa en Britse eilanden.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -4177,6 +4177,117 @@ organismenMap.set('520',{naam:'Rotskruiper',wetenschappelijke_naam:'Tichodroma m
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Wall Creeper</p><p>D: Mauerl&auml;ufer</p><p>F: Tichodrome &eacute;chelette</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Herkenbaar aan <em>vuurrode dekveren</em> van bruinzwarte, afgeronde vleugels. Heeft grijze bovendelen, korte staart en lange, slanke, gebogen snavel. <em>Grote, witte vlekken</em> op handpennen en staarteinde. Keel en borst van manl. in zomer zwart, in winter witachtig; vrl. in zomer met zwarte borstvlek. Heeft krampachtige, vlinderachtige vlucht; slaat brede vleugels tijdens voedselzoeken voortdurend open en dicht. Juveniel als adult in winter, maar meer bruinachtig, met rechtere snavel. Steunt zich bij het klimmen, anders dan bij boomkruipers, niet op zijn staart; klimt niet als een echte boomklever naar beneden. Vogel van hoge rotsravijnen, ru&iuml;nes e.d. Nestelt in diepe scheuren en spleten van rotsen, soms van gebouwen, gewoonlijk vanaf 1800 m tot sneeuwgrens; in winter in rotsachtige valleien en aan de voet van heuvels.<br /><strong>Geluid</strong>: een helder, fluitend en oplopend <em>dzie-dzie-titi-dzwie</em>.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1972).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('521',{naam:'Witkopgors',wetenschappelijke_naam:'Emberiza leucocephala',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'witkopgors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pine Bunting</p><p>D: Fichtenammer</p><p>F: Bruant &agrave; calotte blanche</p><p><strong>Veldkenmerken</strong>: 16. Manl. heeft <em>witte, zwart omzoomde kruin en wangen, kastanjebruine keel en brede oogband</em>, witachtige onderdelen, met onduidelijk rossig gevlekte borstband en flanken. Bovendelen, incl <em>roestkleurige stuit</em>, als bij Geelgors. Vrl. als vrl. Geelgors, maar wit waar laatste geel is. Jonge vogels als adult vrl. In winter is het wit aan kop van manl. minder duidelijk door donkere vederranden.<br /><strong>Geluid</strong>: roep en zang identiek aan die van Geelgors.<br /><strong>Voorkomen</strong>: dwaalgast (14x). Siberische vogel die regelmatig afdwaalt naar Europa (vooral Noord-Itali&euml;; ook Belgi&euml;.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('522',{naam:'Grijze gors',wetenschappelijke_naam:'Emberiza cia',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'grijzegors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rock Bunting</p><p>D: Zippammer</p><p>F: Bruant fou</p><p><strong>Veldkenmerken</strong>: 16. Herkenbaar aan <em>asgrijze keel en kop, met smalle, zwarte strepen op kruin en oor en onder oog</em>. Spreidt telkens de staart bij voedselzoeken, waardoor witte buitenstaart opvalt. Bovendelen kastanjebruin, zwart gestreept; stuit <em>ongestreept</em> kastanjebruin; onderdelen <em>isabelkleurig roodbruin</em>. Vrl. is doffer, bruiner, met enigszins gestreepte borst en flanken. Adult verschilt van alle andere Europese gorzen door <em>licht asgrijze keel</em>. Juveniel verschilt van jonge Ortolaan en Bruinkeelortolaan door roodachtig isabelkleurige onderdelen en kastanjebruine stuit. Nestelt op of even boven de grond. Vogel van rotsachtige berghellingen.<br /><strong>Geluid</strong>: roep een dun <em>tsiep</em> en een langer, gerekt <em>dzieh</em>. Zang een hoog en helder liedje, dat aan de zang van Heggemus herinnert.<br /><strong>Voorkomen</strong>: dwaalgast (1x).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('523',{naam:'Smyrna gors',wetenschappelijke_naam:'Emberiza cineracea',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'smyrnagors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Cinereous Bunting</p><p>D: Kleinasiatische Ammer</p><p>F: Bruant cendr&eacute;</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Een <em>grijsachtige</em> gors met een <em>dofgele </em>kop en wit op buitenste staartpennen. Keel heldergeel; nek en bovenborst asgrijs met geelachtige tint; onderdelen hoofdzakelijk wit. Bovendelen bruinachtig grijs, donker gestreept, met isabelkleurige randen van vleugeldekveren en armpennen. Snavel blauwachtig hoornkleurig. Poten vleeskleurig bruin. Vrl. doffer gekleurd, met bruinere, gestreepte kop en gestreepte gele keel. Onvolwassen is donkerder, met gestreepte, asbruine onderdelen, maar keel met purperen tint; binnenste armpennen met drede, rossige randen. Vogel van droge, rotsachtige of steenachtige hellingen met weinig vegetatie; tot op boomgrens.<br /><strong>Geluid</strong>: roep een kort <em>kip</em>. Korte zang typisch gorsachtig, ongeveer <em>dir, dir, dir, dlie-dieI</em>.<br /><strong>Voorkomen</strong>: broedvogel van Griekse eilanden.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('524',{naam:'Bruinkeelortolaan',wetenschappelijke_naam:'Emberiza caesia',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'bruinkeelortolaan_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Cretzschmar&#39;s Bunting</p><p>D: Grauer Ortolan</p><p>F: Bruant cendrillard</p><p><strong>Veldkenmerken</strong>: 16. Manl. lijkt wat op manl. Ortolaan, maar kop en borstband zijn <em>helder blauwgrijs</em> (niet olijfkleurig), <em>keel roestkleurig</em> (niet geel). Vrl. verschilt van vrl. Ortolaan door <em>afwezigheid van geel op keel</em>. Onvolwassen verschilt van jonge Ortolaan door isabel-kleuriger uiterlijk (twijfelachtig kenmerk); van jonge Grijze Gors door roza snavel. In herfst zijn de levendige kleuren in beide geslachten ten dele verduisterd. Nestelt op de grond. Vogel van rotsachtige heuvels en semi-woestijnen met verspreide, lage vegetatie.<br /><strong>Geluid</strong>: zang Geelgors-achtig met een &#39;valse&#39; slottoon.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1859!). Broedvogel in Griekenland en Dalmati&euml;. Dwaalgast in overig Zuid-Europa, ook in Duitsland, Zweden en Groot-Brittanni&euml;. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('525',{naam:'Cirlgors',wetenschappelijke_naam:'Emberiza cirlus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'cirlgors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Cirl Bunting</p><p>D: Zaunammer</p><p>F: Bruant zizi</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Manl. heeft <em>gele onderdelen met groenachtige borstband, zwarte keel</em> (in winter onduidelijk) en gestreepte flanken; olijfgroene kop met donkere kruin, <em>gele streep boven en onder oog</em>, zwarte streep door het oog; rug en borstzijden kastanjebruin; verschilt van Geelgors door karakteristieke kop- en borsttekening. Vrl. en juveniel doffer; verschillen van Geelgors door <em>olijfbruine stuit</em>. Zie ook Wilgengors en Ortolaan. Nestelt laag in heggen, struikgewas, soms op de grond aan oeverkanten; bij voorkeur langs de rand van bouwland en in heuvelachtige streken.<br /><strong>Geluid</strong>: een zwak <em>sip</em>; in de vlucht <em>sissi-sissi-sip</em>. Zang een eentonig, haastig getjingel, wel wat lijkend op die van Geelgors zonder eindstrofe.<br /><strong>Voorkomen</strong>: dwaalgast (4x).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('526',{naam:'Dwerggors',wetenschappelijke_naam:'Emberiza pusilla',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'dwerggors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Little Bunting</p><p>D: Zwergammer</p><p>F: Bruant nain</p><p><strong>Veldkenmerken</strong>: 13&frac12;. Zo groot als een Kneu. Onuitgesproken getekend behalve in het broedseizoen, wanneer kruin en wangen <em>kastanjebruin en met zwart omzoomd</em> zijn. Bovendelen bruin, zwart gestreept; onderdelen witachtig, <em>fijn zwart gestreept</em>, vooral op bovenborst en flanken. Vrl. doffer; verschilt van vrl. Bos- en Rietgors door geringere grootte en dof kastanjebruine wangen. Vogel van toendra nabij water, valleien met onderbegroeiing en moerassen. Nestelt op de grond tussen dwergwilgen.<br /><strong>Geluid</strong>: een herhaald, Roodborstachtig <em>tip</em> of <em>pit</em>. Zang een kort, melodieus gekwetter.<br /><strong>Voorkomen</strong>: zeer zeldzame onregelmatige gast. Zeldzame broedvogel in Noord-Finland; heeft in Noord-Noorwegen en Zweden gebroed. Af en toe op doortrek in meeste landen van West-Europa (in Groot-Brittanni&euml; vooral op Fair Isle); ook Belgi&euml;.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('527',{naam:'Bosgors',wetenschappelijke_naam:'Emberiza rustica',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'bosgors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rustic Bunting</p><p>D: Waldammer</p><p>F: Bruant rustique</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Verschilt van andere gorzen door <em>helderwitte keel</em> en onderdelen, met brede, onregelmatige, <em>kaneelbruine borstband</em> en enkele kaneelbruine flankstrepen. Bovendelen kastanjebruin, zwart gestreept. Manl. heeft <em>zwarte kruin en wangen</em> (in winter bruinachtig) met opvallend brede, <em>witte wenkbrauwstreep</em>. Vrl. heeft donkerbruine kruin en wangen; lijkt wel wat op groot Paapje. Heeft nerveuze gewoonte de kruinveren op te zetten. Nestelt in het gras of laag struikgewas. Vogel van moerassige bossen.<br /><strong>Geluid</strong>: een herhaald, hoog <em>tsip, tsip, tsip</em>. Zang Heggemusachtig, maar korter.<br /><strong>Voorkomen</strong>: dwaalgast (10x).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('528',{naam:'Wilgengors',wetenschappelijke_naam:'Emberiza aureola',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'wilgengors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Yellow-breasted Bunting</p><p>D: Weidenammer</p><p>F: Bruant aur&eacute;ole</p><p><strong>Veldkenmerken</strong>: 14. Manl. heeft heldergele onderdelen met opvallende, smalle kastanjebruine borstband; Vinkachtig vleugelpatroon, met brede, witte schoudervlek en smalle vleugelstreep; <em>zwarte voorkop</em>, donker kastanjebruine nek en bovendelen. In winter is zwart-en-roodbruine tekening ten dele verdoezeld door lichte vederranden; verschilt dan steeds van alle andere gorzen door witte vleugelstrepen en smalle borstband. Vrl. is ook geel of geelachtig van onderen, maar mist de borstband; opvallende koptekening doet denken aan Waterrietzanger (lichte kruinstreep en wenkbrauwstreep door donkere strepen gescheiden); verschilt voorts van vrl. Cirl- of Geelgors door bleke uiterlijk, ongestreepte middenborst en onduidelijke vleugelstrepen. Beide geslachten hebben enig wit in de staart. In winter op open terrein; in zomer vooral in lage berke- en wilgestruiken nabij water, doch ook op steppen. Nestelt in kleine struiken.<br /><strong>Geluid</strong>: een Roodborstachtig <em>tik</em> en een zacht <em>trsit</em>. Ver dragende zang is melodieus, vlugger en vloeiender dan die van Ortolaan: <em>tjuuwe-tjuuwe-tiet-tjiewuu</em>.<br /><strong>Voorkomen</strong>: dwaalgast (2x). Broedvogel in West-Finland. Trekt oostwaarts. Dwaalgast Westeleijk tot Begi&euml;, Groot-Brittanni&euml;, IJsland en Zuidelijk tot Malta.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('529',{naam:'Zwartkopgors',wetenschappelijke_naam:'Emberiza melanocephala',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'zwartkopgors_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Black-headed Bunting</p><p>D: Kappenammer</p><p>F: Bruant m&eacute;lanoc&eacute;phale</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Manl. heeft <em>ongestreepte</em>, gele onderdelen; <em>zwarte kop</em>, met <em>gele halsband</em>; kastanjebruine rug; <em>geen wit op staart</em>. Kop in de herfst bruinachtig. Vrl. is dof gestreept olijfbruin van boven; verschilt van andere gorzen met gele borst door <em>ongestreepte</em> onderdelen; onderstaartdekveren zijn geel. Zie ook Bruinkopgors. Vogel van open terrein met verspreide bomen en onderbegroeiing, olijfbossen, tuinen. Nestelt in lage vegetatie.<br /><strong>Geluid</strong>: een zacht <em>tsup</em>, een kort, luid <em>tsit</em> en een lager, bedaarder <em>dzie</em>. Zang voor een gors ongewoon welluidend; begint met enkele langzame tonen en eindigt met een korte, vlugge en enigszins onderdrukte muzikale strofe.<br /><strong>Voorkomen</strong>: dwaalgast (5x). Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('530',{naam:'Citroensijs',wetenschappelijke_naam:'Carduelis citrinella',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'citroensijs_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Citril Finch</p><p>D: Zitronenzeisig</p><p>F: venturon montagnard</p><p><strong>Veldkenmerken</strong>: 12. <em>Groenachtig, met grijsachtige nek en halszijden</em>; heldergele onderdelen, stuit groengeel; bruinzwarte vleugels met groengele dwarsband. Vrl. doffer en van boven zwak gestreept. Juveniel grijsbruin met lichtere onderdelen, van boven en onder gestreept. &#39;Dansende&#39; vlucht. Meestal in troepen. Verschilt van Sijs en Europese Kanarie door grijsachtige hals en ongestreepte onderdelen. Corsicaanse vorm, C. c. corsicana, heeft roestkleurige, gestreepte mantel en lichtere gele onderdelen (nestelt tot op zeeniveau). Nestelt in coniferen. Vogel van bergstreken, in zomer boven 1500 m, in winter lager.<br /><strong>Geluid</strong>: een klagend <em>psie-ie</em> en een metaalachtig <em>tswik</em>. Zang een Sijsachtige mengeling van wat krassende tonen en muzikaal gekwetter, vaak in cirkelende vlucht.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('531',{naam:'WItstuitbarmsijs',wetenschappelijke_naam:'Acanthis hornemanni hornemanni',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'witstuitbarmsijs_ebird.jpg'},
+],
+informatieblok:[
+],
+geluiden:[
+],
+})
+organismenMap.set('532',{naam:'Woestijnvink',wetenschappelijke_naam:'Rhodopechys githaginea',type_organisme:'vogel',afbeeldingen:[
+],
+informatieblok:[
+],
+geluiden:[
+],
+})
+organismenMap.set('533',{naam:'Haakbek',wetenschappelijke_naam:'Pinicola enucleator',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'haakbek_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Pine Grosbeak</p><p>D: Hakengimpel</p><p>F: Dur-bec des sapins</p><p><strong>Veldkenmerken</strong>: 20&frac12;. Een grote, zware vink met <em>vrij lange staart</em>. Manl. met <em>rozerode kop, hals, borst en stuit</em>; donkere vleugels met <em>dubbele, witte vleugelband</em>; grijze buik. Bij vrl. is het roze <em>groenachtig goudbruin</em>. Kruin nogal plat, snavel zwaar en Goudvinkachtig. Vlucht zeer golvend. Gewoonlijk erg mak. In winter in troepverband. Witbandkruisbek en Roodmus zijn ook rozerood, met dubbele vleugelstreep, maar zijn veel kleiner (dan een mus). Vogel van noordelijke, gemengde en naaldbossen; nestelt in coniferen.<br /><strong>Geluid</strong>: een hoog, piepend <em>tie-tie-tjoe</em>. Alarmroep een muzikaal <em>tsjievli, tsievli</em>. Zang bestaat uit luide, fluitende tonen, vermengd met een nasaal geluid.<br /><strong>Voorkomen</strong>: dwaalgast (4x).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('534',{naam:'Spaanse mus',wetenschappelijke_naam:'Passer hispaniolensis',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'spaansemus_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spanish Sparrow</p><p>D: Weidensperling</p><p>F: Moineau espagnol</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Manl. heeft warm kastanjebruinrode kruin als Italiaanse Mus, maar verschilt van deze en Huismus door <em>uitgebreider zwart aan keel en krop, zwart gestreepte flanken en veel zwartere rug</em>. Vrl. en juveniel in het veld niet van Huismus te onderscheiden, hoewel wangen witter en bovendelen donkerder zijn. Gedrag en vlucht als van Huismus, maar wordt dikwijls in dichte troepen gezien ver van huizen. Geluid is rijker en minder scherp. Prefereert bossen met struikgewas. Nestelt in kolonies of alleen, in fundament van Ooievaars- of Arendsnesten e.d., ook in oude Huiszwaluwnesten en in boomtakken.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
