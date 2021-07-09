@@ -130,11 +130,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('16',{naam:'Bontekraai',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('16',{naam:'Bonte kraai',wetenschappelijke_naam:'Corvus corone cornix',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'bontekraai.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Hooded Crow</p><p>D: Nebelkr&auml;he</p><p>F: Corneille mantel&eacute;e</p><p><strong>Veldkenmerken</strong>: 47. Verschilt van Zwarte Kraai door <em>grijze rug en onderdelen</em>; overigens zwart. Wordt algemeen als conspecifiek met de Zwarte Kraai beschouwd. Gedrag en biotoop als Zwarte Kraai.<br /><strong>Geluid</strong>: niet te onderscheiden van dat van Zwarte Kraai.<br /><strong>Voorkomen</strong>: zeldzame broedvogel, voornamelijk in het noorden des lands; soms gepaard met Zwarte Kraai. Algemene doortrekker en wintergast van eind september tot in mei. Enkele zomerwaarnemingen. Hybridiseert met Zwarte Kraai in streken, waar verspreidingsgebieden elkaar raken. Noordelijke vorm is <em>C. c. cornix</em>, zuidelijke vorm is <em>C. c. sardonius</em>.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -362,11 +362,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('45',{naam:'Ekster',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('45',{naam:'Ekster',wetenschappelijke_naam:'Pica pica',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ekster.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Magpie</p><p>D: Elster</p><p>F: Pie bavarde</p><p><strong>Veldkenmerken</strong>: 46. Herkenbaar aan <em>contrasterend zwart en wit vederkleed en lange, trapvormige staart</em>. Schouder, flanken en buik wit; overigens zwart met blauwe, groene en purperen glans. Dikwijls in kleine troepjes. Wipt met de staart. &#39;Peddelende&#39;vlucht. Bouwt grote, overkapte nesten.<br /><strong>Geluid</strong>: een luid, vlug <strong>tsjak-tsjak-tsjak-tsjak</strong>; in broedseizoen verscheidene, niet onmuzikale geluiden.<br /><strong>Voorkomen</strong>: algemene broedvogel van gevarieerd terrein. Standvogel, maar in winter vaak rondzwervend.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -434,11 +434,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('54',{naam:'Gaai',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('54',{naam:'Gaai',wetenschappelijke_naam:'Garrulus glandarius',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'gaai.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: jay</p><p>D: Eichelh&auml;her</p><p>F: Geai des ch&ecirc;nes</p><p><strong>Veldkenmerken</strong>: 34. Rozebruin lichaam, <em>witte stuit en zwarte staart</em>, witte vleugelvlek, <em>blauw en zwart gestreepte vleugeldekveren</em>, zwart en wit gestreepte, oprichtbare kruinveren. Ogen lichtblauw. &#39;Moeizame&#39; vlucht. Vaak in kleine, luidruchtige troepjes. Nestelt graag in jong, opgaand hout.<br /><strong>Geluid</strong>: een doordringend, rauw <em>schraak</em> of <em>schr&egrave;&egrave;k</em>, soms in koor; verscheidene scherpe, klokkende, klikkende en miauwende geluiden.<br /><strong>Voorkomen</strong>: vrij algemene broedvogel van bosachtige streken. Noordelijke vogels trekken soms talrijk bij ons in de herfst door.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -874,11 +874,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('109',{naam:'Kauw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('109',{naam:'Kauw',wetenschappelijke_naam:'Corvus monedual',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'kauw.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Jackdaw</p><p>D: Dohle</p><p>F: Choucas des tours</p><p><strong>Veldkenmerken</strong>: 33. Zwart, met <em>grijze nek en oorstreek</em>. Onderdelen donkergrijs. Ogen lichtgrijs. Verschilt van grotere kraaiachtigen door snellere vlucht , levendiger gedrag, <em>kortere snavel</em> en karakteristiek geluid. Meestal in troepverband, dikwijls met Roeken en Spreeuwen. Scandinavische vorm, <em>C. m. monedula</em>, heeft lichtere hals en onderdelen en onduidelijke, witte vlek op zijhals. De oostelijke vorm <em>C. m. soemmeringii</em>, heeft witte of geelwitte, halvemaanvormige halsvlek. Nestelt koloniegewijs in holle bomen, schoorstenen, op gebouwen e.d.<br /><strong>Geluid</strong>: onmiskenbaar <em>tsjek</em> of <em>kjak</em> en een vlug <em>tsjeka-tsjeka-tsjek</em>; ook een metaalachtig <em>kia</em> en gevarieerde geluiden in broedtijd.<br /><strong>Voorkomen</strong>: de West- en Middeneuropese vorm <em>C. m. spermologus</em>, is bij ons zeer algemene broed- en standvogel. Trekt in groot aantal door in oktober en november en van half februari tot in mei. De oostelijke vrom (&#39;Russische Kauw&#39;) is vrij zeldzame doortrekker en/of wintergast. Enkele vondsten van Scandinavische vorm.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1378,11 +1378,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('172',{naam:'Notenkraker',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('172',{naam:'Notenkraker',wetenschappelijke_naam:'Nucifraga caryocatactes',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'notenkraker.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Nutcracker</p><p>D: Tannenh&auml;her</p><p>F: Casse-noix mouchet&eacute;</p><p><strong>Veldkenmerken</strong>: 32. Donker chocoladebruin met <em>witte druppelvlekken</em>. Lange, zware (bij Siberische vorm slankere), donkere snavel. <em>Witte onderstaartdekveren</em>, met brede, witte eindband aan onderzijde van vrij korte, donkere staart (van boven slechts met smalle witte band). Vleugels bruinzwart en in vlucht zeer breed. Gaaiachtige vlucht. Dikwijls buiten broedseizoen in kleine troepjes. Zit graag in boomtoppen. Vogel van naaldbossen in bergachtige streken; in winter ook in gemengde bossen. Nestelt in coniferen.<br /><strong>Geluid</strong>: een scherp <em>kror</em> en een gaaiachtig <em>skrr&egrave;&egrave;k</em>, dikwijls herhaald in serie; <em>skr&egrave;kr&egrave;kr&egrave;</em>. In broedseizoen verscheidene krassende, klikkende en miauwende geluiden.<br /><strong>Voorkomen</strong>: Siberische (dunsnavelige) vorm is zeldzame en onregelmatige invasiegast van eind september tot in januari (laatste grote invasie in 1954 en 1968). Europese vorm is dwaalgast (4x). E&eacute;n broedgeval (1969).</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1594,11 +1594,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('199',{naam:'Ringmus',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('199',{naam:'Ringmus',wetenschappelijke_naam:'Passer montanus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'ringmus.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Tree Sparrow</p><p>D: Feldsperling</p><p>F: Moineau friquet</p><p><strong>Veldkenmerken</strong>: 14. Geslachten gelijk. Verschilt van mann. Huismus door <em>warm chocoladebruine kruin</em> en <em>zwarte vlek midden in witte wang- en oorstreek</em>, welke bijna een witte halsband vormt. Iets kleiner en slanker dan Huismus. Zie ook Spaanse en Italiaanse vorm van Huismus. Meer vogel van platteland; komt zelfs plaatselijk in toendra voor. Nestelt in boomgaten, vooral van knotwilgen, nestkastjes, hooibergen, enz.<br /><strong>Geluid</strong>: hoger dan dat van Huismus; een kort, metaalachtig <em>tsjik</em> of <em>tsjup</em>, een herhaaldelijk <em>tsjik-tsju</em> en een vlug ratelend getsjilp. Onmiskenbare roep in vlucht: <em>tek, tek</em>.<br /><strong>Voorkomen</strong>: algemene broedvogel. Trekt in vrij groot aantal weg en door van half sept. tot begin dec. en van eind febr. tot in mei.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1610,11 +1610,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('201',{naam:'Roek',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('201',{naam:'Roek',wetenschappelijke_naam:'Corvus frugileus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'roek.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rook</p><p>D: Saatkr&auml;he</p><p>F: Corbeau freux</p><p><strong>Veldkenmerken</strong>: 46. Zwart met purperen glans. Herkenbaar aan <em>naakte, grijswitte voorkop</em> en <em>slankere. puntiger, grijszwarte snavel</em>; loopt met afhangende dijveren. Juveniel doffer, met bevederd, zwart gezicht; verwarring met Zwarte Kraai mogelijk, maar verschilt door slangere snavel. Vlucht rechtlijnig en regelmatig en met snellere vleugelslag dan Zwarte Kraai. Leeft in troepverband; nestelt <em>koloniegewijs</em> in boomtoppen. Prefereert nabijheid van bouwland.<br /><strong>Geluid</strong>: heeft uitgebreid repertoire. Gewone roep <em>k&ograve;h</em> of <em>kaaa</em>; minder scherp en meestal lager dan van Zwarte en Bonte Kraai.<br /><strong>Voorkomen</strong>: plaatselijk algemene koloniebroedvogel. Trekt weg en door van eind september tot in december en keert terug van half februari tot in mei. Overwintert ook.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1730,11 +1730,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('216',{naam:'Rozespreeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('216',{naam:'Rozespreeuw',wetenschappelijke_naam:'Pastor roseus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'rozespreeuw.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rose-coloured Starling</p><p>D: Rosenstar</p><p>F: Martin roselin</p><p><strong>Veldkenmerken</strong>: 21&frac12;. Gedrag, gestalte en vlucht als van Spreeuw. Vederkleed onmiskenbaar: <em>roze met glanzend zwarte kop, hals, vleugels en staart</em> en <em>opvallende kuif</em>. Snavel oranjegeel, poten roze, maar in winter snavel bruin. Juveniel zandkleurig bruin, met donkerder vleugels en staart en zonder kuif; <em>lichter</em> dan jonge Spreeuw, zelfs in de vlucht, en met <em>geelachtige snavel</em>. Leeft in troepverband, ook in broedseizoen; associeert zich met Spreeuwen. Nestelt in holten in muren, rotsen, onder steenhopen.<br /><strong>Geluid</strong>: in de vlucht als van Spreeuw; foeragerende troepen kwetteren luider en muzikaler dan Spreeuw.<br /><strong>Voorkomen</strong>: dwaalgast (10x). Onregelmatige koloniebroedvogel van open terreinen, cultuurgrond, ru&iuml;nes en steppen van Zuid-Oost-Europa; komt op trek in Griekenland voor en dwaalt in zomer en hersft steed ongeregelder westwaatrs naar overig Europa af.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -1890,11 +1890,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('236',{naam:'Spreeuw',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('236',{naam:'Spreeuw',wetenschappelijke_naam:'Sturnus vulgaris',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'spreeuw.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Starling</p><p>D: Star</p><p>F: Etourneau sansonnet</p><p><strong>Veldkenmerken</strong>: 21&frac12;. Zwart met groene en purperen weerschijn. <em>Korte staart, puntige vleugels, lange, scherpe snavel</em>. Vederkleed is in de winter dicht gespikkeld, vooral vrl.. Juveniel muisbruin met witachtige keel. Snavel van adult in winter donker, in voorjaar citroengeel. Monter, ruziemakerig en babbelziek. Vlucht rechtlijnig en snel, nu en dan glijdend. Rust en zoekt voedsel in troepverband. In herfst en winter vaak in enorme troepen (spreeuwenwolk). Nestelt in bommholten, gebouwen, nestkastjes, rieten daken e.d. of in gaten in de grond.<br /><strong>Geluid</strong>: een scherp, &aacute;flopend <em>tsjieer</em>. Zang een onsamenhangende mengeling van heldere fluittonen, klikkende, ratelende en klokkende geluiden; meestal vanuit boomtop of schoorsteen en daarbij klappende met de vleugels. Imiteert ook andere vogels.<br /><strong>Voorkomen</strong>: zeer algemene broedvogel van stad en platteland; ten dele standvogel. Trekt weg in in massaal aantal door van half augustus tot diep in winter en keert terug van begin februari tot ver in mei. Voortrek reeds in juni en juli.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -2218,11 +2218,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('277',{naam:'Wielewaal',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('277',{naam:'Wielewaal',wetenschappelijke_naam:'Oriolus oriolus',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'wielewaal.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Golden Oriole</p><p>D: Pirol</p><p>F: Loriot</p><p><strong>Veldkenmerken</strong>: 24. Manl. onmiskenbaar, <em>schitterend geel, met zwarte staart en vleugels</em>; staarteinde met gele vlekken. Vrl. en juveniel geelachtig groen met donkerder vleugels en staart en licht gestreepte onderdelen; verschilt van Groene Specht door ontbreken van rood op kop. Vlucht snel, in lange golvingen, waarbij dekking in opwaartse boogvlucht wordt bereikt, gewoonlijk goed verborgen tussen hoog gebladerte. Nestelt in hoog, tussen horizontale takvorm opgehangen, nest. Typische boomvogel, die zich meer laat horen dan zien.<br /><strong>Geluid</strong>: een luid, sonoor, jodefluitend <em>wiela-wieoo</em> of <em>tjuk-tjuk-wieoo</em>. Alarmroep een hees <em>gr-r-r</em>. Ook verscheidene rauwe, bijna gaaiachtige geluiden.<br /><strong>Voorkomen</strong>: plaatselijk vrij algemene broedvogel van loofhout in tuinen, parken, grienden, enz. Trekt weg van augustus tot ver in september en keert terug vanaf begin mei.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -2386,11 +2386,11 @@ informatieblok:[
 geluiden:[
 ],
 })
-organismenMap.set('298',{naam:'Zwartekraai',wetenschappelijke_naam:'',type_organisme:'vogel',afbeeldingen:[
+organismenMap.set('298',{naam:'Zwarte kraai',wetenschappelijke_naam:'Corvus corone corone',type_organisme:'vogel',afbeeldingen:[
 {vindplaats:'zwartekraai.jpg'},
 ],
 informatieblok:[
-],
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Carrion Crow</p><p>D: Rabenkr&auml;he</p><p>F: Corneille noir</p><p><strong>Veldkenmerken</strong>: 47. Geheel glanzend zwart. Zware, zwarte snavel. Vlucht langzaam en &#39;roeiend&#39;; zeilt zelden. Gewoonlijk solitair of in paren, behalve op roetsplaats. Verschilt van onvolwassen Roek door zwaardere, meer ronde snavel; van Bonte Kraai (een ondersoort) door geheel zwart vederkleed; van Raaf door kleiner formaat, minder massieve snavel, rechter afgesneden staart en door roep. Nestelt in bomen, soms op de grond en op kliffen.<br /><strong>Geluid</strong>: een scherp, krassend <em>kraaa</em>, 3 of 4 maal herhaald. Ook een klagerig, herhaald <em>kierk</em> en een gedempt, metaalachtig <em>konk</em>. Roepen van Zwarte (en Bonte) Kraai zijn meestal hoger en helderder dan die van Roek.<br /><strong>Voorkomen</strong>: een algemene broedvogel van gevarieerd terrein. Hoofdzakelijk stanvogel. Trekverplaatsingen, vooral in oktober en april, hebben vermoedelijk betrekking op niet bij ons broedende vogels.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
@@ -4288,6 +4288,70 @@ organismenMap.set('534',{naam:'Spaanse mus',wetenschappelijke_naam:'Passer hispa
 ],
 informatieblok:[
 {'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spanish Sparrow</p><p>D: Weidensperling</p><p>F: Moineau espagnol</p><p><strong>Veldkenmerken</strong>: 14&frac12;. Manl. heeft warm kastanjebruinrode kruin als Italiaanse Mus, maar verschilt van deze en Huismus door <em>uitgebreider zwart aan keel en krop, zwart gestreepte flanken en veel zwartere rug</em>. Vrl. en juveniel in het veld niet van Huismus te onderscheiden, hoewel wangen witter en bovendelen donkerder zijn. Gedrag en vlucht als van Huismus, maar wordt dikwijls in dichte troepen gezien ver van huizen. Geluid is rijker en minder scherp. Prefereert bossen met struikgewas. Nestelt in kolonies of alleen, in fundament van Ooievaars- of Arendsnesten e.d., ook in oude Huiszwaluwnesten en in boomtakken.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('535',{naam:'Rotsmus',wetenschappelijke_naam:'Petronia petronia',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'rotsmus_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Rock Sparrow</p><p>D: Steinsperling</p><p>F: Moineau soulcie</p><p><strong>Veldkenmerken</strong>: 14. Bleek muskleurig, plomp en kortstaartig. Midden van kruin grijsbruin, zijden van kruin en wangen donkerbruin, afstekend tegen <em>lange, brede, lichte wenkbrauwstreep. Witte vlekken aan staarteinde</em> vooral opvallend <em>in vlucht</em>. Onderdelen zwak getekend met lichtbruine streepjes. Onduidelijke bleekgele vlek op keel alleen zichtbar op korte afstand, wanneer kop wordt opgeheven. Juveniel lichter, zonder gele keelvlek. Zeer actieve vogel, die dikwijls over de rotsen <em>rent</em>. Vogel van hoge, rotsachtige berghellingen, stenen bodem, ru&iuml;nes e.d.; zelden bij bomen of huizen. Nestelt in spleten.<br /><strong>Geluid</strong>: een luid en gerekt <em>dzjuwie</em>, een nasaal, Keepachtig <em>tsj&egrave;hi</em>, een Groenlingachtig, herhaald <em>tuwie</em> en verscheidene andere tjilpende geluiden, die scherper zijn dan die van Huismus. Zang niet musachtig; een aangehouden, enigszins Kneuachtig gebabbel.<br /><strong>Voorkomen</strong>: dwaalgast (2x; v&oacute;&oacute;r 1858).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('536',{naam:'Sneeuwvink',wetenschappelijke_naam:'Montifringilla nivalis',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'sneeuwvink_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Snow Finch</p><p>D: Schneefink</p><p>F: Niverolle</p><p><strong>Veldkenmerken</strong>: 18. Een bergvogel. Verschilt van Sneeuwgors door <em>grijze kop en zwarte keel</em> (&eacute;n verspreidingsgebied). Van boven warm chocoladebruin, van onderen roomwit. Vleugels in hoofdzaak wit, met zwarte handpennen. Staart wit met zwart in het midden, wat vooral in de vlucht opvalt. Vrl. en juveniel doffer, met minder wit op vleugels en staart. Snavel zwartachtig in voorjaar, geel in winter en bij juveniel. Zit rechtop en wipt nerveus met de staart. Vogel van kale bergtoppen boven 1800 m; in winter lager. Bezoekt berghutten en -kampen. Nestelt in rotsspleten, muren, onder dakranden enz.<br /><strong>Geluid</strong>: een scherp <em>tswiek</em>. Zang, in baltsvlucht en in de zit, een herhaald <em>sittit-sjesittitsje</em>.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1967).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('537',{naam:'Zwarte spreeuw',wetenschappelijke_naam:'Sturnus unicolor',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'zwartespreeuw_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Spotless Starling</p><p>D: Einfarbstar</p><p>F: Etourneau unicolore</p><p><strong>Veldkenmerken</strong>: 21&frac12;. Op afstand niet te onderscheiden van gewone Spreeuw, maar van nabij is manl. in broedkleed duidelijk <em>zwarter</em>, met purperen glans en <em>zonder vlekken</em>; snavel geel. Vrl. is doffer. In winter adult grijsachtig, met kleine pijlvormige witte vlekken. Juveniel als een donkere Spreeuw. Gedrag en vlucht als Spreeuw. Nestelt in holten van bomen, kliffen, ru&iuml;nes, onder afdaken enz.<br /><strong>Geluid</strong>: luider en scheller dan dat van Spreeuw; vooral een fluitend <em>sieoe</em>.<br /><strong>Voorkomen</strong>: standvogel van Spanje, Portugal, Corsica, Sardini&euml; en Sicili&euml;, meestal in kleine kolonies op klippen en in steden en dorpen, plaatselijk in beboste streken en rondom afgelegen boerderijen. Dwaalgast in Griekenland.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('538',{naam:'Taigagaai',wetenschappelijke_naam:'Perisoreus infaustus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'taigagaai_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Siberian Jay</p><p>D: Ungl&uuml;cksh&auml;her</p><p>F: M&eacute;sangeai imitateur</p><p><strong>Veldkenmerken</strong>: 30&frac12;. In vlucht vallen <em>vosrode</em> ondervleugels, stuit en buitenste pennen van trapvormige staart op. Kruin en nek dof roetbruin; vleugels, rug, middenstaart en onderdelen muisgrijs, met rossige flanken en onderstaart. In broedseizoen teruggetrokken en gewoonlijk zwijgzaam; overigens brutaal en vrijmoedig. Beklimt handig dunne takken om denneappels te bereiken. Vogel van dennen- en berkenbossen, die in winter nabij menselijke woningen komt. Nestelt in sparren of pijnbomen, op een tak dicht bij de stam.<br /><strong>Geluid</strong>: een vrolijk <em>koek, koek</em> en een rauw <em>tsj&egrave;r</em>; ook wiskie en Buizerd-achtige, miauwende roepen.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('539',{naam:'Blauwe ekster',wetenschappelijke_naam:'Cyanopica cyanus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'blauweekster_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Azure-winged Magpie</p><p>D: Blauelster</p><p>F: Pie-bleue</p><p><strong>Veldkenmerken</strong>: 34. Herkenbaar aan grote, <em>zwarte kopkap, blauwe vleugels</em> en lange, trapvormige, <em>blauwe staart</em>. Bovendelen bruingrijs, onderdelen licht met grijsbruine flanken en witte keel. Vrijmoedige en brutale vogel, in luidruchtige benden rondzwervend; in broedseizoen meer teruggetrokken. Bouwt open nest, meestal in vork van pijnboom, hulst, populier of eik. Nestelt in verspreide groepen.<br /><strong>Geluid</strong>: een klagend en langgerekt dzrieh, &oacute;plopend in toon.<br /><strong>Voorkomen</strong>: broedvogel in Midden- en Zuid-Spanje, Portugal. Dwaalgast Itali&euml;.</p><p>[Eind Petersons]</p><p>&nbsp;</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('540',{naam:'Alpenkraai',wetenschappelijke_naam:'Pyrrhocorax pyrrhocorax',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'alpenkraai_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Chough</p><p>D: Alpenkr&auml;he</p><p>F: Crave &agrave; bec rouge</p><p><strong>Veldkenmerken</strong>: 39. Glanzend blauwzwart vederkleed, <em>lange, gebogen, rode snavel en rode poten</em>. Vlucht krachtig en acrobatisch, met gespreide handpennen in zweefvlucht. Leeft in troepverband. Verschilt van Kauw door ontbreken van grijs en van de geelsnavelige Alpenkauw door langere, rode snavel. Vogel van hooggebergte en zeeklippen; nestelt in rotsspleten en -holten.<br /><strong>Geluid</strong>: een lang, hoog <em>kjauw</em> of een karakteristiek <em>tsjuf</em>. Ook verscheidene meeuwachtige roepen <em>kwuk-uk-uk</em> enz.</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('541',{naam:'Alpenkauw',wetenschappelijke_naam:'Pyrrhocorax graculus',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'alpenkauw_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Alpine Chough</p><p>D: Alpendohle</p><p>F: Chocard &agrave; bec jaune</p><p><strong>Veldkenmerken</strong>: 38. Verschilt van Alpenkraai door kortere, rechtere, <em>gele snavel</em>. Poten rood. Op korte afstand lijkt vederkleed zwarter, met minder blauwe glans. Juveniel is doffer, met donkere poten. Vogel van bergen, die op grotere hoogte voorkomt dan Alpenkraai en in de winter afdaalt; niet langs zeekust. Nestelt in rotsspleten en in ru&iuml;nes.<br /><strong>Geluid</strong>: een dun Spreeuwachtig <em>sprrieh</em> of <em>brrieh</em> en een scherp, explosief <em>tsjiup</em>.<br /><strong>Voorkomen</strong>: dwaalgast (1x; 1892 of 1893).</p><p>[Eind Petersons]</p>', },],
+geluiden:[
+],
+})
+organismenMap.set('542',{naam:'Raaf',wetenschappelijke_naam:'Corvus corax',type_organisme:'vogel',afbeeldingen:[
+{vindplaats:'raaf_ebird.jpg'},
+],
+informatieblok:[
+{'volgnummer':'1', 'informatie':'<p>[Petersons vogelgids 13e]</p><p>E: Raven</p><p>D: Kolkrabe</p><p>F: Grand Corbeau</p><p><strong>Veldkenmerken</strong>: 63. Verschilt van andere kraaien door veel groter formaat, <em>massieve, zwarte snavel</em>, verlengde keelveren, <em>wigvormige</em> staart en diepe, kenmerkende roep. Vederkleed zwart, bij goede belichting met iriserende glans. Krachtige, rechtlijnige vlucht; zweeft en glijdt vaak; tijdens balts acrobatische vliegtoeren. Nestelt op kliffen en rotsen, plaatselijk in hoge bomen.<br /><strong>Geluid</strong>: een herhaald, diep <em>prruk</em> of <em>korrk</em>; ook een hoog, &#39;metaalachtig&#39;<em> tok</em>; vele andere krassende en klokkende geluiden.<br /><strong>Voorkomen</strong>: broedt sedert 1927 niet meer in Nederland. Sedertdien slechts enkele keren (11x) waargenomen. Is in de laatste jaren in klein aantal uitgezet.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
 ],
 })
