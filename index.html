@@ -138,13 +138,23 @@
                         //$(containerElement).html($(containerElement).html() + terugknop);
                         break;
                     case "itemlijst":
-                        basisSwiper.appendSlide('<div class="swiper-slide itemlijst-pagina">' + module.bladzijden[x].paginainhoud + '</div>');
+                        var filterDiv = "<div class='filtervenster'>Filter<input type='text' id='fname' name='fname' style='font-size:16px'></div>";
+                        var menuDiv = "<div class='menuVenster'>";
+                        basisSwiper.appendSlide('<div class="swiper-slide itemlijst-pagina">' + filterDiv + menuDiv + module.bladzijden[x].paginainhoud + '</div></div>');
                         // zorg ervoor dat alle items op click reageren
                         $(".itemlijst-pagina .itemlijst-item").on("click", function () { itemLijstItemGeklikt($(this)) });
                         // bereid item-pagina voor
                         basisSwiper.appendSlide('<div class="swiper-slide item-pagina"><p>Item pagina</p></div>');
                         // maar zorg ervoor dat je niet naar itempagina kunt gaan via swipe
                         basisSwiper.allowSlideNext = false;
+                        // voorlopige selectie functie (deze is nog erg beperkt)
+                        $(".itemlijst-pagina").find("input").eq(0).on("input", function () {
+                            $(".itemlijst-pagina .itemlijst-item").css("display", "none");
+                            $(".itemlijst-pagina .itemlijst-item:contains(" + $(this).val() + ")").css("display", "block");
+                        })
+
+
+
                         break;
                 }
 
