@@ -49,6 +49,14 @@
         $(document).ready(function () {
             initMDZB();
         })
+        // aantal uitbreidingen jQuery
+        jQuery.expr[":"].ContainsCaseInsensitive = jQuery.expr.createPseudo(function (arg) {
+            return function (elem) {
+                return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+            };
+        });
+
+        // --- uitbreidingen jQuery
         function initMDZB() {
             //  hoofdmenu opbouwen en in main zetten
             var menu = document.createElement("div");
@@ -150,7 +158,7 @@
                         // voorlopige selectie functie (deze is nog erg beperkt)
                         $(".itemlijst-pagina").find("input").eq(0).on("input", function () {
                             $(".itemlijst-pagina .itemlijst-item").css("display", "none");
-                            $(".itemlijst-pagina .itemlijst-item:contains(" + $(this).val() + ")").css("display", "block");
+                            $(".itemlijst-pagina .itemlijst-item:ContainsCaseInsensitive(" + $(this).val() + ")").css("display", "block");
                         })
 
 
@@ -183,32 +191,53 @@
             }
             itemHTML += "</div>";
             venster.innerHTML = itemHTML;
-
             // slider voor afbeeldingen
             var afbeeldingSwiper = maakSwiper(venster.getElementsByClassName("itemImages")[0], true, false);
-            var ditItem = MDZB_Object_Data.get(itemTabel).get(itemId);
-            for (var nr = 0; nr < ditItem.afbeeldingen.length; nr++) {
-                var fotoid = ditItem.afbeeldingen[nr].fotoid;
-                var foto = MDZB_Object_Data.get("fotos").get(fotoid);
-                var imageStyle = "";
-                if (schermhoogte > schermbreedte) {
-                    imageStyle = '" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"';
-                }
-                else {
-                    imageStyle = '" width="320" height="180" style="width:100%;height:auto;margin:auto; display:block"';
-                }
-                afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="images/' + foto.archiefplek.split("MDZBfotos/")[1] + '" alt="' + foto.archiefplek + imageStyle + '><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + foto.naam + '</span></div></div>')
+            try {
+                var ditItem = MDZB_Object_Data.get(itemTabel).get(itemId);
             }
+            catch (err) {
 
+            }
             // slider voor toelichtingen
             var infoSwiper = maakSwiper(venster.getElementsByClassName("itemInfo")[0], true, false);
-            for (var nr = 0; nr < ditItem.informatieblok.length; nr++) {
-                infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">' + ditItem.informatieblok[nr].informatie + '<p style="text-align:center;"></br>---------------------</p></div></div>');
-            };
-            // als er geen informatie in bibliotheek staat:
-            if (ditItem.informatieblok.length == 0) {
-                infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">Geen informatie beschikbaar<p style="text-align:center;"></br>---------------------</p></div></div>');
+
+            // afhankelijk van het soort item - dit haal je uit de itemTabel -  ga je de itemweergave opbouwen
+            switch (itemTabel.toLowerCase()) {
+                case "recepten":
+                    //alert("recept");
+                    infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">' + ditItem.recept + '<p style="text-align:center;"></br>---------------------</p></div></div>');
+                    break;
+                case "personen1":
+                    alert("persoon");
+                    break;
+                case "organismen":
+                    for (var nr = 0; nr < ditItem.afbeeldingen.length; nr++) {
+                        var fotoid = ditItem.afbeeldingen[nr].fotoid;
+                        var foto = MDZB_Object_Data.get("fotos").get(fotoid);
+                        var imageStyle = "";
+                        if (schermhoogte > schermbreedte) {
+                            imageStyle = '" width="320" height="180" style="width:auto;height:100%;margin:auto; display:block"';
+                        }
+                        else {
+                            imageStyle = '" width="320" height="180" style="width:100%;height:auto;margin:auto; display:block"';
+                        }
+                        afbeeldingSwiper.appendSlide('<div class="swiper-slide"><div class="volledig"><img src="images/' + foto.archiefplek.split("MDZBfotos/")[1] + '" alt="' + foto.archiefplek + imageStyle + '><span style="position:absolute;left:20px;bottom:0;height:40px;color:white;text-shadow: 1px 1px 6px #000000;font-size:120%">' + foto.naam + '</span></div></div>')
+                    }
+
+                    for (var nr = 0; nr < ditItem.informatieblok.length; nr++) {
+                        infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">' + ditItem.informatieblok[nr].informatie + '<p style="text-align:center;"></br>---------------------</p></div></div>');
+                    };
+                    // als er geen informatie in bibliotheek staat:
+                    if (ditItem.informatieblok.length == 0) {
+                        infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">Geen informatie beschikbaar<p style="text-align:center;"></br>---------------------</p></div></div>');
+                    }
+                    break;
+                default:
+                    alert("Niet beschreven itemtype: " + itemTabel);
+
             }
+
 
             //alert(swiper.slides[1].offsetWidth + "          " + swiper.slides[1].offsetHeight);
             swiper.allowSlideNext = true;
@@ -266,13 +295,29 @@
 
     </script>
     <style>
-        .itemlijst-pagina{
+        .itemlijst-pagina {
             overflow: auto;
         }
-        .itemlijst-item{
-            border:2px solid black;
-            margin:2px 2px 2px 2px;     
+
+        .itemlijst-item {
+            border: 2px solid black;
+            margin: 2px 2px 2px 2px;
         }
+        .swiper-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+        }
+
+        .swiper-slide {
+            background: #fff;
+            overflow: auto;
+        }
+        .infoslide {
+            padding: 0px 10px 0px 10px;
+        }
+
     </style>
 </body>
 </html>
