@@ -183,11 +183,13 @@
             var itemHTML = "<div class='itemContent volledig'>";
             if (schermhoogte > schermbreedte) {
                 itemHTML += "<div class='itemImages volledig' style='height:" + schermbreedte * 180 / 320 + "px; background-color:blue'></div>";
-                itemHTML += "<div class='itemInfo volledig' style='top:" + schermbreedte * 180 / 320 + "px; background-color:green'></div>";
+                itemHTML += "<div class='itemInfo volledig' style='top:" + schermbreedte * 180 / 320 + "px; bottom:45px; background-color:green'></div>";
+                itemHTML += "<div class='stuurbalk volledig' style='top:auto; heigth:45px;background-color:yellow'></div>";
             }
             else {
-                itemHTML += "<div class='itemImages volledig' style='width:" + schermbreedte * 0.5 + "px; background-color:blue'></div>";
-                itemHTML += "<div class='itemInfo volledig' style='left:" + schermbreedte * 0.5 + "px; background-color:green'></div>";
+                itemHTML += "<div class='itemImages volledig' style='width:" + schermbreedte * 0.5 + "px; bottom:100px; background-color:blue'></div>";
+                itemHTML += "<div class='itemInfo volledig' style='left:" + schermbreedte * 0.5 + "px; bottom:45px;  background-color:green'></div>";
+                itemHTML += "<div class='stuurbalk volledig' style='top:auto; left:" + schermbreedte * 0.5 + "px;bottom:0px; heigth:45px;background-color:yellow'></div>";
             }
             itemHTML += "</div>";
             venster.innerHTML = itemHTML;
@@ -232,6 +234,11 @@
                     if (ditItem.informatieblok.length == 0) {
                         infoSwiper.appendSlide('<div class="swiper-slide"><div class="infoslide">Geen informatie beschikbaar<p style="text-align:center;"></br>---------------------</p></div></div>');
                     }
+
+                    for (var nr = 0; nr < ditItem.geluiden.length > 0; nr++) {
+                        var geluid = ditItem.geluiden[nr].bestand.split('/')[ditItem.geluiden[nr].bestand.split('/').length - 1];
+                        $(venster).find(".stuurbalk").get(0).innerHTML += "<button data-geluidsfragment ='" + geluid + "' onclick='geefGeluid(this)'>" + ditItem.geluiden[nr].knopweergave + "</button>";
+                    }
                     break;
                 default:
                     alert("Niet beschreven itemtype: " + itemTabel);
@@ -249,6 +256,16 @@
 
         }
 
+        var snd = new Audio();
+        function geefGeluid(deze) {
+            $(deze).siblings().css("background-color","green");
+            $(deze).css("background-color", "yellow");
+            snd.pause();
+            snd = new Audio("geluiden/" + $(deze).data("geluidsfragment"));
+            snd.play();
+
+
+        }
         function maakSwiper(containerVoorSwiper, pag = false, nav = false) {
             var nweSwiper;
             var HTML = "<div class='swiper-container' style='position:absolute; width:100%;height:100%'>";
