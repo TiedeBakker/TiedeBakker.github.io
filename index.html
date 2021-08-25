@@ -48,6 +48,7 @@
     <script>
         $(document).ready(function () {
             initMDZB();
+
         })
         // aantal uitbreidingen jQuery
         jQuery.expr[":"].ContainsCaseInsensitive = jQuery.expr.createPseudo(function (arg) {
@@ -160,9 +161,7 @@
                             $(".itemlijst-pagina .itemlijst-item").css("display", "none");
                             $(".itemlijst-pagina .itemlijst-item:ContainsCaseInsensitive(" + $(this).val() + ")").css("display", "block");
                         })
-
-
-
+                        basisSwiper.on('slideChange', function () { snd.pause(); });
                         break;
                 }
 
@@ -176,7 +175,6 @@
             // een informatieve tekst. Afhankelijk van venster moet dit onder elkaar of naast elkaar
             var swiper = $(deze).closest(".swiper-container")[0].swiper;
             var venster = swiper.slides[1];
-
             var schermbreedte = venster.offsetWidth;
             var schermhoogte = venster.offsetHeight;
 
@@ -252,6 +250,8 @@
             swiper.allowSlideNext = false;
 
             //swiper.slides[1].innerHTML = $(deze).get(0).outerHTML;
+
+
 
 
         }
