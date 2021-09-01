@@ -175,6 +175,22 @@
             // een informatieve tekst. Afhankelijk van venster moet dit onder elkaar of naast elkaar
             var swiper = $(deze).closest(".swiper-container")[0].swiper;
             var venster = swiper.slides[1];
+
+            toonItem(venster, itemTabel, itemId);
+
+            //alert(swiper.slides[1].offsetWidth + "          " + swiper.slides[1].offsetHeight);
+            swiper.allowSlideNext = true;
+            swiper.slideNext();
+            swiper.allowSlideNext = false;
+
+            //swiper.slides[1].innerHTML = $(deze).get(0).outerHTML;
+
+
+
+
+        }
+
+        function toonItem(venster, itemTabel, itemId) {
             var schermbreedte = venster.offsetWidth;
             var schermhoogte = venster.offsetHeight;
 
@@ -194,7 +210,8 @@
             // slider voor afbeeldingen
             var afbeeldingSwiper = maakSwiper(venster.getElementsByClassName("itemImages")[0], true, false);
             try {
-                var ditItem = MDZB_Object_Data.get(itemTabel).get(itemId);
+                alert(itemTabel + "____" + itemId);
+                var ditItem = MDZB_Object_Data.get(itemTabel).get(itemId + ""); // op deze manier ben ik er zeker van dat itemId als string wordt gezien
             }
             catch (err) {
 
@@ -237,22 +254,14 @@
                         var geluid = ditItem.geluiden[nr].bestand.split('/')[ditItem.geluiden[nr].bestand.split('/').length - 1];
                         $(venster).find(".stuurbalk").get(0).innerHTML += "<button data-geluidsfragment ='" + geluid + "' onclick='geefGeluid(this)'>" + ditItem.geluiden[nr].knopweergave + "</button>";
                     }
+                    // De linken in de informatieblokken initiëren
+                    $(venster).find("a[id^='LINK']").find("span").click(function () { toonOrganismeLink(this) });
+
                     break;
                 default:
                     alert("Niet beschreven itemtype: " + itemTabel);
 
             }
-
-
-            //alert(swiper.slides[1].offsetWidth + "          " + swiper.slides[1].offsetHeight);
-            swiper.allowSlideNext = true;
-            swiper.slideNext();
-            swiper.allowSlideNext = false;
-
-            //swiper.slides[1].innerHTML = $(deze).get(0).outerHTML;
-
-
-
 
         }
 
@@ -308,6 +317,18 @@
             nweSwiper = new Swiper(swiperContainer, swiperParams);
             return nweSwiper
         }
+        function toonOrganismeLink(deze) {
+            //alert("Handler for .click() called GELUKT.");
+            //alert($(deze).parent().attr("name"));
+            //alert($(deze).parent().attr("name").split("_")[1]);
+
+            $("#toelichtvenster").css("display", "block");
+            toonItem($("#toelichtvenster").find(".toelichtContent")[0], $(deze).parent().attr("name").split("_")[1], $(deze).parent().attr("name").split("_")[2]);
+        }
+        function verberg(deze) {
+            $(deze).parent().css({ 'display': 'none' });
+        }
+
 
 
     </script>
