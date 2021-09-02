@@ -44,7 +44,7 @@
         </span>
     </div>
     <div id="main" class="maincontent" style="padding:20px; background-color:green"></div>
-    <div id="toelichtvenster" style="display:none;position:absolute;left:0px;right:0px;top:0px;bottom:0px;z-index:1000; background-color:rgb(10, 151, 160, 0.13)"><div class="toelichtContent" style="position:absolute;left:10px;top:10px;right:10px;bottom:10px;background-color:blue">TTT</div><div style="z-index:5000;position:absolute;top:15px;right:15px;height:20px;width:20px;background-color:red;text-align:center;cursor:pointer" onclick="verberg(this)">X</div></div>
+    <div id="toelichtvenster" style="display:none;position:absolute;left:0px;right:0px;top:0px;bottom:0px;z-index:1000; background-color:rgb(64,64,64,0.9)"><div class="toelichtContent" style="position:absolute;left:30px;top:30px;right:30px;bottom:30px;background-color:blue">TTT</div><div style="z-index:5000;position:absolute;top:15px;right:15px;height:20px;width:20px;background-color:red;text-align:center;cursor:pointer" onclick="verberg(this)">X</div></div>
     <script>
         $(document).ready(function () {
             initMDZB();
@@ -210,7 +210,6 @@
             // slider voor afbeeldingen
             var afbeeldingSwiper = maakSwiper(venster.getElementsByClassName("itemImages")[0], true, false);
             try {
-                alert(itemTabel + "____" + itemId);
                 var ditItem = MDZB_Object_Data.get(itemTabel).get(itemId + ""); // op deze manier ben ik er zeker van dat itemId als string wordt gezien
             }
             catch (err) {
