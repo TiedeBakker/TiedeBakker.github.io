@@ -13,47 +13,47 @@ geluiden:[
 },
 {'id':4,'naam':'Baardman','wetenschappelijke_naam':'Panurus biarmicus','type_organisme':'vogel','fotos':[{'vindplaats':'baardman.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Bearded Reedling (Tit)</p><p>D: Bartmeise</p><p>F: M&eacute;sange &agrave; moustaches</p><p><strong>Veldkenmerken</strong>: 16&frac12;. Een kleine, meesachtige vogel met <em>geelbruine bovendelen, lange, geelbruine staart</em> en roze-grijze onderdelen. Manl. heeft blauwgrijze kop met opvallende, <em>zwarte baardstreep</em> en <em>zwarte onderstaart</em>. Vrl. is lichter, met geelbruine kop, zonder baardstreep en zonder zwarte onderstaart. Juveniel heeft donkere rug, vleugeldekveren en zijstaart. Vlucht &#39;moeizaam&#39; en golvend, met gespreide, afhangende staart. Klimt acrobatisch tussen de rietstengels. Nestelt meestal goed verborgen in moerasvegetatie, laag boven de grond.<br /><strong>Geluid</strong>: een opmerkelijk tjingelend <em>ping-ping</em>, een scheldend <em>pwut</em>, een pieperig <em>tsjie&uuml;</em>, enz.<br /><strong>Voorkomen</strong>: in wisselend aantal voorkomende broedvogel van uitgestrekte rietmoerassen (Zwarte Meer; in laatste jaren in groot aantal in Oostelijk Flevoland). Zwerft na de broedtijd in troepjes rond, meestal nabij eigen broedterreinen.</p><p>[Eind Petersons]</p>', },{'volgnummer':'2', 'infoblok':'<h1>Informatie van de website van Vogelbescherming</h1><p>De baardman is een rietvogel. Het mannetje heeft karakteristieke &lsquo;bakkebaarden&rsquo;. Het heldere bellende roepje is te horen vanuit het riet. In de winter zwerven baardmannen rond en kunnen dan ook gevonden worden in kleinere rietvelden. Buitelend tussen de riethalmen verzamelt deze behendige kleine vogel insecten.</p><h2>Herkenning</h2><div class="intro"><p>De baardman heeft een oranjebruine kleur en een lange staart. Het mannetje heeft opvallende baardstrepen en een grijze kop. Juveniel lijkt op vrouwtje maar dan met een zwarte rug.</p></div><h3>Geluid</h3><p>Roep is bellend, helder en ver dragend. Vaak in combinatie met korte, zachtere tikgeluiden. In vlucht en in zit te horen, ook van trekkende groepjes. Zang eenvoudig, doorspekt met roepen.</p><h2>Leefwijze</h2><h3>Broeden</h3><p>Broedt van eind maart - april en heeft twee en soms drie legsels met meestal 5-7 eieren, soms tot 12. In &eacute;&eacute;n jaar kan een paartje tot wel 20 jongen grootbrengen. Broedduur: 12-13 dagen, Het nest wordt gemaakt in dichte riet- en zeggevegetatie, meestal laag bij de grond. De jongen zitten 13-14 dagen op het nest voor ze uitvliegen.</p><div class="col-md-6"><h3>Leefgebied</h3><p>Broedt in uitgestrekte rietvelden met veel jong riet, langs rivieren en meren. Zwerft in de winter in groepjes en kan dan ook worden gevonden in kleinere rietvelden.</p><h3>Voedsel</h3><p>In de zomer insecten zoals libellen, muggen, spinnen etc. In de winter zaad van riet en rietgras.</p><h3>Vogeltrek</h3><p>De baardmannen blijven normaal gesproken in Nederland. Na de broedtijd zwerven groepjes baardmannen rond buiten hun directe broedgebieden, zo kunnen ook nieuwe broedplekken ontstaan vanuit het brongebied. Vogels die wegtrekken, doen dat vanaf september en keren terug vanaf maart. In de jaren zestig en zeventig kende Nederland zo veel baardmannen dat er populatiedruk ontstond en vogels uitzwermden over heel West- en Midden-Europa.</p><h2>Verspreiding en aantal</h2><p>schaarse broedvogel | jaarrond aanwezig</p><div class="intro"><p>Koude winters hakken erin bij de baardman. Maar de aantallen zijn ook zo weer aangevuld. Vanaf 1990 was er een afname, maar de laatste tien jaar nemen de aantallen weer toe.</p></div><h3>Aantallen in Nederland</h3><table class="aantalnl table" style="margin-bottom:0"> <tbody>  <tr>   <td style="width:50%">Aantal broedparen</td>   <td style="width:50%">1750-2050 (in 2019)</td>  </tr>  <tr>   <td>Geschat maximum aantal overwinteraars</td>   <td>5000-7000 (in 2013-2015)</td>  </tr>  <tr>   <td>Doortrekkers</td>   <td>Broedvogel - jaarrond aanwezig</td>  </tr> </tbody></table></div><p>Meer weten over trends? Kijk op <a href="https://stats.sovon.nl/stats/soort/13640" target="_blank">sovon.nl</a>.</p><p>Bron en meer waarnemingen: <a href="https://waarneming.nl/species/50/" target="_blank">Waarneming.nl</a></p><h4>Kijktip</h4><p>De verreweg omvangrijkste populatie, in de Oostvaardersplassen, huisvest jaarlijks een kwart tot de helft van de Nederlandse broedvogels.</p><h3>In Europa</h3><p>Het grootste deel van de populatie bevindt zich in Roemeni&euml;. In Noord-West Europa is Nederland een van de belangrijkste broedgebieden.</p><h4>Meer informatie</h4><ul> <li><a href="http://www.birdlife.org/datazone/species/factsheet/22716776" target="_blank">BirdLife International</a></li></ul><h2>Bescherming</h2><div class="col-md-6"><div class="intro"><p>Een kwart van de Noordwest-Europese populatie broedt in ons land. Daarmee heeft Nederland een speciale verantwoordelijkheid voor deze vogel. De aantallen zijn stabiel, maar kunnen tijdens strenge winters snel afnemen.</p></div><h3>Wat wij doen</h3><p>Vogelbescherming heeft zich enorm ingespannen voor de kwaliteit van moerasgebieden. Onder meer door het opstellen van een Beschermingsplan Moerasvogels en door actieve inbreng bij de beheerplannen van Natura2000-gebieden. Een vogel als de baardman profiteert van goed beheerde moerasgebieden. Via een netwerk van deskundige en vrijwillige WetlandWachten houdt Vogelbescherming een oogje in het zeil bij deze natuurgebieden.</p><div class="col-md-6"><h3>Wat kunt u doen</h3><p>Terreinbeherende organisaties en overheden kunnen zorgen voor voldoende omvang van de rietlanden, zodat de baardman een broedplek heeft. Goed beheer is daarnaast essentieel; verruiging en verbossing van het riet maken het tot een ongeschikte broedplek, net als intensief maaien.</p><h3>Meer weten?</h3><ul> <li><a href="https://www.sovon.nl/nl/soort/13640" target="_blank">Sovon Vogelonderzoek Nederland</a></li></ul><h4>Actuele berichten</h4><ul> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/oostvaardersplassen-moerasvogelgebied-pur-sang">Oostvaardersplassen: moerasvogelgebied pur sang</a></li> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/de-eerste-keer-een-baardman">De eerste keer: een baardman</a></li> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/de-9-nederlandse-mezen">De 9 Nederlandse mezen</a></li> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/monique-van-kootwijk-maakt-de-foto-van-de-maand">Monique van Kootwijk maakt de foto van de maand </a></li></ul><h4>Downloads</h4><ul> <li><a href="https://www.vogelbescherming.nl/docs/dcb3ab09-97a7-41b7-810b-e50ee6ca69be.pdf" target="_blank">Beschermingsplan moerasvogels 2000-2004</a> (pdf, 1.23 Mb)</li> <li><a href="https://www.vogelbescherming.nl/docs/8d987881-bf0a-4af8-865e-25fa6595b1ff.pdf" target="_blank">Rietoogst in Nederlandse moerassen en verbetering van rietbeheer voor moerasvogels</a> (pdf, 1.20 Mb)</li> <li><a href="https://www.vogelbescherming.nl/docs/b6d663dc-cfa2-4cde-9e38-a5114f390bf5.pdf" target="_blank">Terreinkeus van porseleinhoen, snor en baardman in Nederlandse moerasgebieden</a> (pdf, 500 Kb)</li> <li><a href="https://www.vogelbescherming.nl/docs/348ce52a-3a9e-4c84-ba9c-31141e76d3b4.pdf" target="_blank">Verslag Themadag Moerasvogels</a> (pdf, 891 Kb)</li></ul><h2>Wet- en regelgeving</h2><div class="col-md-6"><div class="intro"><p>De baardman is een beschermde inheemse diersoort. Net als alle andere vogels die van nature in het wild in Nederland voorkomen, zijn baardmannetjes beschermd op grond van de Europese Vogelrichtlijn. De bescherming van de baardman is in Nederland geregeld in de Wet natuurbescherming.</p></div><h3>Algemene regels</h3><p>De Wet natuurbescherming bevat een aantal verboden handelingen die van toepassing zijn op alle inheemse vogels. Deze verboden gelden in heel Nederland. De wet verbiedt:</p><ul> <li>het opzettelijk doden of vangen van vogels (artikel 3.1 lid 1);</li> <li>het opzettelijk vernielen of beschadigen van nesten, rustplaatsen en eieren van vogels, of het wegnemen van nesten (artikel 3. 1 lid 2);</li> <li>het rapen en onder zich hebben van eieren van vogels (artikel 3.1 lid 3);</li> <li>het opzettelijk storen van vogels (artikel 3.1 lid 4);</li> <li>het bezit, het vervoer en de handel in vogels, dood of levend, dan wel delen of producten daarvan (artikel 3.2).</li></ul><p>Overtreding van deze verboden is een economisch delict en kan leiden tot strafrechtelijke vervolging. De verboden worden ook bestuursrechtelijk gehandhaafd. Uitzonderingen op de verboden zijn opgenomen in de wet en de bijbehorende uitvoeringsregelgeving. De wet voorziet in een algemene bevoegdheid voor de provincie (en in sommige gevallen het Ministerie van Landbouw, Natuur en Voedselkwaliteit) om onder strikte voorwaarden een ontheffing of vrijstelling te verlenen van de verboden (artikel 3.3).</p></div></div><div class="col-md-6"><h3>Bijzondere regels</h3><p>De Wet natuurbescherming biedt bescherming aan alle in gebruik zijnde nesten en rustplaatsen van vogels. De nestbescherming geldt voor alle soorten gedurende het broedseizoen en voor een beperkt aantal soorten jaarrond. Nesten van de baardman zijn alleen gedurende het broedseizoen beschermd. Er zijn geen natuurgebieden voor deze soort aangewezen op grond van de Wet natuurbescherming, maar zij profiteren indirect van de bescherming van gebieden die zijn aangewezen voor andere moerasvogels.</p><h3>Meer weten?</h3><ul> <li><a class="link-cta" href="https://www.vogelbescherming.nl/bescherming/juridische-bescherming">Juridische bescherming van vogels</a></li> <li><a class="link-cta" href="https://www.vogelbescherming.nl/rvo-beschermd" target="_blank">Beschermde planten, dieren en natuur</a> (Rijksdienst voor Ondernemend Nederland)</li> <li><a class="link-cta" href="https://www.vogelbescherming.nl/ez-soorten" target="_blank">Soortendatabase</a> (Ministerie van Landbouw, Natuur en Voedselkwaliteit)</li> <li><a class="link-cta" href="https://www.vogelbescherming.nl/ez-gebieden" target="_blank">Gebiedendatabase</a> (Ministerie van Landbouw, Natuur en Voedselkwaliteit)</li></ul></div></div>', },{'volgnummer':'3', 'infoblok':'Leeg', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Kwaken bruine kikker', 'bestand':'Archieven/audio/geluiden_amfibie/bruinekikker_ravon.mp3', },],
 },
 {'id':5,'naam':'Beflijster','wetenschappelijke_naam':'Turdus torquatus','type_organisme':'vogel','fotos':[{'vindplaats':'beflijster.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Ring Ouzel</p><p>D: Ringdrossel</p><p>F: Merle &agrave; plastron</p><p><strong>Veldkenmerken</strong>: 24&frac12;. Onmiskenbaar. Manl. heeft geheel dofzwart vederkleed met een <em>brede, halvemaanvormige, witte borstband</em>; lijkt in winter door lichte vederranden meer &#39;geschubd&#39;. Vrl. is bruiner, met smallere, doffere borstband. Juveniel zonder borstband en lijkt op een erg gevlekte, jonge Merel. Vlucht snel. Heeft <em>grijze vlek</em> op gesloten vleugel. Broedvogel van heuvelachtige heide en gebergten. Nestelt in spleten en gaten, heide en laag struikgewas.<br /><strong>Geluid</strong>: een helder fluitend <em>pie-u</em> en een scheldend, Merelachtig <em>tak-tak-tak</em> (als een steentje, dat over het ijs huppelt). Zang en 3 of 4 keer herhaald <em>tsjeru, tsjivi</em> of <em>ti-tsjo-o</em>, vermengd met klokkende geluiden.<br /><strong>Voorkomen</strong>: trekt in wisselend aantal door van half september tot in november en van half maart tot in mei.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Kwaken bastaardkikker', 'bestand':'Archieven/audio/geluiden_amfibie/bastaardkikker_ravon.mp3', },],
 },
 {'id':6,'naam':'Bergeend','wetenschappelijke_naam':'Tadorna tadorna','type_organisme':'vogel','fotos':[{'vindplaats':'bergeend.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Shelduck</p><p>D: Brandente</p><p>F: Tadorne de Belon</p><p><strong>Veldkenmerken</strong>: 61. Een grote, nogal <em>gansachtige</em> eend, die op grote afstand zwart en wit lijkt. Herkenbaar aan groenzwarte kop en hals, wit lichaam met <em>brede, roodbruine band rondom benedenborst</em> en donkere streep over midden van de onderdelen. Schouder en halspennen zwart; groene vleugelspiegel. Roze poten; snavel rood, bij manl. met grote knobbel. Juv. van boven asbruin, mist roodbruine borstband en heeft witachtige wangen en keel, roze snavel, grijze poten. Gansachtige vlucht met langzamer vleugelslag dan meeste eenden. Kan op water verward worden met manl. Slobeend (die ook witte bovenborst en donkere kop heeft), maar laatste is kleiner, ligt lager op het water en heeft donkere, spatelvormige snavel. Nestelt in konijnepijpen e.d. tussen duinvegetatie.<br /><strong>Geluid</strong>: zwijgzaam buiten broedseizoen. Manl. een vlug, nasaal <em>ak-ak-ak</em>, een dieper en luider <em>ark ark</em> en een fluitend <em>wie-oo</em>. Vrl. een nasaal <em>oe-w&egrave;k</em>.<br /><strong>Voorkomen</strong>: algemene broedvogel van onze eilanden langs de kust; in kleiner aantal langs de kust van het IJsselmeer. Langs kust algemene doortrekker van half juli tot in dec. en van febr. tot in mei. Overwintert in niet gering aantal; trekt bij flinke vorst meestal weg.</p><p>[Eind Petersons]</p>', },{'volgnummer':'2', 'infoblok':'<h1>Informatie van de website van Vogelbescherming</h1><p>De bergeend is vooral kustbewoner. Hij broedt in holen en voedt zich met (week)diertjes uit zachte slikbodems. De soort vertoont zich als broedvogel steeds vaker in het binnenland, langs de grote rivieren en andere slikrijke gebieden. In de mondingen van de Weser/Elbe en&nbsp;ook in delen van&nbsp;de Nederlandse&nbsp;Waddenzee maakt bijna de gehele Noordwest-Europese populatie in het najaar de rui door.</p><h2>Herkenning</h2><div class="intro"><p>De bergeend zit een beetje tussen eend en gans in. Het mannetje onderscheidt zich van het vrouwtje door een knobbel op de felrode snavel. De bontgekleurde schakeringen op een verder wit verenkleed maken de vogel in het veld duidelijk herkenbaar.</p></div><h3>Geluid</h3><p>Mannetjes tijdens balts hoge, zachte fluitjes en trillers; vrouwtjes roepen laag &quot;rra-rra-rra-rra&quot; en &quot;a-a-a-a....&quot;</p><h2>Leefwijze</h2><h3>Broeden</h3><p>Eileg vanaf april tot in juni. E&eacute;n legsel met meestal 8-10 eieren. Broedduur ongeveer 28 dagen. Nest veelal in verlaten konijnenhol. Alleen het vrouwtje broedt. Andere nestlocaties zijn holtes onder aanspoelsel of tussen dichte vegetatie. Kuikens gaan al snel met de ouders naar het water. Jongen verzamelen zich geleidelijk in cr&egrave;ches van tientallen, onder de hoede van enkele volwassen vogels.</p><div class="col-md-6"><h3>Leefgebied</h3><p>In ons land vormen de duinen traditioneel de ideale broedbiotoop voor bergeenden. Ze benutten er verlaten konijnenholen voor het nest. Als er periodiek ziektes uitbreken onder de konijnen en de stand daardoor afneemt, heeft dat gevolgen voor de bergeend. Er zijn dan minder holen beschikbaar en de vegetatie neemt toe. Jonge bergeenden kunnen dan moeilijker uit de voeten wanneer ze het nest verlaten. Behalve in de duinen broedt de bergeend ook op kwelders, in veenweiden en langs de rivieren. Voor hun voedsel zijn bergeenden afhankelijk van voedselrijk slik. Het wad bijvoorbeeld, maar ook modderige sloten en slikranden langs de uiterwaarden.</p><h3>Voedsel</h3><p>Kleine schelpdieren en slakjes, garnalen en andere kreeftachtigen, wormen en andere kleine bodemdieren, insecten en larven, zaden en ander plantaardig materiaal.</p><h3>Vogeltrek</h3><p>Na de broedtijd trekken bergeenden naar het open water van de Waddenzee om veilig te kunnen ruien. In het Duitse deel kwam lang de gehele West-Europese populatie daarvoor bijeen. Sinds 1995 verblijft ook een deel daarvan in Nederlandse Waddenzee. In het voorjaar gaan ze weer naar hun broedgebieden. Tijdens koude winters trekken bergeenden weg naar Engeland en Frankrijk.</p><h2>Verspreiding en aantal</h2><p>vrij talrijke broedvogel | gedeeltelijk wegtrekkend | doortrekker en wintergast in groot aantal</p><div class="intro"><p>De populatie bergeenden is de laatste decennia licht toegenomen. De grootste concentraties van de ongeveer 11.000 paren treffen we aan in de Delta en het Waddenzeegebied. Ook de Zaanstreek en de Gelderse Poort herbergen relatief veel broedparen.</p></div><h3>Aantallen in Nederland</h3><table class="aantalnl table" style="margin-bottom:0"> <tbody>  <tr>   <td style="width:50%">Aantal broedparen</td>   <td style="width:50%">5700-9400 (in 2013-2015)</td>  </tr>  <tr>   <td>Geschat maximum aantal overwinteraars</td>   <td>79.000-96.000 (in 2013-2015)</td>  </tr>  <tr>   <td>Doortrekkers</td>   <td>110.000-180.000, aug-nov (in 2012-2017)</td>  </tr> </tbody></table><p><small>Bron: <a href="http://www.sovon.nl">Sovon Vogelonderzoek Nederland</a></small></p><p>Meer weten over trends? Kijk op <a href="https://stats.sovon.nl/stats/soort/1730" target="_blank">sovon.nl</a>.</p><h3>Waarnemingen</h3><p>Bron en meer waarnemingen: <a href="https://waarneming.nl/species/61/" target="_blank">Waarneming.nl</a></p><h4>Kijktip</h4><p>Open water Delta en Waddenzee en droogvallend wad. Slikrijke delen langs de rivieren.</p><h3>In Europa</h3><p>De bergeend komt voor van Zuidwest-Europa tot Noordoost-China. De belangrijkste broedgebieden zijn de Britse eilanden, het internationale Waddengebied en het Oostzeegebied. Behalve als kustbewoner zien we de bergeend bij ons als broedvogel steeds vaker landinwaarts. De mondingen van de Weser en Elbe vormen een belangrijke ruiplaats voor de Noordwest-Europese populatie. Ruiplaatsen zijn er&nbsp;ook&nbsp;bij Balgzand en in andere delen van de Waddenzee.</p><h2>Bescherming</h2><div class="col-md-6"><div class="intro"><p>Door koloniseren van gebieden in het binnenland zijn de aantallen van de bergeend de laatste decennia toegenomen. Ze profiteren daarbij van de aanleg van nieuwe natte natuur. In de duinen namen de aantallen - waarschijnlijk door afname van het aantal konijnen - echter enigszins af. In het Duitse deel van de Waddenzee nemen de aantallen bergeenden af. De Duitse BirdLife Partner Nabu onderzoekt via zenderonderzoek wat daarvan de oorzaken zijn om&nbsp;de bergeend beter&nbsp;te kunnen beschermen.</p></div><h3>Wat wij doen</h3><p>Voor de bergeend worden geen specifieke maatregelen genomen. Wel profiteert de soort in meer algemene zin van&nbsp;projecten van onder meer&nbsp;Vogelbescherming&nbsp;die gericht zijn op verbetering van de natuurkwaliteit van onze kustzones (Delta en Waddenzee). Belangrijke elementen daarin zijn meer rust voor vogels om te broeden, te foerageren en uit te rusten en een duurzamere visserij.</p><div class="col-md-6"><h3>Wat kunt u doen</h3><p>Bergeenden broeden in holen. Soms maken de vogels dankbaar gebruik van min of meer kunstmatige nestgelegenheid. Een stapel hooibalen bijvoorbeeld met ruimtes ertussen. Of een oud stuk (riool)pijp. Ook zijn er speciale nestkasten van steen of beton, die half ingegraven worden.</p><h3>Meer weten?</h3><ul> <li><a href="https://www.sovon.nl/nl/soort/1730" target="_blank">Sovon Vogelonderzoek Nederland</a></li> <li><a href="https://bergenhusen.nabu.de/forschung/brandgans/index.html" target="_blank">Zenderonderzoek in Duitsland</a></li></ul><p>&nbsp;</p><h4>Actuele berichten</h4><ul> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/kuikens-kijken-14-vertederende-vogelplaatjes">Kuikens kijken: 14 vertederende vogelplaatjes</a></li> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/een-nieuw-lentegevoel">Een nieuw lentegevoel</a></li> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/vogels-profiteren-van-natuurherstel-holwerterwestpolder">Vogels profiteren van natuurherstel Holwerterwestpolder</a></li> <li><a href="https://www.vogelbescherming.nl/actueel/bericht/natuurorganisaties-stappen-naar-de-rechter-om-zoutwinning-tegen-te-houden">Natuurorganisaties stappen naar de rechter om zoutwinning tegen te houden</a></li></ul></div><h2>Wet- en regelgeving</h2><div class="row"><div class="col-md-6"><div class="intro"><p>De bergeend is een beschermde inheemse diersoort. Net als alle andere vogels die van nature in het wild in Nederland voorkomen, zijn bergeenden beschermd op grond van de Europese Vogelrichtlijn. De bescherming van de bergeend is in Nederland geregeld in de Wet natuurbescherming.</p></div><h3>Algemene regels</h3><p>De Wet natuurbescherming bevat een aantal verboden handelingen die van toepassing zijn op alle inheemse vogels. Deze verboden gelden in heel Nederland. De wet verbiedt:</p><ul> <li>het opzettelijk doden of vangen van vogels (artikel 3.1 lid 1);</li> <li>het opzettelijk vernielen of beschadigen van nesten, rustplaatsen en eieren van vogels, of het wegnemen van nesten (artikel 3. 1 lid 2);</li> <li>het rapen en onder zich hebben van eieren van vogels (artikel 3.1 lid 3);</li> <li>het opzettelijk storen van vogels (artikel 3.1 lid 4);</li> <li>het bezit, het vervoer en de handel in vogels, dood of levend, dan wel delen of producten daarvan (artikel 3.2).</li></ul><p>Overtreding van deze verboden is een economisch delict en kan leiden tot strafrechtelijke vervolging. De verboden worden ook bestuursrechtelijk gehandhaafd. Uitzonderingen op de verboden zijn opgenomen in de wet en de bijbehorende uitvoeringsregelgeving. De wet voorziet in een algemene bevoegdheid voor de provincie (en in sommige gevallen het Ministerie van Landbouw, Natuur en Voedselkwaliteit) om onder strikte voorwaarden een ontheffing of vrijstelling te verlenen van de verboden (artikel 3.3).</p></div><div class="col-md-6"><h3>Bijzondere regels</h3><p>Verschillende natuurgebieden die door de bergeend worden gebruikt als foerageergebied of als slaapplaats zijn aangewezen en beschermd als Natura 2000-gebied op grond van hoofdstuk 2 van de Wet natuurbescherming. De belangrijkste daarvan is de Waddenzee. Voor deze gebieden gelden strenge regels voor alle plannen, projecten en andere handelingen die mogelijk significante negatieve effecten kunnen hebben op de natuurwaarden waarvoor het gebied is aangewezen. De betreffende gebieden zijn te vinden in onderstaande database van het Ministerie van Landbouw, Natuur en Voedselkwaliteit.</p><h3>Meer weten?</h3><ul> <li><a class="link-cta" href="https://www.vogelbescherming.nl/bescherming/juridische-bescherming">Juridische bescherming van vogels</a></li> <li><a class="link-cta" href="https://www.vogelbescherming.nl/rvo-beschermd" target="_blank">Beschermde planten, dieren en natuur</a> (Rijksdienst voor Ondernemend Nederland)</li> <li><a class="link-cta" href="https://www.vogelbescherming.nl/ez-soorten" target="_blank">Soortendatabase</a> (Ministerie van Landbouw, Natuur en Voedselkwaliteit)</li> <li><a class="link-cta" href="https://www.vogelbescherming.nl/ez-gebieden" target="_blank">Gebiedendatabase</a> (Ministerie van Landbouw, Natuur en Voedselkwaliteit)</li></ul></div></div><p>&nbsp;</p></div></div>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Kwaken boomkikker', 'bestand':'Archieven/audio/geluiden_amfibie/boomkikker_ravon.mp3', },],
 },
 {'id':7,'naam':'Bijeneter','wetenschappelijke_naam':'Merops apiaster','type_organisme':'vogel','fotos':[{'vindplaats':'bijeneter.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Bee-Eater</p><p>D: Bienenfresser</p><p>F: Gu&ecirc;pier d&#39;Europe</p><p><strong>Veldkenmerken</strong>: 28. Onmiskenbaar. <em>Exotische kleuren</em>, lange, gebogen snavel en verlengde middelste staartveren vallen zelfs op grote afstand op. Beide geslachten hebben <em>roodbruin-en-gele bovendelen</em>, blauwgroene vleugels en staart, <em>blauwgroene onderdelen</em> met helder <em>gele keel</em>. Juv. zonder verlengde staartveren. Leeft in troepverband; zit dikwijls op telegraafdraden. Vlucht sierlijk, afgewisseld met cirkelende glijvlucht op horizontaal gehouden vleugels. Vogel van open en ruig terrein met enkele bomen. Broedt in kolonies in holen, welke in wanden van afgravingen, oeverkanten e.d. worden gegraven; soms in de grond.<br /><strong>Geluid</strong>: zeer opmerkelijk. Gewone roep een vloeiend, maar vrij krakend <em>pruu&iuml;p</em>; bij alarm <em>kruuh</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel (1964 &eacute;&eacute;n nest; 1965 drie nesten). Overigens dwaalgast (16x).</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Roep geelbuikvuurpad', 'bestand':'Archieven/audio/geluiden_amfibie/geelbuikvuurpad_ravon.mp3', },],
 },
 {'id':8,'naam':'Bladkoning','wetenschappelijke_naam':'Phylloscopus inornatus','type_organisme':'vogel','fotos':[{'vindplaats':'bladkoning.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Yellow-browed Warbler</p><p>D: Gelbbrauenlaubs&auml;nger</p><p>F: Pouillot &agrave; grands sourcils</p><p><strong>Veldkenmerken</strong>: 10. Herkenbaar aan zeer klein formaat, witachtig, <em>dubbele vleugelstreep</em> (waarvan de laagste lang, breed en <em>donkeromzoomd</em> is), brede witachtige randen van armpennen en <em>opvallende, roomkleurige wenkbrauwstreep</em>. Bovendelen geelachtig groen, met <em>lichtgroene stuit</em>, onderdelen witachtig. Staart vrij kort. Heeft soms een onduidelijke, lichte streep over de kruin. Juv. heeft <em>gele</em> vleugelstrepen. Jaagt vaak op vliegen als een vliegenvanger. Zeer beweeglijk. Verschilt van jong Goudhaantje door iets groter formaat en opvallende wenkbrauwstreep. Zie ook Pallas&#39; Boszanger. Vogel van gemengde en pijnbossen; in winter in struikgewas en onderbegroeiing.<br /><strong>Geluid</strong>: een verdragend, schel <em>wiest</em> of <em>wies-wiet</em>. Zang een herhaling van lokroep of een vlug gekwetter op dezelfde toonhoogte.<br /><strong>Voorkomen</strong>: zeer zeldzame onregelmatige gast, maar komt waarschijnlijk als doortrekker meer voor. Vogel van Siberi&euml;, die vrij regelmatig doortrekt langs Helgoland en Groot-Brittanni&euml;. Dwaalgast Noorwegen, Denemarken, Ierland, Frankrijk, Zwitserland en Belgi&euml;.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Roep gewone pad', 'bestand':'Archieven/audio/geluiden_amfibie/gewonepad_ravon.mp3', },],
 },
 {'id':9,'naam':'Blauwborst','wetenschappelijke_naam':'Luscinia svecica','type_organisme':'vogel','fotos':[{'vindplaats':'blauwborst.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Bluethroat</p><p>D: Blaukehlchen</p><p>FL Gorgebleue</p><p><strong>Veldkenmerken</strong>: 14. Postuur en gedrag als Gekraagde Roodstaart. Staart met opvallend <em>roodbruin aan basis</em> wordt herhaaldelijk gespreid en opgewipt. Manl. in voorjaar heeft <em>helderblauwe bef</em>, door een zwarte en roobruine band gescheiden van benedenborst. Scandinavische vorm heeft <em>roodbruine vlek</em> in het midden van blauwe bef; Midden- en Zuideuropese vorm een <em>witte vlek</em>. Vrl. heeft witachtige, opzij zwart gestreepte keel en bovenborst, overgaand in een onregelmatige donkere borstband, dikwijls met een spoor van blauw en kastanjebruin. Herfstvogels lijken veel op vrl., maar manl. heeft steeds meer blauw en kastanjebruin op borst; steeds herkenbaar aan opvallende witte wenkbrauwstreep en roodbruine staartbasis. Jonge vogels zijn donkerder en zwaarder gestreept dan jonge Roodborst en steeds te onderscheiden door roodbruine staartbasis. Vrl. en juveniel van roodgesterde en witgesterde vormen in het veld niet te onderscheiden. Nestelt op of in de grond tussen dichte vegetatie.<br /><strong>Geluid</strong>: een scherp <em>tak</em>, een zacht <em>oewiet</em> en een gutturaal <em>turrk</em>. Zang, soms in baltsvlucht, zeer muzikaal en gevarieerd, soms herinnerend aan Nachtegaal en Boomleeuwerik, maar hoger, zwakker en minder rijk; vermengd met metaalachtige en krekelachtige tonen.<br /><strong>Voorkomen</strong>: de witgesterde vorm, <em>C. s. cyanecula</em>, is plaatselijk vrij algemene broedvogel van lage, vochtige terreinen. Trekt weg en door in september en keert terug van half maart tot in april. Roodgesterde vorm, <em>C. s. svecica</em> (Scandinavi&euml;), is een zeer zeldzame doortrekker, vooral in mei.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Kwaken heikikker', 'bestand':'Archieven/audio/geluiden_amfibie/heikikker_ravon.mp3', },],
 },
 {'id':10,'naam':'Blauwe kiekendief','wetenschappelijke_naam':'Circus cyaneus','type_organisme':'vogel','fotos':[{'vindplaats':'blauwe kiekendief.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Hen Harrier</p><p>D: Kornweihe</p><p>F: Bussard Saint-Martin</p><p><strong>Veldkenmerken</strong>: 43-51. Verschilt van Grauwe Kiekendief door <em>meer opvallende witte stuit</em>, iets zwaardere bouw (vooral vrl.) en iets bredere vleugels en staart. Blauwgrijs manl. heeft <em>zwartachtige achterrand van armvleugel</em> (Grauwe Kiekendief heeft twee zwarte strepen midden op de vleugel) en ongestreepte buik en broek. Vrl. en onv. hebben donkerbruine bovendelen en sterk gestreepte, lichtbruingele onderdelen, praktisch niet te onderscheiden van vrl. Grauwe Kiekendief, hoewel witte stuitvlek bij Blauwe Kiekendief meestal opvallender is. Juv. verschilt van juv. Grauwe Kiekendief door <em>gestreepte onderdelen</em>. Kenmerkende vlucht, gewoonlijk zeer laag en luchtig zwevend op in ondiepe &#39;V&#39; naar boven gehouden vleugels. Zie ook Steppenkiekendief. Nestelt op de grond.<br /><strong>Geluid</strong>: een hoog, kekkerend <em>k&egrave;-k&egrave;-k&egrave;</em>; ook een lang, klagend <em>pie-&egrave;h</em>.<br /><strong>Voorkomen</strong>: zeer zeldzame broedvogel van meer open en gevarieerd terrein (Limburg, Brabant en Drenthe; ook Ameland, Terschelling). Niet zeldzame doortrekker en wintergast van begin sept. tot in mei.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Roep knoflookpad', 'bestand':'Archieven/audio/geluiden_amfibie/knoflookpad_ravon.mp3', },],
 },
 {'id':11,'naam':'Blauwe reiger','wetenschappelijke_naam':'Ardea cinerea','type_organisme':'vogel','fotos':[{'vindplaats':'blauwereiger.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p><strong>Veldkenmerken</strong>: 90. Verschilt van andere reigers door <em>groot formaat, grijze bovenzijde, witte kop en hals met brede, zwarte streep van oog naar zwarte, sierlijk afhangende kuif</em>. Lange dolkvormige snavel geelachtig, poten bruinachtig; in vroege voorjaar snavel en poten roodachtig. Staat lang onbeweeglijk in of nabij water, met gestrekte hals of met kop tussen schouders; zet zich ook op bomen neer. Machtige vlucht, met langzame, &#39;diepe&#39; vleugeslagen; vliegbeeld opvallend, met ingetrokken hals en gestrekte poten. Vogel van vochtige weiden, rivieren, meren, zeekusten. Nestelt in kolonies, meestal in hoge bomen.<br /><strong>Geluid</strong>: een diep, rauw <em>grr&egrave;nk</em> (anderen horen <em>raatsj</em>). In broedtijd diverse krassende en &#39;kokhalzende&#39; geluiden en snavelgeklapper.<br /><strong>Voorkomen</strong>: vrij algemene koloniebroeder, voornamelijk in bomen. Algemene doortrekker van half juli tot diep in winter en van begin maart tot in mei. Overwintert in kleiner aantal.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Kwaken meerkikker', 'bestand':'Archieven/audio/geluiden_amfibie/meerkikker_ravon.mp3', },],
 },
 {'id':12,'naam':'Blonde ruiter','wetenschappelijke_naam':'Tryngites subruficollis','type_organisme':'vogel','fotos':[{'vindplaats':'blonderuiter.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Buff-breasted Sandpiper</p><p>D: Grasl&auml;ufer</p><p>F: B&eacute;casseau rousset</p><p><strong>Veldkenmerken</strong>: 20. Een slanke waadvogel, die doet denken aan onv. Kemphaan, maar is kleiner. Heeft opmerkelijk <em>kleine, ronde kop, lange hals</em> en <em>gele poten</em>. Bovendelen als bij Kemphaan maar zonder wit aan staartbasis en zonder lichte vleugelstreep. Zijkop en onderdelen <em>warm rossig geel</em>, dikwijls in witachtige tint overgaand op de buik. Ondervleugel <em>wit</em>, nabij de punt zwart en wit gemarmerd. Zeer mak. Prefereert droog. kort grasland.<br /><strong>Geluid</strong>: een laag trillend <em>pr-r-r-riet</em> en een klikkenk <em>tik</em>.<br /><strong>Voorkomen</strong>: dwaalgast (3x; 1955 en 1960). Dwaalgast van Noord-Amerika, vnl. op Britse Eilanden; ook Helgoland, Denemarken, Frankrijk. Niet in Belgi&euml;.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Kwaken poelkikker', 'bestand':'Archieven/audio/geluiden_amfibie/poelkikker_ravon.mp3', },],
 },
 {'id':13,'naam':'Boerenzwaluw','wetenschappelijke_naam':'Hirundo rustica','type_organisme':'vogel','fotos':[{'vindplaats':'boerenzwaluw.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Swallow</p><p>D: Rauchschwalbe</p><p>F: Hirondelle de chemin&eacute;e</p><p><strong>Veldkenmerken</strong>: 19. Herkenbaar aan l<em>ange, diepgevorkte staart,</em> met lange, spitse buitenste staartpennen. Heeft donker <em>metaalglanzend blauwe bovendelen</em>, roodbruin voorhoofd en keel, <em>donkerblauwe kropband</em> en overigens roomwitte onderdelen. Juv. veel doffer en met korte staart. Zeer snelle, sierlijke vlucht met vele wendingen. Meestal in troepjes. Huiszwaluw heeft witte keel en stuit en kortere staart. Oever- en Rotszwaluw zijn van boven bruin en hebben kortere staart. Gierzwaluw is geheel donker. Zie ook Roodstuitzwaluw. Bouwt de bekende gemetselde nesten onder afdaken, in boerenstallen e.d.<br /><strong>Geluid</strong>: een hoog <em>twit</em>, dat bij opwinding in een vlug gekwetter overgaat. Alarmroep een hoog <em>tsiwiet</em>. Zang een aangenaam, zacht mengsel van vlugge kwetterende en kwelende tonen.<br /><strong>Voorkomen</strong>: algemene broedvogel van het boerenland. Trekt weg en door van eind juli tot half oktober en keert terug van begin april tot eind mei.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Roep rugstreeppad', 'bestand':'Archieven/audio/geluiden_amfibie/Rugstreeppad_ravon.mp3', },],
 },
 {'id':14,'naam':'Bokje','wetenschappelijke_naam':'Lymnocryptes minimus','type_organisme':'vogel','fotos':[{'vindplaats':'bokje.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Jack Snipe</p><p>D: Zwergschnepfe</p><p>F: B&eacute;caussine sourde</p><p><strong>Veldkenmerken</strong>: 19. Kleinste snip. Moeilijk in zit waar te nemen, maar in vlucht van Watersnip te onderscheiden door <em>kleiner formaat, relatief kortere snavel en langzamere, rechlijnige vlucht</em> (hoewel soms wel eens wat &#39;wijkend&#39;). Vliegt op laatste ogenblik uit dekking en valt weer gauw in i.p.v. in wilde zigzag-vlucht omhoog en weg te vliegen. <em>Vliegt gewoonlijk zwijgzaam op</em>. Verschilt op korte afstand van Watersnip doordat hij geen lichte kruinstreep, geen wit op de staart en geen bandering op de flanken vertoont; de lichte rugstrepen contrsteren opvallend met donker p[urperen bovendelen. Bijna steeds solitait. Nestelt op vochtig terrein.<br /><strong>Geluid</strong>: zwijgzaam, maar heeft merkwaardige, gedempte, roffelende roep tijdens baltsvlucht: <em>lepok-lepok-lepok</em>.<br /><strong>Voorkomen</strong>: niet talrijke doortrekker van begin augistus tot in winter en van eind februari tot in mei. Overwintert in klein aantal.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
-],
+{'volgnummer':'0', 'naam':'Roep vroedmeesterpad', 'bestand':'Archieven/audio/geluiden_amfibie/vroedmeesterpad_ravon.mp3', },],
 },
 {'id':15,'naam':'Bontbekplevier','wetenschappelijke_naam':'Charadrius hiaticulata','type_organisme':'vogel','fotos':[{'vindplaats':'bontbekplevier.jpg', 'copyright':'Vogelbescherming', },],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Petersons vogelgids 13e]</p><p>E: Ringed Plover</p><p>D: Sandregenpfeifer</p><p>F: Grand Gravelot</p><p><strong>Veldkenmerken</strong>: 19. Een gedrongen, levendige, kleine plevier, met een <em>brede, zwarte band over witte borst en oranje poten</em>. Bovendelen grauwbruin, <em>witte halsband</em>, zwarte vlek achter het oog en zwart bandje boven <em>wit voorhoofd</em>. Snavel oranje met zwarte punt. Witte vleugelstreep opvallend in vlucht. Vleugelstreep, kleur van poten en roep zijn beste verschilpunten met kleine pelvier. Juv. is geschubd bruin van boven, zonder zwart op zijn kop; heeft bruinachtige borstband, die dikwijls in het midden niet doorloopt en lijkt dan op Strandplevier, maar verschilt van deze door geelachtige (niet zwarte poten en <em>witte</em> staartzoom (niet alleen witte zijden van staart). Actief; rent met korte onderbrekingen om wat op te pikken. Vlucht snel met regelmatige vleugelslag; troepen geven vliegdemonstraties op geringe hoogte.<br /><strong>Geluid</strong>: een melodieus <em>toe-li&egrave;</em> of <em>koe-i&egrave;p</em>. Zang begint langzaam en eindigt in een herhaald trillend <em>kwietuu-wieoe</em>.<br /><strong>Voorkomen</strong>: weinig talrijke broedvogel van onze zeekusten en langs IJsselmeer. Trekt weg en door van half juli tot in november en keert terug van begin februari tot eind mei. Overwintert en overzomert in klein aantal.</p><p>[Eind Petersons]</p>', },],
 geluiden:[
@@ -2495,7 +2495,7 @@ geluiden:[
 geluiden:[
 ],
 },
-{'id':625,'naam':'rauw zandoogje','wetenschappelijke_naam':'Hyponephele lycaon','type_organisme':'Dagvlinder','fotos':[],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Veldgids dagvlinders]</p><p>F: Le Biocul&eacute;</p><p>D: Kleines Ochsenauge</p><p>E: Dusky Meadow Brown</p><p><strong>Kenmerken</strong>: Het grauw zandoogje lijkt op het bruin zandoogje. Op de bovenkant van de voorvleugel bevinden zich bij het mannetje een of twee kleine, onopvallende oogvlekken en bij het vrouwtje twee zeer opvallende oogvlekken. Bij het bruin zandoogje hebben het mannetje en het vrouwtje maar &eacute;&eacute;n oogvlek. Op de onderkant van de achtervleugel bevinden zich geen stippen. Bij het mannetje is de onderkant van de achtervleugel bijna eenkleurig grijsbruin.</p><p><strong>Vliegtijd</strong>: Begin juli tot begin augustus</p><p><strong>Voorkomen</strong>: Niet in de Benelux. Droge, zandige graslanden, onder andere in Oost-Duitsland.</p><p><strong>Waardplant</strong>: Diverse grassoorten.</p><p>[Eind Veldgids dagvlinders]</p>', },],
+{'id':625,'naam':'Grauw zandoogje','wetenschappelijke_naam':'Hyponephele lycaon','type_organisme':'Dagvlinder','fotos':[],'informatie':[{'volgnummer':'1', 'infoblok':'<p>[Veldgids dagvlinders]</p><p>F: Le Biocul&eacute;</p><p>D: Kleines Ochsenauge</p><p>E: Dusky Meadow Brown</p><p><strong>Kenmerken</strong>: Het grauw zandoogje lijkt op het bruin zandoogje. Op de bovenkant van de voorvleugel bevinden zich bij het mannetje een of twee kleine, onopvallende oogvlekken en bij het vrouwtje twee zeer opvallende oogvlekken. Bij het bruin zandoogje hebben het mannetje en het vrouwtje maar &eacute;&eacute;n oogvlek. Op de onderkant van de achtervleugel bevinden zich geen stippen. Bij het mannetje is de onderkant van de achtervleugel bijna eenkleurig grijsbruin.</p><p><strong>Vliegtijd</strong>: Begin juli tot begin augustus</p><p><strong>Voorkomen</strong>: Niet in de Benelux. Droge, zandige graslanden, onder andere in Oost-Duitsland.</p><p><strong>Waardplant</strong>: Diverse grassoorten.</p><p>[Eind Veldgids dagvlinders]</p>', },],
 geluiden:[
 ],
 },
@@ -3052,6 +3052,1222 @@ geluiden:[
 ],
 },
 {'id':764,'naam':'Greppelblaadje','wetenschappelijke_naam':'Cladonia caespiticia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':765,'naam':'Breekbaar heidestaartje','wetenschappelijke_naam':'Cladonia callosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':766,'naam':'Knobbelig heidestaartje','wetenschappelijke_naam':'Cladonia cariosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':767,'naam':'Gewoon stapelbekertje','wetenschappelijke_naam':'Cladonia cervicornis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':768,'naam':'Fijn bekermos','wetenschappelijke_naam':'Cladonia chlorophaea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':769,'naam':'Sierlijk rendiermos','wetenschappelijke_naam':'Cladonia ciliata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':770,'naam':'Rood bekermos','wetenschappelijke_naam':'Cladonia coccifera','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':771,'naam':'Smal bekermos','wetenschappelijke_naam':'Cladonia coniocraea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':772,'naam':'Open heidestaartje','wetenschappelijke_naam':'Cladonia crispata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':773,'naam':'Vertakt bekermos','wetenschappelijke_naam':'Cladonia digitata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':774,'naam':'Kopjes-bekermos','wetenschappelijke_naam':'Cladonia fimbriata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':775,'naam':'Rode heidelucifer','wetenschappelijke_naam':'Cladonia floerkeana','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':776,'naam':'Zomersneeuw, Elandgeweimos','wetenschappelijke_naam':'Cladonia foliacea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':777,'naam':'Gevorkt heidestaartje','wetenschappelijke_naam':'Cladonia furcata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':778,'naam':'Bruin heidestaartje','wetenschappelijke_naam':'Cladonia glauca','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':779,'naam':'Girafje','wetenschappelijke_naam':'Cladonia gracilis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':780,'naam':'Bruin bekermos','wetenschappelijke_naam':'Cladonia grayi','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':781,'naam':'Frietzak-bekermos','wetenschappelijke_naam':'Cladonia humilis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':782,'naam':'Turflucifer','wetenschappelijke_naam':'Cladonia incrassata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':783,'naam':'Dove heidelucifer','wetenschappelijke_naam':'Cladonia macilenta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':784,'naam':'Wrattig bekermos','wetenschappelijke_naam':'Cladonia monomorpha','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':785,'naam':'Randstapelbekertje','wetenschappelijke_naam':'Cladonia phyllophora','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':786,'naam':'Duinbekermos','wetenschappelijke_naam':'Cladonia pocillum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':787,'naam':'Sterheidestaartje','wetenschappelijke_naam':'Cladonia polydactyla','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':788,'naam':'Open rendiermos','wetenschappelijke_naam':'Cladonia portentosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':789,'naam':'Slank stapelbekertje','wetenschappelijke_naam':'Cladonia pulvinata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':790,'naam':'Rafelig bekermos','wetenschappelijke_naam':'Cladonia ramulosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':791,'naam':'Vals rendiermos','wetenschappelijke_naam':'Cladonia rangiformis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':792,'naam':'Vals kronkelheidestaartje','wetenschappelijke_naam':'Cladonia rei','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':793,'naam':'Ruw heidestaartje','wetenschappelijke_naam':'Cladonia scabriuscula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':794,'naam':'Hamerblaadje','wetenschappelijke_naam':'Cladonia strepsilis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':795,'naam':'Kronkelheidestaartje','wetenschappelijke_naam':'Cladonia subulata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':796,'naam':'Varkenspootje','wetenschappelijke_naam':'Cladonia uncialis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':797,'naam':'Stuifzandstapelbekertje','wetenschappelijke_naam':'Cladonia verticillata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':798,'naam':'Ezelspootje','wetenschappelijke_naam':'Cladonia zopfii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':799,'naam':'Rijstkorrelmos','wetenschappelijke_naam':'Pycnothelia papillaria','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':800,'naam':'Bruin paardenhaarmos','wetenschappelijke_naam':'Bryoria fuscescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':801,'naam':'Gewoon kraakloof','wetenschappelijke_naam':'Cetraria aculeata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':802,'naam':'IJslands mos','wetenschappelijke_naam':'Cetraria islandica','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':803,'naam':'Eikenmos, gewoon geweimos','wetenschappelijke_naam':'Evernia prunastria','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':804,'naam':'Bosschildmos','wetenschappelijke_naam':'Flavopermelia caperata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':805,'naam':'Groen boomschildmos','wetenschappelijke_naam':'Flavoparmelia soredians','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':806,'naam':'Oosters schildmos','wetenschappelijke_naam':'Flavopunctelia flaventior','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':807,'naam':'Gewoon schorsmos','wetenschappelijke_naam':'Hypogymnia physodes','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':808,'naam':'Witkopschorsmos','wetenschappelijke_naam':'Hypogymnia tubulosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':809,'naam':'Grofgebogen schildmos','wetenschappelijke_naam':'Hypotrachyna afrorevoluta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':810,'naam':'Gebogen schildmos','wetenschappelijke_naam':'Hypotrachyna revoluta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':811,'naam':'Dennenmos','wetenschappelijke_naam':'Imshaugia aleurites','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':812,'naam':'Glanzend steenschildmos','wetenschappelijke_naam':'Melanelixia fuliginosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':813,'naam':'Glanzend boomschildmos','wetenschappelijke_naam':'Melanelixi glabratula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':814,'naam':'Verstop-schildmos','wetenschappelijke_naam':'Melanelixia subaurifera','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':815,'naam':'Sierlijk schildmos','wetenschappelijke_naam':'Melanohalea elegantula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':816,'naam':'Papilleus schildmos','wetenschappelijke_naam':'Melanohalea exasperate','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':817,'naam':'Lepelschildmos','wetenschappelijke_naam':'Melanohalea exasperatula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':818,'naam':'Lobjesschildmos','wetenschappelijke_naam':'Melanohalea laciniatula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':819,'naam':'Blauwgrijs steenschildmos','wetenschappelijke_naam':'Parmelia saxatilis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':820,'naam':'Gewoon schildmos','wetenschappelijke_naam':'Parmelia sulcata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':821,'naam':'Lindeschildmos','wetenschappelijke_naam':'Parmelia tiliacea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':822,'naam':'Avocadomos','wetenschappelijke_naam':'Parmeliopsis ambugua','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':823,'naam':'Groot schildmos','wetenschappelijke_naam':'Parmotrema perlatum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':824,'naam':'Gewinperd schildmos','wetenschappelijke_naam':'Parmotrema pseudorecticulatum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':825,'naam':'Netschildmos','wetenschappelijke_naam':'Parmotrema reticulatum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':826,'naam':'Groot boerenkoolmos','wetenschappelijke_naam':'Platismatia glauca','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':827,'naam':'Olijf-schildmos','wetenschappelijke_naam':'Pleurosticta acetabulum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':828,'naam':'Grijze spijkerdrager','wetenschappelijke_naam':'Protoparmelia hypotremella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':829,'naam':'Bruine spijkerdrager','wetenschappelijke_naam':'Protoparmelia oleagina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':830,'naam':'Purper geweimos','wetenschappelijke_naam':'Pseudevernia furfuracea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':831,'naam':'Witstippelschildmos','wetenschappelijke_naam':'Punctelia borreri','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':832,'naam':'Rijpschildmos','wetenschappelijke_naam':'Punctelia jeckeri','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':833,'naam':'Gestippeld schildmos','wetenschappelijke_naam':'Punctelia subrudecta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':834,'naam':'Bruin boerenkoolmos','wetenschappelijke_naam':'Tuckermanopsis chlorophylla','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':835,'naam':'Saucijs-baardmos','wetenschappelijke_naam':'Usnea articulata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':836,'naam':'Bleek baardmos','wetenschappelijke_naam':'Usnea hirta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':837,'naam':'Gewoon baardmos','wetenschappelijke_naam':'Usnea subfloridana','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':838,'naam':'Geel boerenkoolmos','wetenschappelijke_naam':'Vulpicida pinastri','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':839,'naam':'Granietschildmos','wetenschappelijke_naam':'Xanthoparmelia conspersa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':840,'naam':'Bruin hunebedschildmos','wetenschappelijke_naam':'Xanthoparmelia loxodes','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':841,'naam':'Zonnetjesschildmos','wetenschappelijke_naam':'Xanthoparmelia mougeotii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':842,'naam':'Donkerbruin dijkschildmos','wetenschappelijke_naam':'Xanthoparmelia pulla','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':843,'naam':'Wrattig schildmos','wetenschappelijke_naam':'Xanthoparmelia verruculifera','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':844,'naam':'Dijkenlichtvlekje','wetenschappelijke_naam':'Aquacidia viridifarinosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':845,'naam':'Duinknoopjeskorst','wetenschappelijke_naam':'Bacidia bagliettoana','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':846,'naam':'Iepenknoopjeskorst','wetenschappelijke_naam':'Bacidia rubella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':847,'naam':'Fijne knoopjeskorst','wetenschappelijke_naam':'Bacidina adastra','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':848,'naam':'Boomvoetknoopjeskorst','wetenschappelijke_naam':'Bacidina sulphurella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':849,'naam':'Kalkknoopjeskorst','wetenschappelijke_naam':'Bacidina caligans','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':850,'naam':'Gladde knoopjeskorst','wetenschappelijke_naam':'Bacidina chloroticula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':851,'naam':'Sorodieuze knoopjeskorst','wetenschappelijke_naam':'Bacidina delicata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':852,'naam':'Zwarte knoopjekorst','wetenschappelijke_naam':'Bacidina egenula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':853,'naam':'Nieuwe knoopjeskorst','wetenschappelijke_naam':'Bacidina neosquamulosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':854,'naam':'Mosvreter','wetenschappelijke_naam':'Bilimbia sabuletorum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':855,'naam':'Groene poederkorst','wetenschappelijke_naam':'Botryolepraria lesdainii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':856,'naam':'Donkere rookkorst','wetenschappelijke_naam':'Catillaria chalybeia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':857,'naam':'Steriele rookkorst','wetenschappelijke_naam':'Catillaria fungoides','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':858,'naam':'Lichte rookkorst','wetenschappelijke_naam':'Catillaria lenticularis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':859,'naam':'Boomrookkorst','wetenschappelijke_naam':'Catillaria nigroclavata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':860,'naam':'Ruïnekorst','wetenschappelijke_naam':'Clauzadea monticola','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':861,'naam':'Gespikkelde witkorst','wetenschappelijke_naam':'Clistomum griffithii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':862,'naam':'Twijgdruppelkorst','wetenschappelijke_naam':'Fellhanera bouteillei','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':863,'naam':'Schaduwdruppelkorst','wetenschappelijke_naam':'Fellhanera subtilis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':864,'naam':'Gewone druppelkorst','wetenschappelijke_naam':'Fellhanera viridisorediata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':865,'naam':'Boomsuikerkorst','wetenschappelijke_naam':'Fuscidea lightfootii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':866,'naam':'Hunebedvlekje','wetenschappelijke_naam':'Fuscidea praeruptorum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':867,'naam':'Groene suikerkorst','wetenschappelijke_naam':'Fuscidea pusilla','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':868,'naam':'Witgerande stofkorst','wetenschappelijke_naam':'Haematomma ochroleucum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':869,'naam':'Porceleinkorst','wetenschappelijke_naam':'Halecania viridescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':870,'naam':'Gewoon schubjesmos','wetenschappelijke_naam':'Hypocenomyce scalaris','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':871,'naam':'Dijkenglimschoteltje','wetenschappelijke_naam':'Lecania atrynoides','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':872,'naam':'Boomglimschoteltje','wetenschappelijke_naam':'Lecania cyrtella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':873,'naam':'Stofglimschoteltje','wetenschappelijke_naam':'Lecania erysibe','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':874,'naam':'Rookglimschoteltje','wetenschappelijke_naam':'Lecania nagelii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':875,'naam':'Steenglimschoteltje','wetenschappelijke_naam':'Lecania rabenhorstii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':876,'naam':'Dennenschotelkorst','wetenschappelijke_naam':'Lecanora aitema','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':877,'naam':'Kalkschotelkorst','wetenschappelijke_naam':'Lecanora albescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':878,'naam':'Kerkschotelkorst','wetenschappelijke_naam':'Lecanora antiqua','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':879,'naam':'Bosschotelkorst','wetenschappelijke_naam':'Lecanora argentata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':880,'naam':'Ammoniakschotelkorst','wetenschappelijke_naam':'Lecanora barkmaniana','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':881,'naam':'Kastanjebruine schotelkorst','wetenschappelijke_naam':'Lecanora campestris','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':882,'naam':'Melige schotelkorst','wetenschappelijke_naam':'Lecanora carpinea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':883,'naam':'Witte schotelkorst','wetenschappelijke_naam':'Lecanora chlarotera','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':884,'naam':'Miskende schotelkorst','wetenschappelijke_naam':'Lecanora compallens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':885,'naam':'Twijgschotelkorst','wetenschappelijke_naam':'Lecanora confusa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':886,'naam':'Groene schotelkorst','wetenschappelijke_naam':'Lecanora conizaeoides','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':887,'naam':'Rafelschotelkorst','wetenschappelijke_naam':'Lecanora crenulata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':888,'naam':'Verborgen schotelkorst','wetenschappelijke_naam':'Lecanora dispersa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':889,'naam':'Bleekgroene schotelkorst','wetenschappelijke_naam':'Lecanora expallens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':890,'naam':'Kleine schotelkorst','wetenschappelijke_naam':'Lecanora hagenii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':891,'naam':'Zeeschotelkorst','wetenschappelijke_naam':'Lecanora helicopis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':892,'naam':'Donkere schotelkorst','wetenschappelijke_naam':'Lecanora horiza','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':893,'naam':'Mozaïekschotelkorst','wetenschappelijke_naam':'Lecanora intricata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':894,'naam':'Muurschotelkorst','wetenschappelijke_naam':'Lecanora muralis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':895,'naam':'Stoffige schotelkorst','wetenschappelijke_naam':'Lecanora orosthea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':896,'naam':'Oosterse schotelkorst','wetenschappelijke_naam':'Lecanora pannonica','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':897,'naam':'Geelgroene schotelkorst','wetenschappelijke_naam':'Lecanora polytropa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':898,'naam':'Eikenschotelkorst','wetenschappelijke_naam':'Lecanora pulicaris','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':899,'naam':'Dijkschotelkorst','wetenschappelijke_naam':'Lecanora rupicola','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':900,'naam':'Houtschotelkorst','wetenschappelijke_naam':'Lecanora saligna','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':901,'naam':'Ko-en-schotelkorst','wetenschappelijke_naam':'Lecanora semipallida','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':902,'naam':'Bochtige schotelkorst','wetenschappelijke_naam':'Lecanora sinuosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':903,'naam':'Veldjesschotelkorst','wetenschappelijke_naam':'Lecanora soralifera','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':904,'naam':'Berijpte schotelkorst','wetenschappelijke_naam':'Lecanora subcarpinea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':905,'naam':'Zwavelgroene schotelkorst','wetenschappelijke_naam':'Lecanora sulphurea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':906,'naam':'Bolle schotelkorst','wetenschappelijke_naam':'Lecanora symmicta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':907,'naam':'Hardhout-schotelkorst','wetenschappelijke_naam':'Lecanora varia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':908,'naam':'Gewone granietkorst','wetenschappelijke_naam':'Lecidea fuscoatra','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':909,'naam':'Gebarsten granietkorst','wetenschappelijke_naam':'Lecidea grisella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':910,'naam':'Zwarte granietkorst','wetenschappelijke_naam':'Lecidea lithophila','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':911,'naam':'Zwerfsteenkorst','wetenschappelijke_naam':'Lecidea promixta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':912,'naam':'Kleine granietkorst','wetenschappelijke_naam':'Lecidea variegatula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':913,'naam':'Donker purperschaaltje','wetenschappelijke_naam':'Lecidella carpathica','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':914,'naam':'Gewoon purperschaaltje','wetenschappelijke_naam':'Lecidella elaeochroma','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':915,'naam':'Fijne mosterdkorst','wetenschappelijke_naam':'Lecidella flavosorediata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':916,'naam':'Grijsgroene steenkorst','wetenschappelijke_naam':'Lecidella scabra','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':917,'naam':'Steenpurperschaaltje','wetenschappelijke_naam':'Lecidella stigmatea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':918,'naam':'Kiezeloogje','wetenschappelijke_naam':'Leimonis erratica','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':919,'naam':'Opgeloste schotelkorst','wetenschappelijke_naam':'Lepraria ecorticata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':920,'naam':'Gelobde poederkorst','wetenschappelijke_naam':'Lepraria finkii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':921,'naam':'Gewone poederkorst','wetenschappelijke_naam':'Lepraria incana','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':922,'naam':'Geschulpte poederkorst','wetenschappelijke_naam':'Lepraria membranacea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':923,'naam':'Witte poederkorst','wetenschappelijke_naam':'Lepraria neglecta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':924,'naam':'Grove poederkorst','wetenschappelijke_naam':'Lepraria rigidula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':925,'naam':'Bleke poederkorst','wetenschappelijke_naam':'Lepraria vouauxii','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':926,'naam':'Vulkaanoogje','wetenschappelijke_naam':'Micarea denigrata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':927,'naam':'Mosoogje','wetenschappelijke_naam':'Micarea leprosula','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':928,'naam':'Heideoogje','wetenschappelijke_naam':'Micarea lignaria','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':929,'naam':'Grindoogje','wetenschappelijke_naam':'Micarea lithinella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':930,'naam':'Bosoogje','wetenschappelijke_naam':'Micarea micrococca','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':931,'naam':'Takkenoogje','wetenschappelijke_naam':'Micarea nitschkeana','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':932,'naam':'Boomoogje','wetenschappelijke_naam':'Micarea peliocarpa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':933,'naam':'Houtoogje','wetenschappelijke_naam':'Micarea prasina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':934,'naam':'Groenoogje','wetenschappelijke_naam':'Micarea viridileprosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':935,'naam':'Kleine blauwkorst','wetenschappelijke_naam':'Porpidia crustulata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':936,'naam':'Granietblauwkorst','wetenschappelijke_naam':'Porpidia macrocarpa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':937,'naam':'Dunne blauwkorst','wetenschappelijke_naam':'Porpidia soezdizodes','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':938,'naam':'Dikke blauwkorst','wetenschappelijke_naam':'Porpidia tuberculosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':939,'naam':'Rode kalksteenkorst','wetenschappelijke_naam':'Protoblasenia rupestris','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':940,'naam':'Kopermos','wetenschappelijke_naam':'Psilolechia leprosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':941,'naam':'UV-mos','wetenschappelijke_naam':'Psilolechia lucida','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':942,'naam':'Grove mosterdkorst','wetenschappelijke_naam':'Pyrrhospora quernea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':943,'naam':'Breed takmos','wetenschappelijke_naam':'Ramalina canariensis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':944,'naam':'Melig takmos','wetenschappelijke_naam':'Ramalina farinacea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':945,'naam':'Trompettakmos','wetenschappelijke_naam':'Ramalina fastigiata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':946,'naam':'Groot takmos','wetenschappelijke_naam':'Ramalina fraxinea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':947,'naam':'Waaiertakmos','wetenschappelijke_naam':'Ramalina lacera','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':948,'naam':'Gewoon kusttakmos','wetenschappelijke_naam':'Ramalina siliquosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':949,'naam':'Gewoon landkaartmos','wetenschappelijke_naam':'Rhizocarpon geographicum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':950,'naam':'Klein landkaartmos','wetenschappelijke_naam':'Rhizocarpon lecanorinum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':951,'naam':'Donker landkaartmos','wetenschappelijke_naam':'Rhizocarpon reductum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':952,'naam':'Groene spiraalkorst','wetenschappelijke_naam':'Scoliciosporum gallurae','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':953,'naam':'Steenspiraalkorst','wetenschappelijke_naam':'Scoliciosporum umbrinum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':954,'naam':'Ruderaalkorst','wetenschappelijke_naam':'Steinia geophana','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':955,'naam':'Stuifzandkorrelloof','wetenschappelijke_naam':'Stereocaulon condensatum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':956,'naam':'Spoorkorrelloof','wetenschappelijke_naam':'Stereocaulon nanodes','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':957,'naam':'Staafkorrelloof','wetenschappelijke_naam':'Stereocaulon pileatum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':958,'naam':'Grof korrelloof','wetenschappelijke_naam':'Stereacaulon vesuvianum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':959,'naam':'Gewoon muggenstrontjesmos','wetenschappelijke_naam':'Strangospora pinicola','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':960,'naam':'Zwarte schotelkorst','wetenschappelijke_naam':'Tephromela atra','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':961,'naam':'Muurblaaskorst','wetenschappelijke_naam':'Toninia aromatica','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':962,'naam':'Kalkblaaskorst','wetenschappelijke_naam':'Toninia sedifolia','type_organisme':'','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':963,'naam':'Trilzwamkorst','wetenschappelijke_naam':'Violelle fucata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':964,'naam':'Gewoon geleimos','wetenschappelijke_naam':'Blennothallia crispa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':965,'naam':'Dun geleimos','wetenschappelijke_naam':'Enchylium limosum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':966,'naam':'Dik geleimos','wetenschappelijke_naam':'Enchylium tenax','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':967,'naam':'Bolletjes-geleimos','wetenschappelijke_naam':'Lathagrium fuscovirens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':968,'naam':'Groot leermos','wetenschappelijke_naam':'Peltigera canina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':969,'naam':'Soredieus leermos','wetenschappelijke_naam':'Peltigera didactyla','type_organisme':'','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':970,'naam':'Kaal leermos','wetenschappelijke_naam':'Peltigera hymenina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':971,'naam':'Zwart leermos','wetenschappelijke_naam':'Peltigera neckeri','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':972,'naam':'Klein leermos','wetenschappelijke_naam':'Peltigea rufescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':973,'naam':'Zwarte grafkorst','wetenschappelijke_naam':'Placynthium nigrum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':974,'naam':'Duinzwelmos','wetenschappelijke_naam':'Scytinium gelatinosum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':975,'naam':'Waterzwelmos','wetenschappelijke_naam':'Scytinium plicatile','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':976,'naam':'Fijn zwelmos','wetenschappelijke_naam':'Scytinium pulvinatum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':977,'naam':'Duinzwelmos','wetenschappelijke_naam':'Scytinium galatinosum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':978,'naam':'Waterzwelmos','wetenschappelijke_naam':'Scytinium plicatile','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':979,'naam':'Fijn zwelmos','wetenschappelijke_naam':'Scytinium pulvinatum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':980,'naam':'Kalkzwelmos','wetenschappelijke_naam':'Scytinium schraderi','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':981,'naam':'Muurzwelmos','wetenschappelijke_naam':'Scytinium turgidum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':982,'naam':'Vliegenstrontjesmos','wetenschappelijke_naam':'Amandinea punctata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':983,'naam':'Wimpermos','wetenschappelijke_naam':'Anaptychia ciliaris','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':984,'naam':'Zeedakpanmos','wetenschappelijke_naam':'Anaptychia runcinata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':985,'naam':'Steenstrontjesmos','wetenschappelijke_naam':'Buellia aethalea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':986,'naam':'Grijsgroene stofkorst','wetenschappelijke_naam':'Buellia griseovirens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':987,'naam':'Dijkstrontjesmos','wetenschappelijke_naam':'Buellia ocellata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':988,'naam':'Bruin boomspijkertje','wetenschappelijke_naam':'Calicium salicinum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':989,'naam':'Groen boomspijkertje','wetenschappelijke_naam':'Calicium viride','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':990,'naam':'Kauwgommos','wetenschappelijke_naam':'Diploicia canescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':991,'naam':'Gewone cementkorst','wetenschappelijke_naam':'Diplotomma alboatrum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':992,'naam':'IJsselmeerkorst','wetenschappelijke_naam':'Diplotomma chlorophaeum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':993,'naam':'Dun schaduwmos','wetenschappelijke_naam':'Hyperphysica adglutinata','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':994,'naam':'Lipschaduwmos','wetenschappelijke_naam':'Phaeophyscia endophoenicea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':995,'naam':'Klein schaduwmos','wetenschappelijke_naam':'Phaeophyscia nigricans','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':996,'naam':'Rond schaduwmos','wetenschappelijke_naam':'Phaeophyscia orbicularis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':997,'naam':'Kapjesvingermos','wetenschappelijke_naam':'Physcia adscendens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':998,'naam':'Gemarmerd vingermos','wetenschappelijke_naam':'Physcia aipolia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':999,'naam':'Stoeprandvingermos','wetenschappelijke_naam':'Physcia caesia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1000,'naam':'Isidieus vingermos','wetenschappelijke_naam':'Physcia clementei','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1001,'naam':'Bleek vingermos','wetenschappelijke_naam':'Physcia dubia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1002,'naam':'Groot vingermos','wetenschappelijke_naam':'Physcia stellaris','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1003,'naam':'Heksenvingermos','wetenschappelijke_naam':'Physcia tenella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1004,'naam':'Witkopvingermos','wetenschappelijke_naam':'Physcia tribacioides','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1005,'naam':'Zonneklepjesmos','wetenschappelijke_naam':'Physciella chloantha','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1006,'naam':'Fors rijpmos','wetenschappelijke_naam':'Physconia distorta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1007,'naam':'Donker rijpmos','wetenschappelijke_naam':'Physconia enteroxantha','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1008,'naam':'Grauw rijpmos','wetenschappelijke_naam':'Physconia grisea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1009,'naam':'Duinrijpmos','wetenschappelijke_naam':'Physconia perisidiosa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1010,'naam':'Donkerbruine schotelkorst','wetenschappelijke_naam':'Rinodina oleae','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1011,'naam':'Blauwe mosterdkorst','wetenschappelijke_naam':'Rinodina pityrea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1012,'naam':'Grauwe schotelkorst','wetenschappelijke_naam':'Rinodina teichophila','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1013,'naam':'Muurzonnetje','wetenschappelijke_naam':'Athallia holocarpa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1014,'naam':'Rood dijkzonnetje','wetenschappelijke_naam':'Blastenia crenularia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1015,'naam':'Stoffige citroenkorst','wetenschappelijke_naam':'Calogaya decipiens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1016,'naam':'Sinaasappelkorst','wetenschappelijke_naam':'Calogaya pusilla','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1017,'naam':'Grijze cirtroenkorst','wetenschappelijke_naam':'Caloplaca chlorina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1018,'naam':'Gewone kraterkorst','wetenschappelijke_naam':'Caloplaca obscurella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1019,'naam':'Iepenzonnetje','wetenschappelijke_naam':'Cerothallia luteoalba','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1020,'naam':'Schubbige citroenkorst','wetenschappelijke_naam':'Flavoplaca arcis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1021,'naam':'Gewone citroenkorst','wetenschappelijke_naam':'Flavoplaca citrina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1022,'naam':'Mandarijnkorst','wetenschappelijke_naam':'Flavoplaca dichroa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1023,'naam':'Valse citroenkorst','wetenschappelijke_naam':'Flavoplaca flavocitrina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1024,'naam':'Lichte citroenkorst','wetenschappelijke_naam':'Flavoplaca limonia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1025,'naam':'Gelobde zeecitroenkorst','wetenschappelijke_naam':'Flavoplaca marina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1026,'naam':'Alpenwatersalamander','wetenschappelijke_naam':'Ichthyosaura alpestris','type_organisme':'amfibie','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1027,'naam':'Gewone citroenzeekorst','wetenschappelijke_naam':'Flavoplaca maritima','type_organisme':'','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1028,'naam':'Kleine citroenkorst','wetenschappelijke_naam':'Flavoplaca oasis','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1029,'naam':'Kerkcitroenkorst','wetenschappelijke_naam':'Flavoplaca ruderum','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1030,'naam':'Betoncitroenkorst','wetenschappelijke_naam':'Gyalolechia flavovirescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1031,'naam':'Kerkmosterdkorst','wetenschappelijke_naam':'Leproplaca chrysodeta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1032,'naam':'Kroezig dooiermos','wetenschappelijke_naam':'Polycauliona candelaria','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1033,'naam':'Klein dooiermos','wetenschappelijke_naam':'Polycaliona polycarpa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1034,'naam':'Zuidelijke citroenkorst','wetenschappelijke_naam':'Pyrenodesmia albolutescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1035,'naam':'Rivierdijkzonnetje','wetenschappelijke_naam':'Pyrenodesmia atroflava','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1036,'naam':'Witte citroenkorst','wetenschappelijke_naam':'Pyrodesmia teicholyta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1037,'naam':'Bleek dijkzonnetje','wetenschappelijke_naam':'Rufoplaca subpallida','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1038,'naam':'Rood dooiermos','wetenschappelijke_naam':'Rusavskia elegans','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1039,'naam':'Platte citroenkorst','wetenschappelijke_naam':'Variospora aurantia','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1040,'naam':'Oranje citroenkorst','wetenschappelijke_naam':'Variospora dolomiticola','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1041,'naam':'Gelobde citroenkorst','wetenschappelijke_naam':'Variospora flavescens','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1042,'naam':'Fraaie citroenkorst','wetenschappelijke_naam':'Variospora thallincola','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1043,'naam':'Smalle citroenkorst','wetenschappelijke_naam':'Xanthocarpia crenulatella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1044,'naam':'Kalkcitroenkorst','wetenschappelijke_naam':'Xanthocarpia lactea','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1045,'naam':'Oranje dooiermos','wetenschappelijke_naam':'Xanthoria calcicola','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1046,'naam':'Groot dooiermos','wetenschappelijke_naam':'Xanthoria parietina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1047,'naam':'Vals dooiermos','wetenschappelijke_naam':'Candelaria concolor','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1048,'naam':'Kleine geelkorst','wetenschappelijke_naam':'Candelariella aurella','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1049,'naam':'gelobde geelkorst','wetenschappelijke_naam':'Candelariella medicans','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1050,'naam':'Poedergeelkorst','wetenschappelijke_naam':'Candelariella reflexa','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1051,'naam':'Grove geelkorst','wetenschappelijke_naam':'Vandelariella vitellina','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1052,'naam':'Fijne geelkorst','wetenschappelijke_naam':'Candelariella xanthostigma','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1053,'naam':'Hunebed-navelmos','wetenschappelijke_naam':'Umbilicaria deusta','type_organisme':'korstmos','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1054,'naam':'Bastaardkikker','wetenschappelijke_naam':'Pelophylax klepton esculentus','type_organisme':'amfibie - kikker','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Kwaken bastaardkikker', 'bestand':'Archieven/audio/geluiden_amfibie/bastaardkikker_ravon.mp3', },],
+},
+{'id':1055,'naam':'Boomkikker','wetenschappelijke_naam':'Hyla arborea','type_organisme':'amfibie - kikker','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Kwaken boomkikker', 'bestand':'Archieven/audio/geluiden_amfibie/boomkikker_ravon.mp3', },],
+},
+{'id':1056,'naam':'Bruine kikker','wetenschappelijke_naam':'Rana temporaria','type_organisme':'amfibie - kikker','fotos':[],'informatie':[{'volgnummer':'1', 'infoblok':'<h2 style="font-style:inherit; margin-left:0; margin-right:0">Herkenning</h2><p style="margin-left:0; margin-right:0">De bruine kikker&nbsp;is een middelgrote, vrij robuuste kikker met een stompe snuit. Op de overgang van de rug naar de flank liggen aan beide de ruglijsten,&nbsp;die ter hoogte van de aanzet van de voorpoten relatief dicht bij elkaar komen. De hoekige, donkere vlek achter het oog wordt ook wel masker genoemd. Hij heeft een kleine zachte graafknobbel op zijn achterpoot. De bruine kikker is variabel van kleur (bruin, groenbruin, roodbruin, geelbruin, grijsbruin, etc.) met een patroon van donkere vlekken en een lichte gemarmerde buik. Mannetjes hebben geen uitwendige kwaakblazen, ze kwaken (brommen) vanuit de&nbsp;keel. In de voortplantingstijd krijgen ze soms een blauwachtige zweem over het voorste deel van het lichaam en de keelhuid is dan wittig of grijsblauw. De soort kan tot 11 cm groot worden.</p><p style="margin-left:0; margin-right:0">De er op gelijkende heikikker heeft een beperktere verspreiding. De herkenning van beide soorten staan weergegeven op de&nbsp;<a href="https://www.ravon.nl/Portals/2/Bestanden/Publicaties/Herkenningskaarten/HerkenningskaartHeikikker_sep2017DEF.pdf" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;" target="_blank">Herkenningskaart bruine kikker versus heikikker</a>.&nbsp;</p><h2 style="font-style:inherit; margin-left:0; margin-right:0">Ecologie</h2><h3 style="color:#283583; font-style:inherit; margin-left:0; margin-right:0">Voortplanting</h3><p style="margin-left:0; margin-right:0">De bruine kikker is een soort die in het vroege voorjaar aan voortplanting begint. In maart kunnen roepende mannetjes waargenomen worden. Ook de eiklompen zijn dan te vinden. Deze zijn makkelijk te tellen omdat de eiklompen op ondiepe, snel opwarmende, plekken worden afgezet die na een tijdje aan de oppervlakte drijven. Dit gebeurt vaak met enkele tien- tot honderdtallen klompen tegelijk op slechts enkele vierkante meters. Een vrouwtje legt een enkele eiklomp per jaar en het legsel bestaat uit gemiddeld 1.000 - 2.500 eieren. April en mei zijn de beste maanden om de larven te zoeken. Vanaf juni kunnen de pas gemetamorfoseerde kikkertjes, soms massaal, aan de oevers worden gevonden.</p><h3 style="color:#283583; font-style:normal; margin-left:0; margin-right:0; text-align:left">Levenswijze</h3><p style="margin-left:0; margin-right:0; text-align:left">Buiten het voortplantingsseizoen (enkele weken voor een mannetje, een enkele nacht voor vrouwtjes) leven bruine kikkers op het land. Een deel van de populatie overwintert op land, een deel in het water. Deze laatst genoemde groep trekt in het najaar naar het water. Bij milde temperaturen kunnen bruine kikkers tot en met december gevonden worden. Op zonnige winterdagen kunnen overwinterende dieren tijdelijk actief worden en bovengronds komen. Ze vormen dan een gemakkelijke (want: trage) prooi voor jagende blauwe reigers of bunzings. Prooiresten in de vorm van sterrenschot of heksensnot, zijn vaak van bruine kikker afkomstig. Na overwintering trekken de op land overwinterende dieren naar het water, veelal gelijk met de gewone pad.</p><p style="margin-left:0; margin-right:0; text-align:left">De bruine kikker heeft een sterke binding met bos en struweel. De bruine kikker heeft een zeer ruime habitatkeuze en dringt ook door tot in stad en dorp. De soort is op alle bodemtypen aangetroffen, vari&euml;rend van lichte duin- en stuifzanden tot zware rivier- en zeeklei en l&ouml;ssgronden. De bruine kikker komt in allerlei watertypen voor, met een voorkeur voor kleine ge&iuml;soleerde wateren en kleine lijnvormige wateren. Groot open water wordt nauwelijks gebruikt en de soort komt relatief weinig in vennen voor.</p><p style="margin-left:0; margin-right:0; text-align:left">Voedsel: een breed scala van ongewervelde dieren, vooral slakken, kevers en insectenlarven. De larven voeden zich na het uitkomen met restanten van het eigen kikkerdril, en daarna met allerlei kleine organismen, zoals algen en ander plantaardig materiaal. Geleidelijk eten ze meer dierlijk voedsel eten zoals watervlooien, slakjes, wormpjes, waterinsecten en aas, maar ook eieren en larven van amfibie&euml;n, waaronder die van de eigen soort.</p><h2 style="font-style:inherit; margin-left:0; margin-right:0">Verspreiding</h2><p style="margin-left:0; margin-right:0">De bruine kikker is hoogstwaarschijnlijk het wijdst verspreide amfibie van Nederland. Alleen uit noord Friesland en Groningen zijn weinig tot geen waarnemingen van bekend, waarschijnlijk door het ontbreken van genoeg dekking.</p><h2 style="font-style:inherit; margin-left:0; margin-right:0">Bedreiging en bescherming</h2><p style="margin-left:0; margin-right:0">De bruine kikker heeft in de&nbsp;<a href="https://www.ravon.nl/Portals/2/Bestanden/Publicaties/Rapporten/Basisrapport%20RL%20Amf%20%20Rept.pdf" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;" target="_blank">Rode Lijst</a>&nbsp;de status Thans niet bedreigd. De soort is beschermd volgens de Wet Natuurbescherming. In het RAVON tijdschrift is een artikel over deze wet verschenen. Dit artikel is&nbsp;<a href="https://www.ravon.nl/Portals/2/Bestanden/Publicaties/Tijdschrift/RAVON2016018004001.compressed.pdf" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;" target="_blank">hier&nbsp;</a>te vinden.</p><h3 style="color:#283583; font-style:inherit; margin-left:0; margin-right:0">&nbsp;</h3><h3 style="color:#283583; font-style:inherit; margin-left:0; margin-right:0">Monitoring en trends</h3><p style="margin-left:0; margin-right:0">Binnen het landelijk Meetprogramma Amfibie&euml;n, onderdeel van het&nbsp;<a href="https://www.netwerkecologischemonitoring.nl/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;" target="_blank">Netwerk Ecologisch Monitoring (NEM)</a>, worden gegevens verzameld om te volgen hoe het gaat met de amfibie&euml;n in Nederland. Bij monitoring worden herhaald in de tijd gegevens verzameld volgens een vaste werkwijze. In vaste telgebieden worden meerdere keren per jaar de aantallen waargenomen amfibie&euml;n per soort geteld. Op basis hiervan kunnen van vijf soorten aantalstrends bepaald worden. Daarnaast worden gegevens verzameld middels projecten en losse waarnemingen (<a href="https://www.telmee.nl/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;" target="_blank">Telmee.nl</a>&nbsp;of&nbsp;<a href="https://www.waarneming.nl/" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;" target="_blank">Waarneming.nl</a>) wat bruikbaar is voor het verspreidingsonderzoek. Hiermee kunnen ook de trends in verspreiding worden vastgesteld. Wil je hier zelf een bijdrage aan leveren dan kun je voor meer informatie kijken op&nbsp;<a href="https://www.ravon.nl/Help-mee/Tellen/Meetnet-amfibie%C3%ABn" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;">Meetprogramma Amfibie&euml;n</a>&nbsp;of&nbsp;<a href="https://www.ravon.nl/verspreidingsonderzoek" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; color: rgb(255, 153, 0); text-decoration: underline; outline: 0px; background-color: transparent; transition: color 0.3s linear 0s;">Verspreidingsonderzoek Amfibie&euml;n</a>.</p><p style="margin-left:0; margin-right:0">Monitoring kan door:</p><ul style="margin-left:15px; margin-right:0"> <li>avondtellingen van kooractiviteit (maart);</li> <li>avondtellingen van volwassen dieren in het voortplantings-water (maart);</li> <li>tellen van eiklompen (maart t/m begin april);</li> <li>zoeken van larven (mei t/m juni);</li> <li>zoeken van pas gemetamorfoseerde kikkertjes (juli).</li></ul>', },],
+geluiden:[
+{'volgnummer':'0', 'naam':'Kwaken bruine kikker', 'bestand':'Archieven/audio/geluiden_amfibie/bruinekikker_ravon.mp3', },],
+},
+{'id':1057,'naam':'Geelbuikvuurpad','wetenschappelijke_naam':'Bombina variegata','type_organisme':'amfibie - pad','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Roep geelbuikvuurpad', 'bestand':'Archieven/audio/geluiden_amfibie/geelbuikvuurpad_ravon.mp3', },],
+},
+{'id':1058,'naam':'Gewone pad','wetenschappelijke_naam':'Bufo bufo','type_organisme':'amfibie - pad','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Roep gewone pad', 'bestand':'Archieven/audio/geluiden_amfibie/gewonepad_ravon.mp3', },],
+},
+{'id':1059,'naam':'Heikikker','wetenschappelijke_naam':'Rana arvalis','type_organisme':'amfibie - kikker','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Kwaken heikikker', 'bestand':'Archieven/audio/geluiden_amfibie/heikikker_ravon.mp3', },],
+},
+{'id':1060,'naam':'Kamsalamander','wetenschappelijke_naam':'Triturus cristatus','type_organisme':'amfibie - salamander','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1061,'naam':'Kleine watersalamander','wetenschappelijke_naam':'Lissotriton vulgaris','type_organisme':'amfibie - salamander','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1062,'naam':'Knoflookpad','wetenschappelijke_naam':'Pelobates fuscus','type_organisme':'amfibie - pad','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Roep knoflookpad', 'bestand':'Archieven/audio/geluiden_amfibie/knoflookpad_ravon.mp3', },],
+},
+{'id':1063,'naam':'Meerkikker','wetenschappelijke_naam':'Pelophylax ridibundus','type_organisme':'amfibie - kikker','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Kwaken meerkikker', 'bestand':'Archieven/audio/geluiden_amfibie/meerkikker_ravon.mp3', },],
+},
+{'id':1064,'naam':'Poelkikker','wetenschappelijke_naam':'Pelophylax lessonae','type_organisme':'amfibie - kikker','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Kwaken poelkikker', 'bestand':'Archieven/audio/geluiden_amfibie/poelkikker_ravon.mp3', },],
+},
+{'id':1065,'naam':'Rugstreeppad','wetenschappelijke_naam':'Epidalea calamita','type_organisme':'amfibie - pad','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Roep rugstreeppad', 'bestand':'Archieven/audio/geluiden_amfibie/Rugstreeppad_ravon.mp3', },],
+},
+{'id':1066,'naam':'Vinpootsalamander','wetenschappelijke_naam':'Lissotriton helveticus','type_organisme':'amfibie - salamander','fotos':[],'informatie':[],
+geluiden:[
+],
+},
+{'id':1067,'naam':'Vroedmeesterpad','wetenschappelijke_naam':'Alytes obstetricans','type_organisme':'amfibie - pad','fotos':[],'informatie':[],
+geluiden:[
+{'volgnummer':'0', 'naam':'Roep vroedmeesterpad', 'bestand':'Archieven/audio/geluiden_amfibie/vroedmeesterpad_ravon.mp3', },],
+},
+{'id':1068,'naam':'Vuursalamander','wetenschappelijke_naam':'Salamandra salamandra','type_organisme':'amfibie - salamander','fotos':[],'informatie':[],
 geluiden:[
 ],
 },
